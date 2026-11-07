@@ -32,6 +32,9 @@ export default defineConfig({
           if (id.includes('/src/data/santacasa') || id.includes('/src/data/fuvest') || id.includes('/src/data/uerj')) {
             return 'data-sp-rj';
           }
+          if (id.includes('/src/data/ufpr')) {
+            return 'data-ufpr';
+          }
           if (id.includes('/src/data/')) {
             return 'data-others';
           }
