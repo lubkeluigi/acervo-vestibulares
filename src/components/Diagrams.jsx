@@ -5,6 +5,7 @@ import { LOTE04_DIAGRAMS } from './DiagramsLote04.jsx';
 import { LOTE05_DIAGRAMS } from './DiagramsLote05.jsx';
 import { LOTE06_DIAGRAMS } from './DiagramsLote06.jsx';
 import { RECREATED_DIAGRAMS } from './DiagramsRecreated.jsx';
+import { UFPR2027_DIAGRAMS } from './DiagramsUfpr2027.jsx';
 
 const textStyle = { fontFamily: 'Inter, Arial, sans-serif', fill: '#263b36' };
 
@@ -318,6 +319,7 @@ export default function Diagram({ type }) {
     ...LOTE05_DIAGRAMS,
     ...LOTE06_DIAGRAMS,
     ...RECREATED_DIAGRAMS,
+    ...UFPR2027_DIAGRAMS,
     inclinedPlane: <InclinedPlane />,
     velocityGraph: <VelocityGraph />,
     circleTriangle: <CircleTriangle />,

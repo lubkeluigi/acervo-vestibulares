@@ -103,7 +103,8 @@ A partir do trecho e dos conhecimentos de História da América e História Mode
 
 Com base no enunciado e no gráfico, assinale a alternativa que apresenta corretamente o valor da constante elástica $k$ dessa mola.`,
     blockTypes: ['prose', 'command'],
-    images: [img('q26-mola.png', 'Gráfico de força de tração F (N) em função do comprimento total L (cm) da mola')],
+    diagram: 'ufpr2027Q26',
+    figureCaption: 'Gráfico da força de tração F (N) em função do comprimento total L (cm).',
     alternatives: [
       '9,0 N/m',
       '6,0 N/m',
@@ -144,7 +145,8 @@ Um objeto de massa $m$ está se movendo sobre uma linha reta em movimento retil�
 
 Assinale a alternativa que apresenta corretamente o valor da energia cinética $E_c$ do objeto no instante $t = 6\\text{ s}$.`,
     blockTypes: ['label', 'prose', 'command'],
-    images: [img('q28-grafico-vt.png', 'Gráfico da velocidade v (m/s) em função do tempo t (s) do objeto')],
+    diagram: 'ufpr2027Q28',
+    figureCaption: 'Gráfico da velocidade v (m/s) em função do tempo t (s).',
     alternatives: [
       '36 J',
       '72 J',
@@ -167,7 +169,8 @@ Um objeto de massa $m$ está se movendo sobre uma linha reta em movimento retil�
 
 Assinale a alternativa que apresenta corretamente o valor da intensidade $F$ da força resultante sobre o objeto no instante $t = 4\\text{ s}$.`,
     blockTypes: ['label', 'prose', 'command'],
-    images: [img('q28-grafico-vt.png', 'Gráfico da velocidade v (m/s) em função do tempo t (s) do objeto')],
+    diagram: 'ufpr2027Q28',
+    figureCaption: 'Gráfico da velocidade v (m/s) em função do tempo t (s).',
     alternatives: [
       '4 N',
       '2 N',
@@ -188,7 +191,8 @@ Assinale a alternativa que apresenta corretamente o valor da intensidade $F$ da 
 
 Assinale a alternativa que expressa corretamente o valor da velocidade $v$ das ondas nesse meio para as ondas que têm período $T = 40\\text{ s}$.`,
     blockTypes: ['prose', 'command'],
-    images: [img('q30-grafico-ondas.png', 'Gráfico do comprimento de onda lambda (cm) em função do período T (s)')],
+    diagram: 'ufpr2027Q30',
+    figureCaption: 'Gráfico do comprimento de onda λ (cm) em função do período T (s).',
     alternatives: [
       '0,4 cm/s',
       '2,5 cm/s',

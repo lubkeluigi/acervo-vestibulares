@@ -7,7 +7,8 @@ export const ufpr2027Lote04 = [
 
 Assinale a alternativa que apresenta corretamente o valor da razão $W_1/W_2$ entre os trabalhos realizados.`,
     blockTypes: ['prose', 'command'],
-    images: [img('q31-grafico-pv.png', 'Diagrama P x V com processo 1 de A para B e processo 2 isobárico de B para C')],
+    diagram: 'ufpr2027Q31',
+    figureCaption: 'Diagrama P × V com os processos termodinâmicos 1 e 2.',
     alternatives: [
       '1',
       '5/4',
@@ -146,7 +147,8 @@ Considerando as informações apresentadas, qual é o número exato de prótons 
 
 Considerando as representações estruturais dos compostos, é correto afirmar que A e B são:`,
     blockTypes: ['prose', 'command'],
-    images: [img('q37-isomeros.png', 'Estruturas espaciais com cunhas das moléculas A e B')],
+    diagram: 'ufpr2027Q37',
+    figureCaption: 'Estruturas espaciais das moléculas quirais A e B de 2,3-dibromobutano.',
     alternatives: [
       'isômeros de posição.',
       'um par de enantiômeros.',

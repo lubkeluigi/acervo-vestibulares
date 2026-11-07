@@ -9,7 +9,8 @@ Fonte: EPE - Empresa de Pesquisa Energética, 2026. Disponível em: https://www.
 
 Considerando as informações apresentadas no gráfico, qual é a tendência observada para os veículos eletrificados no Brasil e sua relação com o processo geográfico que vem ocorrendo nos últimos anos?`,
     blockTypes: ['prose', 'source', 'command'],
-    images: [img('q01-grafico-veiculos.png', 'Gráfico de licenciamento de veículos eletrificados no Brasil de 2015 a 2025')],
+    diagram: 'ufpr2027Q01',
+    figureCaption: 'Licenciamento de eletrificados e participação no licenciamento total (2015-2025).',
     alternatives: [
       'Incremento relativo da frota de veículos nacionais em decorrência de uma queda no licenciamento de veículos eletrificados, provocada pela pandemia de Covid-19, a qual reduziu a renda média e o consumo da população brasileira.',
       'Elevação do licenciamento de veículos elétricos a bateria, que superou a expansão do licenciamento de veículos híbridos elétricos plug-in, impulsionada pelo recente processo de redução dos impostos de importação de carros elétricos.',
@@ -219,7 +220,8 @@ A diferença entre as espécies pode ser explicada pelo fato de o gado de corte 
 
 O número total de indivíduos obrigatoriamente heterozigotos representados na figura é:`,
     blockTypes: ['prose', 'command'],
-    images: [img('q10-heredograma.png', 'Heredograma de três gerações com indivíduos afetados por condição autossômica recessiva')],
+    diagram: 'ufpr2027Q10',
+    figureCaption: 'Heredograma de três gerações com indivíduos afetados por condição autossômica recessiva.',
     alternatives: [
       '5',
       '6',
