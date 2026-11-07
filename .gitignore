@@ -20,16 +20,20 @@ qa-*.mjs
 verificar_*.mjs
 test_*.mjs
 
-# Arquivos brutos de processamento, capturas e arquivos temporários
-*.png
-*.jpg
-*.jpeg
+# Arquivos brutos de processamento, capturas na raiz e arquivos temporários
+/*.png
+/*.jpg
+/*.jpeg
+/*.webp
 *.zip
 *.log
 provas/
 fontes/
 referencias/
 upload/
+public/images/*_browser_check.png
+public/images/*_check.png
+public/images/evidencias_audit/
 
 # Variáveis de ambiente
 .env
