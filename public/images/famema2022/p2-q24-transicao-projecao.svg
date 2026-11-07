@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="780" height="505" viewBox="0 0 780 505" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">População brasileira por faixa etária, com números absolutos e percentuais para 1980 e 2010 e projeção para 2040, incluindo variação proporcional.</title>
+<desc id="descricao">Redesenho vetorial fiel ao caderno FAMEMA 2022, organizado em setores editáveis.</desc>
+<style>
+  text { font-family: Arial, Helvetica, sans-serif; fill: #17211d; }
+  .linha { fill: none; stroke: #26332d; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .fina { fill: none; stroke: #53615a; stroke-width: 1.25; }
+  .rotulo { font-size: 18px; }
+  .pequeno { font-size: 14px; }
+</style>
+
+<g id="identificacao-do-painel">
+  <text x="14" y="25" font-size="18" font-weight="700">População brasileira — 1980, 2010 e projeção para 2040</text>
+  <text x="14" y="46" font-size="13" fill="#53615a">N = população absoluta · % = participação por faixa etária</text>
+</g>
+<g id="estrutura-da-tabela">
+  <rect x="10" y="58" width="750" height="432" fill="#fff" stroke="#9aa69f" stroke-width="1"/>
+  <rect x="10" y="58" width="750" height="54" fill="#edf1ee"/>
+  <rect x="10" y="463" width="750" height="27" fill="#f4f6f4"/>
+<path d="M10 139 H760" stroke="#d8ded9" stroke-width="1"/>
+<path d="M10 166 H760" stroke="#d8ded9" stroke-width="1"/>
+<path d="M10 193 H760" stroke="#d8ded9" stroke-width="1"/>
+<path d="M10 220 H760" stroke="#d8ded9" stroke-width="1"/>
+<path d="M10 247 H760" stroke="#d8ded9" stroke-width="1"/>
+<path d="M10 274 H760" stroke="#d8ded9" stroke-width="1"/>
+<path d="M10 301 H760" stroke="#d8ded9" stroke-width="1"/>
+<path d="M10 328 H760" stroke="#d8ded9" stroke-width="1"/>
+<path d="M10 355 H760" stroke="#d8ded9" stroke-width="1"/>
+<path d="M10 382 H760" stroke="#d8ded9" stroke-width="1"/>
+<path d="M10 409 H760" stroke="#d8ded9" stroke-width="1"/>
+<path d="M10 436 H760" stroke="#d8ded9" stroke-width="1"/>
+<path d="M10 463 H760" stroke="#9aa69f" stroke-width="1"/>
+<path d="M110 58 V490" stroke="#bcc5bf" stroke-width="1"/>
+<path d="M325 58 V490" stroke="#bcc5bf" stroke-width="1"/>
+<path d="M540 58 V490" stroke="#bcc5bf" stroke-width="1"/>
+</g>
+
+<g id="rotulos-das-faixas-etarias" font-size="14">
+  <text x="18" y="79" font-weight="700">Faixa etária</text>
+  <text x="18" y="99" font-weight="700">(em anos)</text>
+<text x="18" y="131">0 a 4</text>
+<text x="18" y="158">5 a 9</text>
+<text x="18" y="185">10 a 14</text>
+<text x="18" y="212">15 a 19</text>
+<text x="18" y="239">20 a 24</text>
+<text x="18" y="266">25 a 29</text>
+<text x="18" y="293">30 a 39</text>
+<text x="18" y="320">40 a 49</text>
+<text x="18" y="347">50 a 59</text>
+<text x="18" y="374">60 a 69</text>
+<text x="18" y="401">70 ou +</text>
+<text x="18" y="428">Ignorada</text>
+<text x="18" y="455" font-weight="700">Total</text>
+<text x="18" y="482" font-size="13" font-style="italic">Variação proporcional*</text></g>
+<g id="ano-1980">
+<text x="217" y="79" text-anchor="middle" font-size="16" font-weight="700">1980</text>
+<text x="260" y="100" text-anchor="end" font-size="13" font-weight="700">N</text>
+<text x="315" y="100" text-anchor="end" font-size="13" font-weight="700">%</text>
+<g id="ano-1980-dados-absolutos" font-size="14">
+<text x="260" y="131" text-anchor="end">16.423.700</text>
+<text x="260" y="158" text-anchor="end">14.773.741</text>
+<text x="260" y="185" text-anchor="end">14.263.322</text>
+<text x="260" y="212" text-anchor="end">13.575.971</text>
+<text x="260" y="239" text-anchor="end">11.513.220</text>
+<text x="260" y="266" text-anchor="end">9.442.217</text>
+<text x="260" y="293" text-anchor="end">14.039.109</text>
+<text x="260" y="320" text-anchor="end">10.377.274</text>
+<text x="260" y="347" text-anchor="end">7.250.094</text>
+<text x="260" y="374" text-anchor="end">4.474.511</text>
+<text x="260" y="401" text-anchor="end">2.741.506</text>
+<text x="260" y="428" text-anchor="end">128.041</text>
+<text x="260" y="455" text-anchor="end" font-weight="700">119.002.706</text>
+</g>
+<g id="ano-1980-percentuais" font-size="14">
+<text x="315" y="131" text-anchor="end">13,8</text>
+<text x="315" y="158" text-anchor="end">12,4</text>
+<text x="315" y="185" text-anchor="end">12,0</text>
+<text x="315" y="212" text-anchor="end">11,4</text>
+<text x="315" y="239" text-anchor="end">9,7</text>
+<text x="315" y="266" text-anchor="end">7,9</text>
+<text x="315" y="293" text-anchor="end">11,8</text>
+<text x="315" y="320" text-anchor="end">8,7</text>
+<text x="315" y="347" text-anchor="end">6,1</text>
+<text x="315" y="374" text-anchor="end">3,8</text>
+<text x="315" y="401" text-anchor="end">2,3</text>
+<text x="315" y="428" text-anchor="end">0,1</text>
+<text x="315" y="455" text-anchor="end" font-weight="700">100,0</text>
+</g>
+<text id="ano-1980-variacao-proporcional" x="217" y="482" text-anchor="middle" font-size="14">129,1</text>
+</g>
+<g id="ano-2010">
+<text x="432" y="79" text-anchor="middle" font-size="16" font-weight="700">2010</text>
+<text x="475" y="100" text-anchor="end" font-size="13" font-weight="700">N</text>
+<text x="530" y="100" text-anchor="end" font-size="13" font-weight="700">%</text>
+<g id="ano-2010-dados-absolutos" font-size="14">
+<text x="475" y="131" text-anchor="end">13.796.159</text>
+<text x="475" y="158" text-anchor="end">14.969.375</text>
+<text x="475" y="185" text-anchor="end">17.166.761</text>
+<text x="475" y="212" text-anchor="end">16.990.870</text>
+<text x="475" y="239" text-anchor="end">17.245.190</text>
+<text x="475" y="266" text-anchor="end">17.104.413</text>
+<text x="475" y="293" text-anchor="end">29.633.093</text>
+<text x="475" y="320" text-anchor="end">24.842.718</text>
+<text x="475" y="347" text-anchor="end">18.416.621</text>
+<text x="475" y="374" text-anchor="end">11.349.929</text>
+<text x="475" y="401" text-anchor="end">9.240.670</text>
+<text x="475" y="428" text-anchor="end">—</text>
+<text x="475" y="455" text-anchor="end" font-weight="700">190.755.799</text>
+</g>
+<g id="ano-2010-percentuais" font-size="14">
+<text x="530" y="131" text-anchor="end">7,2</text>
+<text x="530" y="158" text-anchor="end">7,8</text>
+<text x="530" y="185" text-anchor="end">9,0</text>
+<text x="530" y="212" text-anchor="end">8,9</text>
+<text x="530" y="239" text-anchor="end">9,0</text>
+<text x="530" y="266" text-anchor="end">9,0</text>
+<text x="530" y="293" text-anchor="end">15,5</text>
+<text x="530" y="320" text-anchor="end">13,0</text>
+<text x="530" y="347" text-anchor="end">9,7</text>
+<text x="530" y="374" text-anchor="end">5,9</text>
+<text x="530" y="401" text-anchor="end">4,8</text>
+<text x="530" y="428" text-anchor="end">—</text>
+<text x="530" y="455" text-anchor="end" font-weight="700">100,0</text>
+</g>
+<text id="ano-2010-variacao-proporcional" x="432" y="482" text-anchor="middle" font-size="14">60,3</text>
+</g>
+<g id="ano-2040">
+<text x="647" y="79" text-anchor="middle" font-size="16" font-weight="700">2040</text>
+<text x="690" y="100" text-anchor="end" font-size="13" font-weight="700">N</text>
+<text x="745" y="100" text-anchor="end" font-size="13" font-weight="700">%</text>
+<g id="ano-2040-dados-absolutos" font-size="14">
+<text x="690" y="131" text-anchor="end">11.267.417</text>
+<text x="690" y="158" text-anchor="end">11.813.256</text>
+<text x="690" y="185" text-anchor="end">12.360.437</text>
+<text x="690" y="212" text-anchor="end">13.019.512</text>
+<text x="690" y="239" text-anchor="end">13.717.223</text>
+<text x="690" y="266" text-anchor="end">14.514.616</text>
+<text x="690" y="293" text-anchor="end">31.914.624</text>
+<text x="690" y="320" text-anchor="end">32.893.266</text>
+<text x="690" y="347" text-anchor="end">32.447.959</text>
+<text x="690" y="374" text-anchor="end">25.811.887</text>
+<text x="690" y="401" text-anchor="end">28.393.007</text>
+<text x="690" y="428" text-anchor="end">—</text>
+<text x="690" y="455" text-anchor="end" font-weight="700">228.153.204</text>
+</g>
+<g id="ano-2040-percentuais" font-size="14">
+<text x="745" y="131" text-anchor="end">4,9</text>
+<text x="745" y="158" text-anchor="end">5,2</text>
+<text x="745" y="185" text-anchor="end">5,4</text>
+<text x="745" y="212" text-anchor="end">5,7</text>
+<text x="745" y="239" text-anchor="end">6,0</text>
+<text x="745" y="266" text-anchor="end">6,4</text>
+<text x="745" y="293" text-anchor="end">14,0</text>
+<text x="745" y="320" text-anchor="end">14,4</text>
+<text x="745" y="347" text-anchor="end">14,2</text>
+<text x="745" y="374" text-anchor="end">11,3</text>
+<text x="745" y="401" text-anchor="end">12,4</text>
+<text x="745" y="428" text-anchor="end">—</text>
+<text x="745" y="455" text-anchor="end" font-weight="700">100,0</text>
+</g>
+<text id="ano-2040-variacao-proporcional" x="647" y="482" text-anchor="middle" font-size="14">19,6</text>
+</g>
+</svg>

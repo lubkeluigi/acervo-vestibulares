@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="425" viewBox="0 0 760 425" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Diagrama de energia com três estados de transição. Reagentes: cloreto de t-butila e duas águas; intermediários carbocátion e oxônio; produtos t-butanol, H₃O⁺ e Cl⁻, em energia menor.</title>
+<desc id="descricao">Redesenho vetorial fiel ao caderno FAMEMA 2022, organizado em setores editáveis.</desc>
+<style>
+  text { font-family: Arial, Helvetica, sans-serif; fill: #17211d; }
+  .linha { fill: none; stroke: #26332d; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .fina { fill: none; stroke: #53615a; stroke-width: 1.25; }
+  .rotulo { font-size: 18px; }
+  .pequeno { font-size: 14px; }
+</style>
+
+<g id="eixos-do-diagrama">
+  <path d="M55 370 V25 M55 370 H735" fill="none" stroke="#26332d" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M55 25 L49 38 M55 25 L61 38 M735 370 L722 364 M735 370 L722 376" fill="none" stroke="#26332d" stroke-width="2.4" stroke-linecap="round"/>
+  <text x="24" y="205" text-anchor="middle" font-size="19" transform="rotate(-90 24 205)">Energia (kcal)</text>
+  <text x="625" y="400" text-anchor="middle" font-size="19">Caminho de reação</text>
+</g>
+<g id="perfil-energetico"><path d="M150 290 L180 65 M240 65 L270 175 M330 175 L360 80 M420 80 L450 235 M510 235 L540 180 M600 180 L630 320" fill="none" stroke="#53615a" stroke-width="1.7" stroke-dasharray="5 4"/></g>
+<g id="reagentes"><path d="M90 290 H150" fill="none" stroke="#17211d" stroke-width="4" stroke-linecap="round"/>
+<text x="120.0" y="247" text-anchor="middle" font-size="17" font-weight="600">(CH₃)₃CCl</text><text x="120.0" y="270" text-anchor="middle" font-size="17">+ 2H₂O</text>
+</g>
+<g id="estado-transicao-1"><path d="M180 65 H240" fill="none" stroke="#17211d" stroke-width="4" stroke-linecap="round"/>
+<text x="210.0" y="47" text-anchor="middle" font-size="15" font-weight="700">Estado de transição</text>
+</g>
+<g id="intermediario-carbocation"><path d="M270 175 H330" fill="none" stroke="#17211d" stroke-width="4" stroke-linecap="round"/>
+<text x="300.0" y="132" text-anchor="middle" font-size="17" font-weight="600">(CH₃)₃C⁺</text><text x="300.0" y="155" text-anchor="middle" font-size="17">+ 2H₂O + Cl⁻</text>
+</g>
+<g id="estado-transicao-2"><path d="M360 80 H420" fill="none" stroke="#17211d" stroke-width="4" stroke-linecap="round"/>
+<text x="390.0" y="62" text-anchor="middle" font-size="15" font-weight="700">Estado de transição</text>
+</g>
+<g id="intermediario-oxonio"><path d="M450 235 H510" fill="none" stroke="#17211d" stroke-width="4" stroke-linecap="round"/>
+<text x="480.0" y="192" text-anchor="middle" font-size="17" font-weight="600">(CH₃)₃COH₂⁺</text><text x="480.0" y="215" text-anchor="middle" font-size="17">+ H₂O + Cl⁻</text>
+</g>
+<g id="estado-transicao-3"><path d="M540 180 H600" fill="none" stroke="#17211d" stroke-width="4" stroke-linecap="round"/>
+</g>
+<g id="produtos"><path d="M630 320 H710" fill="none" stroke="#17211d" stroke-width="4" stroke-linecap="round"/>
+<text x="670.0" y="277" text-anchor="middle" font-size="17" font-weight="600">(CH₃)₃COH</text><text x="670.0" y="300" text-anchor="middle" font-size="17">+ H₃O⁺ + Cl⁻</text>
+</g>
+</svg>

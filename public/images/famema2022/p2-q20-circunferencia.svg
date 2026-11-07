@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="345" height="195" viewBox="0 0 345 195" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Arco de circunferência com corda AB; D está entre A e B, e CD é perpendicular a AB, com C no arco.</title>
+<desc id="descricao">Redesenho vetorial fiel ao caderno FAMEMA 2022, organizado em setores editáveis.</desc>
+<style>
+  text { font-family: Arial, Helvetica, sans-serif; fill: #17211d; }
+  .linha { fill: none; stroke: #26332d; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .fina { fill: none; stroke: #53615a; stroke-width: 1.25; }
+  .rotulo { font-size: 18px; }
+  .pequeno { font-size: 14px; }
+</style>
+
+<g id="arco-da-circunferencia">
+  <path d="M60 155 A176.8 176.8 0 0 1 310 155" class="linha" fill="none" stroke="#26332d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="corda-ab">
+  <path d="M60 155 H310" class="linha" fill="none" stroke="#26332d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="segmento-perpendicular-cd">
+  <path d="M160 105 V155" class="linha" fill="none" stroke="#26332d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M160 140 H175 V155" class="fina" fill="none" stroke="#53615a" stroke-width="1.25"/>
+</g>
+<g id="pontos" fill="#26332d">
+  <circle cx="60" cy="155" r="3"/><circle cx="310" cy="155" r="3"/>
+  <circle cx="160" cy="105" r="3"/><circle cx="160" cy="155" r="3"/>
+</g>
+<g id="rotulos-dos-pontos" class="rotulo" font-size="18">
+  <text x="41" y="150">A</text><text x="316" y="150">B</text>
+  <text x="153" y="95">C</text><text x="153" y="177">D</text>
+</g>
+</svg>

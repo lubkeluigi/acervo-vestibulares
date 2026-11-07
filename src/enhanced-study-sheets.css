@@ -1,0 +1,41 @@
+/* Figuras de alta resolução com lettering independente em SVG */
+.enhanced-svg-scroll { width: 100%; max-width: 100%; min-width: 0; }
+.cell-map-card { min-width: 0; }
+.enhanced-sheet-svg { display: block; width: 100%; height: auto; border-radius: 10px; background: #fdfcf9; }
+.enhanced-sheet-svg .enhanced-leader { fill: none; stroke: #8062a6; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+.enhanced-sheet-svg .enhanced-label-bg { fill: rgba(255,255,255,.92); stroke: #d6c9df; stroke-width: 1.4; }
+.enhanced-sheet-svg .enhanced-label { fill: #4c4056; font-family: Inter, Arial, sans-serif; font-size: 20px; font-weight: 750; }
+.enhanced-sheet-svg .enhanced-small { fill: #665b6d; font-family: Inter, Arial, sans-serif; font-size: 17px; font-weight: 700; }
+.enhanced-sheet-svg .enhanced-compartment { fill: #68786f; font-family: Inter, Arial, sans-serif; font-size: 18px; font-weight: 800; letter-spacing: 2px; }
+.enhanced-sheet-svg .enhanced-ion-label { fill: #46584e; font-family: Inter, Arial, sans-serif; font-size: 19px; font-weight: 750; }
+.enhanced-sheet-svg .enhanced-ion-label .coral { fill: #a95e47; }
+.enhanced-sheet-svg .enhanced-transport-label { fill: #4e5f55; font-family: Inter, Arial, sans-serif; font-size: 18px; font-weight: 750; }
+.enhanced-sheet-svg .enhanced-transport-label .enhanced-small { font-size: 16px; font-weight: 650; }
+.enhanced-sheet-svg .enhanced-process-label { fill: #3f7d65; font-family: Inter, Arial, sans-serif; font-size: 20px; font-weight: 800; }
+.enhanced-number-badge path { fill: none; stroke: #8062a6; stroke-width: 2.2; stroke-linecap: round; }
+.enhanced-number-badge circle { fill: #8062a6; stroke: #fff; stroke-width: 3; }
+.enhanced-number-badge text { fill: #fff; font-family: Inter, Arial, sans-serif; font-size: 20px; font-weight: 850; }
+.enhanced-number-badge.green path { stroke: #4b917b; }
+.enhanced-number-badge.green circle { fill: #4b917b; }
+.enhanced-number-badge.amber path { stroke: #bd8c35; }
+.enhanced-number-badge.amber circle { fill: #bd8c35; }
+.enhanced-number-badge.coral path { stroke: #bc6b52; }
+.enhanced-number-badge.coral circle { fill: #bc6b52; }
+.enhanced-mechanism-visuals { margin-bottom: 22px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; align-items: start; }
+.enhanced-mechanism-visuals .topic-secondary-figure { margin: 0; min-width: 0; }
+.enhanced-mechanism-visuals figcaption, .enhanced-figure-caption { color: #87938c; font-size: 10px; line-height: 1.55; }
+.figure-credit { margin-top: 6px; display: block; color: #9689a0; font-size: 9px; line-height: 1.5; }
+
+@media (max-width: 1180px) {
+  .enhanced-mechanism-visuals { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) {
+  .enhanced-svg-scroll { overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: thin; }
+  .cell-map-card .enhanced-sheet-svg, .topic-diagram-card .enhanced-sheet-svg, .topic-secondary-figure .enhanced-sheet-svg { width: 960px; max-width: none; min-width: 960px; }
+  .cell-map-card { overflow-x: visible; }
+}
+@media print {
+  .cell-map-card .enhanced-sheet-svg, .topic-diagram-card .enhanced-sheet-svg, .topic-secondary-figure .enhanced-sheet-svg { width: 100%; min-width: 0; max-width: 100%; }
+  .enhanced-mechanism-visuals { grid-template-columns: 1fr 1fr; }
+  .enhanced-svg-scroll { overflow: visible; }
+}

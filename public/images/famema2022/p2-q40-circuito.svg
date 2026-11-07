@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="275" viewBox="0 0 360 275" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Circuito com fonte, amperímetro em série, voltímetro em paralelo com a fonte, chave C e resistores de 6 Ω no ramo vertical, 3 Ω e 4 Ω no ramo central e 6 Ω no ramo inferior.</title>
+<desc id="descricao">Redesenho vetorial fiel ao caderno FAMEMA 2022, organizado em setores editáveis.</desc>
+<style>
+  text { font-family: Arial, Helvetica, sans-serif; fill: #17211d; }
+  .linha { fill: none; stroke: #26332d; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .fina { fill: none; stroke: #53615a; stroke-width: 1.25; }
+  .rotulo { font-size: 18px; }
+  .pequeno { font-size: 14px; }
+</style>
+
+<g id="fios-do-circuito" class="linha" fill="none" stroke="#26332d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M50 140 V70 H92 M128 70 H180 M192 70 H235 M265 70 H310 V140"/>
+  <path d="M50 140 H82 M128 140 H202 M248 140 H310"/>
+  <path d="M50 140 V240 H157 M203 240 H310 V140"/>
+</g>
+<g id="resistor-vertical-6-ohms">
+  <path d="M150 70 V88 M150 124 V140" class="linha" fill="none" stroke="#26332d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="142" y="88" width="16" height="36" fill="#fff" stroke="#26332d" stroke-width="1.8"/>
+  <text x="132" y="110" text-anchor="end" class="rotulo" font-size="18">6 Ω</text>
+</g>
+<g id="resistor-central-3-ohms">
+  <rect x="82" y="132" width="46" height="16" fill="#fff" stroke="#26332d" stroke-width="1.8"/>
+  <text x="105" y="171" text-anchor="middle" class="rotulo" font-size="18">3 Ω</text>
+</g>
+<g id="resistor-central-4-ohms">
+  <rect x="202" y="132" width="46" height="16" fill="#fff" stroke="#26332d" stroke-width="1.8"/>
+  <text x="225" y="171" text-anchor="middle" class="rotulo" font-size="18">4 Ω</text>
+</g>
+<g id="resistor-inferior-6-ohms">
+  <rect x="157" y="232" width="46" height="16" fill="#fff" stroke="#26332d" stroke-width="1.8"/>
+  <text x="180" y="271" text-anchor="middle" class="rotulo" font-size="18">6 Ω</text>
+</g>
+<g id="amperimetro">
+  <circle cx="110" cy="70" r="18" fill="#fff" stroke="#26332d" stroke-width="2"/>
+  <text x="110" y="77" text-anchor="middle" font-size="22" font-style="italic">A</text>
+</g>
+<g id="fonte">
+  <path d="M180 55 V85 M192 62 V78" stroke="#26332d" stroke-width="2.5"/>
+</g>
+<g id="ramo-do-voltimetro">
+  <path d="M165 70 V20 H168 M204 20 H207 V70" class="linha" fill="none" stroke="#26332d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="186" cy="20" r="18" fill="#fff" stroke="#26332d" stroke-width="2"/>
+  <text x="186" y="27" text-anchor="middle" font-size="22" font-style="italic">V</text>
+</g>
+<g id="chave-c">
+  <path d="M235 70 L258 56" class="linha" fill="none" stroke="#26332d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="235" cy="70" r="2.5" fill="#26332d"/><circle cx="265" cy="70" r="2.5" fill="#26332d"/>
+  <text x="251" y="46" class="rotulo" font-size="18" font-style="italic">C</text>
+</g>
+</svg>

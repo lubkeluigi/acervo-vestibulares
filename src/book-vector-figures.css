@@ -1,0 +1,28 @@
+/* Recortes vetoriais dos livros preservados, sempre acompanhados da fonte. */
+.book-vector-grid { margin-bottom: 22px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; align-items: start; }
+.book-vector-grid > :only-child { grid-column: 1 / -1; }
+.book-vector-figure { min-width: 0; margin: 0 0 22px; padding: 14px; break-inside: avoid; border: 1px solid #e0e7df; border-radius: 13px; background: #fbfdf9; }
+.book-vector-grid .book-vector-figure, .enhanced-mechanism-visuals .book-vector-figure { margin: 0; }
+.book-vector-scroll { width: 100%; max-width: 100%; min-width: 0; overflow: hidden; border: 1px solid #e8ece5; border-radius: 9px; background: #fff; }
+.book-vector-scroll img { display: block; width: 100%; max-width: 100%; height: auto; }
+.book-vector-grid > :only-child .book-vector-scroll { max-width: 920px; margin-inline: auto; }
+.book-vector-figure figcaption { padding: 11px 3px 0; color: #7c8981; font-size: 10px; line-height: 1.55; }
+.book-vector-figure figcaption > strong { display: block; margin-bottom: 4px; color: #536a5b; font-size: 11px; }
+.book-vector-figure figcaption > span { display: block; }
+.book-vector-figure .figure-credit { color: #897b91; }
+
+@media (max-width: 1000px) {
+  .book-vector-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 700px) {
+  .book-vector-figure { padding: 9px; }
+  .book-vector-scroll { overflow-x: auto; overscroll-behavior-x: contain; scrollbar-width: thin; }
+  .book-vector-scroll img { width: 760px; max-width: none; min-width: 760px; }
+}
+@media print {
+  .book-vector-grid { grid-template-columns: 1fr; gap: 10px; }
+  .book-vector-grid > :only-child { grid-column: 1 / -1; }
+  .book-vector-figure { padding: 10px; }
+  .book-vector-scroll { overflow: visible; }
+  .book-vector-scroll img { width: 100%; min-width: 0; max-width: 100%; }
+}

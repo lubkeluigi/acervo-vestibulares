@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="570" viewBox="0 0 760 570" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">A contagem bacteriana cai até o quarto dia e volta a crescer a partir do quinto; a dose de antibiótico necessária sobe ao sexto dia e permanece elevada.</title>
+<desc id="descricao">Redesenho vetorial fiel ao caderno FAMEMA 2022, organizado em setores editáveis.</desc>
+<style>
+  text { font-family: Arial, Helvetica, sans-serif; fill: #17211d; }
+  .linha { fill: none; stroke: #26332d; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .fina { fill: none; stroke: #53615a; stroke-width: 1.25; }
+  .rotulo { font-size: 18px; }
+  .pequeno { font-size: 14px; }
+</style>
+
+<g id="legenda" font-size="18" font-weight="700">
+  <path d="M170 38 H220" stroke="#149fc1" stroke-width="5" stroke-linecap="round"/>
+  <text x="236" y="45">Contagem de bactérias</text>
+  <path d="M170 84 H220" stroke="#b83a34" stroke-width="4" stroke-dasharray="8 5" stroke-linecap="round"/>
+  <text x="236" y="82">Quantidade de antibiótico necessária para controlar</text>
+  <text x="236" y="106">o crescimento bacteriano</text>
+</g>
+<g id="inicio-antibioticoterapia">
+  <path d="M159 132 V174 M159 174 L152 162 M159 174 L166 162" fill="none" stroke="#26332d" stroke-width="2" stroke-linecap="round"/>
+  <path d="M159 132 H196" fill="none" stroke="#26332d" stroke-width="1.5"/>
+  <text x="205" y="151" font-size="18" font-style="italic">Início da antibioticoterapia</text>
+</g>
+<g id="grade-do-grafico" stroke="#cbd4ce" stroke-width="1">
+<path d="M110.0 190 V480"/>
+<path d="M159.1 190 V480"/>
+<path d="M208.2 190 V480"/>
+<path d="M257.3 190 V480"/>
+<path d="M306.4 190 V480"/>
+<path d="M355.5 190 V480"/>
+<path d="M404.5 190 V480"/>
+<path d="M453.6 190 V480"/>
+<path d="M502.7 190 V480"/>
+<path d="M551.8 190 V480"/>
+<path d="M600.9 190 V480"/>
+<path d="M650.0 190 V480"/>
+<path d="M110 480.0 H650"/>
+<path d="M110 422.0 H650"/>
+<path d="M110 364.0 H650"/>
+<path d="M110 306.0 H650"/>
+<path d="M110 248.0 H650"/>
+<path d="M110 190.0 H650"/>
+</g><g id="eixos-e-escalas" font-size="15">
+<text x="94" y="486.0" text-anchor="end" fill="#167f94" style="fill:#167f94">10<tspan baseline-shift="super" font-size="11">3</tspan></text>
+<text x="94" y="428.0" text-anchor="end" fill="#167f94" style="fill:#167f94">10<tspan baseline-shift="super" font-size="11">4</tspan></text>
+<text x="94" y="370.0" text-anchor="end" fill="#167f94" style="fill:#167f94">10<tspan baseline-shift="super" font-size="11">5</tspan></text>
+<text x="94" y="312.0" text-anchor="end" fill="#167f94" style="fill:#167f94">10<tspan baseline-shift="super" font-size="11">6</tspan></text>
+<text x="94" y="254.0" text-anchor="end" fill="#167f94" style="fill:#167f94">10<tspan baseline-shift="super" font-size="11">7</tspan></text>
+<text x="94" y="196.0" text-anchor="end" fill="#167f94" style="fill:#167f94">10<tspan baseline-shift="super" font-size="11">8</tspan></text>
+<text x="110.0" y="507" text-anchor="middle">0</text>
+<text x="159.1" y="507" text-anchor="middle">1</text>
+<text x="208.2" y="507" text-anchor="middle">2</text>
+<text x="257.3" y="507" text-anchor="middle">3</text>
+<text x="306.4" y="507" text-anchor="middle">4</text>
+<text x="355.5" y="507" text-anchor="middle">5</text>
+<text x="404.5" y="507" text-anchor="middle">6</text>
+<text x="453.6" y="507" text-anchor="middle">7</text>
+<text x="502.7" y="507" text-anchor="middle">8</text>
+<text x="551.8" y="507" text-anchor="middle">9</text>
+<text x="600.9" y="507" text-anchor="middle">10</text>
+<text x="650.0" y="507" text-anchor="middle">11</text>
+<text x="666" y="196.0" fill="#a34a3e" style="fill:#a34a3e">50</text>
+<text x="666" y="254.0" fill="#a34a3e" style="fill:#a34a3e">40</text>
+<text x="666" y="312.0" fill="#a34a3e" style="fill:#a34a3e">30</text>
+<text x="666" y="370.0" fill="#a34a3e" style="fill:#a34a3e">20</text>
+<text x="666" y="428.0" fill="#a34a3e" style="fill:#a34a3e">10</text>
+
+<path d="M110 190 V480 H650 V190" fill="none" stroke="#53615a" stroke-width="1.5"/>
+<text x="30" y="335" text-anchor="middle" font-size="19" fill="#167f94" style="fill:#167f94" transform="rotate(-90 30 335)">Bactérias (número/mL)</text>
+<text x="724" y="335" text-anchor="middle" font-size="18" fill="#a34a3e" style="fill:#a34a3e" transform="rotate(90 724 335)">Quantidade de antibiótico (mg/mL)</text>
+<text x="380" y="548" text-anchor="middle" font-size="20">Dias</text>
+</g>
+<g id="curva-contagem-bacterias"><path d="M159.1 207.4 C164.0 204.5 178.7 191.0 188.5 190.0 C198.4 189.0 206.5 192.9 218.0 201.6 C229.5 210.3 246.6 224.8 257.3 242.2 C267.9 259.6 273.6 278.9 281.8 306.0 C290.0 333.1 299.0 387.2 306.4 404.6 C313.7 422.0 317.8 417.2 326.0 410.4 C334.2 403.6 342.4 381.4 355.5 364.0 C368.5 346.6 388.2 321.5 404.5 306.0 C420.9 290.5 437.3 279.4 453.6 271.2 C470.0 263.0 486.4 259.6 502.7 256.7 C519.1 253.8 535.5 253.8 551.8 253.8 C568.2 253.8 584.5 254.8 600.9 256.7 C617.3 258.6 641.8 263.9 650.0 265.4" fill="none" stroke="#149fc1" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></g>
+<g id="curva-antibiotico-necessario"><path d="M159.1 480 H355.5 C367.7 455 377.5 300 394.7 215 Q402.1 190 411.9 190 H650.0" fill="none" stroke="#b83a34" stroke-width="4.5" stroke-dasharray="9 6" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg>

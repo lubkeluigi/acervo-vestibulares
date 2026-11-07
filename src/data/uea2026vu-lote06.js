@@ -1,0 +1,246 @@
+import { q, img } from './uea2026vu-helpers.js';
+
+function adapt(raw) {
+  const correctIndex = raw.alternatives.findIndex((alternative) => alternative.isCorrect);
+  if (correctIndex < 0) throw new Error(`Gabarito ausente na questão ${raw.number}`);
+  const answer = 'ABCDE'[correctIndex];
+  const why = raw.alternatives[correctIndex].analysis.replace(/^Correta\.\s*/, '');
+  const wrong = Object.fromEntries(raw.alternatives
+    .map((alternative, index) => [index, alternative.analysis])
+    .filter(([index]) => index !== correctIndex));
+  const mapImage = (item) => img(item.src.split('/').pop(), item.alt, item.caption || '');
+  const images = (raw.media || []).map(mapImage);
+  const afterImages = (raw.afterMedia || []).map(mapImage);
+  return q({
+    n: raw.number,
+    subject: raw.subject,
+    content: raw.content,
+    difficulty: raw.difficulty === 'easy' ? 'Fácil' : raw.difficulty === 'medium' ? 'Média' : 'Difícil',
+    statement: raw.statement,
+    ...(raw.blockTypes ? { blockTypes: raw.blockTypes } : {}),
+    ...(images.length ? { images } : {}),
+    ...(raw.tables ? { tables: raw.tables } : {}),
+    ...(raw.afterStatement || raw.command ? {
+      statementAfter: raw.afterStatement || raw.command,
+      afterBlockTypes: raw.afterBlockTypes || (raw.command ? ['command'] : ['prose']),
+    } : {}),
+    ...(afterImages.length ? { afterImages } : {}),
+    ...(raw.afterTables ? { afterTables: raw.afterTables } : {}),
+    ...(raw.tail ? { statementTail: raw.tail, tailBlockTypes: raw.tailBlockTypes || [] } : {}),
+    alternatives: raw.alternatives.map((alternative) => alternative.text),
+    answer,
+    why,
+    wrong,
+    resolution: [raw.resolution],
+    timeMinutes: raw.timeMinutes,
+    skills: raw.skills,
+    tags: raw.tags,
+    ...(raw.works ? { works: raw.works } : {}),
+  });
+}
+
+export const uea2026vuLote06 = [
+  {
+    number: 71, subject: 'Física', difficulty: 'medium', timeMinutes: 4,
+    statement: 'A parte estaiada da ponte sobre o Rio Negro tem 400 m de extensão, sendo construída com dois blocos de concreto de 200 m de comprimento cada um. A fotografia mostra esses dois blocos já suspensos pelos estais.',
+    media: [{ src: '/images/uea2026vu/uea2026vu-q71-ponte-rio-negro.webp', alt: 'Ponte estaiada sobre o Rio Negro com dois blocos de concreto suspensos pelos estais.', caption: '(www.locabens.com.br. Adaptado.)' }],
+    afterStatement: 'Admita que o gráfico que segue é um estudo da variação do comprimento de um dos blocos desse trecho da ponte em função da variação da temperatura.',
+    afterMedia: [{ src: '/images/uea2026vu/uea2026vu-q71-dilatacao-grafico.svg', alt: 'Gráfico da variação do comprimento em função da variação da temperatura, com pontos (10; 0,024) e (20; 0,048).' }],
+    tail: 'Sabe-se que coeficiente de dilatação linear de um material é dado pela equação:\n\nα = ΔL/(L₀ · ΔT)\n\nNessa equação, α representa o coeficiente de dilatação linear, ΔL a variação de comprimento, L₀ o comprimento inicial e ΔT a variação de temperatura. Considerando que o comprimento de um dos blocos do vão central dessa ponte é igual a 200 m, o coeficiente de dilatação linear do concreto que constitui esse bloco é igual a',
+    tailBlockTypes: ['prose', 'prose', 'command'],
+    alternatives: [
+      { text: '1,2 × 10⁻⁵ °C⁻¹.', isCorrect: true, analysis: 'Correta. Usando ΔL = 0,024 m, L₀ = 200 m e ΔT = 10 °C, obtém-se α = 0,024/(200·10) = 1,2 × 10⁻⁵ °C⁻¹.' },
+      { text: '1,2 × 10⁻³ °C⁻¹.', isCorrect: false, analysis: 'Com esse coeficiente, a variação em 10 °C seria 2,4 m, e não os 0,024 m indicados no gráfico.' },
+      { text: '2,4 × 10⁻⁴ °C⁻¹.', isCorrect: false, analysis: 'Esse valor produziria ΔL = 0,48 m para L₀ = 200 m e ΔT = 10 °C, vinte vezes o valor do gráfico.' },
+      { text: '2,4 × 10⁻² °C⁻¹.', isCorrect: false, analysis: 'Com esse coeficiente, a dilatação em 10 °C seria 48 m, incompatível com a escala de milímetros do gráfico.' },
+      { text: '2,4 × 10⁻⁶ °C⁻¹.', isCorrect: false, analysis: 'Esse coeficiente daria ΔL = 0,0048 m em 10 °C, cinco vezes menos que o valor indicado.' },
+    ],
+    resolution: 'O gráfico fornece ΔL = 0,024 m quando ΔT = 10 °C; o mesmo resultado pode ser obtido com 0,048 m e 20 °C. Como L₀ = 200 m, α = ΔL/(L₀·ΔT) = 0,024/(200·10) = 0,024/2000 = 1,2 × 10⁻⁵ °C⁻¹.',
+    content: 'Dilatação linear de sólidos', skills: ['Ler valores em um gráfico de dilatação linear.', 'Calcular o coeficiente de dilatação linear a partir de L₀, ΔL e ΔT.'], tags: ['dilatação térmica', 'coeficiente linear', 'ponte Rio Negro'],
+  },
+  {
+    number: 72, subject: 'Física', difficulty: 'easy', timeMinutes: 2,
+    statement: 'A figura mostra uma pessoa em repouso, postada à margem de um lago de águas calmas, e observando um peixe, também em repouso, dentro da água. Essa pessoa vê a imagem desse peixe um pouco acima da real profundidade em que o peixe está parado.',
+    media: [{ src: '/images/uea2026vu/uea2026vu-q72-peixe-refracao.svg', alt: 'Pessoa na margem de um lago observa um peixe; a imagem aparente está acima da posição real do peixe.' }],
+    command: 'Essa diferença entre a real profundidade do peixe e a profundidade vista pela pessoa se deve ao fenômeno da',
+    alternatives: [
+      { text: 'difração.', isCorrect: false, analysis: 'Difração é o espalhamento de ondas ao atravessar aberturas ou contornar obstáculos; não explica a profundidade aparente do peixe.' },
+      { text: 'dispersão.', isCorrect: false, analysis: 'Dispersão é a separação de componentes de uma onda devido à dependência da velocidade com a frequência, como na decomposição da luz branca.' },
+      { text: 'refração.', isCorrect: true, analysis: 'Correta. A luz muda de direção ao passar da água para o ar; o prolongamento dos raios faz o cérebro perceber o peixe em uma posição mais rasa.' },
+      { text: 'interferência.', isCorrect: false, analysis: 'Interferência resulta da superposição de ondas e produz reforço ou atenuação, não a mudança de profundidade aparente.' },
+      { text: 'reflexão.', isCorrect: false, analysis: 'Reflexão é o retorno da luz ao meio de origem; a imagem descrita decorre da transmissão da luz entre água e ar.' },
+    ],
+    resolution: 'Os raios luminosos que saem do peixe sofrem refração ao passar da água para o ar, afastando-se da normal. Ao entrar nos olhos da pessoa, eles são interpretados como se tivessem percorrido uma trajetória reta; o cruzamento dos prolongamentos forma uma imagem acima da posição real do peixe.',
+    content: 'Refração da luz e profundidade aparente', skills: ['Identificar a refração na passagem da luz entre dois meios.', 'Explicar a formação de uma imagem em profundidade aparente.'], tags: ['refração', 'profundidade aparente', 'óptica'],
+  },
+  {
+    number: 73, subject: 'Química', difficulty: 'easy', timeMinutes: 2,
+    statement: 'A figura representa um experimento de química no qual coletou-se vapor de iodo a 120 °C em um balão de vidro fechado com uma rolha. Esse balão foi resfriado em um banho de gelo, e o iodo passou para o estado sólido.',
+    media: [{ src: '/images/uea2026vu/uea2026vu-q73-ressublimacao-iodo.webp', alt: 'Experimento com vapor de iodo a 120 °C em balão fechado e iodo sólido após resfriamento em gelo.' }],
+    command: 'Nesse experimento, ocorreu uma transformação',
+    alternatives: [
+      { text: 'química: a ressublimação.', isCorrect: false, analysis: 'Embora a passagem de vapor a sólido seja ressublimação, ela é uma transformação física, sem alteração da composição do iodo.' },
+      { text: 'física: a vaporização.', isCorrect: false, analysis: 'A vaporização leva um líquido ao estado de vapor; o experimento descreve o sentido inverso, de vapor a sólido.' },
+      { text: 'química: a cristalização.', isCorrect: false, analysis: 'Não houve reação química nem formação de nova substância, e a passagem direta de vapor a sólido é denominada ressublimação.' },
+      { text: 'química: a solidificação.', isCorrect: false, analysis: 'Solidificação é a passagem de líquido a sólido e, assim como as demais mudanças de estado, é fenômeno físico.' },
+      { text: 'física: a ressublimação.', isCorrect: true, analysis: 'Correta. O iodo passou diretamente do estado de vapor ao sólido, sem virar líquido e sem alterar sua composição: ressublimação, uma transformação física.' },
+    ],
+    resolution: 'No resfriamento, o vapor de iodo perde energia e se deposita como sólido. A mudança direta de gás para sólido é chamada ressublimação ou deposição. Como a substância continua sendo iodo, trata-se de uma transformação física.',
+    content: 'Mudança de estado e ressublimação', skills: ['Distinguir transformações físicas de químicas.', 'Identificar a ressublimação na passagem direta de gás a sólido.'], tags: ['ressublimação', 'iodo', 'mudança de estado'],
+  },
+  {
+    number: 74, subject: 'Química', difficulty: 'easy', timeMinutes: 2,
+    statement: 'A radiação gama é emitida quando núcleos atômicos em estado excitado passam para estados de menor energia, podendo ocorrer após processos de desintegração nuclear. Quando o núcleo de um radioisótopo emite radiação gama, o número atômico desse radioisótopo',
+    alternatives: [
+      { text: 'não se altera, e o número de massa diminui uma unidade.', isCorrect: false, analysis: 'A emissão gama não altera o número de massa; o núcleo apenas perde energia e permanece com os mesmos números de prótons e nêutrons.' },
+      { text: 'diminui duas unidades, e o número de massa diminui quatro unidades.', isCorrect: false, analysis: 'Essa é a alteração característica da emissão alfa, que contém dois prótons e dois nêutrons, não da emissão gama.' },
+      { text: 'diminui uma unidade, e o número de massa permanece o mesmo.', isCorrect: false, analysis: 'A emissão gama não reduz o número atômico; ela não envolve expulsão de prótons ou nêutrons.' },
+      { text: 'não se altera, e o número de massa também permanece o mesmo.', isCorrect: true, analysis: 'Correta. A radiação gama é energia eletromagnética; sua emissão desexcita o núcleo sem mudar Z ou A.' },
+      { text: 'aumenta uma unidade, e o número de massa permanece o mesmo.', isCorrect: false, analysis: 'O aumento de uma unidade em Z com A constante ocorre na emissão beta negativa, e não na gama.' },
+    ],
+    resolution: 'Na emissão gama, o núcleo excitado libera energia na forma de radiação eletromagnética e passa a um estado de menor energia. Não há mudança no número de prótons nem de nêutrons; portanto, o número atômico Z e o número de massa A permanecem inalterados.',
+    content: 'Radioatividade e emissão gama', skills: ['Diferenciar emissão gama das emissões alfa e beta.', 'Relacionar emissões nucleares às variações de Z e A.'], tags: ['radiação gama', 'número atômico', 'número de massa'],
+  },
+  {
+    number: 75, subject: 'Química', difficulty: 'easy', timeMinutes: 2,
+    statement: 'A tabela apresenta informações a respeito de dois isótopos de metais de terras-raras, o neodímio (Nd) e o európio (Eu).',
+    tables: [{ ariaLabel: 'Isótopos de neodímio e európio com números atômicos, de massa e quantidades de nêutrons', headerRows: [['Isótopo', 'Número atômico (Z)', 'Número de massa (A)', 'Quantidade de nêutrons']], rows: [['Nd', '60', 'x', '86'], ['Eu', '63', '152', 'y']] }],
+    command: 'O número de massa x do isótopo do neodímio e a quantidade de nêutrons y do isótopo do európio são, respectivamente,',
+    alternatives: [
+      { text: '140 e 86.', isCorrect: false, analysis: 'Para o Nd, A deve ser 60 + 86 = 146; para o Eu, o número de nêutrons deve ser 152 − 63 = 89.' },
+      { text: '146 e 89.', isCorrect: true, analysis: 'Correta. Nd: x = Z + n = 60 + 86 = 146. Eu: y = A − Z = 152 − 63 = 89.' },
+      { text: '142 e 89.', isCorrect: false, analysis: 'O valor de y está correto, mas x = 142 implicaria apenas 82 nêutrons no Nd, e não 86.' },
+      { text: '144 e 89.', isCorrect: false, analysis: 'O valor de y está correto, mas x = 144 corresponderia a 84 nêutrons; o enunciado informa 86.' },
+      { text: '142 e 86.', isCorrect: false, analysis: 'Os dois valores contrariam as relações A = Z + n: o Nd exige 146 e o Eu exige 89 nêutrons.' },
+    ],
+    resolution: 'Usa-se A = Z + n, em que n é a quantidade de nêutrons. Para o neodímio, x = 60 + 86 = 146. Para o európio, y = 152 − 63 = 89. Logo, os valores são 146 e 89.',
+    content: 'Isótopos, número de massa e nêutrons', skills: ['Aplicar a relação entre número de massa, prótons e nêutrons.', 'Interpretar dados de isótopos em uma tabela.'], tags: ['isótopos', 'neodímio', 'európio'],
+  },
+  {
+    number: 76, subject: 'Química', difficulty: 'easy', timeMinutes: 2,
+    statement: 'Lixo eletrônico é o termo utilizado para designar qualquer equipamento eletrônico descartado e que não tem mais utilidade. O quadro apresenta características de alguns metais empregados na fabricação de equipamentos eletrônicos.',
+    tables: [{ ariaLabel: 'Metais de equipamentos eletrônicos, aplicações, quantidades e valores econômicos relativos', headerRows: [['Metal', 'Aplicação', 'Quantidade do metal no equipamento eletrônico', 'Valor econômico relativo']], rows: [['Alumínio', 'dissipação de calor', 'alta', 'baixo'], ['Chumbo', 'soldas', 'baixa', 'baixo'], ['Ouro', 'contato elétrico', 'baixa', 'alto'], ['Ferro', 'estrutura', 'alta', 'baixo'], ['Cobre', 'circuitos eletrônicos', 'média', 'alto']] }],
+    command: 'Considerando as informações descritas na tabela, os metais cuja recuperação apresenta relevância econômica são:',
+    alternatives: [
+      { text: 'ouro e cobre.', isCorrect: true, analysis: 'Correta. Ouro e cobre são os dois metais com valor econômico relativo alto na tabela, o que favorece sua recuperação.' },
+      { text: 'ouro e ferro.', isCorrect: false, analysis: 'O ouro tem valor alto, mas o ferro tem valor econômico relativo baixo na tabela.' },
+      { text: 'chumbo e ferro.', isCorrect: false, analysis: 'Chumbo e ferro aparecem com valor econômico relativo baixo, portanto o par não reúne os metais de maior interesse econômico.' },
+      { text: 'alumínio e cobre.', isCorrect: false, analysis: 'O cobre tem valor alto, mas o alumínio é indicado com valor econômico relativo baixo.' },
+      { text: 'alumínio e chumbo.', isCorrect: false, analysis: 'Alumínio e chumbo têm valor econômico relativo baixo na tabela.' },
+    ],
+    resolution: 'A relevância econômica indicada pela tabela depende do valor econômico relativo alto. Somente o ouro e o cobre apresentam essa característica: o ouro é usado em contatos elétricos e o cobre, em circuitos eletrônicos.',
+    content: 'Lixo eletrônico e reciclagem de metais', skills: ['Comparar valor econômico e quantidade de metais em uma tabela.', 'Reconhecer a importância da recuperação de materiais do lixo eletrônico.'], tags: ['lixo eletrônico', 'reciclagem', 'ouro e cobre'],
+  },
+  {
+    number: 77, subject: 'Química', difficulty: 'easy', timeMinutes: 2,
+    statement: 'A atmosfera primitiva da Terra passou por bilhões de anos de transformações até atingir a composição atual. Gases que, no início das transformações do planeta Terra, foram essenciais para o surgimento das moléculas da vida tornaram-se, na atualidade, perigosos poluentes atmosféricos. Esses gases eram compostos de carbono e de nitrogênio e não continham oxigênio em suas estruturas moleculares. Os gases da atmosfera primitiva do planeta Terra mencionados no texto são:',
+    alternatives: [
+      { text: 'dióxido de carbono e hélio.', isCorrect: false, analysis: 'O dióxido de carbono contém oxigênio e o hélio é um elemento químico, não um composto de carbono ou nitrogênio.' },
+      { text: 'monóxido de carbono e nitrogênio.', isCorrect: false, analysis: 'O monóxido de carbono contém oxigênio e o nitrogênio gasoso é uma substância simples, não um composto.' },
+      { text: 'amônia e monóxido de carbono.', isCorrect: false, analysis: 'A amônia atende à composição, mas o monóxido de carbono contém oxigênio, contrariando a condição central do enunciado.' },
+      { text: 'amônia e metano.', isCorrect: true, analysis: 'Correta. Amônia (NH₃) contém nitrogênio e metano (CH₄) contém carbono; nenhuma das duas moléculas contém oxigênio.' },
+      { text: 'dióxido de carbono e metano.', isCorrect: false, analysis: 'O metano atende à condição, mas o dióxido de carbono contém oxigênio em sua estrutura.' },
+    ],
+    resolution: 'As moléculas citadas devem conter carbono ou nitrogênio e não apresentar oxigênio. A amônia é NH₃ e o metano é CH₄; ambas satisfazem as condições e são associadas à atmosfera primitiva e às pesquisas sobre a origem das moléculas da vida.',
+    content: 'Atmosfera primitiva, amônia e metano', skills: ['Relacionar composição molecular e presença de elementos.', 'Identificar gases associados à atmosfera primitiva da Terra.'], tags: ['atmosfera primitiva', 'amônia', 'metano'],
+  },
+  {
+    number: 78, subject: 'Química', difficulty: 'easy', timeMinutes: 2,
+    statement: 'A biomassa é constituída por matéria orgânica de origem vegetal ou animal, podendo ser utilizada na produção de combustíveis. Por ser continuamente renovada por processos naturais ou atividades agropecuárias, representa uma alternativa ao uso de combustíveis fósseis. Entre os combustíveis produzidos a partir de biomassa destacam-se:',
+    alternatives: [
+      { text: 'óleo diesel e metanol.', isCorrect: false, analysis: 'O óleo diesel comum é derivado de petróleo; embora o metanol possa ser obtido de biomassa, o par não é formado por dois exemplos destacados no contexto.' },
+      { text: 'etanol e biogás.', isCorrect: true, analysis: 'Correta. O etanol pode ser obtido pela fermentação de açúcares vegetais, e o biogás pela decomposição de matéria orgânica.' },
+      { text: 'gasolina e biodiesel.', isCorrect: false, analysis: 'O biodiesel pode ser produzido de óleos vegetais ou gorduras, mas a gasolina é um derivado de petróleo.' },
+      { text: 'gás natural e gasolina.', isCorrect: false, analysis: 'Gás natural e gasolina são combustíveis fósseis, não produtos da biomassa renovável descrita.' },
+      { text: 'carvão mineral e óleo diesel.', isCorrect: false, analysis: 'Carvão mineral e óleo diesel são de origem fóssil e não correspondem à produção a partir de biomassa.' },
+    ],
+    resolution: 'O etanol é produzido pela fermentação de açúcares presentes em matérias-primas vegetais, como a cana-de-açúcar. O biogás, rico em metano, é obtido principalmente pela biodigestão de resíduos orgânicos. Ambos são exemplos de combustíveis produzidos a partir de biomassa.',
+    content: 'Biomassa, etanol e biogás', skills: ['Distinguir combustíveis de biomassa e combustíveis fósseis.', 'Relacionar etanol e biogás a processos de produção renováveis.'], tags: ['biomassa', 'etanol', 'biogás'],
+  },
+  {
+    number: 79, subject: 'Química', difficulty: 'easy', timeMinutes: 2,
+    statement: 'Os ciclos biogeoquímicos correspondem aos processos naturais responsáveis pela circulação e pela reciclagem dos elementos químicos entre a atmosfera, a hidrosfera, a litosfera e os seres vivos. Em um desses ciclos ocorre a transferência de um gás de efeito estufa da atmosfera para os vegetais, que o transformam em compostos orgânicos. Esse processo de transformação ocorre no ciclo biogeoquímico',
+    alternatives: [
+      { text: 'do fósforo.', isCorrect: false, analysis: 'O ciclo do fósforo não envolve a absorção de um gás atmosférico de efeito estufa e sua transformação em matéria orgânica por fotossíntese.' },
+      { text: 'do carbono.', isCorrect: true, analysis: 'Correta. Na fotossíntese, os vegetais retiram CO₂ da atmosfera e utilizam seu carbono para formar compostos orgânicos.' },
+      { text: 'da água.', isCorrect: false, analysis: 'O ciclo da água envolve evaporação, condensação e precipitação, não a fixação de carbono em compostos orgânicos.' },
+      { text: 'do enxofre.', isCorrect: false, analysis: 'O enxofre circula por processos distintos e não corresponde ao gás retirado da atmosfera para a fotossíntese.' },
+      { text: 'do nitrogênio.', isCorrect: false, analysis: 'Embora o nitrogênio atmosférico possa ser fixado por microrganismos, o enunciado descreve a incorporação de CO₂ na fotossíntese, própria do ciclo do carbono.' },
+    ],
+    resolution: 'O gás de efeito estufa mencionado é o dióxido de carbono (CO₂). Durante a fotossíntese, vegetais absorvem CO₂ e, usando energia luminosa e água, produzem compostos orgânicos, como a glicose. Esse fluxo integra o ciclo biogeoquímico do carbono.',
+    content: 'Ciclo do carbono e fotossíntese', skills: ['Identificar o fluxo de carbono entre atmosfera e vegetais.', 'Relacionar a fotossíntese ao ciclo biogeoquímico do carbono.'], tags: ['ciclo do carbono', 'dióxido de carbono', 'fotossíntese'],
+  },
+  {
+    number: 80, subject: 'Química', difficulty: 'medium', timeMinutes: 3,
+    statement: 'Em uma aula de química, foi investigada a influência de diferentes condições experimentais na rapidez da reação entre o magnésio metálico (Mg) e o ácido clorídrico (HCl), representada na equação:\n\n2HCl(aq) + Mg(s) → MgCl₂(aq) + H₂(g)\n\nPara isso, foram realizados cinco experimentos utilizando as mesmas massas de magnésio, na forma de barra e de pó, e os mesmos volumes de soluções de ácido clorídrico. A tabela esquematiza as condições dos reagentes nos experimentos.',
+    media: [{ src: '/images/uea2026vu/uea2026vu-q80-cinetica-experimentos.svg', alt: 'Tabela de cinco experimentos com magnésio em barra ou em pó, ácido clorídrico a 1 ou 2 mol/L e temperaturas de 20, 30 e 60 °C.' }],
+    command: 'O experimento no qual toda a quantidade de magnésio reagiu de forma mais rápida foi o de número',
+    alternatives: [
+      { text: '3.', isCorrect: false, analysis: 'O experimento 3 usa ácido a 2 mol/L, mas emprega magnésio em barra e trabalha a 30 °C; há outro com pó e temperatura maior.' },
+      { text: '2.', isCorrect: false, analysis: 'O experimento 2 reúne as condições menos favoráveis: magnésio em barra, ácido a 1 mol/L e temperatura de 20 °C.' },
+      { text: '5.', isCorrect: true, analysis: 'Correta. O experimento 5 combina magnésio em pó, ácido a 2 mol/L e 60 °C: maior superfície de contato, concentração e temperatura.' },
+      { text: '4.', isCorrect: false, analysis: 'O experimento 4 tem concentração e temperatura elevadas, mas o magnésio está em barra, com menor superfície de contato que o pó do experimento 5.' },
+      { text: '1.', isCorrect: false, analysis: 'Embora use magnésio em pó, o experimento 1 tem ácido a 1 mol/L e temperatura de 20 °C, inferiores às condições do experimento 5.' },
+    ],
+    resolution: 'A rapidez aumenta com a superfície de contato, a concentração dos reagentes e a temperatura. O magnésio em pó oferece maior superfície que a barra; a solução a 2 mol/L tem mais partículas de HCl por volume; e 60 °C aumenta a energia das colisões. O experimento 5 reúne simultaneamente essas três condições e, portanto, é o mais rápido.',
+    content: 'Cinética química e fatores de velocidade', skills: ['Analisar os efeitos da superfície de contato, concentração e temperatura.', 'Comparar condições experimentais para determinar a reação mais rápida.'], tags: ['cinética química', 'magnésio', 'velocidade de reação'],
+  },
+  {
+    number: 81, subject: 'Química', difficulty: 'easy', timeMinutes: 2,
+    statement: 'O tratamento de esgoto envolve diversas etapas destinadas à remoção de impurezas e à redução dos riscos à saúde pública. Na etapa de desinfecção, são utilizados reagentes químicos capazes de eliminar microrganismos patogênicos antes do lançamento do efluente no ambiente. O elemento químico presente no reagente mais empregado nessa etapa é o',
+    alternatives: [
+      { text: 'iodo.', isCorrect: false, analysis: 'O iodo tem uso antisséptico, mas não é o elemento do reagente mais empregado na desinfecção de efluentes em estações de tratamento.' },
+      { text: 'nitrogênio.', isCorrect: false, analysis: 'O nitrogênio não é o elemento associado ao reagente desinfetante mais comum nessa etapa.' },
+      { text: 'flúor.', isCorrect: false, analysis: 'O flúor está relacionado, por exemplo, à fluoretação da água para saúde bucal, não à desinfecção usual do esgoto.' },
+      { text: 'enxofre.', isCorrect: false, analysis: 'O enxofre não é o elemento do reagente mais utilizado para eliminar microrganismos patogênicos no efluente.' },
+      { text: 'cloro.', isCorrect: true, analysis: 'Correta. O cloro e seus compostos, como o hipoclorito, são amplamente usados na desinfecção por sua ação sobre microrganismos.' },
+    ],
+    resolution: 'A desinfecção de efluentes é frequentemente realizada com cloro ou compostos clorados, como hipoclorito de sódio e dióxido de cloro. Esses reagentes inativam microrganismos patogênicos antes que o efluente seja lançado no ambiente.',
+    content: 'Tratamento de esgoto e desinfecção com cloro', skills: ['Reconhecer o uso do cloro na desinfecção de água e esgoto.', 'Distinguir desinfecção de outras etapas do tratamento de efluentes.'], tags: ['tratamento de esgoto', 'cloro', 'desinfecção'],
+  },
+  {
+    number: 82, subject: 'Química', difficulty: 'medium', timeMinutes: 3,
+    statement: 'O glifosato é um herbicida amplamente utilizado no controle de plantas invasoras em diversas culturas agrícolas. Para que seja aplicado por pulverização, esse composto é preparado na forma de solução aquosa, o que depende de características estruturais da molécula. A figura apresenta a fórmula estrutural do glifosato.',
+    media: [{ src: '/images/uea2026vu/uea2026vu-q82-glifosato.svg', alt: 'Fórmula estrutural do glifosato com grupos fosfonato, amina e carboxila.' }],
+    afterStatement: 'A molécula do glifosato apresenta uma cadeia carbônica que contém dois elementos do grupo 15 da Classificação Periódica, o nitrogênio e o __________. Por ser uma molécula __________, ela apresenta __________ na água.\n\nAs lacunas são preenchidas, respectivamente, por:',
+    afterBlockTypes: ['prose', 'command'],
+    alternatives: [
+      { text: 'fósforo – apolar – baixa solubilidade.', isCorrect: false, analysis: 'O fósforo está correto, mas a presença de vários grupos polares torna a molécula polar e favorece sua solubilidade em água.' },
+      { text: 'oxigênio – polar – alta solubilidade.', isCorrect: false, analysis: 'Polaridade e solubilidade estão adequadas, mas o oxigênio pertence ao grupo 16; o outro elemento do grupo 15 é o fósforo.' },
+      { text: 'fósforo – polar – alta solubilidade.', isCorrect: true, analysis: 'Correta. O fósforo integra o grupo 15, e os grupos fosfonato, amina e carboxila tornam a molécula polar e favorecem sua dissolução em água.' },
+      { text: 'oxigênio – polar – baixa solubilidade.', isCorrect: false, analysis: 'O oxigênio não pertence ao grupo 15, e a classificação como pouco solúvel contraria a presença de grupos polares e a preparação em solução aquosa.' },
+      { text: 'fósforo – apolar – alta solubilidade.', isCorrect: false, analysis: 'O fósforo e a alta solubilidade estão coerentes, mas a molécula não é apolar devido às ligações P–O, O–H, N–H e C=O.' },
+    ],
+    resolution: 'Além do nitrogênio, o glifosato contém fósforo, outro elemento do grupo 15. Sua estrutura apresenta grupos fosfonato e carboxila, com ligações O–H e C=O, além do grupo N–H. Esses grupos produzem regiões de carga e permitem interações favoráveis com a água; por isso, a molécula é polar e tem alta solubilidade em água.',
+    content: 'Glifosato, polaridade e solubilidade', skills: ['Identificar elementos e grupos funcionais em uma fórmula estrutural.', 'Relacionar polaridade molecular à solubilidade em água.'], tags: ['glifosato', 'fósforo', 'polaridade'],
+  },
+  {
+    number: 83, subject: 'Química', difficulty: 'easy', timeMinutes: 2,
+    statement: 'A planta Montrichardia linifera, popularmente conhecida como aninga, é empregada pela população ribeirinha como repelente de insetos. Interessados em verificar se esse conhecimento popular possui fundamento científico, pesquisadores prepararam extratos dessa planta para avaliar sua ação sobre as larvas do mosquito transmissor da dengue. A etapa do método científico à qual corresponde a atividade dos pesquisadores relatada no texto é a',
+    works: ['Montrichardia linifera'],
+    alternatives: [
+      { text: 'realização de experimentos.', isCorrect: true, analysis: 'Correta. Preparar extratos e avaliar sua ação sobre as larvas constitui teste experimental de uma ideia.' },
+      { text: 'formulação de uma hipótese.', isCorrect: false, analysis: 'A possível eficácia da planta orienta a investigação, mas a atividade destacada é o teste prático com extratos e larvas.' },
+      { text: 'elaboração de uma teoria.', isCorrect: false, analysis: 'Uma teoria requer conjunto amplo de evidências e explicações; o texto descreve apenas a investigação experimental inicial.' },
+      { text: 'análise dos dados coletados.', isCorrect: false, analysis: 'O texto não descreve resultados nem sua interpretação, mas a preparação e a avaliação experimental dos extratos.' },
+      { text: 'publicação dos resultados.', isCorrect: false, analysis: 'Não há relato de divulgação de resultados em periódico ou evento científico.' },
+    ],
+    resolution: 'Os pesquisadores preparam extratos da planta e avaliam seus efeitos sobre as larvas. Essa atividade testa, na prática, se o uso popular tem fundamento científico e corresponde à realização de experimentos, etapa que produz evidências para análises posteriores.',
+    content: 'Método científico e experimentação', skills: ['Reconhecer etapas do método científico em uma situação de pesquisa.', 'Distinguir experimentação de hipótese, análise e publicação.'], tags: ['método científico', 'experimento', 'aninga'],
+  },
+  {
+    number: 84, subject: 'Química', difficulty: 'easy', timeMinutes: 2,
+    statement: 'Para garantir a segurança de profissionais e estudantes durante o manuseio de produtos químicos, as embalagens desses produtos devem apresentar pictogramas que identifiquem os riscos associados ao seu uso. A aguarrás, solvente empregado na limpeza pesada e na remoção de respingos de tinta, apresenta o seguinte pictograma de risco:',
+    media: [{ src: '/images/uea2026vu/uea2026vu-q84-inflamavel.svg', alt: 'Pictograma de risco de inflamabilidade: losango vermelho com chama preta.' }],
+    command: 'Considerando o risco representado pelo pictograma, o equipamento de proteção coletiva (EPC) que deve ser disponibilizado durante o uso da aguarrás é',
+    alternatives: [
+      { text: 'a máscara para gases.', isCorrect: false, analysis: 'A máscara é equipamento de proteção individual, não coletiva, e o pictograma apresentado indica inflamabilidade.' },
+      { text: 'o par de luvas de látex.', isCorrect: false, analysis: 'As luvas são EPI e não atendem ao pedido de equipamento de proteção coletiva relacionado ao risco de chama.' },
+      { text: 'o par de óculos de segurança.', isCorrect: false, analysis: 'Os óculos são equipamento de proteção individual e não constituem o EPC adequado ao risco de incêndio indicado.' },
+      { text: 'o chuveiro lava-olhos.', isCorrect: false, analysis: 'O chuveiro lava-olhos é um recurso coletivo de emergência para contato químico, mas não é o equipamento indicado pelo pictograma de inflamabilidade.' },
+      { text: 'o extintor de incêndio.', isCorrect: true, analysis: 'Correta. A chama no losango identifica risco de inflamabilidade; o extintor é um EPC destinado ao combate inicial de incêndios.' },
+    ],
+    resolution: 'O pictograma com chama indica que o produto é inflamável. Entre as opções, o extintor de incêndio é o equipamento de proteção coletiva adequado para combate inicial ao fogo. Máscara, luvas e óculos são EPIs, e o lava-olhos atende a outro tipo de emergência.',
+    content: 'Pictogramas de risco e segurança química', skills: ['Interpretar pictogramas de perigo em produtos químicos.', 'Distinguir EPC de EPI e relacionar o equipamento ao risco.'], tags: ['inflamável', 'pictograma', 'extintor'],
+  },
+].map(adapt);

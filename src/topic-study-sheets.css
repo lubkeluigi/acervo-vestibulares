@@ -1,0 +1,79 @@
+/* Modelo reutilizável das fichas temáticas: diagramas, mecanismos e fontes */
+.study-sheet-topic-art .study-sheet-artwork { width: 100%; max-width: 235px; height: auto; max-height: 180px; }
+.study-sheet-artwork .art-kicker { fill: #6f7d75; font-family: Inter, Arial, sans-serif; font-size: 8px; font-weight: 750; letter-spacing: .45px; }
+.study-sheet-artwork .art-title { fill: #4c4a50; font-family: Inter, Arial, sans-serif; font-size: 12px; font-weight: 800; }
+.study-sheet-artwork .art-label { fill: #713f31; font-family: Inter, Arial, sans-serif; font-size: 11px; font-weight: 800; }
+.topic-study-sheet-hero .study-sheet-hero-copy h1 { max-width: 820px; font-size: clamp(35px, 4.4vw, 53px); line-height: 1.06; }
+.topic-diagram-card { margin: 0; overflow-x: auto; }
+.diagram-scroll-hint, .table-scroll-hint { display: none; }
+.topic-diagram-svg { display: block; width: 100%; height: auto; }
+.topic-diagram-svg text { fill: #526159; font-family: Inter, Arial, sans-serif; font-size: 12px; }
+.topic-diagram-svg .diagram-kicker { fill: #65746c; font-size: 12px; font-weight: 800; letter-spacing: .85px; }
+.topic-diagram-svg .diagram-note { fill: #8a948e; font-size: 10px; }
+.topic-diagram-svg .diagram-small { fill: #65746c; font-size: 11px; }
+.topic-diagram-svg .diagram-strong { fill: #4d5e54; font-size: 11px; font-weight: 750; }
+.topic-diagram-svg .diagram-transport-label text { fill: #44574c; font-size: 13px; font-weight: 750; }
+.topic-diagram-svg .diagram-card-title { fill: #4a5951; font-size: 12px; font-weight: 800; letter-spacing: .35px; }
+.topic-diagram-svg .diagram-center-title { fill: #5d466f; font-size: 15px; font-weight: 850; }
+.topic-diagram-svg .diagram-badge-text { fill: #fff; font-size: 14px; font-weight: 850; }
+.topic-diagram-svg .green { fill: #3f7d65; }
+.topic-diagram-svg .coral { fill: #a95e47; }
+.topic-diagram-svg .amber { fill: #a8782e; }
+.topic-diagram-badge circle { fill: #8062a6; stroke: #fff; stroke-width: 2; }
+.topic-diagram-badge.green circle { fill: #4b917b; }
+.topic-diagram-badge.coral circle { fill: #bc6b52; }
+.topic-diagram-badge text { fill: #fff; font-size: 11px; font-weight: 850; }
+.topic-diagram-card figcaption { min-width: 0; }
+.topic-secondary-figure { margin: 0 0 22px; padding: 15px 16px 12px; overflow-x: auto; border: 1px solid #e2dce7; border-radius: 13px; background: #fdfcff; }
+.topic-secondary-figure figcaption { padding: 9px 3px 0; color: #87938c; font-size: 10px; line-height: 1.55; }
+.replication-diagram { max-height: 330px; }
+.topic-mechanism-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 285px), 1fr)); gap: 14px; align-items: start; }
+.topic-mechanism-card { min-width: 0; padding: 18px; break-inside: avoid; border: 1px solid #e0e4de; border-radius: 12px; background: #fdfdfb; }
+.topic-mechanism-intro { margin: 15px 0 11px; color: #65756b; font-size: 12px; line-height: 1.6; }
+.topic-mechanism-card ul { margin: 0; padding: 0; display: flex; flex-direction: column; gap: 9px; list-style: none; }
+.topic-mechanism-card li { display: flex; align-items: flex-start; gap: 6px; color: #718078; font-size: 11px; line-height: 1.55; }
+.topic-mechanism-card li svg { flex: 0 0 auto; margin-top: 1px; color: #9a7bad; }
+.topic-application-grid article { min-height: 132px; }
+.sheet-sources { margin-top: 22px; padding: 23px 25px; break-inside: avoid; border: 1px solid #dde4db; border-radius: 13px; background: #f7faf5; }
+.sheet-sources > div { display: flex; align-items: flex-start; gap: 10px; color: #58725f; }
+.sheet-sources > div > svg { flex: 0 0 auto; }
+.sheet-sources > div span { min-width: 0; }
+.sheet-sources strong { font-size: 13px; }
+.sheet-sources p { margin: 4px 0 0; color: #748176; font-size: 11px; line-height: 1.55; }
+.sheet-sources ul { margin: 17px 0 0; padding: 15px 0 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px 24px; border-top: 1px solid #dfe6dc; list-style: none; }
+.sheet-sources li { min-width: 0; }
+.sheet-sources a { display: inline-flex; align-items: flex-start; gap: 5px; color: #5d765f; font-size: 10.5px; font-weight: 750; line-height: 1.45; text-decoration: none; }
+.sheet-sources li > .source-book-title { display: block; color: #5d765f; font-size: 10.5px; font-weight: 750; line-height: 1.45; }
+.sheet-sources a:hover { text-decoration: underline; }
+.sheet-sources a svg { flex: 0 0 auto; margin-top: 1px; }
+.sheet-sources li > span { margin-top: 3px; display: block; color: #859087; font-size: 9.5px; line-height: 1.5; }
+
+@media (max-width: 860px) {
+  .topic-study-sheet-hero .study-sheet-hero-copy h1 { font-size: clamp(34px, 7vw, 46px); }
+}
+@media (max-width: 700px) {
+  .study-sheet-topic-art .study-sheet-artwork { width: 230px; max-width: 100%; height: 150px; }
+  .topic-study-sheet-hero .study-sheet-hero-copy h1 { font-size: 36px; letter-spacing: -1.4px; }
+  .topic-diagram-card, .topic-secondary-figure { overscroll-behavior-x: contain; scrollbar-width: thin; }
+  .diagram-scroll-hint, .table-scroll-hint { position: sticky; left: 0; z-index: 2; width: 290px; max-width: calc(100vw - 80px); margin: 0 0 7px; display: block; color: #8062a6; font-size: 10px; font-weight: 750; }
+  .table-scroll-hint { margin: -6px 0 9px; }
+  .topic-diagram-card .topic-diagram-svg, .topic-secondary-figure .topic-diagram-svg { width: 640px; max-width: none; min-width: 640px; }
+  .topic-diagram-card figcaption, .topic-secondary-figure figcaption { position: sticky; left: 0; width: 290px; max-width: calc(100vw - 80px); }
+  .topic-mechanism-card { padding: 15px; }
+  .sheet-sources { padding: 18px; }
+  .sheet-sources ul { grid-template-columns: 1fr; }
+}
+@media print {
+  .diagram-scroll-hint, .table-scroll-hint { display: none; }
+  .topic-study-sheet-hero .study-sheet-hero-copy h1 { font-size: 32px; }
+  .topic-diagram-card, .topic-secondary-figure { overflow: visible; }
+  .topic-diagram-card .topic-diagram-svg, .topic-secondary-figure .topic-diagram-svg { width: 100%; min-width: 0; max-width: 100%; }
+  .topic-secondary-figure { padding: 10px; }
+  .topic-mechanism-grid { grid-template-columns: repeat(3, 1fr); gap: 9px; }
+  .topic-mechanism-card { padding: 12px; }
+  .topic-mechanism-intro { font-size: 10px; }
+  .topic-mechanism-card li { font-size: 9px; }
+  .topic-diagram-card figcaption, .topic-secondary-figure figcaption { position: static; width: auto; max-width: none; }
+  .sheet-sources { padding: 15px; }
+  .sheet-sources ul { gap: 8px 18px; }
+}

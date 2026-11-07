@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="445" viewBox="0 0 760 445" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Ciclo da água entre sólido, líquido e gás. X liga sólido diretamente a gás no sentido 1; Y liga gás a sólido no sentido 2.</title>
+<desc id="descricao">Recurso da FAMEMA 2023 redesenhado em setores semânticos editáveis.</desc>
+<style>text { font-family: Arial, Helvetica, sans-serif; fill: #17211d; }</style>
+
+<g id="seta-sentido-1">
+  <path d="M90 35 H675 L660 24 M675 35 L660 46" fill="none" stroke="#d83254" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="382" y="41" text-anchor="middle" font-size="17" font-weight="700" fill="#fff" style="fill:#fff">Sentido 1</text>
+</g>
+<g id="seta-sentido-2">
+  <path d="M675 410 H90 L105 399 M90 410 L105 421" fill="none" stroke="#1386a4" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="382" y="416" text-anchor="middle" font-size="17" font-weight="700" fill="#fff" style="fill:#fff">Sentido 2</text>
+</g>
+<g id="estado-solido">
+  <path d="M84 174 L123 146 L174 159 L185 226 L145 258 L88 239 Z" fill="#e1f2f5" stroke="#afccd3" stroke-width="1.5"/>
+  <g id="moleculas-solido"><g transform="translate(112 181) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(143 174) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(159 197) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(111 213) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(143 225) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(164 229) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(106 239) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g></g>
+  <text x="135" y="286" text-anchor="middle" font-size="19">Sólido</text>
+</g>
+<g id="estado-liquido">
+  <path d="M307 202 C315 177 342 176 358 165 C382 149 399 172 420 174 C449 176 460 200 447 221 C459 243 427 258 402 250 C380 265 358 249 338 249 C311 246 297 225 307 202 Z" fill="#dff1f4" stroke="#afccd3" stroke-width="1.5"/>
+  <g id="moleculas-liquido"><g transform="translate(340 190) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(374 181) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(410 192) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(435 211) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(394 216) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(351 225) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(378 242) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(421 239) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(330 214) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g></g>
+  <text x="380" y="286" text-anchor="middle" font-size="19">Líquido</text>
+</g>
+<g id="estado-gas">
+  <ellipse cx="620" cy="205" rx="76" ry="62" fill="#f1f8f9"/>
+  <g id="moleculas-gas"><g transform="translate(580 177) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(627 166) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(655 198) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(602 216) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(642 239) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g><g transform="translate(576 235) scale(0.9)">
+  <path d="M-6 -4 L0 0 L7 -5" fill="none" stroke="#8ba8ae" stroke-width="1.4"/>
+  <circle cx="0" cy="0" r="5" fill="#df575c"/><circle cx="-7" cy="-5" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/><circle cx="8" cy="-6" r="3.2" fill="#f7fbfc" stroke="#a7bec3" stroke-width="1"/>
+</g></g>
+  <text x="620" y="286" text-anchor="middle" font-size="19">Gás</text>
+</g>
+<g id="fusao-e-solidificacao">
+  <path d="M197 190 H287 M287 190 L276 184 M287 190 L276 196" fill="none" stroke="#c5375c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="242" y="176" text-anchor="middle" font-size="16">Fusão</text>
+  <path d="M287 235 H197 M197 235 L208 229 M197 235 L208 241" fill="none" stroke="#1386a4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="242" y="258" text-anchor="middle" font-size="16">Solidificação</text>
+</g>
+<g id="vaporizacao-e-condensacao">
+  <path d="M464 190 H554 M554 190 L543 184 M554 190 L543 196" fill="none" stroke="#c5375c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="509" y="176" text-anchor="middle" font-size="16">Vaporização</text>
+  <path d="M554 235 H464 M464 235 L475 229 M464 235 L475 241" fill="none" stroke="#1386a4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="509" y="258" text-anchor="middle" font-size="16">Condensação</text>
+</g>
+<g id="mudanca-x-sublimacao">
+  <path d="M137 157 C245 82 515 82 623 157 M623 157 L610 153 M623 157 L615 145" fill="none" stroke="#c5375c" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="380" y="100" text-anchor="middle" font-size="20">X</text>
+</g>
+<g id="mudanca-y-gas-solido">
+  <path d="M623 264 C515 345 245 345 137 264 M137 264 L150 268 M137 264 L145 276" fill="none" stroke="#1386a4" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="380" y="352" text-anchor="middle" font-size="20">Y</text>
+</g>
+</svg>

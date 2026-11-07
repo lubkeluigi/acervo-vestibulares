@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="215" viewBox="0 0 360 215" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Balança de braços iguais com massa M no prato esquerdo e massa m no direito; ambos os braços medem d.</title>
+<desc id="descricao">Redesenho vetorial fiel ao caderno FAMEMA 2022, organizado em setores editáveis.</desc>
+<style>
+  text { font-family: Arial, Helvetica, sans-serif; fill: #17211d; }
+  .linha { fill: none; stroke: #26332d; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .fina { fill: none; stroke: #53615a; stroke-width: 1.25; }
+  .rotulo { font-size: 18px; }
+  .pequeno { font-size: 14px; }
+</style>
+
+<g id="barra-e-apoio">
+  <path d="M65 78 H295" stroke="#53615a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M180 83 L160 138 H200 Z" fill="#7f8b84"/>
+  <path d="M144 139 H216" stroke="#7f8b84" stroke-width="7" stroke-linecap="round"/>
+</g>
+<g id="pratos">
+  <path d="M35 61 L45 75 H85 L95 61 M265 61 L275 75 H315 L325 61" class="fina" fill="none" stroke="#53615a" stroke-width="1.25"/>
+  <path d="M45 75 H85 M275 75 H315" stroke="#53615a" stroke-width="4"/>
+</g>
+<g id="massa-M" class="massa">
+  <rect x="46" y="28" width="38" height="44" rx="7" fill="#3f4a44"/>
+  <text x="65" y="57" text-anchor="middle" font-size="22" font-weight="700" fill="#fff" style="fill:#fff">M</text>
+</g>
+<g id="massa-m" class="massa">
+  <path d="M285 44 H305 V65 H310 V72 H280 V65 H285 Z" fill="#46534c"/>
+  <path d="M290 38 H300 V44 H290 Z" fill="#46534c"/>
+  <text x="295" y="62" text-anchor="middle" font-size="15" font-weight="700" fill="#fff" style="fill:#fff">m</text>
+</g>
+
+<g id="guias-dos-bracos" stroke="#53615a" stroke-width="1.2" stroke-dasharray="4 4">
+  <path d="M65 84 V177 M180 91 V177 M295 84 V177"/>
+</g>
+<g id="dimensoes-dos-bracos">
+  <path d="M65 174 H180 M180 174 H295" class="fina" fill="none" stroke="#53615a" stroke-width="1.25"/>
+  <path d="M65 170 V178 M180 170 V178 M295 170 V178" class="fina" fill="none" stroke="#53615a" stroke-width="1.25"/>
+  <text x="122.5" y="198" text-anchor="middle" class="rotulo" font-size="18">x = d</text>
+  <text x="237.5" y="198" text-anchor="middle" class="rotulo" font-size="18">y = d</text>
+</g>
+</svg>

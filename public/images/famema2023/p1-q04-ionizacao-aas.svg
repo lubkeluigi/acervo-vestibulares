@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="320" viewBox="0 0 760 320" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Equilíbrio de ionização do ácido acetilsalicílico, cuja estrutura contém um grupo carboxila e um grupo éster, formando o ânion correspondente e H⁺.</title>
+<desc id="descricao">Recurso da FAMEMA 2023 redesenhado em setores semânticos editáveis.</desc>
+<style>text { font-family: Arial, Helvetica, sans-serif; fill: #17211d; }</style>
+
+<g id="acido-acetilsalicilico">
+<g id="acido-acetilsalicilico-anel-aromatico"><polygon points="190.0,111.0 237.6,138.5 237.6,193.5 190.0,221.0 142.4,193.5 142.4,138.5" fill="#fff" stroke="#26332d" stroke-width="2.2"/>
+<path d="M190.0 120.9 L229.1 143.4" fill="none" stroke="#26332d" stroke-width="1.8"/>
+<path d="M229.1 188.5 L190.0 211.1" fill="none" stroke="#26332d" stroke-width="1.8"/>
+<path d="M150.9 188.5 L150.9 143.4" fill="none" stroke="#26332d" stroke-width="1.8"/>
+</g>
+<g id="acido-acetilsalicilico-grupo-ester">
+  <path d="M237.6 138.5 L261.6 104.5 M261.6 96.5 L261.6 66.5 M261.6 66.5 L296.6 60.5" fill="none" stroke="#26332d" stroke-width="2"/>
+  <path d="M263.9 64.0 L238.9 41.0 M259.3 69.0 L234.3 46.0" fill="none" stroke="#26332d" stroke-width="1.8"/>
+  <text x="261.6" y="110.5" text-anchor="middle" font-size="21">O</text>
+  <text x="236.6" y="49.5" text-anchor="middle" font-size="21">O</text>
+  <text x="308.6" y="64.5" font-size="20">CH₃</text>
+</g>
+<g id="acido-acetilsalicilico-grupo-carboxila">
+  <path d="M237.6 193.5 L276.6 217.5 M276.6 222.5 L276.6 252.5" fill="none" stroke="#26332d" stroke-width="2"/>
+  <path d="M278.8 220.1 L309.8 195.1 M274.5 214.9 L305.5 189.9" fill="none" stroke="#26332d" stroke-width="1.8"/>
+  <text x="307.6" y="198.5" text-anchor="middle" font-size="21">O</text>
+  <text x="276.6" y="267.5" text-anchor="middle" font-size="20">OH</text>
+</g>
+</g>
+<g id="setas-de-equilibrio">
+  <path d="M355 145 H421 M421 145 L411 139 M421 145 L411 151" fill="none" stroke="#26332d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M421 166 H355 M355 166 L365 160 M355 166 L365 172" fill="none" stroke="#26332d" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="anion-acetilsalicilato">
+<g id="anion-acetilsalicilato-anel-aromatico"><polygon points="500.0,111.0 547.6,138.5 547.6,193.5 500.0,221.0 452.4,193.5 452.4,138.5" fill="#fff" stroke="#26332d" stroke-width="2.2"/>
+<path d="M500.0 120.9 L539.1 143.4" fill="none" stroke="#26332d" stroke-width="1.8"/>
+<path d="M539.1 188.5 L500.0 211.1" fill="none" stroke="#26332d" stroke-width="1.8"/>
+<path d="M460.9 188.5 L460.9 143.4" fill="none" stroke="#26332d" stroke-width="1.8"/>
+</g>
+<g id="anion-acetilsalicilato-grupo-ester">
+  <path d="M547.6 138.5 L571.6 104.5 M571.6 96.5 L571.6 66.5 M571.6 66.5 L606.6 60.5" fill="none" stroke="#26332d" stroke-width="2"/>
+  <path d="M573.9 64.0 L548.9 41.0 M569.3 69.0 L544.3 46.0" fill="none" stroke="#26332d" stroke-width="1.8"/>
+  <text x="571.6" y="110.5" text-anchor="middle" font-size="21">O</text>
+  <text x="546.6" y="49.5" text-anchor="middle" font-size="21">O</text>
+  <text x="618.6" y="64.5" font-size="20">CH₃</text>
+</g>
+<g id="anion-acetilsalicilato-grupo-carboxila">
+  <path d="M547.6 193.5 L586.6 217.5 M586.6 222.5 L586.6 252.5" fill="none" stroke="#26332d" stroke-width="2"/>
+  <path d="M588.8 220.1 L619.8 195.1 M584.5 214.9 L615.5 189.9" fill="none" stroke="#26332d" stroke-width="1.8"/>
+  <text x="617.6" y="198.5" text-anchor="middle" font-size="21">O</text>
+  <text x="586.6" y="267.5" text-anchor="middle" font-size="20">O⁻</text>
+</g>
+</g>
+<g id="proton-liberado"><text x="673" y="174" font-size="24">+ H⁺</text></g>
+</svg>

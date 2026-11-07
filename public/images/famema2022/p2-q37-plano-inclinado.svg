@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="350" viewBox="0 0 420 350" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Bloco em plano inclinado de 30°, ligado por fio e roldana a um homem que puxa verticalmente a outra extremidade.</title>
+<desc id="descricao">Redesenho vetorial fiel ao caderno FAMEMA 2022, organizado em setores editáveis.</desc>
+<style>
+  text { font-family: Arial, Helvetica, sans-serif; fill: #17211d; }
+  .linha { fill: none; stroke: #26332d; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .fina { fill: none; stroke: #53615a; stroke-width: 1.25; }
+  .rotulo { font-size: 18px; }
+  .pequeno { font-size: 14px; }
+</style>
+
+<g id="piso-do-plano">
+  <path d="M135 272 H395" fill="none" stroke="#26332d" stroke-width="3" stroke-linecap="round"/>
+</g>
+<g id="plano-inclinado">
+  <path d="M150 272 V145 L370 272 Z" fill="#e1e7e3" stroke="#7b8881" stroke-width="1.8" stroke-linejoin="round"/>
+</g>
+<g id="bloco-60-kg" transform="rotate(30 280 198)">
+  <rect x="251" y="179" width="58" height="38" rx="2" fill="#53645b" stroke="#26332d" stroke-width="1.8"/>
+</g>
+<g id="fio" fill="none" stroke="#26332d" stroke-width="2.4" stroke-linecap="round">
+  <path d="M125 110 V222"/>
+  <path d="M125 110 L253 184"/>
+</g>
+<g id="roldana-fixa">
+  <circle cx="125" cy="110" r="17" fill="#c6d0ca" stroke="#53615a" stroke-width="2.2"/>
+  <circle cx="125" cy="110" r="6" fill="#fff" stroke="#53615a" stroke-width="2"/>
+  <path d="M113 94 L125 82 L137 94" fill="none" stroke="#53615a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="marcacao-do-angulo">
+  <path d="M330 272 A40 40 0 0 1 349 253" fill="none" stroke="#26332d" stroke-width="2" stroke-linecap="round"/>
+  <text x="309" y="259" font-size="20">30°</text>
+</g>
+<g id="pessoa-80-kg">
+  <circle cx="125" cy="249" r="10" fill="#33443c"/>
+  <path d="M116 267 Q125 261 134 267 L132 295 H118 Z" fill="#33443c"/>
+  <path d="M118 271 L105 251 L119 229 M132 271 L145 251 L131 229" fill="none" stroke="#33443c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M121 294 L111 322 M129 294 L140 322" fill="none" stroke="#33443c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M105 324 H117 M136 324 H148" fill="none" stroke="#33443c" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="119" cy="228" r="3.5" fill="#33443c"/><circle cx="131" cy="228" r="3.5" fill="#33443c"/>
+</g>
+<g id="piso-da-pessoa">
+  <path d="M72 327 H178" fill="none" stroke="#53615a" stroke-width="5" stroke-linecap="round"/>
+</g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="342" viewBox="0 0 640 342" role="img" aria-labelledby="titulo descricao">
+<title id="titulo">Heredograma ABO: pais de Giulia são B e A e têm um filho O, uma filha A e Giulia; os pais de Arthur são AB e O; Giulia e Arthur formam um casal.</title>
+<desc id="descricao">Recurso da FAMEMA 2023 redesenhado em setores semânticos editáveis.</desc>
+<style>text { font-family: Arial, Helvetica, sans-serif; fill: #17211d; }</style>
+
+<g id="ligacoes-familiares" fill="none" stroke="#34443d" stroke-width="2">
+  <path d="M174 75 H226 M200 75 V145 M70 145 H330 M70 145 V201 M200 145 V201 M330 145 V201"/>
+  <path d="M474 75 H526 M500 75 V201"/>
+  <path d="M354 225 H476 M415 225 V305"/>
+</g>
+<g id="geracao-I">
+  <g id="mae-de-giulia"><circle cx="150" cy="75" r="24" fill="#fff" stroke="#34443d" stroke-width="2"/><text x="150" y="82" text-anchor="middle" font-size="21" fill="#277a78" style="fill:#277a78">B</text></g>
+  <g id="pai-de-giulia"><rect x="226" y="51" width="48" height="48" fill="#fff" stroke="#34443d" stroke-width="2"/><text x="250" y="82" text-anchor="middle" font-size="21" fill="#277a78" style="fill:#277a78">A</text></g>
+  <g id="pai-de-arthur"><rect x="426" y="51" width="48" height="48" fill="#fff" stroke="#34443d" stroke-width="2"/><text x="450" y="82" text-anchor="middle" font-size="21" fill="#277a78" style="fill:#277a78">AB</text></g>
+  <g id="mae-de-arthur"><circle cx="550" cy="75" r="24" fill="#fff" stroke="#34443d" stroke-width="2"/><text x="550" y="82" text-anchor="middle" font-size="21" fill="#277a78" style="fill:#277a78">O</text></g>
+</g>
+<g id="geracao-II">
+  <g id="irmao-de-giulia-grupo-o"><rect x="46" y="201" width="48" height="48" fill="#fff" stroke="#34443d" stroke-width="2"/><text x="70" y="232" text-anchor="middle" font-size="21" fill="#277a78" style="fill:#277a78">O</text></g>
+  <g id="irma-de-giulia-grupo-a"><circle cx="200" cy="225" r="24" fill="#fff" stroke="#34443d" stroke-width="2"/><text x="200" y="232" text-anchor="middle" font-size="21" fill="#277a78" style="fill:#277a78">A</text></g>
+  <g id="giulia"><circle cx="330" cy="225" r="24" fill="#fff" stroke="#34443d" stroke-width="2"/><text x="330" y="232" text-anchor="middle" font-size="21" fill="#277a78" style="fill:#277a78">?</text></g>
+  <g id="arthur"><rect x="476" y="201" width="48" height="48" fill="#fff" stroke="#34443d" stroke-width="2"/><text x="500" y="232" text-anchor="middle" font-size="21" fill="#277a78" style="fill:#277a78">?</text></g>
+</g>
+<g id="rotulos-nominais" font-size="18" text-anchor="middle">
+  <text x="330" y="270">Giulia</text><text x="500" y="270">Arthur</text>
+</g>
+</svg>
