@@ -1,40 +1,79 @@
 import { q, img } from './ufpr2027-helpers.js';
 
-const MUNANGA_TEXT = `O texto a seguir é referência para as questões 71 e 72.
+const MUNANGA_BLOCKS = [
+  'O texto a seguir é referência para as questões 71 e 72.',
+  'De acordo com a historiografia oficial, “o índio (sic), acostumado com a liberdade, recusou-se ao trabalho escravo, o que obrigou o colonizador português a ir buscar essa mão de obra escrava no continente africano, onde os negros acostumados com a escravidão já existente em sua terra não se importavam com sua sorte”. Dizer que o colonizador português foi para a África buscar os escravos (sic) que adquiria, comprando-os pela troca com o fumo da Bahia e outras mercadorias, graças à cumplicidade dos reis e príncipes africanos, não deixa dúvida sobre a crença na existência dos escravos (sic) como categoria natural, ou seja, na existência na África de seres humanos que nasceram escravos. A partir dessa crença, podemos já formular uma dúvida e fazer a primeira indagação. Uma pessoa, homem ou mulher, pode nascer escrava ou todos nascem livres, até que algum sistema os escraviza no decorrer de sua vida?',
+  'Munanga, Kabengele. Origens africanas do Brasil contemporâneo: histórias, línguas, culturas e civilizações. São Paulo: Global, 2009. p. 88.',
+];
 
-De acordo com a historiografia oficial, “o índio (sic), acostumado com a liberdade, recusou-se ao trabalho escravo, o que obrigou o colonizador português a ir buscar essa mão de obra escrava no continente africano, onde os negros acostumados com a escravidão já existente em sua terra não se importavam com sua sorte”. Dizer que o colonizador português foi para a África buscar os escravos (sic) que adquiria, comprando-os pela troca com o fumo da Bahia e outras mercadorias, graças à cumplicidade dos reis e príncipes africanos, não deixa dúvida sobre a crença na existência dos escravos (sic) como categoria natural, ou seja, na existência na África de seres humanos que nasceram escravos. A partir dessa crença, podemos já formular uma dúvida e fazer a primeira indagação. Uma pessoa, homem ou mulher, pode nascer escrava ou todos nascem livres, até que algum sistema os escraviza no decorrer de sua vida?
-Munanga, Kabengele. Origens africanas do Brasil contemporâneo: histórias, línguas, culturas e civilizações. São Paulo: Global, 2009, p. 88.`;
+const MUNANGA_BLOCK_TYPES = ['label', 'prose', 'source', 'command'];
 
-const MORRISON_TEXT = `The following text is reference to questions 74 and 75.
+const MORRISON_BLOCKS = [
+  'The following text is reference to questions 74 and 75.',
+  'Toni Morrison',
+  'Toni Morrison was a Nobel Prize – and Pulitzer Prize – winning novelist, editor, and professor. Her novels are known for their epic themes, exquisite language, and richly detailed Black characters. The most famous and well-regarded are Beloved, The Bluest Eye, Sula, and Song of Solomon. In 1993, Morrison became the first Black woman to receive the Nobel Prize in Literature. Despite her worldwide acclaim, the Ohio native was rarely writing full-time. She balanced working on her books with editing for Random House as well as teaching at Princeton and Howard Universities. Through her own novels and the books she edited, she was instrumental in developing the canon of Black American literature. Morrison died in 2019 at age 88.',
+  'Toni Morrison was born Chloe Ardelia Wofford on February 18, 1931, in Lorain, Ohio, a small city about 30 miles west of Cleveland. She was the second oldest of four children. Her father, George Wofford, worked primarily as a welder but held several jobs at once to support the family. Her mother, Ramah, was a domestic worker. Chloe credited her parents with instilling in her a love of reading, music, and folklore as they also helped her develop a strong sense of clarity and perspective.',
+  'Morrison did not publish her first book until she was 39, but from then on, she was a literary star; a writer whose acclaimed work was taught in high schools and seen in movies and on Broadway. The prolific author wrote 11 novels, two novellas, books for children, and several nonfiction books, some of which collected her articles and essays. She also penned multiple plays and opera librettos.',
+  'Many of her novels are historical, given her background as a classics scholar, but they combine highly literary aspects with accessible plots and characters. As for overarching themes, most of Morrison’s work explores slavery at various times in history, contends with how gender influences the lived experiences of men and women, and celebrates Black American culture, especially in music and geography. Because her novels take place in different times and places, over her lifetime as a writer, Morrison revealed the effects of generational trauma particularly in regard to racism and sexism in families and the larger community.',
+  'Available in: https://www.biography.com/authors-writers/toni-morrison.',
+];
 
-Toni Morrison
-Toni Morrison was a Nobel Prize – and Pulitzer Prize – winning novelist, editor, and professor. Her novels are known for their epic themes, exquisite language, and richly detailed Black characters. The most famous and well-regarded are Beloved, The Bluest Eye, Sula, and Song of Solomon. In 1993, Morrison became the first Black woman to receive the Nobel Prize in Literature. Despite her worldwide acclaim, the Ohio native was rarely writing full-time. She balanced working on her books with editing for Random House as well as teaching at Princeton and Howard Universities. Through her own novels and the books she edited, she was instrumental in developing the canon of Black American literature. Morrison died in 2019 at age 88.
-Toni Morrison was born Chloe Ardelia Wofford on February 18, 1931, in Lorain, Ohio, a small city about 30 miles west of Cleveland. She was the second oldest of four children. Her father, George Wofford, worked primarily as a welder but held several jobs at once to support the family. Her mother, Ramah, was a domestic worker. Chloe credited her parents with instilling in her a love of reading, music, and folklore as they also helped her develop a strong sense of clarity and perspective.
-Morrison did not publish her first book until she was 39, but from then on, she was a literary star; a writer whose acclaimed work was taught in high schools and seen in movies and on Broadway. The prolific author wrote 11 novels, two novellas, books for children, and several nonfiction books, some of which collected her articles and essays. She also penned multiple plays and opera librettos.
-Many of her novels are historical, given her background as a classics scholar, but they combine highly literary aspects with accessible plots and characters. As for overarching themes, most of Morrison’s work explores slavery at various times in history, contends with how gender influences the lived experiences of men and women, and celebrates Black American culture, especially in music and geography. Because her novels take place in different times and places, over her lifetime as a writer, Morrison revealed the effects of generational trauma particularly in regard to racism and sexism in families and the larger community.
-Available in: https://www.biography.com/authors-writers/toni-morrison.`;
+const MORRISON_BLOCK_TYPES = [
+  'label',
+  'subheading',
+  'prose',
+  'prose',
+  'prose',
+  'prose',
+  'source',
+  'command',
+];
 
-const ATACAMA_TEXT = `The following text is reference to questions 76, 77 and 78.
+const ATACAMA_BLOCKS = [
+  'The following text is reference to questions 76, 77 and 78.',
+  'Chile targets fast fashion waste with landmark desert cleanup plan',
+  'In a <u>dusty</u> corner of the Atacama Desert, the driest non-polar region on Earth, mounds of <u>used</u> clothes are scattered across the sand, where they sit, under the sun. In the city of Iquique, in Chile’s far north, piles of garments stretch into the distance: uniforms, shoes, bundles of work overalls and last season’s fast fashion discards, tags still attached. But Chile’s government has taken a <u>decisive</u> step towards addressing this environmental crisis.',
+  'The country’s environment ministry announced that <u>it</u> had added textiles as a “priority” category to its extended producer responsibility law, paving the way for importers to be made responsible for the waste produced by the thousands of tonnes of used clothing brought into Chile each year. Importers are now obliged to report the clothing they bring into the country, and further regulations will be added to the bill.',
+  'Chile’s government will also publish a public policy specifically targeting textiles and their place in the circular economy. One of its goals will be to eradicate textile dumps in the Atacama Desert. According to government data, more than 90% of textiles sold in Chile are imported, making the South American country the world’s fourth-largest importer of second-hand clothing.',
+  'Global textile production is projected to grow from the 109m tonnes manufactured in 2020 to 145m tonnes in 2030. In Chile, people use an average of 32kg of textiles, contributing to 572,000 tonnes of textile waste per year in the country. Every day, tonnes of clothing arrive duty-free at the freeport in Iquique as giant plastic-wrapped bales, where they are sliced open and sorted into categories by a migrant workforce.',
+  '<u>The best</u> clothes, often in near-pristine condition, are sold in outlet stores or sent to Chile’s capital, Santiago, for resale. Some are even sent back to the US to be resold. <u>The rest</u> winds its way in a convoy of small trucks up to Alto Hospicio, a poor city near Iquique, where the clothes are incorporated into a seemingly endless cycle of resale and reuse. At La Quebradilla, one of the country’s <u>largest</u> open-air markets, vendors sell clothes for small amounts of cash, while <u>the least</u> desirable items are often slung out in the Atacama Desert.',
+  'After several years of research, Chile’s government has managed to add textiles to its extended responsibility law. Many countries have similar legislation, but Chile’s, in force since 2017, had only made producers responsible for recycling goods in several categories, including, tires, batteries, oils and plastic packaging. The inclusion of textiles in the producer responsibility law will establish the obligations of producers, who will no longer be able to disregard the environmental impacts of unused textiles.',
+  'Available in: https://www.theguardian.com/world/2025/jun/26/chile-fast-fashion-waste-atacama-desert.',
+];
 
-Chile targets fast fashion waste with landmark desert cleanup plan
-In a dusty corner of the Atacama Desert, the driest non-polar region on Earth, mounds of used clothes are scattered across the sand, where they sit, under the sun. In the city of Iquique, in Chile’s far north, piles of garments stretch into the distance: uniforms, shoes, bundles of work overalls and last season’s fast fashion discards, tags still attached. But Chile’s government has taken a decisive step towards addressing this environmental crisis.
-The country’s environment ministry announced that it had added textiles as a “priority” category to its extended producer responsibility law, paving the way for importers to be made responsible for the waste produced by the thousands of tonnes of used clothing brought into Chile each year. Importers are now obliged to report the clothing they bring into the country, and further regulations will be added to the bill.
-Chile’s government will also publish a public policy specifically targeting textiles and their place in the circular economy. One of its goals will be to eradicate textile dumps in the Atacama Desert. According to government data, more than 90% of textiles sold in Chile are imported, making the South American country the world’s fourth-largest importer of second-hand clothing.
-Global textile production is projected to grow from the 109m tonnes manufactured in 2020 to 145m tonnes in 2030. In Chile, people use an average of 32kg of textiles, contributing to 572,000 tonnes of textile waste per year in the country. Every day, tonnes of clothing arrive duty-free at the freeport in Iquique as giant plastic-wrapped bales, where they are sliced open and sorted into categories by a migrant workforce.
-The best clothes, often in near-pristine condition, are sold in outlet stores or sent to Chile’s capital, Santiago, for resale. Some are even sent back to the US to be resold. The rest winds its way in a convoy of small trucks up to Alto Hospicio, a poor city near Iquique, where the clothes are incorporated into a seemingly endless cycle of resale and reuse. At La Quebradilla, one of the country’s largest open-air markets, vendors sell clothes for small amounts of cash, while the least desirable items are often slung out in the Atacama Desert.
-After several years of research, Chile’s government has managed to add textiles to its extended responsibility law. Many countries have similar legislation, but Chile’s, in force since 2017, had only made producers responsible for recycling goods in several categories, including, tires, batteries, oils and plastic packaging. The inclusion of textiles in the producer responsibility law will establish the obligations of producers, who will no longer be able to disregard the environmental impacts of unused textiles.
-Available in: https://www.theguardian.com/world/2025/jun/26/chile-fast-fashion-waste-atacama-desert.`;
+const ATACAMA_BLOCK_TYPES = [
+  'label',
+  'subheading',
+  'prose',
+  'prose',
+  'prose',
+  'prose',
+  'prose',
+  'prose',
+  'source',
+  'command',
+];
 
-const ELNINO_TEXT = `The following text is reference to questions 79 and 80.
+const ELNINO_BLOCKS = [
+  'The following text is reference to questions 79 and 80.',
+  'Super El Niño events drive climate regime shifts with enhanced risks under global warming',
+  'Climate regime shifts (CRSs), characterized by abrupt and persistent transitions between alternative stable states in the climate system, pose serious threats to ecosystems and human well-being. Understanding the potential drivers of CRSs is crucial, particularly in a warming world where CRSs are becoming more frequent. Here, using multiple observations and model simulations, we find that the likelihood of CRS occurrence significantly increases in the context of super El Niño events due to their remarkable climate perturbations. This higher probability is detected across various climate elements, such as surface air temperature, sea surface temperature, and surface soil moisture. In addition, we suggest that this boost effect of super El Niño events on CRSs will be greatly amplified under future greenhouse warming. Our findings underscore a deeper and more persistent climate footprint of super El Niño events, suggesting that early warnings and proactive measures are crucial for mitigating their escalating risks.',
+  'Disponível em: https://www.researchgate.net/publication/398625964_Super_El_Nino_events_drive_climate_regime_shifts_with_enhanced_risks_under_global_warming.',
+];
 
-Super El Niño events drive climate regime shifts with enhanced risks under global warming
-Climate regime shifts (CRSs), characterized by abrupt and persistent transitions between alternative stable states in the climate system, pose serious threats to ecosystems and human well-being. Understanding the potential drivers of CRSs is crucial, particularly in a warming world where CRSs are becoming more frequent. Here, using multiple observations and model simulations, we find that the likelihood of CRS occurrence significantly increases in the context of super El Niño events due to their remarkable climate perturbations. This higher probability is detected across various climate elements, such as surface air temperature, sea surface temperature, and surface soil moisture. In addition, we suggest that this boost effect of super El Niño events on CRSs will be greatly amplified under future greenhouse warming. Our findings underscore a deeper and more persistent climate footprint of super El Niño events, suggesting that early warnings and proactive measures are crucial for mitigating their escalating risks.
-Disponível em: https://www.researchgate.net/publication/398625964_Super_El_Nino_events_drive_climate_regime_shifts_with_enhanced_risks_under_global_warming.`;
+const ELNINO_BLOCK_TYPES = [
+  'label',
+  'subheading',
+  'prose',
+  'source',
+  'command',
+];
 
 export const ufpr2027Lote08 = [
   q({
     n: 71, subject: 'Português', content: 'Interpretação e Crítica Historiográfica — Kabengele Munanga e a escravização', difficulty: 'Fácil',
-    statement: `${MUNANGA_TEXT}\n\nNesse texto, o autor:`,
+    statement: `${MUNANGA_BLOCKS.join('\n\n')}\n\nNesse texto, o autor:`,
+    blockTypes: MUNANGA_BLOCK_TYPES,
     alternatives: [
       'parte de uma versão corrente sobre a escravização de negros africanos no Brasil para submeter a questionamento os argumentos que a ela dão sustentação.',
       'emprega as expressões “nascer escrava” e “algum sistema os escraviza” para se referir, em ambos os casos, à naturalização do sistema escravocrata.',
@@ -51,7 +90,8 @@ export const ufpr2027Lote08 = [
   }),
   q({
     n: 72, subject: 'Português', content: 'Semântica — Polissemia do substantivo “sorte”', difficulty: 'Fácil',
-    statement: `${MUNANGA_TEXT}\n\nAssinale a alternativa em que a palavra “sorte” é empregada com significado próximo ao do emprego no texto:`,
+    statement: `${MUNANGA_BLOCKS.join('\n\n')}\n\nAssinale a alternativa em que a palavra “sorte” é empregada com significado próximo ao do emprego no texto:`,
+    blockTypes: MUNANGA_BLOCK_TYPES,
     alternatives: [
       'Desejo toda sorte de alegrias e conquistas nesta nova etapa da sua vida.',
       'Com sorte, conseguiremos um bom lugar no espetáculo.',
@@ -68,16 +108,18 @@ export const ufpr2027Lote08 = [
   }),
   q({
     n: 73, subject: 'Português', content: 'Linguagem e Humor — Parônimos, homônimos e metalinguagem na tira do Armandinho', difficulty: 'Fácil',
-    statement: `Considere a seguinte tira:
+    statement: `Considere a seguinte tira.
 
 Disponível em: https://www.tumblr.com/tirasarmandinho/137021215684/tirinha-original.
 
 No plano verbal, o(s) efeito(s) de humor surge(m) da:
+
 1. alternância de sentidos das palavras “bota” e “calça”, empregadas para nomear peças do vestuário e também indicar ações.
 2. relação entre a inversão das palavras e a pergunta final, que apresenta a própria linguagem como fonte da complicação.
 3. inadequação das expressões “botar uma calça” e “calçar uma bota” ao uso cotidiano da língua, provocando estranhamento no diálogo.
 
 Assinale a alternativa correta.`,
+    blockTypes: ['prose', 'source', 'prose', 'list', 'command'],
     images: [img('q73-tira.png', 'Tirinha do Armandinho sobre a ambiguidade e inversão entre calça e bota')],
     alternatives: [
       'Somente a afirmativa 1 é verdadeira.',
@@ -95,7 +137,8 @@ Assinale a alternativa correta.`,
   }),
   q({
     n: 74, subject: 'Inglês', content: 'Reading Comprehension — Toni Morrison biography', difficulty: 'Fácil',
-    statement: `${MORRISON_TEXT}\n\nConsidering the information presented in the text, choose the right option.`,
+    statement: `${MORRISON_BLOCKS.join('\n\n')}\n\nConsidering the information presented in the text, choose the right option.`,
+    blockTypes: MORRISON_BLOCK_TYPES,
     alternatives: [
       'Chloe was born into a wealthy family who had reading, music and folklore as part of their jobs.',
       'Throughout her whole career Toni was a full-time professor, writer and editor in two different publishing houses.',
@@ -112,7 +155,8 @@ Assinale a alternativa correta.`,
   }),
   q({
     n: 75, subject: 'Inglês', content: 'Vocabulary and Synonyms in Context', difficulty: 'Fácil',
-    statement: `${MORRISON_TEXT}\n\nBased on the reading of the text, choose the right option.`,
+    statement: `${MORRISON_BLOCKS.join('\n\n')}\n\nBased on the reading of the text, choose the right option.`,
+    blockTypes: MORRISON_BLOCK_TYPES,
     alternatives: [
       '“Despite her worldwide acclaim” is synonymous with “In spite of her global public approval”.',
       '“Her father... held several jobs at once” is synonymous with “Her father... provided several jobs at the same time in his life”.',
@@ -129,7 +173,8 @@ Assinale a alternativa correta.`,
   }),
   q({
     n: 76, subject: 'Inglês', content: 'Reading Comprehension — Environmental legislation in Chile', difficulty: 'Fácil',
-    statement: `${ATACAMA_TEXT}\n\nBased on the text, it is correct to say that Chile’s government:`,
+    statement: `${ATACAMA_BLOCKS.join('\n\n')}\n\nBased on the text, it is correct to say that Chile’s government:`,
+    blockTypes: ATACAMA_BLOCK_TYPES,
     alternatives: [
       'has created new legislation to stop all of the importation of second-hand textiles to the country.',
       'has decided to use the same legislation of other countries, forcing producers to either resell or reimport unused textiles.',
@@ -146,7 +191,8 @@ Assinale a alternativa correta.`,
   }),
   q({
     n: 77, subject: 'Inglês', content: 'Reading Comprehension — Producer responsibility and waste', difficulty: 'Fácil',
-    statement: `${ATACAMA_TEXT}\n\nAccording to the text, choose the correct alternative.`,
+    statement: `${ATACAMA_BLOCKS.join('\n\n')}\n\nAccording to the text, choose the correct alternative.`,
+    blockTypes: ATACAMA_BLOCK_TYPES,
     alternatives: [
       'The piles of items thrown around Iquique are made up of brand-new uniform and work clothes.',
       'Chile imported 90% of the 109m tonnes of textiles manufactured around the world in 2020.',
@@ -163,13 +209,15 @@ Assinale a alternativa correta.`,
   }),
   q({
     n: 78, subject: 'Inglês', content: 'Language Analysis — Parts of speech and pronoun reference', difficulty: 'Média',
-    statement: `${ATACAMA_TEXT}\n\nConsider the following sentences:
+    statement: `${ATACAMA_BLOCKS.join('\n\n')}\n\nConsider the following sentences:
+
 1. In paragraph one, the underlined words dusty, used and decisive are being used as adjectives.
 2. In paragraph two, the underlined pronoun it refers to “The country’s environment ministry”.
 3. In paragraph five, the underlined expression The rest refers to “the best clothes”.
 4. In paragraph five, the underlined expressions The best, the…largest, and the least are being used as comparatives of equality.
 
 Mark the correct alternative.`,
+    blockTypes: [...ATACAMA_BLOCK_TYPES.slice(0, -1), 'prose', 'list', 'command'],
     alternatives: [
       'Only affirmative 3 is correct.',
       'Only affirmatives 1 and 2 are correct.',
@@ -186,7 +234,8 @@ Mark the correct alternative.`,
   }),
   q({
     n: 79, subject: 'Inglês', content: 'Reading Comprehension — Climate regime shifts (CRSs)', difficulty: 'Fácil',
-    statement: `${ELNINO_TEXT}\n\nBased on the reading of the text, it is correct to say that climate regime shifts (CRSs):`,
+    statement: `${ELNINO_BLOCKS.join('\n\n')}\n\nBased on the reading of the text, it is correct to say that climate regime shifts (CRSs):`,
+    blockTypes: ELNINO_BLOCK_TYPES,
     alternatives: [
       'refer to sudden alternations and changes in the climate patterns.',
       'are to blame for the global warming hitting the planet.',
@@ -203,7 +252,8 @@ Mark the correct alternative.`,
   }),
   q({
     n: 80, subject: 'Inglês', content: 'Reading Comprehension — Study findings and climate risk mitigation', difficulty: 'Fácil',
-    statement: `${ELNINO_TEXT}\n\nBased on the text, choose the correct option.`,
+    statement: `${ELNINO_BLOCKS.join('\n\n')}\n\nBased on the text, choose the correct option.`,
+    blockTypes: ELNINO_BLOCK_TYPES,
     alternatives: [
       'Multiple observations and model simulations reduce significantly the occurrence of climate regime shifts.',
       'Findings of the study indicate measures and actions to reduce the risks brought by climate changes.',

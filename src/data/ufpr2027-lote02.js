@@ -8,6 +8,7 @@ export const ufpr2027Lote02 = [
 Disponível em: https://www.sciencenews.org/article/sex-skipping-fish-hacks-evolution-gene.
 
 Pela lógica darwiniana, essa espécie teria maior risco de extinção porque:`,
+    blockTypes: ['prose', 'source', 'command'],
     alternatives: [
       'os descendentes apresentam menor variabilidade genética, favorecendo o acúmulo de mutações deletérias.',
       'a reprodução assexuada gera menor número de descendentes quando comparada à reprodução sexuada.',
@@ -25,11 +26,12 @@ Pela lógica darwiniana, essa espécie teria maior risco de extinção porque:`,
   q({
     n: 12, subject: 'Biologia', content: 'Bioquímica e fisiologia vegetal — Etapas da fotossíntese', difficulty: 'Fácil',
     statement: 'Durante a fotossíntese, são processos que ocorrem independentemente da presença da luz:',
+    blockTypes: ['prose'],
     alternatives: [
-      'Fixação de CO2 e síntese de O2.',
-      'Síntese de carboidratos e fixação de CO2.',
+      'Fixação de CO₂ e síntese de O₂.',
+      'Síntese de carboidratos e fixação de CO₂.',
       'Síntese de NADPH e síntese de carboidratos.',
-      'Síntese de O2 e síntese de NADPH.',
+      'Síntese de O₂ e síntese de NADPH.',
     ],
     answer: 'B',
     why: 'A fotossíntese é dividida em fase fotoquímica (dependente diretamente da luz para fotofosforilação, fotólise da água e produção de ATP e NADPH) e fase enzimática/química (Ciclo de Calvin-Benson no estroma), na qual ocorrem a fixação do carbono inorgânico (CO₂) e a síntese de trioses-fosfato/glicídios utilizando a energia gerada na fase clara.',
@@ -41,7 +43,8 @@ Pela lógica darwiniana, essa espécie teria maior risco de extinção porque:`,
   }),
   q({
     n: 13, subject: 'Biologia', content: 'Fisiologia animal comparada — Excreção de compostos nitrogenados', difficulty: 'Média',
-    statement: `Vertebrados eliminam diferentes excretas nitrogenadas. Aves eliminam principalmente ácido úrico, e peixes ósseos eliminam ureia. Essas diferenças envolvem uma relação de equilíbrio entre gasto de água e consumo de energia. Em relação à ureia, a excreção de ácido úrico é um processo que:`,
+    statement: 'Vertebrados eliminam diferentes excretas nitrogenadas. Aves eliminam principalmente ácido úrico, e peixes ósseos eliminam ureia. Essas diferenças envolvem uma relação de equilíbrio entre gasto de água e consumo de energia. Em relação à ureia, a excreção de ácido úrico é um processo que:',
+    blockTypes: ['prose'],
     alternatives: [
       'demanda menos água e é metabolicamente mais simples.',
       'demanda menos água e é metabolicamente mais complexo.',
@@ -58,7 +61,8 @@ Pela lógica darwiniana, essa espécie teria maior risco de extinção porque:`,
   }),
   q({
     n: 14, subject: 'Biologia', content: 'Botânica — Teoria da coesão-tensão (Dixon)', difficulty: 'Fácil',
-    statement: `A teoria que melhor explica o deslocamento da seiva bruta pelo xilema é a teoria da coesão-tensão (teoria de Dixon). Segundo essa teoria, a seiva bruta é movida fundamentalmente pela:`,
+    statement: 'A teoria que melhor explica o deslocamento da seiva bruta pelo xilema é a teoria da coesão-tensão (teoria de Dixon). Segundo essa teoria, a seiva bruta é movida fundamentalmente pela:',
+    blockTypes: ['prose'],
     alternatives: [
       'força osmótica da raiz, que gera uma pressão positiva responsável pela subida da seiva pelos vasos do xilema.',
       'formação de pontes de hidrogênio, que mantém a adesão entre as moléculas de água e as paredes dos vasos.',
@@ -75,7 +79,8 @@ Pela lógica darwiniana, essa espécie teria maior risco de extinção porque:`,
   }),
   q({
     n: 15, subject: 'Biologia', content: 'Fisiologia humana — Sinapse química e potenciais pós-sinápticos', difficulty: 'Média',
-    statement: `Um neurotransmissor que atua promovendo a abertura de canais de cloreto em um neurônio pós-sináptico desencadeará neste neurônio pós-sináptico um(a):`,
+    statement: 'Um neurotransmissor que atua promovendo a abertura de canais de cloreto em um neurônio pós-sináptico desencadeará neste neurônio pós-sináptico um(a):',
+    blockTypes: ['prose'],
     alternatives: [
       'despolarização, devido à saída de íons cloreto.',
       'hiperpolarização, devido à entrada de íons cloreto.',
@@ -93,9 +98,12 @@ Pela lógica darwiniana, essa espécie teria maior risco de extinção porque:`,
   q({
     n: 16, subject: 'Biologia', content: 'Parasitologia — Ciclo biológico do Plasmodium e malária', difficulty: 'Média',
     statement: `“A sombra do cedro vem se encostar no cocho. Primo Ribeiro levantou os ombros: começa a tremer. Com muito atraso. Mas ele tem colmeias de bichinhos maldosos, que não se misturam, soltando enxames no sangue em dias alternados. E assim nunca precisa de passar um dia sem tremer.”
+
 Rosa, João Guimarães. Sagarana. 25. ed. Rio de Janeiro: Nova Fronteira, 2001.
 
 O trecho do conto “Sarapalha” ilustra uma característica clínica da malária, na qual os picos de febre alta, sudorese intensa e tremores ocorrem em ciclos intermitentes. Esses acessos febris são desencadeados pela ruptura das hemácias infectadas, liberando na corrente sanguínea:`,
+    blockTypes: ['quote', 'source', 'command'],
+    works: ['Sagarana', 'Sarapalha'],
     alternatives: [
       'esporozoítos e hemozoína.',
       'esporozoítos e trofozoítos.',
@@ -112,7 +120,8 @@ O trecho do conto “Sarapalha” ilustra uma característica clínica da malár
   }),
   q({
     n: 17, subject: 'História', content: 'Antiguidade — Intercâmbio cultural greco-egípcio', difficulty: 'Média',
-    statement: `Considerando as formas de interação histórica entre os territórios da Grécia e do Egito na Antiguidade, é correto afirmar que esse contato:`,
+    statement: 'Considerando as formas de interação histórica entre os territórios da Grécia e do Egito na Antiguidade, é correto afirmar que esse contato:',
+    blockTypes: ['prose'],
     alternatives: [
       'expressou-se, no Período Helenístico, na supressão das instituições faraônicas e na imposição do modelo da pólis pela dinastia ptolomaica.',
       'manifestou-se, no Período Arcaico, em uma tipologia artística grega conhecida como Orientalizante, presente na decoração da cerâmica e na escultura monumental.',
@@ -130,10 +139,13 @@ O trecho do conto “Sarapalha” ilustra uma característica clínica da malár
   q({
     n: 18, subject: 'História', content: 'História Medieval e Usos do Passado — Império Carolíngio e Europa', difficulty: 'Média',
     statement: `Em 1950, foi estabelecido, na cidade alemã de Aachen, o “Prêmio Carlos Magno”, voltado para premiar aqueles que trabalhassem em prol de uma solidariedade continental. Seu primeiro ganhador, Richard von Coudenhove-Kalergi, fundador do Movimento Pan-Europeu, mencionou em seu discurso um processo de aproximação europeia que seria uma:
+
 “[...] renovação do Império de Carlos Magno como uma confederação de nações livres [...] para transformar a Europa de um campo de batalha de recorrentes guerras mundiais em um império mundial pacífico e florescente de pessoas livres!”
+
 Disponível em: https://www.historyextra.com/period/medieval/charlemagne-unifier-father-europe-correct-european-symbol-who-was-he/.
 
 Em sua fala, von Coudenhove-Kalergi evocou uma leitura contemporânea e ocidentalista do período carolíngio da Alta Idade Média, buscando no passado as raízes da política do presente. Qual característica do período carolíngio embasa esse uso contemporâneo do passado europeu?`,
+    blockTypes: ['prose', 'quote', 'source', 'command'],
     alternatives: [
       'O império carolíngio articulou vastos territórios da Europa Ocidental em torno de uma identidade cristã e de uma aliança com a Igreja, o que embasaria a imagem de Carlos Magno como símbolo da unificação europeia.',
       'O império de Carlos Magno representava o triunfo germânico sobre as estruturas do passado romano e latino, suscitando assim uma ideia de Europa focada nas porções ao norte do continente.',
@@ -150,7 +162,8 @@ Em sua fala, von Coudenhove-Kalergi evocou uma leitura contemporânea e ocidenta
   }),
   q({
     n: 19, subject: 'História', content: 'Brasil Império — Indianismo e contradições sociais', difficulty: 'Média',
-    statement: `Durante o século XIX, a busca por uma identidade nacional brasileira comumente passou pela figura simbólica do indígena, idealizado como um ancestral heroico. Ao mesmo tempo, a política real envolvia grandes níveis de violência e exclusão social, política e cultural. Durante o período imperial, essa dualidade pode ser vista em duas dimensões:`,
+    statement: 'Durante o século XIX, a busca por uma identidade nacional brasileira comumente passou pela figura simbólica do indígena, idealizado como um ancestral heroico. Ao mesmo tempo, a política real envolvia grandes níveis de violência e exclusão social, política e cultural. Durante o período imperial, essa dualidade pode ser vista em duas dimensões:',
+    blockTypes: ['prose'],
     alternatives: [
       'no Condoreirismo e nos levantes populares, como o do Vintém.',
       'no Parnasianismo e nos conflitos litorâneos, como a Questão Christie.',
@@ -167,7 +180,8 @@ Em sua fala, von Coudenhove-Kalergi evocou uma leitura contemporânea e ocidenta
   }),
   q({
     n: 20, subject: 'História', content: 'Brasil Colônia — Sociedade do açúcar e trabalho escravizado', difficulty: 'Fácil',
-    statement: `A estruturação do processo colonial nos espaços do chamado “Novo Mundo” forçou a criação de mecanismos de controle e administração por parte das metrópoles ibéricas, que agora precisavam manejar não apenas seus espaços políticos europeus, mas também suas novas ambições além-mar. Nesse sentido, durante os séculos XVI e XVII, a produção de açúcar se tornou pilar da organização social e econômica da América Portuguesa. Sobre a economia açucareira e os grupos sociais que se relacionavam com ela no Nordeste da colônia brasileira, é correto afirmar que:`,
+    statement: 'A estruturação do processo colonial nos espaços do chamado “Novo Mundo” forçou a criação de mecanismos de controle e administração por parte das metrópoles ibéricas, que agora precisavam manejar não apenas seus espaços políticos europeus, mas também suas novas ambições além-mar. Nesse sentido, durante os séculos XVI e XVII, a produção de açúcar se tornou pilar da organização social e econômica da América Portuguesa. Sobre a economia açucareira e os grupos sociais que se relacionavam com ela no Nordeste da colônia brasileira, é correto afirmar que:',
+    blockTypes: ['prose'],
     alternatives: [
       'a produção era parte da lógica de abastecimento dos empreendimentos colonizadores no interior do território, empregando principalmente conhecimentos indígenas.',
       'a comercialização e distribuição do açúcar era gerenciada pelos senhores de engenho, cuja autonomia econômica havia sido garantida pelo sistema de capitanias.',

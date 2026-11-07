@@ -8,6 +8,7 @@ export const ufpr2027Lote01 = [
 Fonte: EPE - Empresa de Pesquisa Energética, 2026. Disponível em: https://www.epe.gov.br/.
 
 Considerando as informações apresentadas no gráfico, qual é a tendência observada para os veículos eletrificados no Brasil e sua relação com o processo geográfico que vem ocorrendo nos últimos anos?`,
+    blockTypes: ['prose', 'source', 'command'],
     images: [img('q01-grafico-veiculos.png', 'Gráfico de licenciamento de veículos eletrificados no Brasil de 2015 a 2025')],
     alternatives: [
       'Incremento relativo da frota de veículos nacionais em decorrência de uma queda no licenciamento de veículos eletrificados, provocada pela pandemia de Covid-19, a qual reduziu a renda média e o consumo da população brasileira.',
@@ -30,6 +31,7 @@ Considerando as informações apresentadas no gráfico, qual é a tendência obs
 Lima, V. C.; Lima, M. R.; Melo, V. F. O solo no meio ambiente: abordagem para professores do ensino fundamental e médio e alunos do ensino médio. Curitiba - PR: Universidade Federal do Paraná - UFPR / Departamento de Solos e Engenharia Agrícola, 2007.
 
 O processo de formação do solo ilustrado na figura é resultado:`,
+    blockTypes: ['prose', 'source', 'command'],
     images: [img('q02-perfil-solo.png', 'Esquema didático dos estágios de formação de um perfil de solo a partir da rocha matriz')],
     alternatives: [
       'do processo de deposição e decomposição de matéria orgânica oriunda das matas, das florestas e das atividades agrícolas, contribuindo para a formação dos diferentes horizontes do perfil do solo.',
@@ -54,6 +56,7 @@ No dia 2 de junho de 2026, em um comunicado à imprensa, a Organização Meteoro
 Disponível em: https://wmo.int/news/media-centre/wmo-prepare-el-nino.
 
 Considerando as informações apresentadas, assinale a alternativa que indica uma das consequências esperadas do fenômeno El Niño durante o verão no território brasileiro.`,
+    blockTypes: ['prose', 'quote', 'source', 'command'],
     alternatives: [
       'Intensificação das chuvas na região da Amazônia Legal e aumento de incêndios nas regiões Sul e Sudeste do país.',
       'Ocorrência de secas nas regiões Sul, Sudeste e Centro-Oeste e elevação das temperaturas em todo o território brasileiro.',
@@ -73,12 +76,16 @@ Considerando as informações apresentadas, assinale a alternativa que indica um
     statement: `Analise e compare os dois fragmentos de texto a seguir:
 
 “A cidade em si, como relação social e como materialidade, torna-se criadora de pobreza, tanto pelo modelo socioeconômico de que é o suporte como por sua estrutura física.”
+
 Santos, M. A urbanização brasileira. São Paulo: Edusp, 2008.
 
 “É enorme o abismo que separa a produção da história dos bairros de alta renda da produção de histórias dos bairros populares. É impressionante o esforço e o empenho da sociedade em ‘fazer’ a história dos bairros mais ricos, em chocante contraste com a total negligência e pouco-caso para com a história dos bairros pobres.”
+
 Villaça, F. Espaço intra-urbano no Brasil. São Paulo: FAPESP / Studio Nobel, 2001.
 
 Nos dois textos, aborda-se o processo diretamente relacionado com a periferização urbana denominado:`,
+    blockTypes: ['prose', 'quote', 'source', 'quote', 'source', 'command'],
+    works: ['A urbanização brasileira', 'Espaço intra-urbano no Brasil'],
     alternatives: [
       'verticalização urbana.',
       'segregação socioespacial.',
@@ -97,9 +104,10 @@ Nos dois textos, aborda-se o processo diretamente relacionado com a periferizaç
     n: 5, subject: 'Geografia', content: 'Cartografia — Projeções equivalentes', difficulty: 'Média',
     statement: `Considere o mapa abaixo, publicado pelo IBGE.
 
-Disponível em: https://agenciadenoticias.ibge.gov.
+Disponível em: https://agenciadenoticias.ibge.gov.br/.
 
 Considerando essa representação do globo terrestre, assinale a alternativa correta.`,
+    blockTypes: ['prose', 'source', 'command'],
     images: [img('q05-mapa-ibge.png', 'Planisfério do IBGE com o Brasil posicionado ao centro')],
     alternatives: [
       'A orientação adotada altera a posição correta do globo terrestre, contrariando a convenção do Norte voltado para cima.',
@@ -118,6 +126,7 @@ Considerando essa representação do globo terrestre, assinale a alternativa cor
   q({
     n: 6, subject: 'Geografia', content: 'Cartografia — Cálculo de fusos horários', difficulty: 'Média',
     statement: `O estádio Azteca, localizado na Cidade do México (19°18' N; 99°09' O), sediou a partida de abertura da Copa do Mundo FIFA 2026 no dia 11 de junho, com início às 13h00 (horário local). O jogo foi disputado entre as seleções do México e da África do Sul. Considerando os fusos horários teóricos determinados pelas coordenadas geográficas e desconsiderando horários de verão, qual o horário local em que torcedores sul-africanos na coordenada 34°24' S e 20°51' L acompanharam o início do jogo na transmissão ao vivo?`,
+    blockTypes: ['prose'],
     alternatives: [
       '5h00',
       '8h00',
@@ -137,6 +146,7 @@ Considerando essa representação do globo terrestre, assinale a alternativa cor
     statement: `Considere o mapa a seguir.
 
 A mancha urbana e o Núcleo Urbano Central representados no mapa evidenciam qual fenômeno urbano?`,
+    blockTypes: ['prose', 'command'],
     images: [img('q07-mapa.png', 'Mapa da Região Metropolitana de Curitiba ilustrando a mancha contínua do Núcleo Urbano Central')],
     alternatives: [
       'Conurbação',
@@ -154,8 +164,12 @@ A mancha urbana e o Núcleo Urbano Central representados no mapa evidenciam qual
   }),
   q({
     n: 8, subject: 'Geografia', content: 'Geopolítica contemporânea — BRICS e potências globais', difficulty: 'Média',
-    statement: `A imagem ao lado tematiza um aspecto da atual geopolítica, protagonizado pelo presidente Donald Trump.
+    statement: `A charge a seguir tematiza um aspecto da atual geopolítica, protagonizado pelo presidente Donald Trump.
+
+Disponível em: https://umbrasil.com/wp-content/uploads/2025/09/chargeUB-37.jpg.
+
 Com base na interpretação da charge e em conhecimentos sobre a conjuntura internacional recente, a imagem mostra o presidente dos Estados Unidos:`,
+    blockTypes: ['prose', 'source', 'command'],
     images: [img('q08-charge-geopolitica.png', 'Charge de Donald Trump confrontando os representantes do bloco BRICS')],
     alternatives: [
       'enviando o Brasil para intermediar acordos comerciais entre Estados Unidos e os demais países membros do BRICS.',
@@ -175,12 +189,16 @@ Com base na interpretação da charge e em conhecimentos sobre a conjuntura inte
     n: 9, subject: 'Biologia', content: 'Ecologia — Eficiência ecológica e produtividade líquida', difficulty: 'Média',
     statement: `A tabela a seguir mostra a comparação entre a emissão de CO2 em duas espécies utilizadas para produção de proteína animal.
 
-| Animal | Emissão média (por kg de peso vivo) | Emissão média (por kg de carne produzida) |
-|---|---|---|
-| Gado de corte | 10–20 kg CO₂e | 25–60 kg CO₂e |
-| Frango de corte | 2–4 kg CO₂e | 5–7 kg CO₂e |
-
 A diferença entre as espécies pode ser explicada pelo fato de o gado de corte apresentar:`,
+    blockTypes: ['prose', 'command'],
+    tables: [{
+      ariaLabel: 'Comparação entre a emissão de CO2 em duas espécies para produção de proteína animal',
+      headerRows: [['Animal', 'Emissão média (por kg de peso vivo)', 'Emissão média (por kg de carne produzida)']],
+      rows: [
+        ['Gado de corte', '10–20 kg CO₂e', '25–60 kg CO₂e'],
+        ['Frango de corte', '2–4 kg CO₂e', '5–7 kg CO₂e'],
+      ],
+    }],
     alternatives: [
       'diferente posição na cadeia alimentar.',
       'maior biomassa.',
@@ -197,8 +215,10 @@ A diferença entre as espécies pode ser explicada pelo fato de o gado de corte 
   }),
   q({
     n: 10, subject: 'Biologia', content: 'Genética — Interpretação de heredogramas', difficulty: 'Média',
-    statement: `O heredograma ao lado ilustra a ocorrência de uma doença autossômica recessiva ao longo de três gerações.
+    statement: `O heredograma a seguir ilustra a ocorrência de uma doença autossômica recessiva ao longo de três gerações.
+
 O número total de indivíduos obrigatoriamente heterozigotos representados na figura é:`,
+    blockTypes: ['prose', 'command'],
     images: [img('q10-heredograma.png', 'Heredograma de três gerações com indivíduos afetados por condição autossômica recessiva')],
     alternatives: [
       '5',

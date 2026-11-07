@@ -1,26 +1,44 @@
 import { q } from './ufpr2027-helpers.js';
 
-const SCHWARTSMAN_TEXT = `O texto a seguir é referência para as questões 64 a 70.
-Por Hélio Schwartsman
+const SCHWARTSMAN_BLOCKS = [
+  'O texto a seguir é referência para as questões 64 a 70.',
+  'Por Hélio Schwartsman',
+  'Muita objetividade pode ser um problema. Eu estaria mentindo se dissesse que não aprecio as facilidades linguísticas proporcionadas pelos avanços tecnológicos. Hoje, basta digitar uma palavra num dicionário eletrônico ou buscador para chegar diretamente ao verbete. No Kindle, não é necessário nem digitar. É só colocar o cursor sobre o termo que gerou dúvida para que sua definição lexicográfica se abra magicamente na tela.',
+  'Não tanto tempo atrás, quem procurava uma palavra num dicionário físico tinha de compulsar páginas e páginas até localizar o referido verbete pela ordem alfabética. Era um processo que, mesmo para os mais treinados, consumia pelo menos algumas dezenas de segundos. E muitas vezes mais.',
+  'É que (1), ao folhear o dicionário, não era incomum que (2) uma palavra qualquer nos chamasse a atenção e parássemos nela. Você ia conferir o significado de um termo e, no caminho, aprendia o de outro. Entrava em jogo aí o que (3) o pessoal de língua inglesa chama de “serendipity”, que (4) é o sentimento de surpresa positiva que (5) experimentamos ao fazer uma descoberta feliz de forma não planejada.',
+  'Não é uma estratégia de aprendizado muito organizada ou efetiva, mas ela podia ser deliciosamente satisfatória quando você topava com uma palavra “à propos”. Não sou, porém, um ludita linguístico. Os avanços tecnológicos vieram para ficar e têm vários aspectos positivos.',
+  'A produtividade da leitura aumenta muito, especialmente em idiomas estrangeiros. Não troco meu Kindle por nada, mas usufruir das novas comodidades não deve nos fazer fechar os olhos para o que perdemos. Podemos até, eventualmente, tentar produzir compensações, como de vez em quando brincar de abrir um velho dicionário físico e ler verbetes ao acaso.',
+  'Um novo ciclo de superobjetivização está a caminho com as inteligências artificiais, que nos oferecem respostas prontas (e por vezes erradas) em vez de nos remeter às páginas que trazem os elementos para solucionar nossa dúvida. É um avanço, mas que também implicará perdas.',
+  'Disponível em: https://www1.folha.uol.com.br. Adaptado.',
+  'Kindle: dispositivo eletrônico, leitor de livros digitais.\nÀ propos: expressão francesa que significa “de modo oportuno”, “em boa hora”.',
+];
 
-Muita objetividade pode ser um problema. Eu estaria mentindo se dissesse que não aprecio as facilidades linguísticas proporcionadas pelos avanços tecnológicos. Hoje, basta digitar uma palavra num dicionário eletrônico ou buscador para chegar diretamente ao verbete. No Kindle, não é necessário nem digitar. É só colocar o cursor sobre o termo que gerou dúvida para que sua definição lexicográfica se abra magicamente na tela.
-Não tanto tempo atrás, quem procurava uma palavra num dicionário físico tinha de compulsar páginas e páginas até localizar o referido verbete pela ordem alfabética. Era um processo que, mesmo para os mais treinados, consumia pelo menos algumas dezenas de segundos. E muitas vezes mais.
-É que (1), ao folhear o dicionário, não era incomum que (2) uma palavra qualquer nos chamasse a atenção e parássemos nela. Você ia conferir o significado de um termo e, no caminho, aprendia o de outro. Entrava em jogo aí o que (3) o pessoal de língua inglesa chama de “serendipity”, que (4) é o sentimento de surpresa positiva que (5) experimentamos ao fazer uma descoberta feliz de forma não planejada.
-Não é uma estratégia de aprendizado muito organizada ou efetiva, mas ela podia ser deliciosamente satisfatória quando você topava com uma palavra “à propos”. Não sou, porém, um ludita linguístico. Os avanços tecnológicos vieram para ficar e têm vários aspectos positivos.
-A produtividade da leitura aumenta muito, especialmente em idiomas estrangeiros. Não troco meu Kindle por nada, mas usufruir das novas comodidades não deve nos fazer fechar os olhos para o que perdemos. Podemos até, eventualmente, tentar produzir compensações, como de vez em quando brincar de abrir um velho dicionário físico e ler verbetes ao acaso.
-Um novo ciclo de superobjetivização está a caminho com as inteligências artificiais, que nos oferecem respostas prontas (e por vezes erradas) em vez de nos remeter às páginas que trazem os elementos para solucionar nossa dúvida. É um avanço, mas que também implicará perdas.
-Disponível em: https://www1.folha.uol.com.br. Adaptado.
+const SCHWARTSMAN_BLOCK_TYPES = [
+  'label',
+  'subheading',
+  'prose',
+  'prose',
+  'prose',
+  'prose',
+  'prose',
+  'prose',
+  'source',
+  'note-box',
+  'command',
+];
 
-Kindle: dispositivo eletrônico, leitor de livros digitais.
-À propos: expressão francesa que significa “de modo oportuno”, “em boa hora”.`;
+const makeSchwartsmanStatement = (command) => `${SCHWARTSMAN_BLOCKS.join('\n\n')}\n\n${command}`;
 
 export const ufpr2027Lote07 = [
   q({
     n: 61, subject: 'Sociologia', content: 'Sociologia Brasileira — Lilia Schwarcz e a escravidão como linguagem social', difficulty: 'Média',
     statement: `“No Brasil, o sistema escravocrata transformou-se num modelo tão enraizado que acabou se convertendo numa linguagem, com graves consequências. Grassou por aqui, do século XVI ao XIX, uma escandalosa injustiça amparada pela artimanha da legalidade. [...] Aliás, no caso brasileiro, de tão disseminada ela deixou de ser privilégio de senhores de engenho. Padres, militares, funcionários públicos, artesãos, taverneiros, comerciantes, pequenos lavradores, grandes proprietários, a população mais pobre e até libertos possuíam cativos. E, sendo assim, a escravidão foi bem mais que um sistema econômico: ela moldou condutas, definiu desigualdades sociais, fez de raça e cor marcadores de diferença fundamentais, ordenou etiquetas de mando e obediência, e criou uma sociedade condicionada pelo paternalismo e por uma hierarquia muito estrita.”
+
 Schwarcz, Lilia Moritz. Sobre o autoritarismo brasileiro. São Paulo: Cia das Letras, 2019. p. 22.
 
 Levando em consideração o argumento de que o sistema escravocrata transcendia o simples modelo econômico, é correto afirmar:`,
+    blockTypes: ['quote', 'source', 'command'],
+    works: ['Sobre o autoritarismo brasileiro'],
     alternatives: [
       'A escravização foi uma estratégia para atender às demandas da livre concorrência propaladas pelos setores liberais no Brasil entre os séculos XVI e XIX.',
       'Apesar do processo de escravização, houve relativa liberdade concedida até mesmo a ex-escravizados, que após serem libertos tinham direito a possuir seus próprios cativos.',
@@ -38,9 +56,12 @@ Levando em consideração o argumento de que o sistema escravocrata transcendia 
   q({
     n: 62, subject: 'Sociologia', content: 'Sociologia Contemporânea — Judith Butler e as disputas sobre gênero', difficulty: 'Média',
     statement: `“Muitas metáforas proliferam, misturadas, no esforço de retratar o gênero como um perigo extremo. As várias figuras de destruição não se encaixam em um quadro coerente, e sim se acumulam sem qualquer preocupação com consistência ou contradição. Quanto mais o ‘gênero’ consegue reunir esses diversos medos e ansiedades, mais poderoso o fantasma se torna. Se uma figura de destruição não funciona com todos os públicos, outra muitas vezes funcionará, e se todas se acumularem com velocidade e intensidade suficientes sob um único nome, poderão circular ainda mais amplamente, atraindo diferentes públicos à medida que avançam. Juntas, elas procuram identificar a origem do medo e da destruição, aquilo que devemos temer, o que destruirá nossas vidas. E ao fazer isso, começam a destruir a vida das pessoas que foram usadas como bodes expiatórios.”
+
 Butler, Judith. Quem tem medo do gênero? São Paulo: Boitempo, 2024. p. 49.
 
 No que se refere às disputas e polêmicas sobre o tema do gênero sintetizadas pela autora, é correto afirmar:`,
+    blockTypes: ['quote', 'source', 'command'],
+    works: ['Quem tem medo do gênero?'],
     alternatives: [
       'O gênero, compreendido como um tema politizado, tornou-se parte de uma agenda social exclusivamente nos círculos feministas.',
       'Qualquer discussão que leve em consideração o gênero como pressuposto analítico deve considerá-lo como figura incoerente e contraditória.',
@@ -58,9 +79,12 @@ No que se refere às disputas e polêmicas sobre o tema do gênero sintetizadas 
   q({
     n: 63, subject: 'Sociologia', content: 'Filosofia e Sociologia Política — Biopoder, necropolítica e racismo de Estado', difficulty: 'Média',
     statement: `“Michel Foucault salientou em sua obra Vigiar e punir que é desta forma – encarcerando ou assassinando – que se lida com os considerados ‘inimigos do Estado’. A noção de ‘biopoder’ e ‘biopolítica’ fala de técnicas de hierarquia que vigia e das técnicas da sanção que normaliza. Trata-se de um ‘controle normalizante, uma vigilância que permite classificar, qualificar e punir’. Esse conceito, interseccionado às discussões que o filósofo camaronês Achille Mbembe faz sobre a ‘necropolítica’, trata do poder não apenas nos contextos de colonização, mas também nos contextos brasileiros tendo como eixo central as questões raciais contemporâneas.”
-Bento, Cida. Pacto da branquitude. São Paulo: Cia das Letras, 2022. p. 31.
+
+Bento, Cida. O pacto da branquitude. São Paulo: Cia das Letras, 2022. p. 31.
 
 No que concerne ao aspecto do biopoder e sua capacidade de normatização do racismo suscitado pela autora, é correto afirmar que:`,
+    blockTypes: ['quote', 'source', 'command'],
+    works: ['Vigiar e punir', 'O pacto da branquitude'],
     alternatives: [
       'o encarceramento e o assassinato se tornaram políticas de Estado voltadas à segurança pública e ao fortalecimento da sociedade antirracista.',
       'o racismo permite o exercício do biopoder, já que a função do racismo é regular a distribuição e tornar possível e aceitável a função assassina do Estado.',
@@ -77,7 +101,8 @@ No que concerne ao aspecto do biopoder e sua capacidade de normatização do rac
   }),
   q({
     n: 64, subject: 'Português', content: 'Interpretação Textual — Referência cultural e neologismo (ludita linguístico)', difficulty: 'Fácil',
-    statement: `${SCHWARTSMAN_TEXT}\n\nAo afirmar não ser um “ludita linguístico”, o autor:`,
+    statement: makeSchwartsmanStatement('Ao afirmar não ser um “ludita linguístico”, o autor:'),
+    blockTypes: SCHWARTSMAN_BLOCK_TYPES,
     alternatives: [
       'não se ilude com os dicionários por entender que os avanços linguísticos são irrefreáveis.',
       'reconhece que a tecnologia pode ampliar o vocabulário dos leitores.',
@@ -94,7 +119,8 @@ No que concerne ao aspecto do biopoder e sua capacidade de normatização do rac
   }),
   q({
     n: 65, subject: 'Português', content: 'Gêneros Textuais e Progressão Argumentativa — Artigo de opinião', difficulty: 'Média',
-    statement: `${SCHWARTSMAN_TEXT}\n\nConsiderando a sequência do texto, por qual processo se constrói o sentido da afirmação inicial “Muita objetividade pode ser um problema”?`,
+    statement: makeSchwartsmanStatement('Considerando a sequência do texto, por qual processo se constrói o sentido da afirmação inicial “Muita objetividade pode ser um problema”?'),
+    blockTypes: SCHWARTSMAN_BLOCK_TYPES,
     alternatives: [
       'Suspensão momentânea de sua explicação, seguida do reconhecimento das vantagens tecnológicas, da exposição das perdas relacionadas ao fácil acesso à informação e da ampliação da objetividade com as inteligências artificiais.',
       'Associação de objetividade com produtividade, demonstrada pelo aumento da rapidez das consultas e apresentada no último parágrafo como resultado do desenvolvimento das inteligências artificiais.',
@@ -111,7 +137,8 @@ No que concerne ao aspecto do biopoder e sua capacidade de normatização do rac
   }),
   q({
     n: 66, subject: 'Português', content: 'Interpretação e Análise Argumentativa — Serendipity e aprendizado', difficulty: 'Fácil',
-    statement: `${SCHWARTSMAN_TEXT}\n\nQual é o argumento defendido pelo autor com a afirmação “Não é uma estratégia de aprendizado muito organizada ou efetiva, mas ela podia ser deliciosamente satisfatória quando você topava com uma palavra ‘à propos’”?`,
+    statement: makeSchwartsmanStatement('Qual é o argumento defendido pelo autor com a afirmação “Não é uma estratégia de aprendizado muito organizada ou efetiva, mas ela podia ser deliciosamente satisfatória quando você topava com uma palavra ‘à propos’”?'),
+    blockTypes: SCHWARTSMAN_BLOCK_TYPES,
     alternatives: [
       'O valor da descoberta casual decorre da pertinência da palavra encontrada para solucionar a dúvida que motivou a consulta, ainda que o encontro não tenha sido planejado.',
       'A satisfação da descoberta casual permite equiparar o aprendizado imprevisto ao aprendizado obtido por meio de uma estratégia planejada.',
@@ -128,7 +155,8 @@ No que concerne ao aspecto do biopoder e sua capacidade de normatização do rac
   }),
   q({
     n: 67, subject: 'Português', content: 'Morfossintaxe — Funções sintáticas da partícula “que”', difficulty: 'Difícil',
-    statement: `${SCHWARTSMAN_TEXT}\n\nSobre a presença da palavra “que” no 3.º parágrafo, assinale a alternativa correta.`,
+    statement: makeSchwartsmanStatement('Sobre a presença da palavra “que” no 3.º parágrafo, assinale a alternativa correta.'),
+    blockTypes: SCHWARTSMAN_BLOCK_TYPES,
     alternatives: [
       'O que (1) e o que (3) têm a mesma classificação sintática.',
       'O que (2) introduz uma oração que exerce a mesma função sintática de “Você” (destacado no parágrafo).',
@@ -145,7 +173,8 @@ No que concerne ao aspecto do biopoder e sua capacidade de normatização do rac
   }),
   q({
     n: 68, subject: 'Português', content: 'Coesão e Coerência — Articulação de relações causais no texto', difficulty: 'Média',
-    statement: `${SCHWARTSMAN_TEXT}\n\nAcerca das relações entre as ideias do texto, é correto afirmar que:`,
+    statement: makeSchwartsmanStatement('Acerca das relações entre as ideias do texto, é correto afirmar que:'),
+    blockTypes: SCHWARTSMAN_BLOCK_TYPES,
     alternatives: [
       '“muitas vezes mais” (l. 7) é consequência de “uma palavra qualquer nos chamasse a atenção e parássemos nela” (l. 8-9).',
       '“o sentimento de surpresa positiva” (l. 10) é consequência dos “vários aspectos positivos” (l. 13-14) dos avanços tecnológicos.',
@@ -162,7 +191,8 @@ No que concerne ao aspecto do biopoder e sua capacidade de normatização do rac
   }),
   q({
     n: 69, subject: 'Português', content: 'Semântica Lexical — Sentido contextual do verbo “compulsar”', difficulty: 'Fácil',
-    statement: `${SCHWARTSMAN_TEXT}\n\nConforme seu emprego no texto, é correto inferir que a palavra “compulsar” tem o sentido de:`,
+    statement: makeSchwartsmanStatement('No trecho “tinha de compulsar páginas e páginas” (2º parágrafo), o verbo “compulsar” pode ser substituído, sem alteração de sentido no contexto, por:'),
+    blockTypes: SCHWARTSMAN_BLOCK_TYPES,
     alternatives: [
       'selecionar.',
       'registrar.',
@@ -179,7 +209,8 @@ No que concerne ao aspecto do biopoder e sua capacidade de normatização do rac
   }),
   q({
     n: 70, subject: 'Português', content: 'Compreensão Textual e Vocabulário — Conceito de serendipity', difficulty: 'Fácil',
-    statement: `${SCHWARTSMAN_TEXT}\n\nDe acordo com a definição dada pelo autor, o sentimento de serendipity ocorreria em qual situação?`,
+    statement: makeSchwartsmanStatement('De acordo com a definição dada pelo autor, o sentimento de serendipity ocorreria em qual situação?'),
+    blockTypes: SCHWARTSMAN_BLOCK_TYPES,
     alternatives: [
       'Encontrar um amigo de infância para almoçar.',
       'Encontrar o próprio nome na lista de aprovados no vestibular.',

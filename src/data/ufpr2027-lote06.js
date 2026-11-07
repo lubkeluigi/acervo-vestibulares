@@ -3,7 +3,9 @@ import { q } from './ufpr2027-helpers.js';
 export const ufpr2027Lote06 = [
   q({
     n: 51, subject: 'Literatura', content: 'Condição feminina em A falência e O quinze', difficulty: 'Média',
-    statement: `As ações dos romances A falência, de Júlia Lopes de Almeida, e O quinze, de Rachel de Queiroz, se passam em um momento de mudanças no Brasil, entre a Proclamação da República e a Primeira Guerra Mundial. Entre essas mudanças, destaca-se a das condições de vida das mulheres, questão importante para ambas as obras. Assinale a alternativa correta no que diz respeito à questão feminina nos dois livros.`,
+    statement: 'As ações dos romances A falência, de Júlia Lopes de Almeida, e O quinze, de Rachel de Queiroz, se passam em um momento de mudanças no Brasil, entre a Proclamação da República e a Primeira Guerra Mundial. Entre essas mudanças, destaca-se a das condições de vida das mulheres, questão importante para ambas as obras. Assinale a alternativa correta no que diz respeito à questão feminina nos dois livros.',
+    blockTypes: ['prose'],
+    works: ['A falência', 'O quinze'],
     alternatives: [
       'Tanto Conceição, de O quinze, que não se casa mesmo sentindo que algo lhe falta, quanto Camila, de A falência, que busca trabalhar após saber que não poderá se casar, são figuras de transição dos valores tradicionais para os modernos.',
       'As personagens femininas mais pobres, como Noca e Nina, de A falência, ou Cordulina e Mocinha, de O quinze, têm sua situação econômica agravada porque, sendo mulheres, são impedidas de trabalhar para obter renda.',
@@ -20,7 +22,9 @@ export const ufpr2027Lote06 = [
   }),
   q({
     n: 52, subject: 'Literatura', content: 'Representação de personagens negros em O demônio familiar e O drible', difficulty: 'Média',
-    statement: `Um século e meio separam a primeira encenação de O demônio familiar (1857) e a publicação de O drible (2013). Tanto no teatro de José de Alencar quanto no romance de Sérgio Rodrigues, podemos acompanhar a trajetória de personagens negros. Sobre esse aspecto, assinale alternativa correta.`,
+    statement: 'Um século e meio separam a primeira encenação de O demônio familiar (1857) e a publicação de O drible (2013). Tanto no teatro de José de Alencar quanto no romance de Sérgio Rodrigues, podemos acompanhar a trajetória de personagens negros. Sobre esse aspecto, assinale alternativa correta.',
+    blockTypes: ['prose'],
+    works: ['O demônio familiar', 'O drible'],
     alternatives: [
       'Em O demônio familiar, a malícia e as artimanhas de Pedro são punidas com rigor, razão pela qual seu grande sonho é ser vendido para outra família.',
       'Em O drible, as surras em Neto são motivadas pela grosseria e pelo desrespeito com que trata Conceição, funcionária da casa e amante de Murilo Filho.',
@@ -40,9 +44,12 @@ export const ufpr2027Lote06 = [
     statement: `Leia a seguir o primeiro parágrafo de “O mistério da vila”, um dos treze contos publicados por Geovani Martins em 2018, na obra O sol na cabeça:
 
 “Depois da chuva que veio – bem na hora certa – refrescar a noite quente, o Ruan, a Thaís e o Matheus voltaram voados pra rua, querendo sentir o vento que andava sumido desde a chegada do verão. No final da vila onde se encontraram, mora dona Iara, uma das senhoras mais antigas da rua, que já vê a terceira geração de sua família crescer no pedaço de terra que ajudou a desbravar. Vem de lá o cheiro de macumba.”
-(Martins, Geovani. O mistério da vila. In: O sol na cabeça. São Paulo: Companhia das Letras, 2018, p. 91.)
+
+Martins, Geovani. O mistério da vila. In: O sol na cabeça. São Paulo: Companhia das Letras, 2018. p. 91.
 
 O conto de Geovani Martins tem como pano de fundo:`,
+    blockTypes: ['prose', 'quote', 'source', 'command'],
+    works: ['O mistério da vila', 'O sol na cabeça'],
     alternatives: [
       'o contraste entre a segurança do espaço sagrado – a sala da casa de Dona Iara, ambiente central do enredo – e o espaço da rua, marcado pela violência diária da cidade grande, que afeta as brincadeiras infantis.',
       'a convivência do sincretismo religioso com o crescimento de igrejas com diferentes orientações religiosas nas últimas décadas, flagrando mudanças importantes que vêm ocorrendo na sociedade brasileira.',
@@ -59,9 +66,13 @@ O conto de Geovani Martins tem como pano de fundo:`,
   }),
   q({
     n: 54, subject: 'Filosofia', content: 'Filosofia Política — Carole Pateman e a teoria da democracia participativa', difficulty: 'Média',
-    statement: `“Os dados obtidos em amplas investigações empíricas sobre atitudes e comportamentos políticos, realizadas na maioria dos países ocidentais nos últimos vinte ou trinta anos, revelaram que a característica mais notável da maior parte dos cidadãos, principalmente os de grupos de condição socioeconômica baixa, é uma falta de interesse generalizada em política e por atividades políticas.” (Pateman, 2009, p. 11)
+    statement: `“Os dados obtidos em amplas investigações empíricas sobre atitudes e comportamentos políticos, realizadas na maioria dos países ocidentais nos últimos vinte ou trinta anos, revelaram que a característica mais notável da maior parte dos cidadãos, principalmente os de grupos de condição socioeconômica baixa, é uma falta de interesse generalizada em política e por atividades políticas.”
+
+Pateman, Carole. Participação e teoria democrática. Rio de Janeiro: Paz e Terra, 1992. p. 11.
 
 O trecho acima, retirado da obra Participação e teoria democrática, de Carole Pateman, aborda um aspecto que levou a autora a defender que a democracia:`,
+    blockTypes: ['quote', 'source', 'command'],
+    works: ['Participação e teoria democrática'],
     alternatives: [
       'consiste numa sociedade em que há ampla participação.',
       'constitui um arranjo institucional para se chegar a decisões políticas.',
@@ -79,6 +90,8 @@ O trecho acima, retirado da obra Participação e teoria democrática, de Carole
   q({
     n: 55, subject: 'Filosofia', content: 'Filosofia Antiga — Platão e o mito de Er (A República)', difficulty: 'Média',
     statement: 'Com a narrativa do mito de Er, ao final de A República, Platão:',
+    blockTypes: ['prose'],
+    works: ['A República'],
     alternatives: [
       'conclui a obra mostrando de forma alegórica no que consiste, afinal, a Justiça.',
       'ressalta a importância de se definir critério para distinguir as boas e as más escolhas.',
@@ -95,7 +108,9 @@ O trecho acima, retirado da obra Participação e teoria democrática, de Carole
   }),
   q({
     n: 56, subject: 'Filosofia', content: 'Filosofia e Pensamento Negro — Sueli Carneiro e o epistemicídio', difficulty: 'Média',
-    statement: `No livro Dispositivo de Racialidade, Sueli Carneiro afirma que o epistemicídio constitui um dos elementos centrais do dispositivo de racialidade, sendo responsável pela produção de uma “razão racializada”. Diante desse processo de exclusão e deslegitimação de saberes, o que a autora propõe para o enfrentamento do epistemicídio nas instituições de ensino superior?`,
+    statement: 'No livro Dispositivo de racialidade, Sueli Carneiro afirma que o epistemicídio constitui um dos elementos centrais do dispositivo de racialidade, sendo responsável pela produção de uma “razão racializada”. Diante desse processo de exclusão e deslegitimação de saberes, o que a autora propõe para o enfrentamento do epistemicídio nas instituições de ensino superior?',
+    blockTypes: ['prose'],
+    works: ['Dispositivo de racialidade'],
     alternatives: [
       'A promoção da pacificação social por meio do apagamento das tensões e dos conflitos raciais, afirmando a ideia de democracia racial.',
       'A defesa de uma estratégia anti-intelectualista, já que o trabalho intelectual é também marcado pelo dispositivo de racialidade.',
@@ -115,9 +130,12 @@ O trecho acima, retirado da obra Participação e teoria democrática, de Carole
     statement: `Considere o seguinte texto:
 
 “Admito, com sinceridade, que, ao formular minhas propostas, fui guiado por juízos de valor e por algumas predileções de ordem pessoal. Mas espero que as propostas se tornem aceitáveis para os que apreciam não só o rigor lógico, mas também a ausência de dogmatismos; para os que se importam com as aplicações práticas, mas se interessam ainda mais pelas aventuras da ciência, pelas descobertas que, uma após outra, nos acareiam com novas e inesperadas perguntas, obrigando-nos a tentar encontrar respostas novas e insupeitadas.”
+
 Popper, Karl. A Lógica da Pesquisa Científica. São Paulo: Editora Cultrix, 2008. cap. 1, p. 39.
 
 Considerando as informações apresentadas, assinale a alternativa que apresenta corretamente uma das propostas de Popper.`,
+    blockTypes: ['prose', 'quote', 'source', 'command'],
+    works: ['A Lógica da Pesquisa Científica'],
     alternatives: [
       'As ciências empíricas se caracterizam pelo fato de empregarem métodos indutivos, de maneira que a lógica da pesquisa científica se identifica com a lógica indutiva.',
       'O critério de demarcação entre a ciência empírica e a metafísica consiste no significado dos enunciados, razão pela qual, não sendo possível determinar se um enunciado é verdadeiro, o seu significado se confunde com o método de sua verificação.',
@@ -134,7 +152,9 @@ Considerando as informações apresentadas, assinale a alternativa que apresenta
   }),
   q({
     n: 58, subject: 'Filosofia', content: 'Teoria Crítica e Filosofia Política — Rousseau e Sueli Carneiro sobre desigualdades', difficulty: 'Média',
-    statement: `Ao se comparar a análise de Rousseau na segunda parte do Discurso sobre a origem e os fundamentos da desigualdade entre os homens com a discussão de Sueli Carneiro, no livro Dispositivo de racialidade, é possível identificar uma aproximação entre os autores. Essa aproximação consiste na ideia de que:`,
+    statement: 'Ao se comparar a análise de Rousseau na segunda parte do Discurso sobre a origem e os fundamentos da desigualdade entre os homens com a discussão de Sueli Carneiro, no livro Dispositivo de racialidade, é possível identificar uma aproximação entre os autores. Essa aproximação consiste na ideia de que:',
+    blockTypes: ['prose'],
+    works: ['Discurso sobre a origem e os fundamentos da desigualdade entre os homens', 'Dispositivo de racialidade'],
     alternatives: [
       'as desigualdades sociais e raciais decorrem principalmente de capacidades e características inerentes aos diferentes grupos humanos.',
       'a dominação se estabelece por meio da força física e desconsidera os mecanismos simbólicos de legitimação.',
@@ -152,9 +172,12 @@ Considerando as informações apresentadas, assinale a alternativa que apresenta
   q({
     n: 59, subject: 'Sociologia', content: 'Sociologia Compreensiva — Max Weber e os tipos ideais de dominação legítima', difficulty: 'Fácil',
     statement: `“Uma vez que Weber entende que o social se constrói a partir das ações individuais, cria-se um problema teórico: como é possível a continuidade da vida social? A resposta para tal questão encontra-se no fundamento da organização social, chave do verdadeiro problema sociológico: a dominação ou a produção da legitimidade, da submissão de um grupo a um mandato. É fundamental, então, distinguir os conceitos de poder e dominação.”
+
 Quintaneiro, T.; Barbosa, M. L. de O.; Oliveira, M. G. M. de. Um toque de clássicos: Marx, Durkheim e Weber. Belo Horizonte: Editora UFMG, 2003. p. 119-120.
 
 Considerando o conceito weberiano de dominação apresentado pelas autoras, é correto afirmar:`,
+    blockTypes: ['quote', 'source', 'command'],
+    works: ['Um toque de clássicos: Marx, Durkheim e Weber'],
     alternatives: [
       'A dominação pode ser compreendida a partir de três tipos ideais que permitem compreender a organização social: os tipos carismático, legal e tradicional.',
       'A dominação decorre de um processo de coesão social fundada numa racionalidade objetiva que visa transformar a sociedade democrática numa sociedade autoritária.',
@@ -172,9 +195,12 @@ Considerando o conceito weberiano de dominação apresentado pelas autoras, é c
   q({
     n: 60, subject: 'Sociologia', content: 'Sociologia e Gênero — O cânone clássico e as pioneiras do pensamento social', difficulty: 'Média',
     statement: `“Os estudos de gênero operam um corte que interrompe a linearidade narrativa, explicando o caráter relativo e arbitrário da circunscrição de certos temas e procedimentos, instituindo a possibilidade de afetar parâmetros pelos quais a sociologia opera. Talvez seja preciso interrogar a relação entre as pioneiras da sociologia, o cânone, a ideia de clássico e, sobretudo de que modo tudo isso afeta o cotidiano da sociologia em nossos dias. [...] Caracterizar uma autora como pioneira da sociologia não é o mesmo que considerá-la uma clássica. [...] Um dos principais caminhos para que isso possa ocorrer é a inclusão da autora ou do autor no cânone, isto é, no conjunto de referências consideradas obrigatórias por uma determinada comunidade intelectual, cujo papel se faz sentir, sobretudo nos processos de formação das novas gerações e, assim, colocam uma série de textos como referências compartilhadas que serão merecedoras de atenção.”
+
 Daflon, V. T.; Sorj, B. (orgs.). Clássicas do pensamento social: mulheres e feminismos no século XIX. Rio de Janeiro: Rosa dos Tempos, 2021. p. 11-12.
 
 Considerando a relação entre o pensamento social clássico e a abordagem a partir da perspectiva de gênero, assinale a alternativa correta.`,
+    blockTypes: ['quote', 'source', 'command'],
+    works: ['Clássicas do pensamento social: mulheres e feminismos no século XIX'],
     alternatives: [
       'Investigar as sociólogas pioneiras ajuda a evidenciar que, nos séculos XVIII e XIX, suas pesquisas introduziram poucas inovações relevantes na análise sociológica hegemônica.',
       'O recorte de gênero é relativamente determinante no trabalho teórico realizado por homens, reproduzindo a hegemonia da agenda de pesquisa sociológica entre os séculos XVIII e XIX.',

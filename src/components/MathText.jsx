@@ -2,7 +2,7 @@ import React from 'react';
 import katex from 'katex';
 import 'katex/dist/katex.min.css';
 
-const MATH_PARTS = /(\$\$[\s\S]*?\$\$|\$(?!\s)(?:\\.|[^$\n])*?(?<!\s)\$)/g;
+const MATH_PARTS = /(\$\$[\s\S]*?\$\$|\$(?!\s)(?:\\.|[^$\n])*?(?<!\s)\$|\\\[[\s\S]*?\\\]|\\\([\s\S]*?\\\))/g;
 const UNDERLINE_PARTS = /(<u>[\s\S]*?<\/u>)/g;
 
 function decodeEntities(value) {
@@ -36,8 +36,14 @@ export function renderMixedMathHtml(escapedText) {
     if (part.startsWith('$$') && part.endsWith('$$')) {
       return `<span class="math-display">${renderMathHtml(part.slice(2, -2), true)}</span>`;
     }
+    if (part.startsWith('\\[') && part.endsWith('\\]')) {
+      return `<span class="math-display">${renderMathHtml(part.slice(2, -2), true)}</span>`;
+    }
     if (part.startsWith('$') && part.endsWith('$')) {
       return `<span class="math-inline">${renderMathHtml(part.slice(1, -1))}</span>`;
+    }
+    if (part.startsWith('\\(') && part.endsWith('\\)')) {
+      return `<span class="math-inline">${renderMathHtml(part.slice(2, -2))}</span>`;
     }
     return part;
   }).join('');
@@ -53,8 +59,16 @@ export default function MathText({ text, display = false }) {
       const math = part.slice(2, -2);
       return <span className="math-display" aria-label={math} key={index} dangerouslySetInnerHTML={{ __html: renderMathHtml(math, true) }} />;
     }
+    if (part.startsWith('\\[') && part.endsWith('\\]')) {
+      const math = part.slice(2, -2);
+      return <span className="math-display" aria-label={math} key={index} dangerouslySetInnerHTML={{ __html: renderMathHtml(math, true) }} />;
+    }
     if (part.startsWith('$') && part.endsWith('$')) {
       const math = part.slice(1, -1);
+      return <span className="math-inline" aria-label={math} key={index} dangerouslySetInnerHTML={{ __html: renderMathHtml(math) }} />;
+    }
+    if (part.startsWith('\\(') && part.endsWith('\\)')) {
+      const math = part.slice(2, -2);
       return <span className="math-inline" aria-label={math} key={index} dangerouslySetInnerHTML={{ __html: renderMathHtml(math) }} />;
     }
     return <React.Fragment key={index}>{renderUnderline(part, `part-${index}`)}</React.Fragment>;
