@@ -9,35 +9,32 @@ export const unifesp2022Discursivas = [
   d({
     n: 1,
     subject: 'Biologia',
-    content: 'Filariose linfática: ciclo biológico, hospedeiros e mutualismo com Wolbachia',
-    difficulty: 'Média',
-    statement: `Em 1866, o médico Otto Edward Henry Wucherer (1820-1873), nascido em Portugal e formado na Alemanha, descobriu, na Bahia, larvas de um nematódeo na urina de uma paciente com os mesmos sintomas descritos em relatos de autores europeus. Esse nematódeo, conhecido como Wuchereria bancrofti, é o agente etiológico da filariose linfática (elefantíase).
-
-As formas adultas de Wuchereria bancrofti abrigam no seu interior bactérias Wolbachia, que têm um papel essencial na reprodução e sobrevivência do verme. Por esse motivo, o uso de antibióticos, como a doxiciclina, vem sendo adotado no tratamento da doença.`,
+    content: 'Filariose linfática (Wuchereria bancrofti): transmissão por Culex, hospedeiro definitivo e endossimbiose',
+    difficulty: 'Fácil',
+    statement: `Em 1866, o médico Otto Edward Henry Wucherer (1820-1873), nascido em Portugal e formado na Alemanha, descreveu larvas de um nematódeo em amostras de urina de pessoas que apresentavam urina de aspecto leitoso (hematúria gordurosa). A espécie desse verme foi denominada Wuchereria bancrofti, em homenagem a Wucherer e ao médico inglês Joseph Bancroft (1836-1894), que descobriu o verme adulto na Austrália, em 1876.`,
     parts: [
       {
         id: 'a',
-        prompt: 'Identifique o hospedeiro definitivo de Wuchereria bancrofti e descreva como essa doença é transmitida para esse hospedeiro.',
-        expected: `1) Hospedeiro definitivo: ser humano (homem).\n2) Transmissão: ocorre por meio da picada de mosquitos fêmeas do gênero Culex (como Culex quinquefasciatus), que inoculam as larvas infectantes (L3) na corrente sanguínea ou nos tecidos do hospedeiro.`,
-        accepted: `Mosquitos dos gêneros Culex, Aedes, Anopheles, mosquito prego, pernilongo ou muriçoca.`,
+        prompt: 'Qual é o hospedeiro definitivo do W. bancrofti? Na natureza, qual a principal forma de transmissão da doença causada pelo W. bancrofti aos seres humanos?',
+        expected: `1) Hospedeiro definitivo: Ser humano (homem).\n2) Principal forma de transmissão: Por meio da picada da fêmea do mosquito do gênero Culex (mosquito-palha / pernilongo doméstico Culex quinquefasciatus).\n\nForam aceitas: Aedes, Anopheles, mosquito ou pernilongo.\nNão foram aceitas: ingestão de água e/ou alimentos contaminados; transmissão congênita.`,
         criteria: [
-          { points: 1, text: 'Identifica o hospedeiro definitivo: ser humano / homem.' },
-          { points: 1, text: 'Descreve a transmissão por meio da picada do mosquito do gênero Culex (ou Aedes, Anopheles, muriçoca).' },
+          { points: 1, text: 'Identifica o ser humano (homem) como hospedeiro definitivo.' },
+          { points: 1, text: 'Identifica a transmissão pela picada do mosquito (Culex, pernilongo).' },
         ],
-        detailed: `a) O hospedeiro definitivo da filariose é o ser humano, pois nele o parasito atinge a maturidade sexual e realiza a reprodução sexuada no interior dos vasos linfáticos.
-A transmissão para o homem ocorre pela picada das fêmeas do mosquito hematófago do gênero Culex (como Culex quinquefasciatus, popularmente conhecido como pernilongo ou muriçoca). Ao picar uma pessoa infectada, o inseto ingere microfilárias que se desenvolvem em seu organismo até a forma de larvas infectantes (L3); ao picar um novo hospedeiro humano, o vetor deposita as larvas na pele, as quais penetram pelo ferimento e migram para o sistema linfático.`,
+        detailed: `a) O nematódeo Wuchereria bancrofti é o agente etiológico da filariose linfática (elefantíase). O hospedeiro definitivo é o ser humano, pois é em seus vasos e gânglios linfáticos que os vermes adultos se alojam e realizam a reprodução sexuada.
+Na natureza, a transmissão para os seres humanos ocorre pela inoculação das larvas infectantes (L3) através da picada da fêmea hematófaga de mosquitos vetores, principalmente do gênero Culex (como Culex quinquefasciatus).`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'Qual a relação ecológica existente entre o verme Wuchereria bancrofti e a bactéria Wolbachia? Explique por que o tratamento com doxiciclina pode curar a doença ou reduzir a quantidade de parasitas no organismo do hospedeiro.',
-        expected: `1) Relação ecológica: mutualismo (relação mutualística ou endossimbiose obrigatória).\n2) Ação da doxiciclina: O antibiótico mata as bactérias endossimbióticas Wolbachia, que são indispensáveis para a sobrevivência, desenvolvimento e fertilidade reprodutiva do parasito, levando o nematódeo à esterilidade ou à morte e reduzindo a carga parasitária no hospedeiro.`,
+        prompt: 'Os antibióticos têm a função de eliminar alguns microrganismos endossimbióticos presentes no W. bancrofti. Cite o tipo de interação ecológica interespecífica que há entre esse parasito e os tais microrganismos endossimbióticos. Por que o uso de antibióticos auxilia no tratamento da parasitose causada pelo W. bancrofti?',
+        expected: `1) Tipo de interação ecológica: Mutualismo (ou simbiose / endossimbiose).\n2) Justificativa do tratamento: Os antibióticos eliminam as bactérias endossimbióticas (Wolbachia), das quais o verme depende obrigatoriamente para seu desenvolvimento, reprodução e sobrevivência; sem essas bactérias, o parasito morre ou torna-se estéril, combatendo a filariose.\n\nNão foram aceitas: mutualismo não obrigatório (protocooperação), comensalismo, inquilinismo; antibióticos matam o verme diretamente; antibióticos evitam infecções oportunistas secundárias.`,
         criteria: [
-          { points: 1, text: 'Identifica a relação ecológica: mutualismo / relação mutualística (ou endossimbiose).' },
-          { points: 1, text: 'Explica o tratamento: os antibióticos eliminam as bactérias endossimbióticas, essenciais para a sobrevivência e reprodução do parasito.' },
+          { points: 1, text: 'Cita a interação ecológica como mutualismo (ou simbiose).' },
+          { points: 1, text: 'Explica que a eliminação das bactérias impede a sobrevivência ou reprodução do verme.' },
         ],
-        detailed: `b) A relação ecológica entre o nematódeo Wuchereria bancrofti e a bactéria intracelular Wolbachia é de mutualismo (endossimbiose mutualística obrigatória), na qual ambas as espécies se beneficiam mutuamente e a sobrevivência do verme depende estritamente das bactérias.
-A doxiciclina é um antibiótico da classe das tetraciclinas que inibe a síntese de proteínas nas bactérias Wolbachia, levando-as à morte. Como essas bactérias fornecem moléculas e vias metabólicas vitais para a embriogênese, a muda larval e a integridade celular do verme, a eliminação da microbiota simbiótica debilita gravemente as filárias adultas, bloqueia sua reprodução e impede a maturação de novas microfilárias, promovendo a cura da infecção ou a redução drástica da carga parasitária.`,
+        detailed: `b) A interação ecológica interespecífica entre o nematódeo Wuchereria bancrofti e as bactérias endossimbiontes do gênero Wolbachia é o mutualismo obrigatório (simbiose). Ambos os organismos se beneficiam e a relação é indispensável à sobrevivência do verme.
+O uso de antibióticos (como a doxiciclina) atua eliminando especificamente as bactérias endossimbióticas. Privado dessas bactérias essenciais ao seu metabolismo e fertilidade, o verme adulto sofre declínio fisiológico acentuado, perde a capacidade reprodutiva de gerar microfilárias e morre, o que reduz drasticamente a carga parasitária e auxilia de forma decisiva no tratamento clínico da doença.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -46,35 +43,33 @@ A doxiciclina é um antibiótico da classe das tetraciclinas que inibe a síntes
   d({
     n: 2,
     subject: 'Biologia',
-    content: 'Fisiologia digestiva: enzimas digestivas, lactase, sacarase e amilase',
+    content: 'Fisiologia digestória de suínos: transição alimentar, enzimas digestivas e hidrólise de carboidratos',
     difficulty: 'Média',
-    statement: `Um experimento analisou a variação na concentração das enzimas digestivas em suínos saudáveis, desde o nascimento até a fase adulta. As variações observadas ao longo do tempo foram expressas nos gráficos 1, 2 e 3.
-
-(L. S. Jensen. Swine nutrition, 2001. Adaptado.)`,
-    visuals: [{ file: 'p2-q02-graficos-enzimas.svg', alt: 'Gráficos 1, 2 e 3 da concentração de enzimas digestivas em suínos ao longo do tempo', caption: 'Jensen, L. S. Swine nutrition, 2001.' }],
+    statement: `Um experimento analisou a variação na concentração das enzimas digestivas em suínos saudáveis, desde o nascimento até a fase adulta. Os animais passaram pelo desmame aos 35 dias de vida e, a partir desse momento, passaram a se alimentar de ração contendo sacarose e amido. Os resultados obtidos estão representados nos gráficos.`,
+    visuals: [{ file: 'p2-q02-graficos-enzimas.svg', alt: 'Gráficos 1, 2 e 3 da concentração de enzimas digestivas em suínos ao longo da idade em dias', caption: 'Concentração de enzimas digestivas em suínos.' }],
     parts: [
       {
         id: 'a',
-        prompt: 'Qual gráfico representa a variação na concentração da enzima lactase ao longo do desenvolvimento dos suínos? Justifique sua resposta.',
-        expected: `1) Gráfico: Gráfico 3.\n2) Justificativa: Porque após o período de desmame, os animais deixam de se alimentar de leite materno (cuja principal fonte de carboidrato é a lactose), ocorrendo uma redução progressiva e acentuada na produção da enzima lactase.`,
+        prompt: 'Qual gráfico ilustra a variação da concentração das enzimas que ocorreu nos suínos que passaram do desmame para o consumo de ração? Justifique sua resposta utilizando um dado do gráfico.',
+        expected: `1) Gráfico: Gráfico 3.\n2) Justificativa: Após o desmame (35 dias), os animais deixam de ingerir o leite materno (cuja fonte de carboidrato é a lactose) e passam a consumir ração com amido e sacarose; por isso, a concentração da enzima lactase sofre queda acentuada (atingindo valores próximos a zero), enquanto as enzimas amilase e sacarase aumentam significativamente.\n\nForam aceitas: justificativas que indicam a queda da lactase e/ou o aumento da amilase/sacarase com base no gráfico.\nNão foram aceitas: respostas sem justificativa ou indicando gráficos 1 ou 2.`,
         criteria: [
-          { points: 1, text: 'Identifica o Gráfico 3.' },
-          { points: 1, text: 'Justifica: os animais deixam de se alimentar de leite (que contém lactose), reduzindo a taxa de lactase após o desmame.' },
+          { points: 1, text: 'Indica corretamente o Gráfico 3.' },
+          { points: 1, text: 'Justifica com a queda da lactase e aumento de amilase/sacarase após o desmame.' },
         ],
-        detailed: `a) O gráfico 3 representa a variação na concentração da lactase. Durante a fase de aleitamento (nas primeiras semanas após o nascimento), os filhotes ingerem exclusivamente leite materno, que é rico no dissacarídeo lactose; dessa forma, a atividade da enzima lactase atinge o pico nessa fase. Após o desmame, a dieta passa a ser baseada em rações vegetais ricas em amido e sacarose, cessando o consumo de leite e levando a uma queda acentuada na produção de lactase, exatamente como ilustrado na curva decrescente do Gráfico 3.`,
+        detailed: `a) O gráfico que ilustra corretamente essa variação é o Gráfico 3.
+Durante a fase de amamentação (até 35 dias), o único alimento ingerido pelo leitão é o leite materno, rico no dissacarídeo lactose; assim, a concentração da enzima lactase é inicialmente elevada. Com o desmame aos 35 dias e a introdução da ração composta por amido e sacarose, observa-se no Gráfico 3 a drástica redução nos níveis de lactase e a concomitante elevação expressiva nas concentrações de amilase (para hidrólise do amido) e sacarase (para hidrólise da sacarose).`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'Em qual órgão do sistema digestório atua a sacarase? Quais produtos resultam da ação catalítica da enzima amilase?',
-        expected: `1) Órgão de atuação da sacarase: intestino delgado (duodeno / jejuno).\n2) Produtos da ação catalítica da amilase: maltose (e maltotriose / dextrinas; a glicose também foi aceita se associada à digestão contínua).`,
-        accepted: `Intestino delgado, duodeno, jejuno, íleo; maltose, isomaltose, oligossacarídeos, dextrinas, glicose.`,
+        prompt: 'Que órgão do suíno adulto contém todas as enzimas atuando simultaneamente? Qual dessas enzimas possibilita, após as hidrólises, o aumento de dissacarídeos nos suínos adultos?',
+        expected: `1) Órgão: Intestino delgado (duodeno).\n2) Enzima: Amilase (amilase pancreática).\n\nForam aceitas: duodeno ou intestino delgado; amilase ou amilase pancreática.\nNão foram aceitas: estômago, boca, pâncreas; lactase, sacarase, maltase.`,
         criteria: [
-          { points: 1, text: 'Indica o intestino delgado (ou duodeno / jejuno).' },
-          { points: 1, text: 'Cita os produtos da ação da amilase: maltose (ou maltose e dextrinas / glicose).' },
+          { points: 1, text: 'Identifica o intestino delgado (ou duodeno) como órgão onde todas as enzimas atuam.' },
+          { points: 1, text: 'Identifica a amilase (ou amilase pancreática) como a enzima que gera dissacarídeos.' },
         ],
-        detailed: `b) A enzima sacarase (dissacaridase) atua no intestino delgado, especificamente na borda em escova das células epiteliais (enterócitos) da mucosa intestinal (duodeno e jejuno), catalisando a hidrólise da sacarose em glicose e frutose.
-A enzima amilase (tanto a salivar/ptialina quanto a pancreática) hidrolisa as ligações glicosídicas $\\alpha\\text{-(1}\\to\\text{4)}$ do polissacarídeo amido, quebrando-o em frações menores, principalmente no dissacarídeo maltose, além de oligossacarídeos como maltotriose e dextrinas-limite.`,
+        detailed: `b) O órgão do suíno que contém todas as três enzimas atuando simultaneamente é o intestino delgado (especialmente na sua porção inicial, o duodeno), onde a amilase pancreática (presente no suco pancreático) e as enzimas da borda em escova (lactase e sacarase, presentes no suco entérico) realizam a digestão luminal e da mucosa.
+A enzima que possibilita o aumento de dissacarídeos é a amilase (amilase pancreática), pois ela cliva o polissacarídeo amido em fragmentos menores formados por dissacarídeos (principalmente a maltose), que serão posteriormente hidrolisados pelas dissacaridases em monossacarídeos.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -83,34 +78,33 @@ A enzima amilase (tanto a salivar/ptialina quanto a pancreática) hidrolisa as l
   d({
     n: 3,
     subject: 'Biologia',
-    content: 'Gametogênese humana: meiose, não disjunção cromossômica e síndrome de Down',
+    content: 'Gametogênese humana: espermatogênese, segregação meiótica e fertilização in vitro',
     difficulty: 'Média',
-    statement: `Na fertilização in vitro, o procedimento mais comum é o ovócito II ser colocado em contato com os espermatozoides em meio de cultura adequado para que ocorra a fecundação. A fertilização também pode ocorrer por meio da injeção intracitoplasmática de espermatozoides (ICSI), procedimento em que um espermatozoide é selecionado e injetado diretamente no ovócito II. A figura representa uma análise cromossômica de células envolvidas na gametogênese humana, mostrando uma não disjunção meiótica responsável por gerar um zigoto com síndrome de Down (trissomia do cromossomo 21).`,
-    visuals: [{ file: 'p2-q03-ovocito-espermatocito.svg', alt: 'Esquema de meiose em ovócito II e espermatócito mostrando não disjunção cromossômica do cromossomo 21', caption: 'Esquema meiótico de fertilização in vitro e trissomia do 21.' }],
+    statement: `Na fertilização in vitro, o procedimento mais comum é o ovócito II ser colocado em contato com os espermatozoides e a fertilização ocorrer espontaneamente. Nos casos em que os espermatozoides não conseguem fecundar o ovócito II espontaneamente, um único espermatozoide é injetado diretamente no citoplasma do ovócito II. Não é recomendável fazer essa injeção intracitoplasmática utilizando um espermatócito II. A figura representa, de forma simplificada, a espermatogênese humana.`,
+    visuals: [{ file: 'p2-q03-ovocito-espermatocito.svg', alt: 'Representação esquemática da espermatogênese humana mostrando espermatócitos I e II e espermátides', caption: 'Espermatogênese humana simplificada.' }],
     parts: [
       {
         id: 'a',
-        prompt: 'Em qual órgão do sistema genital masculino ocorre o processo meiótico que origina os espermatozoides? Em qual fase meiótica ocorreu a falha na separação dos cromossomos representada na figura?',
-        expected: `1) Órgão do sistema genital masculino: testículos (especificamente nos túbulos seminíferos).\n2) Fase meiótica da falha: anáfase I (primeira divisão da meiose, decorrente da não disjunção dos cromossomos homólogos do par 21).`,
+        prompt: 'Em qual gônada ocorre a espermatogênese humana? Em qual fase da meiose I diferenciam-se os gametas que terão o cromossomo X dos que terão o cromossomo Y?',
+        expected: `1) Gônada: Testículos (ou túbulos seminíferos).\n2) Fase da meiose I: Anáfase I.\n\nNão foram aceitas: prófase I, metáfase I, telófase I; meiose II; epidídimo, próstata.`,
         criteria: [
-          { points: 1, text: 'Identifica os testículos (ou túbulos seminíferos).' },
-          { points: 1, text: 'Identifica a anáfase I da meiose.' },
+          { points: 1, text: 'Identifica os testículos (ou túbulos seminíferos) como a gônada.' },
+          { points: 1, text: 'Identifica a Anáfase I como a fase da separação dos cromossomos X e Y.' },
         ],
-        detailed: `a) O processo de espermatogênese ocorre no interior dos testículos, especificamente nos túbulos seminíferos.
-A falha meiótica ilustrada na figura ocorreu durante a anáfase I da meiose masculina. Nessa etapa, deveria ocorrer a segregação e migração dos cromossomos homólogos duplicados do par 21 para polos opostos da célula; a ausência dessa separação (não disjunção meiótica) fez com que ambos os homólogos migrassem juntos para o mesmo polo, originando espermatócitos secundários com um cromossomo 21 extra ($n+1$) e outros sem nenhum cromossomo 21 ($n-1$).`,
+        detailed: `a) A espermatogênese humana ocorre nas gônadas masculinas, denominadas testículos (mais especificamente no interior dos túbulos seminíferos).
+A separação física dos cromossomos sexuais homólogos X e Y ocorre durante a Anáfase I da meiose, momento em que as fibras do fuso tracionam os cromossomos homólogos duplicados para polos opostos da célula, diferenciando as duas células-filhas que darão origem, respectivamente, aos gametas portadores do cromossomo X e aos portadores do cromossomo Y.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'No momento em que o ovócito II é colocado em contato com os espermatozoides, seus cromossomos estão simples ou duplicados? Em qual fase da meiose o ovócito II é bloqueado antes da fecundação?',
-        expected: `1) Estado dos cromossomos: cromossomos duplicados (constituídos por duas cromátides-irmãs unidas pelo centrômero).\n2) Fase meiótica de bloqueio: metáfase II (metáfase da segunda divisão meiótica).`,
-        accepted: `Cromossomos com duas cromátides, duas moléculas/fitas de DNA duplicadas.`,
+        prompt: 'Por que, na fertilização in vitro, a injeção intracitoplasmática não pode ser feita com um espermatócito II? Que tipo de mutação numérica teria um embrião inviável que resultasse de uma fertilização entre um espermatócito II e um ovócito II com 23 cromossomos?',
+        expected: `1) Por que não usar o espermatócito II: Porque o espermatócito II ainda não completou a meiose (não realizou a meiose II) e apresenta cromossomos duplicados (compostos por duas cromátides-irmãs, com quantidade 2C de DNA).\n2) Tipo de mutação numérica: Euploidia (ou triploidia, $3n = 69$ cromossomos).\n\nForam aceitas: cromossomos duplicados, duas cromátides-irmãs; euploidia ou triploidia.\nNão foram aceitas: aneuploidia, trissomia; espermatócito é diploide (pois ele já é haploide n=23, porém duplicado).`,
         criteria: [
-          { points: 1, text: 'Indica cromossomos duplicados (duas cromátides).' },
-          { points: 1, text: 'Identifica a metáfase II.' },
+          { points: 1, text: 'Explica que o espermatócito II possui cromossomos duplicados (não completou a meiose II).' },
+          { points: 1, text: 'Identifica a mutação numérica como euploidia (ou triploidia).' },
         ],
-        detailed: `b) No momento em que o ovócito II é colocado em contato com os espermatozoides, seus cromossomos encontram-se duplicados, sendo cada cromossomo formado por duas cromátides-irmãs idênticas unidas pela região centromérica.
-Na ovogênese humana, o ovócito II é liberado na ovulação e permanece estagnado (bloqueado) em metáfase II da meiose. A continuidade da divisão e a separação das cromátides-irmãs (anáfase II), com a expulsão do segundo glóbulo polar, só ocorrem caso haja o estímulo bioquímico da fecundação pelo espermatozoide.`,
+        detailed: `b) A injeção intracitoplasmática não pode ser realizada com um espermatócito II porque essa célula ainda não concluiu a segunda divisão meiótica (meiose II). Embora já seja haploide em número de cromossomos ($n = 23$), cada um de seus cromossomos ainda é duplicado, composto por duas cromátides-irmãs (portando o dobro da quantidade normal de DNA de um gameta maduro).
+Caso ocorresse a fertilização de um ovócito II normal ($n = 23$) por um espermatócito II ($n = 23$ duplicado), o zigoto resultante herdaria três conjuntos haploides completos de cromátides ($3n = 69$), configurando uma mutação cromossômica numérica do tipo euploidia (especificamente uma triploidia), que é inviável na espécie humana.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -119,41 +113,39 @@ Na ovogênese humana, o ovócito II é liberado na ovulação e permanece estagn
   d({
     n: 4,
     subject: 'Biologia',
-    content: 'Genética clássica: Segunda Lei de Mendel, proporções fenotípicas e Linkage',
-    difficulty: 'Difícil',
-    statement: `Determinada espécie vegetal apresenta dois pares de genes, dos quais o alelo A determina a formação de frutos redondos e o alelo a, frutos alongados. O alelo B determina a formação de frutos vermelhos e o alelo b, frutos brancos. Uma planta duplamente heterozigótica foi cruzada com uma planta de frutos alongados e brancos. A descendência desse cruzamento foi composta por:
-1/4 de plantas com frutos redondos e vermelhos,
-1/4 de plantas com frutos redondos e brancos,
-1/4 de plantas com frutos alongados e vermelhos e
-1/4 de plantas com frutos alongados e brancos.`,
+    content: 'Genética clássica: Segunda Lei de Mendel (segregação independente), diibridismo e linkage (ligação gênica)',
+    difficulty: 'Média',
+    statement: `Determinada espécie vegetal apresenta dois pares de genes, dos quais o alelo A determina a formação de um fruto redondo e o alelo a determina um fruto alongado. Já o alelo B determina a cor vermelha do fruto e o alelo b determina a cor branca. Uma planta duplo-heterozigota foi cruzada com uma planta duplo-recessiva, o que resultou numa descendência de $\frac{1}{4}$ de plantas com frutos redondos e vermelhos, $\frac{1}{4}$ de plantas com frutos redondos e brancos, $\frac{1}{4}$ de plantas com frutos alongados e vermelhos e $\frac{1}{4}$ de plantas com frutos alongados e brancos.`,
     parts: [
       {
         id: 'a',
         prompt: 'Qual o genótipo da planta descendente que produziu frutos redondos e brancos? De acordo com os dados do texto, com qual lei de Mendel as proporções fenotípicas estão relacionadas?',
-        expected: `1) Genótipo da planta descendente de frutos redondos e brancos: Aabb.\n2) Lei de Mendel: Segunda Lei de Mendel (Lei da segregação independente dos fatores/alelos).`,
-        accepted: `Lei da segregação independente, Segunda Lei de Mendel.`,
-        rejected: `Apenas "Lei de Mendel" ou "Primeira Lei".`,
+        expected: `1) Genótipo da planta descendente com frutos redondos e brancos: $Aabb$.\n2) Lei de Mendel: Segunda Lei de Mendel (Lei da Segregação Independente).\n\nForam aceitas: Lei da segregação independente; segunda Lei de Mendel (segregação independente).\nNão foram aceitas: Primeira Lei de Mendel; citar a Segunda Lei de Mendel e explicar incorretamente; citar a Primeira Lei de Mendel e explicar o conceito da Segunda Lei e vice-versa.`,
         criteria: [
-          { points: 1, text: 'Determina o genótipo Aabb.' },
-          { points: 1, text: 'Identifica a Segunda Lei de Mendel / Lei da segregação independente.' },
+          { points: 1, text: 'Identifica o genótipo Aabb.' },
+          { points: 1, text: 'Identifica a Segunda Lei de Mendel (ou segregação independente).' },
         ],
-        detailed: `a) O cruzamento descrito foi realizado entre uma planta di-híbrida ($AaBb$) e uma planta duplo-recessiva ($aabb$).
-Pela Segunda Lei de Mendel (Lei da Segregação Independente), os pares de alelos localizam-se em cromossomos homólogos distintos e segregam de maneira independente durante a meiose. Assim, o parental $AaBb$ produz quatro tipos de gametas em frequências idênticas ($25\\% AB$, $25\\% Ab$, $25\\% aB$, $25\\% ab$), enquanto o parental $aabb$ produz exclusivamente gametas $ab$.
-A descendência com frutos redondos ($A\\_$) e brancos ($bb$) resulta da união do gameta $Ab$ com o gameta $ab$, possuindo o genótipo Aabb. A obtenção de 4 classes fenotípicas na proporção $1:1:1:1$ (ou $1/4$ para cada) comprova a segregação independente de Mendel.`,
+        detailed: `a) O cruzamento foi realizado entre uma planta duplo-heterozigota ($AaBb$) e uma planta duplo-recessiva ($aabb$).
+A planta descendente que apresenta fenótipo frutos redondos (dominância de $A$) e frutos brancos (recessividade de $b$) herdou obrigatoriamente os alelos recessivos $a$ e $b$ do progenitor duplo-recessivo e os alelos $A$ e $b$ do progenitor heterozigoto, possuindo genótipo $Aabb$.
+A ocorrência das quatro classes fenotípicas em proporções iguais ($1/4 : 1/4 : 1/4 : 1/4$ ou $1:1:1:1$) indica que os dois pares de alelos segregam de forma totalmente independente durante a meiose, o que exemplifica a Segunda Lei de Mendel (Lei da Segregação Independente).`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
         prompt: 'Caso os dois alelos dominantes estivessem em um mesmo cromossomo e os alelos recessivos estivessem no cromossomo homólogo, e não ocorresse permutação, qual seria o resultado fenotípico esperado na descendência das plantas utilizadas no cruzamento? Caso tivesse ocorrido uma permutação, que resultados fenotípicos observados na descendência poderiam evidenciar tal fenômeno?',
-        expected: `1) Sem permutação (linkage total em cis): 50% de plantas com frutos redondos e vermelhos e 50% com frutos alongados e brancos (proporção fenotípica 1:1 dos fenótipos parentais).\n2) Com permutação (crossing-over): Surgimento de indivíduos com fenótipos recombinantes (frutos redondos e brancos; e frutos alongados e vermelhos) em proporções menores do que os indivíduos apresentando fenótipos parentais, alterando a proporção de 1:1 e gerando os quatro fenótipos em proporções desiguais.`,
-        accepted: `Metade redondos-vermelhos e metade alongados-brancos; presença dos 4 fenótipos em proporções diferentes de 1:1:1:1 com parentais em maior proporção que os recombinantes.`,
+        expected: `1) Resultado fenotípico sem permutação:
+50% (ou $\frac{1}{2}$) de plantas com frutos redondos e vermelhos e 50% (ou $\frac{1}{2}$) de plantas com frutos alongados e brancos.
+
+2) Evidência caso ocorresse permutação:
+O aparecimento de classes fenotípicas recombinantes: plantas com frutos redondos e brancos e plantas com frutos alongados e vermelhos (ou seja, surgimento dos quatro fenótipos possíveis, com predomínio dos parentais).\n\nNão foram aceitas: respostas sem a indicação das proporções ou sem a menção dos fenótipos recombinantes.`,
         criteria: [
-          { points: 1, text: 'Determina o resultado sem permutação: 50% redondos e vermelhos e 50% alongados e brancos (proporção 1:1).' },
-          { points: 1, text: 'Determina o resultado com permutação: surgimento de fenótipos recombinantes em menor proporção que os parentais.' },
+          { points: 1, text: 'Indica 50% redondos e vermelhos e 50% alongados e brancos (ou 1:1).' },
+          { points: 1, text: 'Explica que a permutação seria evidenciada pelo surgimento de frutos redondos brancos e alongados vermelhos.' },
         ],
-        detailed: `b) Caso os dois genes estivessem ligados no mesmo par de cromossomos em configuração cis ($AB/ab$) no parental heterozigoto:
-1) Na ausência de permutação (crossing-over): O di-híbrido formaria apenas dois tipos de gametas parentais ($50\\% AB$ e $50\\% ab$). Ao cruzar com a planta duplo-recessiva ($ab/ab$), os descendentes seriam unicamente $50\\% AB/ab$ (frutos redondos e vermelhos) e $50\\% ab/ab$ (frutos alongados e brancos), isto é, proporção fenotípica 1:1, sem nenhuma planta de fruto redondo e branco ou alongado e vermelho.
-2) Ocorrendo permutação: A quebra e recombinação entre as cromátides homólogas na prófase I da meiose permitiria a formação dos gametas recombinantes $Ab$ e $aB$. A evidência desse fenômeno na descendência seria o reaparecimento dos 4 fenótipos do enunciado, porém em proporções desiguais (diferentes de $1:1:1:1$), com os fenótipos recombinantes (redondos-brancos e alongados-vermelhos) surgindo em frequências reduzidas ($< 25\\%$ cada) e os fenótipos parentais (redondos-vermelhos e alongados-brancos) predominando na população ($> 25\\%$ cada).`,
+        detailed: `b) 1) Estando os alelos dominantes no mesmo cromossomo e os recessivos no homólogo (configuração *cis*, $\frac{AB}{ab}$), na ausência de permutação gênica (*crossing-over*) a planta duplo-heterozigota produz apenas dois tipos de gametas parentais ($AB$ e $ab$, na proporção de 50% cada). Como a planta recessiva produz exclusivamente gametas $ab$, os descendentes esperados serão:
+- 50% (ou proporção de $1/2$) de plantas com frutos redondos e vermelhos ($AaBb$);
+- 50% (ou proporção de $1/2$) de plantas com frutos alongados e brancos ($aabb$).
+2) Caso ocorresse permutação, haveria troca de segmentos entre cromátides não irmãs, formando gametas recombinantes ($Ab$ e $aB$). O fenômeno seria evidenciado pelo aparecimento de classes fenotípicas recombinantes na descendência: plantas com frutos redondos e brancos ($Aabb$) e plantas com frutos alongados e vermelhos ($aaBb$), manifestando os quatro fenótipos possíveis, onde os recombinantes aparecem em frequência menor que os parentais.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -162,37 +154,34 @@ A descendência com frutos redondos ($A\\_$) e brancos ($bb$) resulta da união 
   d({
     n: 5,
     subject: 'Biologia',
-    content: 'Fisiologia vegetal: compostos voláteis (VOCs), taninos e interação genótipo-ambiente',
+    content: 'Ecologia e botânica: defesa química vegetal, taninos, alelopatia e plasticidade fenotípica',
     difficulty: 'Média',
-    statement: `Um experimento foi realizado para verificar se as plantas podem comunicar-se por meio de substâncias voláteis. Foram utilizadas plantas da mesma espécie, das quais três tiveram duas folhas danificadas, simulando uma ação de herbívoros, enquanto as demais plantas ficaram intactas. As plantas com as folhas danificadas ficaram em uma câmara próxima das plantas que estavam intactas. Em outra câmara ficaram outras plantas, que constituíram o grupo de controle, ao lado de uma câmara vazia. O gráfico ilustra a produção de taninos, substâncias de proteção contra os herbívoros, encontrada nas folhas das plantas analisadas.
-
-(James Morris et al. Biology: how life works, 2013. Adaptado.)`,
-    visuals: [{ file: 'p2-q05-grafico-tanino.svg', alt: 'Gráfico da produção de tanino em folhas de plantas intactas nos grupos controle e experimental', caption: 'Morris, J. et al. Biology: how life works, 2013.' }],
+    statement: `Plantas atacadas por herbívoros podem emitir compostos orgânicos voláteis que servem de sinal químico para plantas vizinhas intactas aumentarem a síntese de compostos de defesa, como os taninos. Um experimento analisou a produção de taninos em folhas de três grupos de plantas da mesma espécie: Grupo Controle (plantas intactas não expostas a voláteis), Grupo Danificado Mecanicamente (plantas com folhas perfuradas artificialmente) e Grupo Experimental (plantas vizinhas intactas expostas aos voláteis emitidos por plantas atacadas). O gráfico mostra os resultados.`,
+    visuals: [{ file: 'p2-q05-grafico-tanino.svg', alt: 'Gráfico em barras mostrando a produção de tanino em folhas nos grupos controle, danificado mecanicamente e experimental', caption: 'Produção de tanino em folhas de plantas.' }],
     parts: [
       {
         id: 'a',
-        prompt: 'De acordo com os dados representados no gráfico, os resultados obtidos referendam ou refutam a hipótese testada no experimento? Justifique sua resposta, de acordo com uma informação apresentada no gráfico.',
-        expected: `1) Conclusão: Referendam a hipótese testada (confirmam / corroboram / ratificam).\n2) Justificativa: O gráfico demonstra que as plantas intactas do grupo experimental produziram uma quantidade expressivamente maior de tanino (cerca de 2,5% em massa) em comparação com as plantas do grupo controle (cerca de 1,8%), evidenciando que foram estimuladas pelas substâncias químicas voláteis liberadas pelas plantas danificadas vizinhas.`,
-        accepted: `Afirmam, confirmam, comprovam, corroboram, atestam, ratificam.`,
-        rejected: `Refutam.`,
+        prompt: 'De acordo com os dados representados no gráfico, os resultados obtidos referendam a hipótese testada no experimento? Justifique sua resposta, de acordo com uma informação apresentada no gráfico.',
+        expected: `1) Referendam a hipótese: Sim, referendam (afirmam, confirmam, comprovam) a hipótese testada.\n2) Justificativa: As plantas do grupo experimental (vizinhas intactas expostas aos voláteis) aumentaram significativamente a produção de tanino em suas folhas em relação ao grupo controle, alcançando níveis elevados comparáveis aos das plantas com danos mecânicos.\n\nForam aceitas: confirmam, comprovam; citação do aumento da concentração de tanino nas plantas intactas expostas aos voláteis.\nNão foram aceitas: respostas negativas (não referendam) ou sem justificativa.`,
         criteria: [
-          { points: 1, text: 'Afirma que os resultados referendam (confirmam / corroboram) a hipótese.' },
-          { points: 1, text: 'Justifica comparando a maior produção de tanino no grupo experimental em relação ao grupo controle.' },
+          { points: 1, text: 'Afirma que os resultados referendam (confirmam) a hipótese.' },
+          { points: 1, text: 'Justifica utilizando a elevação da produção de taninos no grupo experimental frente ao controle.' },
         ],
-        detailed: `a) Os resultados obtidos referendam a hipótese testada de que as plantas se comunicam por meio de substâncias químicas voláteis transportadas pelo ar.
-Pela análise do gráfico, constata-se que as plantas intactas do grupo controle apresentaram teores basais de tanino de aproximadamente $1,8\\%$ (em equivalente de ácido tânico por grama de folha seca). Por outro lado, as plantas intactas do grupo experimental, cuja câmara esteve conectada ao fluxo de ar das plantas mecanicamente lesadas, elevaram sua produção de taninos para cerca de $2,5\\%$. Essa elevação estatisticamente expressiva de cerca de $40\\%$ comprova que os compostos voláteis emitidos pelas folhas danificadas atuaram como mensageiros químicos no ar, induzindo respostas defensivas nas plantas vizinhas intactas.`,
+        detailed: `a) Sim, os resultados obtidos no experimento referendam (confirmam plenamente) a hipótese formulada.
+Pela análise do gráfico, constata-se que as plantas do grupo experimental — que permaneceram fisicamente intactas, mas estiveram expostas aos compostos orgânicos voláteis emitidos pelas plantas danificadas — apresentaram uma produção de taninos nas folhas significativamente maior do que a do grupo controle (plantas não expostas), atingindo teores praticamente equivalentes aos das plantas danificadas mecanicamente. Isso comprova que a recepção dos sinais químicos aéreos induziu ativamente a síntese de defesas químicas nas plantas receptoras.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
         prompt: 'Explique se a quantidade de tanino produzido pelas folhas dessas plantas é determinada pelo ambiente, pela constituição genética da planta ou por ambos os fatores.',
-        expected: `1) Conclusão: A quantidade de tanino é determinada por ambos os fatores.\n2) Explicação: A capacidade metabólica de sintetizar taninos e a estrutura das enzimas da via são codificadas no genoma da planta (fator genético), porém a quantidade e o ritmo de produção são modulados em resposta a estímulos e estresses do meio, como danos por herbivoria ou sinais químicos voláteis de alerta (fator ambiental).`,
+        expected: `A quantidade de tanino é determinada por ambos os fatores:\n1) Fator genético: Os genes da planta contêm as informações biológicas e codificam as vias enzimáticas metabólicas responsáveis pela biossíntese dos taninos.\n2) Fator ambiental: Os estímulos externos ambientais (como os compostos voláteis emitidos por vizinhas ou a herbivoria mecânica) atuam modulando e induzindo o nível de expressão gênica e a quantidade final de tanino sintetizado.\n\nNão foram aceitas: apenas ambiente; apenas genética.`,
         criteria: [
-          { points: 1, text: 'Indica que ambos os fatores determinam a quantidade de tanino.' },
-          { points: 1, text: 'Explica a interação gênica e ambiental na síntese e regulação dos taninos.' },
+          { points: 1, text: 'Afirma expressamente que a produção é determinada por ambos os fatores.' },
+          { points: 1, text: 'Justifica o papel dos genes (síntese) e do ambiente (estímulo indutor / expressão).' },
         ],
-        detailed: `b) A quantidade de taninos produzida pelas folhas é determinada por ambos os fatores, refletindo a interação clássica entre genótipo e ambiente na determinação do fenótipo ($Fenótipo = Genótipo + Ambiente$).
-A capacidade bioquímica de produzir taninos é geneticamente determinada, pois as enzimas necessárias para a síntese dessas macromoléculas fenólicas (como as da via dos fenilpropanoides) estão codificadas no DNA da espécie vegetal. Contudo, a regulação da expressão desses genes é plástica e induzível: estímulos ambientais externos (como estresse biótico, ataque por insetos herbívoros ou detecção de voláteis no ar) ativam cascatas de sinalização hormonal (como as do ácido jasmônico) que amplificam a taxa de transcrição e a produção foliar de taninos.`,
+        detailed: `b) A quantidade de tanino sintetizada é determinada por ambos os fatores (interação entre genótipo e ambiente).
+A constituição genética da planta é imprescindível porque determina o potencial metabólico do vegetal, fornecendo os genes que codificam as enzimas das rotas biossintéticas de polifenóis (taninos).
+Por sua vez, o fator ambiental é decisivo ao atuar como o gatilho externo que induz a expressão desses genes: na ausência de herbivoria ou de sinais voláteis, a produção basal permanece baixa (grupo controle), enquanto a presença do estímulo ambiental (compostos voláteis) desencadeia a superexpressão gênica e eleva substancialmente os níveis do composto defensivo (plasticidade fenotípica).`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -204,33 +193,33 @@ A capacidade bioquímica de produzir taninos é geneticamente determinada, pois 
   d({
     n: 6,
     subject: 'Química',
-    content: 'Classificação de materiais: substância pura, mistura, ebulioscopia e condutibilidade elétrica',
+    content: 'Substâncias puras, misturas e propriedades coligativas: tonoscopia e pressão de vapor',
     difficulty: 'Fácil',
-    statement: `Considere os seguintes materiais líquidos: etanol anidro, etanol hidratado a 70% em massa e salmoura concentrada (cloreto de sódio dissolvido em água).`,
+    statement: `Considere os seguintes materiais líquidos: etanol anidro, etanol hidratado a 70% em massa e salmoura concentrada sem corpo de fundo.`,
     parts: [
       {
         id: 'a',
-        prompt: 'Qual desses materiais pode ser classificado como substância pura? Qual das duas soluções aquosas tem a menor temperatura de início de ebulição, à mesma pressão?',
-        expected: `1) Substância pura: etanol anidro.\n2) Solução aquosa com menor temperatura de início de ebulição: etanol hidratado a 70% em massa (ferve a cerca de 78 °C a 80 °C, enquanto a salmoura concentrada tem temperatura de ebulição superior a 100 °C devido ao efeito ebulioscópico do soluto não volátil NaCl).`,
-        accepted: `Etanol hidratado a 70% em massa (também aceito etanol anidro).`,
+        prompt: 'Cite, entre os materiais líquidos apresentados, qual é considerado uma substância pura. Qual desses materiais líquidos pode ter seus componentes separados por destilação simples?',
+        expected: `1) Substância pura: Etanol anidro.\n2) Separação por destilação simples: Salmoura concentrada (salmoura).\n\nNão foram aceitas: etanol hidratado; misturar destilação fracionada com simples.`,
         criteria: [
           { points: 1, text: 'Identifica o etanol anidro como substância pura.' },
-          { points: 1, text: 'Identifica o etanol hidratado a 70% em massa como a solução de menor temperatura de início de ebulição.' },
+          { points: 1, text: 'Identifica a salmoura concentrada como a mistura separável por destilação simples.' },
         ],
-        detailed: `a) O etanol anidro é o único material que pode ser classificado como substância pura, pois é constituído unicamente por moléculas de etanol ($C_2H_5OH$), sem adição de solvente. Os outros dois materiais são misturas homogêneas (soluções aquosas).
-Entre as duas soluções aquosas, o etanol hidratado a 70% tem a menor temperatura de início de ebulição (em torno de $78^\\circ\\text{C}$ a $80^\\circ\\text{C}$). O etanol possui ponto de ebulição puro de $78,3^\\circ\\text{C}$ e volatilidade muito superior à da água; por outro lado, a salmoura concentrada é uma solução aquosa contendo cloreto de sódio, um soluto não volátil que provoca elevação ebulioscópica na água, fazendo com que sua ebulição se inicie acima de $100^\\circ\\text{C}$.`,
+        detailed: `a) O material líquido classificado como substância pura é o etanol anidro (álcool etílico puro, sem adição de água ou outros componentes). O etanol hidratado e a salmoura são misturas homogêneas (soluções).
+O material cujos componentes podem ser separados por destilação simples é a salmoura concentrada, por se tratar de uma solução homogênea formada por um sólido não volátil (cloreto de sódio, $NaCl$) dissolvido em um líquido volátil (água, $H_2O$), havendo enorme discrepância entre seus pontos de ebulição. O etanol hidratado requer destilação fracionada devido à proximidade dos pontos de ebulição de seus líquidos componentes.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'Três fitas de papel de filtro foram embebidas, cada uma, com um desses materiais e inseridas individualmente em um circuito elétrico simples, contendo uma lâmpada e uma pilha. A fita embebida com qual dos materiais permitirá que a lâmpada acenda com maior brilho? Justifique sua resposta.',
-        expected: `1) Material que permite maior brilho: fita embebida com a salmoura concentrada.\n2) Justificativa: A salmoura concentrada é uma solução eletrolítica que contém grande quantidade de íons livres móveis ($Na^+$ e $Cl^-$) resultantes da dissociação iônica do cloreto de sódio em água, permitindo a passagem de corrente elétrica pelo circuito com baixa resistência, enquanto o etanol é um composto molecular não ionizável.`,
+        prompt: 'Três tiras idênticas de papel absorvente foram igualmente embebidas com esses materiais líquidos, um em cada tira, e todos à mesma temperatura. Em seguida, essas tiras foram expostas ao ar até a secagem completa. Qual tira deve ter sido a última a secar completamente? Justifique sua resposta, considerando as diferenças entre pressões de vapor dos líquidos.',
+        expected: `1) Tira que secou por último: A tira embebida com salmoura concentrada.\n2) Justificativa: A salmoura concentrada apresenta a menor pressão de vapor entre os três líquidos, pois a presença do soluto não volátil ($NaCl$) em água reduz a pressão de vapor do solvente (efeito tonoscópico). Como a taxa de evaporação é diretamente proporcional à pressão de vapor, o líquido com menor pressão de vapor evapora mais lentamente, sendo o último a secar.\n\nForam aceitas: menor pressão de vapor da salmoura devido ao sal dissolvido; efeito tonoscópico; maior volatilidade do etanol em relação à água.`,
         criteria: [
-          { points: 1, text: 'Identifica a fita embebida com salmoura concentrada.' },
-          { points: 1, text: 'Justifica pela presença de íons livres móveis (dissociação do NaCl gerando solução eletrolítica condutora).' },
+          { points: 1, text: 'Identifica a tira embebida com salmoura concentrada.' },
+          { points: 1, text: 'Justifica com base na menor pressão de vapor da salmoura (efeito tonoscópico / menor taxa de evaporação).' },
         ],
-        detailed: `b) A lâmpada acenderá com maior brilho na fita embebida com a salmoura concentrada.
-O cloreto de sódio ($NaCl$) é um composto iônico sólido que, quando dissolvido em água, sofre dissociação total em cátions sódio ($Na^+$) e ânions cloreto ($Cl^-$) hidratados. A alta concentração de íons dotados de liberdade de movimento confere à solução elevada condutibilidade elétrica (solução eletrolítica forte), fechando o circuito com baixa resistência e permitindo maior fluxo de corrente. Em contrapartida, tanto o etanol anidro quanto o etanol hidratado são compostos orgânicos moleculares que se dissolvem sem sofrer ionização ou dissociação, de modo que suas soluções praticamente não conduzem corrente elétrica.`,
+        detailed: `b) A tira que deve ter sido a última a secar completamente foi a embebida com salmoura concentrada.
+O etanol possui forças intermoleculares mais fracas e massa molar menor que a água em relação à sua volatilidade, conferindo ao etanol anidro a maior pressão de vapor entre as substâncias puras analisadas. A água pura possui menor pressão de vapor que o etanol.
+Na salmoura concentrada, a dissolução dos íons $Na^+$ e $Cl^-$ (soluto não volátil) provoca o efeito coligativo de tonoscopia (abaixamento da pressão de vapor da água), diminuindo o número de moléculas de água com energia cinética suficiente para escapar da fase líquida. Por apresentar a menor pressão de vapor do conjunto, a salmoura tem a menor velocidade de evaporação, levando mais tempo para secar.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -239,50 +228,67 @@ O cloreto de sódio ($NaCl$) é um composto iônico sólido que, quando dissolvi
   d({
     n: 7,
     subject: 'Química',
-    content: 'Processo Ostwald: síntese do ácido nítrico, oxirredução, Nox e equação global',
-    difficulty: 'Média',
+    content: 'Processo Ostwald: síntese do ácido nítrico, estequiometria em CATP, Nox e Lei de Hess',
+    difficulty: 'Difícil',
     statement: `O ácido nítrico ($HNO_3$) é um dos produtos mais importantes da indústria química, por ser matéria-prima para a fabricação de fertilizantes e explosivos. Ele é produzido industrialmente pelo processo Ostwald, que envolve três etapas reacionais:
 
-Etapa 1: $4\\,NH_3(g) + 5\\,O_2(g) \\rightarrow 4\\,NO(g) + 6\\,H_2O(g)$
-Etapa 2: $2\\,NO(g) + O_2(g) \\rightarrow 2\\,NO_2(g)$
-Etapa 3: $3\\,NO_2(g) + H_2O(l) \\rightarrow 2\\,HNO_3(aq) + NO(g)$`,
+Etapa 1: $4\,NH_3(g) + 5\,O_2(g) \rightarrow 4\,NO(g) + 6\,H_2O(g) \quad \Delta H = -906\text{ kJ}$
+Etapa 2: $2\,NO(g) + O_2(g) \rightarrow 2\,NO_2(g) \quad \Delta H = -114\text{ kJ}$
+Etapa 3: $3\,NO_2(g) + H_2O(l) \rightarrow 2\,HNO_3(aq) + NO(g) \quad \Delta H = -137\text{ kJ}$`,
     parts: [
       {
         id: 'a',
-        prompt: 'Qual das substâncias reagentes da Etapa 1 atua como agente redutor? Qual foi a variação do número de oxidação (Nox) do nitrogênio ao longo de todo o processo industrial, considerando a transformação do reagente nitrogenado da Etapa 1 no produto da Etapa 3?',
-        expected: `1) Agente redutor da Etapa 1: amônia ($NH_3$).\n2) Variação do Nox do nitrogênio: O Nox do nitrogênio variou de -3 (no $NH_3$) para +5 (no $HNO_3$), correspondendo a uma variação $\\Delta\\text{Nox} = 8$ (ou variação de -3 para +2 considerando a etapa 1).`,
+        prompt: 'Qual reagente atua como redutor no processo de produção do ácido nítrico? Justifique sua resposta, com base na variação dos números de oxidação.',
+        expected: `1) Reagente redutor: $NH_3$ (amônia).\n2) Justificativa: Na Etapa 1, o nitrogênio presente na amônia tem número de oxidação $-3$ e se oxida para $+2$ no $NO$, ou para $+5$ no produto final $HNO_3$ (variação $\Delta\text{Nox} = +5$ ou $+8$). Ao sofrer oxidação (perda de elétrons), o $NH_3$ atua como agente redutor.\n\nForam aceitas: $NH_3$ ou amônia; citação da variação de Nox de -3 para +2 (na etapa 1) ou de -3 para +5 (global).`,
         criteria: [
           { points: 1, text: 'Identifica o NH3 (amônia) como agente redutor.' },
-          { points: 1, text: 'Determina a variação do Nox do nitrogênio de -3 para +5 (ou ΔNox = 8).' },
+          { points: 1, text: 'Justifica com a elevação do Nox do nitrogênio de -3 para +2 (ou +5).' },
         ],
-        detailed: `a) Na Etapa 1, o nitrogênio na amônia ($NH_3$) possui número de oxidação $-3$ e se oxida para $+2$ no monóxido de nitrogênio ($NO$). Como o $NH_3$ sofre oxidação e provoca a redução do oxigênio ($O_2$, cujo Nox passa de $0$ para $-2$), ele atua como agente redutor.
-Considerando a transformação global do reagente de partida ($NH_3$) no produto final ($HNO_3$):
-- No $NH_3$: $\\text{Nox}(N) + 3(+1) = 0 \\implies \\text{Nox}(N) = -3$.
-- No $HNO_3$: $+1 + \\text{Nox}(N) + 3(-2) = 0 \\implies \\text{Nox}(N) = +5$.
-Portanto, o número de oxidação do nitrogênio variou de $-3$ para $+5$, representando um aumento de $8$ unidades ($\\Delta\\text{Nox} = 8$).`,
+        detailed: `a) O reagente que atua como redutor é a amônia ($NH_3$).
+Na Etapa 1, calculando os números de oxidação (Nox):
+- No $NH_3$: como o hidrogênio tem $\text{Nox} = +1$, o nitrogênio apresenta $\text{Nox} = -3$.
+- No $NO$: como o oxigênio tem $\text{Nox} = -2$, o nitrogênio apresenta $\text{Nox} = +2$.
+- No produto final $HNO_3$: $+1 + \text{Nox}(N) + 3(-2) = 0 \implies \text{Nox}(N) = +5$.
+O nitrogênio sofre oxidação, aumentando seu número de oxidação de $-3$ para $+2$ (na primeira etapa) e para $+5$ no produto final (doação de elétrons), atuando como agente redutor para o gás oxigênio ($O_2$), cujo Nox é reduzido de $0$ para $-2$.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'Escreva a equação química global da produção de ácido nítrico pelo processo Ostwald, considerando que o NO(g) gerado na Etapa 3 é reciclado e reinserido na Etapa 2.',
-        expected: `Equação química global balanceada:\n$NH_3(g) + 2\\,O_2(g) \\rightarrow HNO_3(aq) + H_2O(l)$\n(ou $4\\,NH_3 + 8\\,O_2 \\rightarrow 4\\,HNO_3 + 4\\,H_2O$).`,
+        prompt: 'Admitindo rendimento de 100% e sabendo que o volume molar de gás medido nas CATP (condições ambientais de temperatura e pressão) é igual a 25 L/mol, calcule o volume de O2 (g), medido nessas condições, necessário para produzir 6,3 toneladas de HNO3. Calcule a quantidade de energia, em kJ, envolvida nessa reação.',
+        expected: `1) Volume de $O_2(g)$:
+A equação química global do processo Ostwald (com cancelamento do $NO$ reciclado) é:
+$NH_3(g) + 2\,O_2(g) \rightarrow HNO_3(aq) + H_2O(l)$
+Massa molar do $HNO_3$: $1 + 14 + 3(16) = 63\text{ g/mol}$.
+Quantidade de matéria de $HNO_3$: $n = \frac{6,3 \times 10^6\text{ g}}{63\text{ g/mol}} = 10^5\text{ mols}$.
+Pela proporção estequiométrica ($1\text{ mol } HNO_3 : 2\text{ mols } O_2$):
+$n(O_2) = 2 \times 10^5\text{ mols}$.
+Volume de $O_2$ nas CATP: $V = 2 \times 10^5\text{ mols} \times 25\text{ L/mol} = 5,0 \times 10^6\text{ L}$ (ou $5\,000\text{ m}^3$).
+
+2) Quantidade de energia envolvida:
+Combinando as etapas termoquímicas (1/4 da Etapa 1 + 3/4 da Etapa 2 + 1/2 da Etapa 3):
+$\Delta H_{\text{global}} = \frac{1}{4}(-906) + \frac{3}{4}(-114) + \frac{1}{2}(-137) = -226,5 - 85,5 - 68,5 = -380,5\text{ kJ/mol de } HNO_3$.
+Para $10^5\text{ mols}$ de $HNO_3$:
+$Q = 10^5\text{ mols} \times 380,5\text{ kJ/mol} = 3,805 \times 10^7\text{ kJ}$ (ou $3,8 \times 10^7\text{ kJ}$ liberados).`,
         criteria: [
-          { points: 2, text: 'Apresenta a equação química global balanceada corretamente: NH3 + 2 O2 -> HNO3 + H2O.' },
+          { points: 1, text: 'Calcula o volume de O2 = 5,0 x 10^6 L com resolução.' },
+          { points: 1, text: 'Calcula a quantidade de energia envolvida = 3,8 x 10^7 kJ (ou 3,805 x 10^7 kJ) com resolução.' },
         ],
-        detailed: `b) Para obter a equação global com o cancelamento dos intermediários $NO(g)$ e $NO_2(g)$, ajustamos os coeficientes das reações:
-Multiplicamos a Etapa 2 por 3 e a Etapa 3 por 2:
-1) $4\\,NH_3(g) + 5\\,O_2(g) \\rightarrow 4\\,NO(g) + 6\\,H_2O(g)$
-2) $6\\,NO(g) + 3\\,O_2(g) \\rightarrow 6\\,NO_2(g)$
-3) $6\\,NO_2(g) + 2\\,H_2O(l) \\rightarrow 4\\,HNO_3(aq) + 2\\,NO(g)$
+        detailed: `b) 1) Para determinar a equação global por mol de $HNO_3$, multiplicamos os coeficientes das etapas para eliminar os intermediários $NO$ e $NO_2$:
+- Etapa 1 $\times \frac{1}{4}$: $NH_3 + \frac{5}{4} O_2 \rightarrow NO + \frac{6}{4} H_2O \quad \Delta H_1 = -226,5\text{ kJ}$
+- Etapa 2 $\times \frac{3}{4}$: $\frac{3}{2} NO + \frac{3}{4} O_2 \rightarrow \frac{3}{2} NO_2 \quad \Delta H_2 = -85,5\text{ kJ}$
+- Etapa 3 $\times \frac{1}{2}$: $\frac{3}{2} NO_2 + \frac{1}{2} H_2O \rightarrow HNO_3 + \frac{1}{2} NO \quad \Delta H_3 = -68,5\text{ kJ}$
+Somando as três equações, os intermediários $NO$ e $NO_2$ se anulam perfeitamente:
+$$NH_3(g) + 2\,O_2(g) \rightarrow HNO_3(aq) + H_2O(l)$$
+A quantidade de $HNO_3$ a ser produzida é:
+$$m = 6,3\text{ t} = 6,3 \times 10^6\text{ g} \implies n_{HNO_3} = \frac{6,3 \times 10^6\text{ g}}{63\text{ g/mol}} = 10^5\text{ mols}$$
+Pela proporção estequiométrica de $1 : 2$:
+$$n_{O_2} = 2 \times 10^5\text{ mols}$$
+$$V_{O_2} = 2 \times 10^5\text{ mols} \times 25\text{ L/mol} = 5,0 \times 10^6\text{ L de } O_2$$
 
-Somando membro a membro:
-Reagentes: $4\\,NH_3 + 5\\,O_2 + 6\\,NO + 3\\,O_2 + 6\\,NO_2 + 2\\,H_2O$
-Produtos: $4\\,NO + 6\\,H_2O + 6\\,NO_2 + 4\\,HNO_3 + 2\\,NO$
-
-Cancelando $6\\,NO$ e $6\\,NO_2$ de ambos os lados e subtraindo a água:
-$$4\\,NH_3(g) + 8\\,O_2(g) \\rightarrow 4\\,HNO_3(aq) + 4\\,H_2O(l)$$
-Dividindo todos os coeficientes por 4 para expressar na proporção estequiométrica mínima:
-$$NH_3(g) + 2\\,O_2(g) \\rightarrow HNO_3(aq) + H_2O(l)$$`,
+2) Cálculo da entalpia global da reação pela Lei de Hess:
+$$\Delta H = -226,5 - 85,5 - 68,5 = -380,5\text{ kJ/mol de } HNO_3$$
+Para a produção de $10^5\text{ mols}$ de $HNO_3$, a quantidade total de energia liberada é:
+$$E = 10^5\text{ mols} \times 380,5\text{ kJ/mol} = 3,805 \times 10^7\text{ kJ}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -291,45 +297,38 @@ $$NH_3(g) + 2\\,O_2(g) \\rightarrow HNO_3(aq) + H_2O(l)$$`,
   d({
     n: 8,
     subject: 'Química',
-    content: 'Equilíbrio químico em solução, indicadores de pH e geometria/polaridade molecular',
+    content: 'Indicadores ácido-base (azul de bromotimol), pH, geometria e polaridade molecular',
     difficulty: 'Média',
-    statement: `Analise a imagem.
-
-Intervalo de pH em que há a mudança de cor do azul de bromotimol (6,0 – 7,6)
-(http://qnint.sbq.org.br)
-
-Em três frascos rotulados de 1 a 3, contendo, cada um, água destilada e solução do indicador azul de bromotimol, foram borbulhados, não necessariamente nessa ordem, os gases dióxido de carbono, metano e amônia, um em cada frasco. Os resultados estão ilustrados a seguir.`,
+    statement: `Analise a escala que apresenta o intervalo de pH de transição do azul de bromotimol e a imagem que mostra os frascos 1, 2 e 3 contendo soluções aquosas com esse indicador, após o borbulhamento de três gases distintos: amônia ($NH_3$), metano ($CH_4$) e dióxido de carbono ($CO_2$).`,
     visuals: [
-      { file: 'p2-q08-escala-bromotimol.svg', alt: 'Escala de cor do indicador azul de bromotimol em função do pH', caption: 'Faixa de transição do azul de bromotimol (pH 6,0 a 7,6).' },
-      { file: 'p2-q08-frascos-experimento.svg', alt: 'Três frascos com solução de azul de bromotimol: frasco 1 azul, frasco 2 verde, frasco 3 amarelo', caption: 'Colorações obtidas após borbulhamento dos gases.' },
+      { file: 'p2-q08-escala-bromotimol.svg', alt: 'Faixa de pH e coloração do indicador azul de bromotimol: amarelo para pH < 6,0, verde entre 6,0 e 7,6, azul para pH > 7,6', caption: 'Escala de pH do azul de bromotimol.' },
+      { file: 'p2-q08-frascos-experimento.svg', alt: 'Frascos 1 (azul), 2 (verde) e 3 (amarelo) com o indicador azul de bromotimol', caption: 'Colorações obtidas nos frascos 1, 2 e 3.' },
     ],
     parts: [
       {
         id: 'a',
         prompt: 'Identifique o gás que foi borbulhado em cada um dos frascos, 1, 2 e 3.',
-        expected: `Frasco 1: amônia ($NH_3$).\nFrasco 2: metano ($CH_4$).\nFrasco 3: dióxido de carbono ($CO_2$).`,
+        expected: `Frasco 1: amônia ($NH_3$).\nFrasco 2: metano ($CH_4$).\nFrasco 3: dióxido de carbono ($CO_2$).\n\nCritérios de pontuação: 2 pontos para os três frascos corretos; 1 ponto para dois frascos corretos.`,
         criteria: [
-          { points: 2, text: 'Identifica corretamente os três gases: Frasco 1 amônia, Frasco 2 metano, Frasco 3 dióxido de carbono (1 ponto para uma associação correta).' },
+          { points: 2, text: 'Identifica corretamente os três gases: Frasco 1 = amônia, Frasco 2 = metano, Frasco 3 = dióxido de carbono.' },
         ],
-        detailed: `a) O azul de bromotimol apresenta coloração amarela em meio ácido ($pH < 6,0$), verde na faixa de viragem próxima à neutralidade ($6,0 \\le pH \\le 7,6$) e azul em meio alcalino ($pH > 7,6$).
-- Frasco 1 (azul, pH > 7,6): amônia ($NH_3$). Trata-se de uma base de Arrhenius/Brønsted-Lowry que se ioniza na água gerando hidroxilas:
-$$NH_3(g) + H_2O(l) \\rightleftharpoons NH_4^+(aq) + OH^-(aq)$$
-- Frasco 2 (verde, pH neutro): metano ($CH_4$). O metano é um hidrocarboneto apolar praticamente insolúvel que não reage com a água nem altera seu pH neutro.
-- Frasco 3 (amarelo, pH < 6,0): dióxido de carbono ($CO_2$). O gás carbônico é um óxido ácido que se dissolve e reage com a água, formando ácido carbônico que se ioniza liberando íons $H^+$:
-$$CO_2(g) + H_2O(l) \\rightleftharpoons H_2CO_3(aq) \\rightleftharpoons H^+(aq) + HCO_3^-(aq)$$`,
+        detailed: `a) O indicador azul de bromotimol adquire coloração amarela em meio ácido ($pH < 6,0$), verde na faixa neutra/próxima à neutralidade ($6,0 \le pH \le 7,6$) e azul em meio básico ($pH > 7,6$).
+- Frasco 1 (azul, básico): amônia ($NH_3$). Trata-se de uma base de Lewis e Brønsted-Lowry que, em água, reage formando íons amônio e hidroxila: $NH_3(g) + H_2O(l) \rightleftharpoons NH_4^+(aq) + OH^-(aq)$, elevando o pH acima de 7,6.
+- Frasco 2 (verde, neutro): metano ($CH_4$). É um hidrocarboneto apolar de baixíssima solubilidade em água e sem caráter ácido-base, mantendo o pH inalterado na faixa de neutralidade do meio.
+- Frasco 3 (amarelo, ácido): dióxido de carbono ($CO_2$). É um óxido ácido que reage com a água formando ácido carbônico: $CO_2(g) + H_2O(l) \rightleftharpoons H_2CO_3(aq) \rightleftharpoons H^+(aq) + HCO_3^-(aq)$, reduzindo o pH abaixo de 6,0.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
         prompt: 'Escreva a fórmula estrutural do gás borbulhado cujas moléculas apresentam geometria linear. Identifique qual dos três gases é constituído por moléculas polares.',
-        expected: `1) Fórmula estrutural linear: $O=C=O$ (dióxido de carbono).\n2) Gás polar: amônia ($NH_3$).`,
+        expected: `1) Fórmula estrutural linear: $O=C=O$ (dióxido de carbono).\n2) Gás com moléculas polares: amônia ($NH_3$).\n\nCritérios de pontuação: 1 ponto para a fórmula estrutural linear O=C=O; 1 ponto para a identificação da amônia.`,
         criteria: [
           { points: 1, text: 'Apresenta a fórmula estrutural linear O=C=O.' },
           { points: 1, text: 'Identifica a amônia (NH3) como substância constituída por moléculas polares.' },
         ],
-        detailed: `b) O gás cujas moléculas apresentam geometria linear é o dióxido de carbono ($CO_2$). Seu átomo central de carbono realiza duas ligações duplas com os oxigênios ($sp$) e não possui pares de elétrons livres, adotando geometria linear:
+        detailed: `b) O gás que possui geometria linear é o dióxido de carbono ($CO_2$). O átomo de carbono central apresenta hibridização $sp$ com duas ligações duplas aos oxigênios e nenhum par de elétrons livres na camada de valência:
 $$O=C=O$$
-O único gás constituído por moléculas polares é a amônia ($NH_3$). O átomo de nitrogênio apresenta hibridização $sp^3$ com três ligações simples $N-H$ e um par de elétrons não ligante no topo, conferindo geometria piramidal trigonal. A assimetria da molécula e a grande diferença de eletronegatividade entre nitrogênio e hidrogênio resultam em um momento dipolar resultante diferente de zero ($\\vec{\\mu} \\neq \\vec{0}$). O $CO_2$ (linear) e o $CH_4$ (tetraédrico) são ambos apolares por simetria de carga.`,
+O único gás constituído por moléculas polares é a amônia ($NH_3$). O nitrogênio possui um par de elétrons não ligante na camada de valência com hibridização $sp^3$, o que confere geometria piramidal trigonal. Devido à assimetria molecular e à diferença de eletronegatividade entre $N$ e $H$, o momento de dipolo resultante é diferente de zero ($\vec{\mu} \neq \vec{0}$). O $CO_2$ (linear) e o $CH_4$ (tetraédrico) são apolares por simetria geométrica de cancelamento de seus vetores de dipolo.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -340,56 +339,52 @@ O único gás constituído por moléculas polares é a amônia ($NH_3$). O átom
     subject: 'Química',
     content: 'Soluções aquosas: concentração comum, molalidade, ligações de hidrogênio e condutibilidade',
     difficulty: 'Média',
-    statement: `Analise o quadro que fornece informações sobre a sacarose, o açúcar de cana.
-
-Fórmula estrutural: $C_{12}H_{22}O_{11}$ (dissacarídeo)
-Massa molar: 342 g/mol
-Solubilidade em água a 20 °C: $\\approx 2,0\\text{ g de sacarose/mL de água}$
-Condutibilidade elétrica das soluções aquosas: muito baixa, praticamente igual à da água pura`,
+    statement: `Analise o quadro que fornece informações sobre a sacarose, o açúcar de cana.`,
+    visuals: [{ file: 'p2-q09-sacarose-quadro.svg', alt: 'Quadro com fórmula estrutural da sacarose, massa molar de 342 g/mol, solubilidade de aproximadamente 2,0 g/mL e baixa condutibilidade', caption: 'Informações sobre a sacarose.' }],
     tables: [{
       ariaLabel: 'Propriedades físico-químicas da sacarose',
       headerRows: [['Propriedade', 'Valor / Descrição']],
       rows: [
-        ['Fórmula molecular', 'C₁₂H₂₂O₁₁'],
         ['Massa molar', '342 g/mol'],
         ['Solubilidade em água a 20 °C', '≈ 2,0 g de sacarose/mL de água'],
-        ['Condutibilidade elétrica da solução aquosa', 'Muito baixa, praticamente igual à da água pura'],
+        ['Condutibilidade elétrica das soluções aquosas', 'Muito baixa, praticamente igual à da água pura'],
       ],
     }],
     parts: [
       {
         id: 'a',
         prompt: 'Calcule a concentração de uma solução aquosa saturada de sacarose a 20 °C, em g/L de solvente e em mol/kg de solvente.',
-        expected: `1) Concentração em g/L de solvente:\n$C = 2,0\\text{ g/mL} \\times 1\\,000\\text{ mL/L} = 2\\,000\\text{ g/L}$ de água.\n\n2) Concentração em mol/kg de solvente (molalidade):\nConsiderando a densidade da água $1,0\\text{ g/mL}$, $1\\text{ L}$ de água equivale a $1\\text{ kg}$ de água.\n$W = \\frac{2\\,000\\text{ g de sacarose}}{1\\text{ kg de água}} \\times \\frac{1\\text{ mol}}{342\\text{ g}} = \\frac{2\\,000}{342} \\approx 5,8\\text{ mol/kg}$ de água (aceitos valores entre 5,8 e 6,0).`,
+        expected: `1) Concentração em g/L de solvente:
+$C = 2,0\text{ g/mL} \times 1\,000\text{ mL/L} = 2\,000\text{ g/L}$ de água.
+
+2) Concentração em mol/kg de solvente (molalidade):
+Como $1\text{ L}$ de água tem massa de $1\text{ kg}$ (densidade $1,0\text{ g/mL}$):
+$W = \frac{2\,000\text{ g de sacarose}}{1\text{ kg de água}} \times \frac{1\text{ mol}}{342\text{ g}} = \frac{2\,000}{342} \approx 5,8\text{ mol/kg}$ de água (ou $5,85\text{ mol/kg}$).`,
         criteria: [
-          { points: 1, text: 'Calcula a concentração de 2 000 g/L de solvente com desenvolvimento.' },
-          { points: 1, text: 'Calcula a concentração molal de 5,8 mol/kg de solvente (5,85 ou 5,8) com desenvolvimento.' },
+          { points: 1, text: 'Calcula a concentração de 2 000 g/L de solvente com resolução.' },
+          { points: 1, text: 'Calcula a concentração molal de 5,8 mol/kg (ou 5,85 mol/kg) com resolução.' },
         ],
-        detailed: `a) Dados do enunciado: a 20 °C dissolvem-se $2,0\\text{ g}$ de sacarose em $1,0\\text{ mL}$ de água.
-Adotando a densidade da água pura como $\\rho_{\\text{H}_2\\text{O}} = 1,0\\text{ g/mL} = 1,0\\text{ kg/L}$:
+        detailed: `a) Dados do enunciado: a 20 °C dissolvem-se $2,0\text{ g}$ de sacarose por $1,0\text{ mL}$ de água (solvente).
+1) Concentração em $\text{g/L de solvente}$:
+$$C = \frac{2,0\text{ g}}{1,0\text{ mL}} \times \frac{1\,000\text{ mL}}{1\text{ L}} = 2\,000\text{ g/L de água}$$
 
-1) Concentração em $\\text{g/L de solvente}$:
-$$C = \\frac{2,0\\text{ g de sacarose}}{1,0\\text{ mL de água}} \\times \\frac{1\\,000\\text{ mL}}{1\\text{ L}} = 2\\,000\\text{ g/L de solvente}$$
-
-2) Concentração em $\\text{mol/kg de solvente}$ (molalidade, $W$):
-Em $1\\text{ L}$ ($1\\text{ kg}$) de água há $2\\,000\\text{ g}$ de sacarose. Como a massa molar da sacarose é $M = 342\\text{ g/mol}$, o número de mols é:
-$$n = \\frac{m}{M} = \\frac{2\\,000\\text{ g}}{342\\text{ g/mol}} \\approx 5,848\\text{ mol}$$
-Como a massa de solvente é $m_{\\text{solvente}} = 1,0\\text{ kg}$:
-$$W = \\frac{n}{m_{\\text{solvente}}} = \\frac{5,848\\text{ mol}}{1,0\\text{ kg}} \\approx 5,85\\text{ mol/kg de água (ou } 5,8\\text{ mol/kg)}$$`,
+2) Concentração em $\text{mol/kg de solvente}$ (molalidade, $W$):
+Considerando a densidade da água pura $\rho = 1,0\text{ g/mL}$, $1\,000\text{ mL}$ de água possuem massa de $1,0\text{ kg}$.
+A massa molar da sacarose é $M = 342\text{ g/mol}$. O número de mols de sacarose dissolvidos em $1\text{ kg}$ de água é:
+$$n = \frac{m}{M} = \frac{2\,000\text{ g}}{342\text{ g/mol}} \approx 5,848\text{ mol}$$
+$$W = \frac{n}{m_{\text{solvente}}} = \frac{5,848\text{ mol}}{1,0\text{ kg}} \approx 5,8\text{ mol/kg de água (ou } 5,85\text{ mol/kg)}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
         prompt: 'Justifique a alta solubilidade da sacarose em água e a baixa condutibilidade elétrica de suas soluções aquosas.',
-        expected: `1) Alta solubilidade: decorre da presença de inúmeros grupos hidroxila (–OH) na estrutura da sacarose, que estabelecem fortes e extensas ligações de hidrogênio (pontes de hidrogênio) com as moléculas polares de água, favorecendo a dissolução.\n2) Baixa condutibilidade: deve-se ao fato de a sacarose ser um composto molecular não ionizável, cuja dissolução ocorre apenas por dispersão e solvatação molecular, sem originar íons livres em solução.`,
-        accepted: `Semelhante dissolve semelhante; sacarose possui grupos polares hidrofílicos que interagem com a água.`,
-        rejected: `Citar que não há elétrons livres (deve citar íons livres); falar que sacarose é iônica.`,
+        expected: `1) Alta solubilidade: A molécula de sacarose possui um grande número de grupos hidroxila ($-OH$) distribuídos ao longo de sua estrutura, o que possibilita a formação de múltiplas e intensas ligações de hidrogênio com as moléculas de água.\n2) Baixa condutibilidade: A sacarose é um composto molecular neutro que se dissolve sem sofrer dissociação iônica ou ionização; a ausência de íons livres transportadores de carga faz com que a condutibilidade seja praticamente idêntica à da água pura.`,
         criteria: [
-          { points: 1, text: 'Justifica a alta solubilidade pela formação de ligações de hidrogênio entre as hidroxilas (-OH) e a água.' },
-          { points: 1, text: 'Justifica a baixa condutibilidade pela ausência de íons livres na solução (dissolução molecular sem ionização).' },
+          { points: 1, text: 'Justifica a alta solubilidade pelo grande número de grupos OH que formam ligações de hidrogênio com a água.' },
+          { points: 1, text: 'Justifica a baixa condutibilidade por ser substância molecular neutra sem íons livres em solução.' },
         ],
-        detailed: `b) A elevada solubilidade da sacarose em água ($2\\,000\\text{ g/L}$) explica-se pela sua estrutura química polihidroxilada: a molécula contém 8 grupos hidroxila ($-OH$) fortemente polares, capazes de formar uma densa rede de ligações de hidrogênio com as moléculas de água ($H-O-H$), gerando elevada energia de solvatação que supera a energia de rede do cristal.
-A baixa condutibilidade elétrica das soluções de sacarose ocorre porque ela é uma substância exclusivamente molecular com ligações covalentes estáveis. Ao ser dissolvida em água, ela sofre apenas dissolução molecular (solvatação de moléculas neutras de sacarose), sem que ocorra dissociação iônica ou reação de ionização apreciável. Na ausência de íons livres em mobilidade para atuar como portadores de carga, a solução comporta-se como não eletrolítica, mantendo condutividade elétrica desprezível, idêntica à da água destilada.`,
+        detailed: `b) 1) A elevada solubilidade da sacarose em água decorre da presença de 8 grupos hidroxila ($-OH$) em sua estrutura molecular. As hidroxilas estabelecem fortes interações do tipo ligações de hidrogênio com os dipolos das moléculas de água circundantes, superando a energia reticular cristalina do açúcar e promovendo intensa solvatação.
+2) A baixa condutibilidade elétrica deve-se ao fato de a sacarose ser um composto orgânico covalentemente ligado (composto molecular). Ao se dissolver em água, as moléculas apenas se dispersam e hidratam, sem sofrer ionização nem dissociação iônica. Sem íons livres no meio para migrar sob a ação de um campo elétrico, a solução não conduz corrente elétrica de maneira significativa.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -398,37 +393,39 @@ A baixa condutibilidade elétrica das soluções de sacarose ocorre porque ela �
   d({
     n: 10,
     subject: 'Química',
-    content: 'Química orgânica: funções amina e ácido carboxílico, reação de esterificação da benzocaína',
+    content: 'Química orgânica: síntese do anestésico benzocaína, funções amina e ácido carboxílico e esterificação',
     difficulty: 'Fácil',
-    statement: `As fórmulas representam as estruturas moleculares da benzocaína, substância empregada como anestésico local, e do ácido para-aminobenzóico (PABA), uma das vitaminas do complexo B.`,
-    visuals: [{ file: 'p2-q10-estruturas-benzocaina.svg', alt: 'Fórmulas estruturais do ácido 4-aminobenzoico (PABA) e da benzocaína', caption: 'Estruturas químicas do PABA e da benzocaína.' }],
+    statement: `A benzocaína, um anestésico local de uso tópico, é sintetizada a partir do ácido 4-aminobenzoico (PABA), de acordo com a reação:
+
+PABA + reagente X $\\xrightarrow{H^+}$ benzocaína + produto Y`,
+    visuals: [{ file: 'p2-q10-estruturas-benzocaina.svg', alt: 'Estruturas do PABA e da benzocaína destacando grupos funcionais', caption: 'Síntese da benzocaína a partir do PABA.' }],
     parts: [
       {
         id: 'a',
         prompt: 'Escreva o nome da função orgânica nitrogenada presente nas duas substâncias e o nome da função orgânica oxigenada presente no PABA.',
-        expected: `1) Função orgânica nitrogenada presente em ambas: amina (amina aromática primária).\n2) Função orgânica oxigenada presente no PABA: ácido carboxílico.`,
+        expected: `1) Função orgânica nitrogenada presente em ambas: Amina (amina primária aromática).\n2) Função orgânica oxigenada no PABA: Ácido carboxílico.\n\nCritérios de pontuação: 1 ponto para amina; 1 ponto para ácido carboxílico.`,
         criteria: [
-          { points: 1, text: 'Identifica a função amina.' },
-          { points: 1, text: 'Identifica a função ácido carboxílico.' },
+          { points: 1, text: 'Identifica a função nitrogenada amina.' },
+          { points: 1, text: 'Identifica a função oxigenada ácido carboxílico.' },
         ],
-        detailed: `a) O grupo funcional $-NH_2$ ligado ao anel aromático tanto na benzocaína quanto no PABA caracteriza a função orgânica amina (mais especificamente, amina primária aromática).
-No PABA, o grupo funcional terminal $-COOH$ ligado ao anel aromático caracteriza a função orgânica oxigenada ácido carboxílico. Na benzocaína, esse grupo foi esterificado, caracterizando a função éster ($-COO-CH_2-CH_3$).`,
+        detailed: `a) Tanto na molécula de PABA quanto na de benzocaína, há a presença do grupamento $-NH_2$ ligado diretamente a um anel aromático, o que caracteriza a função orgânica amina (especificamente uma amina primária aromática).
+No PABA, a extremidade oxigenada apresenta o grupamento $-COOH$ (carbonila ligada a hidroxila), caracterizando a função ácido carboxílico.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'A benzocaína é obtida a partir da reação: PABA + reagente X -> benzocaína + produto Y. Escreva a fórmula estrutural do reagente X, mostrando todas as ligações entre os átomos, e apresente a fórmula molecular do produto Y.',
-        expected: `1) Fórmula estrutural do reagente X (etanol): deve mostrar todas as ligações covalentes simples:\n$H-C(H)(H)-C(H)(H)-O-H$\n2) Fórmula molecular do produto Y: $H_2O$ (água).`,
-        expectedImages: [{ file: 'p2-q10-solucao-reacao.svg', alt: 'Gabarito Oficial VUNESP: Fórmula estrutural completa do reagente X (etanol) com todas as ligações', caption: 'Fórmula estrutural oficial do reagente X (etanol).' }],
+        prompt: `A benzocaína é obtida a partir da reação:
+PABA + reagente X $\\xrightarrow{H^+}$ benzocaína + produto Y
+Escreva a fórmula estrutural do reagente X, mostrando todas as ligações entre os átomos, e apresente a fórmula molecular do produto Y.`,
+        expected: `1) Fórmula estrutural do reagente X: etanol ($CH_3-CH_2-OH$), representada com todas as ligações covalentes simples explícitas.\n2) Fórmula molecular do produto Y: $H_2O$ (água).\n\nCritérios de pontuação: 1 ponto para a fórmula estrutural do etanol; 1 ponto para a fórmula molecular H2O.`,
+        expectedImages: [{ file: 'p2-q10-solucao-reacao.svg', alt: 'Gabarito Oficial VUNESP: Fórmula estrutural de Lewis do reagente X (etanol)', caption: 'Fórmula estrutural do reagente X (etanol).' }],
         criteria: [
-          { points: 1, text: 'Apresenta a fórmula estrutural do etanol mostrando todas as ligações químicas abertas.' },
-          { points: 1, text: 'Apresenta a fórmula molecular H2O.' },
+          { points: 1, text: 'Apresenta a fórmula estrutural do etanol (reagente X) com todas as ligações entre átomos explícitas.' },
+          { points: 1, text: 'Apresenta a fórmula molecular H2O para o produto Y.' },
         ],
-        detailed: `b) A reação entre o ácido para-aminobenzoico (PABA) e o reagente X para formar a benzocaína é uma reação de esterificação de Fischer:
-$$\\text{Ácido Carboxílico (PABA)} + \\text{Álcool (X)} \\xrightleftharpoons{H^+} \\text{Éster (benzocaína)} + \\text{Água (Y)}$$
-Como a benzocaína possui o grupo éster ligado a uma cadeia etílica ($-CH_2-CH_3$), o álcool utilizado como reagente X é o etanol ($C_2H_5OH$). O enunciado exige a fórmula estrutural aberta mostrando todas as ligações químicas entre os átomos:
-Dois átomos de carbono em cadeia, com 5 ligações simples $C-H$, uma ligação $C-C$, uma ligação $C-O$ e uma ligação $O-H$.
-O subproduto Y formado pela eliminação de hidroxila do ácido e hidrogênio do álcool é a água, cuja fórmula molecular é $H_2O$.`,
+        detailed: `b) A reação representada é uma clássica reação de esterificação de Fischer catalisada por ácido ($H^+$): um ácido carboxílico reage com um álcool formando um éster e água.
+Como a benzocaína é o éster etílico do PABA (apresenta o grupamento carboxilato de etila, $-COOCH_2CH_3$), o álcool reagente de partida (reagente X) é o etanol ($CH_3CH_2OH$), cuja fórmula estrutural com todas as ligações explícitas consiste em dois carbonos saturados ligados a hidrogênios e uma hidroxila terminal.
+O subproduto da condensação é a água ($H_2O$), cuja fórmula molecular é $H_2O$.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -440,47 +437,50 @@ O subproduto Y formado pela eliminação de hidroxila do ácido e hidrogênio do
   d({
     n: 11,
     subject: 'Física',
-    content: 'Cinemática escalar e dinâmica: área de escape de aeroporto, MUV, força média e impulso',
-    difficulty: 'Média',
-    statement: `Nas duas extremidades da pista de pouso e decolagem de alguns aeroportos há áreas de escape, cujo objetivo é reter os aviões caso eles não consigam parar até o final da pista. A superfície dessas áreas de escape é composta por um material que se deforma devido ao peso da aeronave, de modo a dificultar o seu deslocamento. A figura mostra um avião que adentrou em uma dessas áreas de escape.
-
-(www.airport-business.com)
-
-Considere que esse avião chegou à área de escape com velocidade de 54 km/h, percorrendo uma trajetória retilínea, com aceleração média de 5,0 m/s2 em módulo, até parar completamente.`,
-    visuals: [{ file: 'p2-q11-aviao-escape.svg', alt: 'Fotografia de avião comercial retido na área de escape de leito deformável', caption: 'Área de escape de aeroporto (airport-business.com).' }],
+    content: 'Cinemática e dinâmica: frenagem em área de escape, desaceleração uniforme e Teorema do Impulso',
+    difficulty: 'Fácil',
+    statement: `Um aeroporto internacional construiu áreas de escape na cabeceira de suas pistas para aumentar a segurança de pousos e decolagens. Essas áreas são formadas por blocos de material que se deforma devido ao peso da aeronave, de modo a dificultar o seu deslocamento. A figura mostra um avião que entra na área de escape com velocidade inicial de 54 km/h e para após percorrer essa área com desaceleração constante de módulo igual a 2,5 m/s².`,
+    visuals: [{ file: 'p2-q11-aviao-escape.svg', alt: 'Avião entrando na área de escape de aeroporto com velocidade v0 = 54 km/h', caption: 'Avião na área de escape.' }],
     parts: [
       {
         id: 'a',
-        prompt: 'Converta a velocidade inicial do avião para m/s e determine a distância, em metros, que ele percorreu na área de escape.',
-        expected: `1) Conversão da velocidade: $v = \\frac{54}{3,6} = 15\\text{ m/s}$.\n2) Distância percorrida na área de escape: Por Torricelli:\n$v^2 = v_0^2 + 2a\\Delta s \\implies 0^2 = 15^2 - 2(5,0)\\Delta s \\implies 10\\,\\Delta s = 225 \\implies \\Delta s = 22,5\\text{ m}$ (ou via tempo $t = 3\\text{ s}$, $\\Delta s = 22,5\\text{ m}$).`,
+        prompt: 'Converta a velocidade inicial do avião para m/s e determine a distância, em metros, percorrida por ele na área de escape.',
+        expected: `1) Conversão da velocidade:
+$v_0 = 54\text{ km/h} = \frac{54}{3,6} = 15\text{ m/s}$.
+
+2) Distância percorrida na área de escape (Equação de Torricelli com $v = 0$):
+$v^2 = v_0^2 + 2a\Delta s \implies 0^2 = 15^2 + 2(-2,5)\Delta s \implies 5\Delta s = 225 \implies \Delta s = 45\text{ m}$.`,
         criteria: [
-          { points: 1, text: 'Converte a velocidade inicial para 15 m/s com resolução.' },
-          { points: 1, text: 'Calcula a distância percorrida de 22,5 m.' },
+          { points: 1, text: 'Converte a velocidade para 15 m/s com demonstração do cálculo.' },
+          { points: 1, text: 'Determina a distância percorrida d = 45 m com desenvolvimento.' },
         ],
-        detailed: `a) 1) Conversão da velocidade inicial para unidades do SI:
-$$v_0 = 54\\text{ km/h} = \\frac{54}{3,6}\\text{ m/s} = 15\\text{ m/s}$$
-2) Considerando movimento retilíneo uniformemente variado (MRUV) retardado com aceleração de módulo $a = 5,0\\text{ m/s}^2$ até o repouso final ($v = 0$):
-Pela Equação de Torricelli:
-$$v^2 = v_0^2 - 2a\\Delta s \\implies 0^2 = 15^2 - 2 \\cdot 5,0 \\cdot \\Delta s$$
-$$0 = 225 - 10\\,\\Delta s \\implies 10\\,\\Delta s = 225 \\implies \\Delta s = 22,5\\text{ m}$$
-Alternativamente, calculando o tempo de frenagem: $\\Delta t = \\frac{v_0}{a} = \\frac{15}{5,0} = 3,0\\text{ s}$; logo, $\\Delta s = v_0 \\Delta t - \\frac{1}{2} a \\Delta t^2 = 15(3) - \\frac{1}{2}(5)(9) = 45 - 22,5 = 22,5\\text{ m}$.`,
+        detailed: `a) 1) A conversão da velocidade inicial para o Sistema Internacional é obtida dividindo por 3,6:
+$$v_0 = \frac{54\text{ km/h}}{3,6} = 15\text{ m/s}$$
+2) Como a aceleração de frenagem é constante ($a = -2,5\text{ m/s}^2$) e o avião para completamente ao final do percurso ($v = 0$), aplicamos a Equação de Torricelli:
+$$v^2 = v_0^2 + 2a\Delta s$$
+$$0 = 15^2 + 2(-2,5)\Delta s \implies 0 = 225 - 5\Delta s \implies \Delta s = \frac{225}{5} = 45\text{ m}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'Suponha que a massa desse avião seja 2,4 × 10^4 kg e que apenas as forças de resistência atuem sobre ele durante a frenagem. Calcule, em newtons, a intensidade média da força de resistência que atuou sobre o avião e, em N·s, a intensidade do impulso dessa força durante a frenagem.',
-        expected: `1) Intensidade da força de resistência média: $F_r = m \\cdot a = 2,4 \\times 10^4 \\times 5,0 = 1,2 \\times 10^5\\text{ N}$.\n2) Intensidade do impulso: Pelo teorema do impulso, $I = |\\Delta Q| = m \\cdot v_0 = 2,4 \\times 10^4 \\times 15 = 3,6 \\times 10^5\\text{ N}\\cdot\\text{s}$ (ou $I = F_r \\cdot \\Delta t = 1,2 \\times 10^5 \\times 3,0 = 3,6 \\times 10^5\\text{ N}\\cdot\\text{s}$).`,
+        prompt: 'Suponha que a massa desse avião seja 2,4 × 10⁴ kg e que apenas as forças de deformação atuem sobre ele durante a frenagem. Calcule, em newtons, a intensidade média da resultante das forças de deformação que atuaram sobre o avião durante a sua frenagem na área de escape. Determine a intensidade média do impulso, em N · s, aplicado por essa resultante sobre o avião.',
+        expected: `1) Intensidade média da força resultante de deformação:
+$R = m \cdot |a| = (2,4 \times 10^4\text{ kg}) \times 2,5\text{ m/s}^2 = 6,0 \times 10^4\text{ N}$.
+
+2) Intensidade média do impulso:
+Pelo Teorema do Impulso: $I = |\Delta Q| = m \cdot |v - v_0| = (2,4 \times 10^4\text{ kg}) \times 15\text{ m/s} = 3,6 \times 10^5\text{ N}\cdot\text{s}$.
+(Ou calculando o tempo $t = \frac{15}{2,5} = 6\text{ s}$ e $I = R \cdot \Delta t = 6,0 \times 10^4 \times 6 = 3,6 \times 10^5\text{ N}\cdot\text{s}$).`,
         criteria: [
-          { points: 1, text: 'Calcula a intensidade média da força: 1,2 x 10^5 N.' },
-          { points: 1, text: 'Calcula a intensidade do impulso: 3,6 x 10^5 N·s.' },
+          { points: 1, text: 'Calcula a força resultante R = 6,0 x 10^4 N com resolução.' },
+          { points: 1, text: 'Calcula o impulso I = 3,6 x 10^5 N.s com resolução.' },
         ],
-        detailed: `b) 1) Pela Segunda Lei de Newton, sendo a força de resistência a resultante no eixo do movimento:
-$$F_r = m \\cdot a = 2,4 \\times 10^4\\text{ kg} \\times 5,0\\text{ m/s}^2 = 1,2 \\times 10^5\\text{ N}$$
-2) Pelo Teorema do Impulso, a intensidade do impulso da força resultante é igual ao módulo da variação da quantidade de movimento do avião:
-$$I = |\\Delta Q| = |Q_{\\text{final}} - Q_{\\text{inicial}}| = |0 - m v_0| = m v_0$$
-$$I = 2,4 \\times 10^4\\text{ kg} \\times 15\\text{ m/s} = 3,6 \\times 10^5\\text{ N}\\cdot\\text{s}$$
-Alternativamente, como a força média atuou durante $\\Delta t = 3,0\\text{ s}$:
-$$I = F_r \\cdot \\Delta t = 1,2 \\times 10^5\\text{ N} \\times 3,0\\text{ s} = 3,6 \\times 10^5\\text{ N}\\cdot\\text{s}$$`,
+        detailed: `b) 1) Pela Segunda Lei de Newton, a intensidade da força resultante média aplicada pelas forças de deformação é:
+$$R = m \cdot a = (2,4 \times 10^4\text{ kg}) \times 2,5\text{ m/s}^2 = 6,0 \times 10^4\text{ N}$$
+2) Pelo Teorema do Impulso, o impulso da força resultante é igual à variação da quantidade de movimento do avião:
+$$I = |\Delta Q| = |Q_{\text{final}} - Q_{\text{inicial}}| = |0 - m \cdot v_0| = (2,4 \times 10^4\text{ kg}) \times 15\text{ m/s} = 3,6 \times 10^5\text{ N}\cdot\text{s}$$
+Alternativamente, determinando o tempo de parada:
+$$v = v_0 + a\Delta t \implies 0 = 15 - 2,5\Delta t \implies \Delta t = 6\text{ s}$$
+$$I = R \cdot \Delta t = (6,0 \times 10^4\text{ N}) \times 6\text{ s} = 3,6 \times 10^5\text{ N}\cdot\text{s}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -489,42 +489,57 @@ $$I = F_r \\cdot \\Delta t = 1,2 \\times 10^5\\text{ N} \\times 3,0\\text{ s} = 
   d({
     n: 12,
     subject: 'Física',
-    content: 'Mecânica: energia cinética, energia potencial gravitacional e trabalho de forças dissipativas em voo suborbital',
+    content: 'Mecânica: energia cinética, energia potencial gravitacional e trabalho de forças resistentes',
     difficulty: 'Média',
-    statement: `Uma das empresas norte-americanas que levou turistas em voo suborbital em 2021 utiliza uma cápsula, onde acomoda os passageiros, acoplada a um propulsor. Após o lançamento, quando o conjunto atinge a altura de 75 km e velocidade de 1000 m/s, a cápsula se desprende do propulsor e continua sua trajetória até a altura aproximada de 105 km. Em seguida, ela inicia a descida, retornando à Terra sob a ação de paraquedas.
-
-Considere que a massa da cápsula seja 4,0 × 10^3 kg, que a aceleração da gravidade seja constante e igual a 10 m/s2 no intervalo entre 75 km e 105 km de altitude, e que a velocidade da cápsula no ponto mais alto de sua trajetória seja nula.`,
-    visuals: [{ file: 'p2-q12-voo-suborbital.svg', alt: 'Diagrama esquemático do voo suborbital: decolagem, desprendimento em 75 km, apogeu em 105 km e descida', caption: 'Trajetória esquemática do voo suborbital.' }],
+    statement: `Uma das empresas norte-americanas que levou turistas em voo suborbital em 2021 utiliza uma cápsula, tripulada por passageiros, acoplada a um foguete propulsor. O conjunto sobe verticalmente a partir do repouso e, a 75 km de altitude, quando atinge a velocidade de 1 000 m/s, a cápsula se desprende do propulsor e prossegue subindo verticalmente até atingir a altitude de 105 km. A partir desse ponto, ela inicia a descida em queda livre até a aproximação com o solo, quando paraquedas são acionados, permitindo um pouso suave. Considere a massa da cápsula igual a 4,0 × 10³ kg e a aceleração da gravidade constante e igual a 10 m/s².`,
+    visuals: [{ file: 'p2-q12-voo-suborbital.svg', alt: 'Trajetória vertical de voo suborbital da cápsula espacial', caption: 'Trajetória suborbital da cápsula.' }],
     parts: [
       {
         id: 'a',
-        prompt: 'Calcule, em joules, a energia cinética da cápsula imediatamente após seu desprendimento do propulsor e a sua energia potencial gravitacional em relação à superfície da Terra nesse mesmo instante.',
-        expected: `1) Energia cinética imediatamente após o desprendimento:\n$E_c = \\frac{1}{2} m v^2 = \\frac{1}{2} \\cdot 4,0 \\times 10^3 \\cdot (1\\,000)^2 = 2,0 \\times 10^9\\text{ J}$.\n\n2) Energia potencial gravitacional:\n$E_{pg} = m g h = 4,0 \\times 10^3 \\cdot 10 \\cdot 75\\,000 = 3,0 \\times 10^9\\text{ J}$.`,
+        prompt: 'Calcule a energia cinética e a energia mecânica total da cápsula, em relação ao solo, no instante em que ocorre a sua separação do propulsor, ambas em joules.',
+        expected: `1) Energia cinética no instante da separação ($v = 1\,000\text{ m/s}$):
+$E_C = \frac{1}{2} m v^2 = \frac{1}{2} \times (4,0 \times 10^3) \times (1\,000)^2 = 2,0 \times 10^9\text{ J}$.
+
+2) Energia mecânica total ($h = 75\text{ km} = 75 \times 10^3\text{ m}$):
+$E_{PG} = m g h = (4,0 \times 10^3) \times 10 \times (75 \times 10^3) = 3,0 \times 10^9\text{ J}$.
+$E_M = E_C + E_{PG} = 2,0 \times 10^9 + 3,0 \times 10^9 = 5,0 \times 10^9\text{ J}$.`,
         criteria: [
-          { points: 1, text: 'Calcula a energia cinética: 2,0 x 10^9 J.' },
-          { points: 1, text: 'Calcula a energia potencial gravitacional: 3,0 x 10^9 J.' },
+          { points: 1, text: 'Calcula a energia cinética Ec = 2,0 x 10^9 J com resolução.' },
+          { points: 1, text: 'Calcula a energia mecânica total Em = 5,0 x 10^9 J com resolução.' },
         ],
-        detailed: `a) Dados: massa $m = 4,0 \\times 10^3\\text{ kg}$, altura $h_1 = 75\\text{ km} = 7,5 \\times 10^4\\text{ m}$, velocidade $v_1 = 1\\,000\\text{ m/s} = 10^3\\text{ m/s}$, $g = 10\\text{ m/s}^2$.
-1) Energia cinética no instante de desprendimento:
-$$E_c = \\frac{m v_1^2}{2} = \\frac{4,0 \\times 10^3 \\cdot (10^3)^2}{2} = 2,0 \\times 10^3 \\cdot 10^6 = 2,0 \\times 10^9\\text{ J}$$
+        detailed: `a) No instante da separação, a cápsula de massa $m = 4,0 \times 10^3\text{ kg}$ possui velocidade $v = 1\,000\text{ m/s}$ e altitude $h = 75\text{ km} = 75 \times 10^3\text{ m}$.
+1) Energia cinética:
+$$E_C = \frac{1}{2}mv^2 = \frac{1}{2}(4,0 \times 10^3\text{ kg})(1\,000\text{ m/s})^2 = 2,0 \times 10^9\text{ J}$$
 2) Energia potencial gravitacional em relação ao solo:
-$$E_{pg} = m g h_1 = 4,0 \\times 10^3 \\cdot 10 \\cdot 7,5 \\times 10^4 = 3,0 \\times 10^9\\text{ J}$$
-A energia mecânica total da cápsula nesse ponto é $E_{m1} = 2,0 \\times 10^9 + 3,0 \\times 10^9 = 5,0 \\times 10^9\\text{ J}$.`,
+$$E_{PG} = mgh = (4,0 \times 10^3\text{ kg})(10\text{ m/s}^2)(75 \times 10^3\text{ m}) = 3,0 \times 10^9\text{ J}$$
+A energia mecânica total da cápsula é a soma das energias cinética e potencial:
+$$E_M = E_C + E_{PG} = 2,0 \times 10^9 + 3,0 \times 10^9 = 5,0 \times 10^9\text{ J}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'Calcule, em joules, o trabalho realizado pelas forças dissipativas que atuaram sobre a cápsula desde o seu desprendimento do propulsor até o ponto mais alto de sua trajetória.',
-        expected: `Trabalho das forças dissipativas:\nNo topo ($h_2 = 105\\text{ km} = 105\\,000\\text{ m}$, $v_2 = 0$):\n$E_{m2} = E_{pg2} = m g h_2 = 4,0 \\times 10^3 \\cdot 10 \\cdot 105\\,000 = 4,2 \\times 10^9\\text{ J}$.\n$W_{\\text{diss}} = E_{m2} - E_{m1} = 4,2 \\times 10^9 - (2,0 \\times 10^9 + 3,0 \\times 10^9) = 4,2 \\times 10^9 - 5,0 \\times 10^9 = -8,0 \\times 10^8\\text{ J}$ (módulo: $8,0 \\times 10^8\\text{ J}$).`,
+        prompt: 'Calcule o trabalho realizado pelo peso da cápsula, em joules, entre o momento em que ela se desprende do propulsor até o momento em que ela atinge o ponto mais alto da trajetória. Determine o trabalho realizado pelas forças de resistência que atuaram sobre a cápsula, em joules, desde a altura máxima até o seu pouso, desprezando a energia cinética da cápsula na altura máxima e no instante do pouso.',
+        expected: `1) Trabalho realizado pelo peso entre a separação ($75\text{ km}$) e a altitude máxima ($105\text{ km}$):
+Como a cápsula sobe, o peso realiza trabalho resistente:
+$\tau_P = -m g \Delta h = -(4,0 \times 10^3) \times 10 \times (105 \times 10^3 - 75 \times 10^3) = -(4,0 \times 10^4) \times (30 \times 10^3) = -1,2 \times 10^9\text{ J}$.
+
+2) Trabalho das forças de resistência desde a altitude máxima ($105\text{ km}$) até o solo ($0\text{ m}$), com $v = 0$ no topo e no solo:
+Pelo Teorema da Energia Mecânica:
+$\tau_{\text{res}} = \Delta E_M = E_{M,\text{solo}} - E_{M,\text{topo}} = 0 - m g H = -(4,0 \times 10^3) \times 10 \times (105 \times 10^3) = -4,2 \times 10^9\text{ J}$ (ou módulo $4,2 \times 10^9\text{ J}$).`,
         criteria: [
-          { points: 2, text: 'Calcula o trabalho das forças dissipativas: -8,0 x 10^8 J (ou módulo 8,0 x 10^8 J).' },
+          { points: 1, text: 'Calcula o trabalho do peso: -1,2 x 10^9 J com desenvolvimento.' },
+          { points: 1, text: 'Calcula o trabalho das forças de resistência: -4,2 x 10^9 J (ou 4,2 x 10^9 J) com desenvolvimento.' },
         ],
-        detailed: `b) No ponto mais alto da trajetória ($h_2 = 105\\text{ km} = 1,05 \\times 10^5\\text{ m}$), a velocidade é nula ($v_2 = 0$). Logo, a energia mecânica final consiste exclusivamente na energia potencial gravitacional:
-$$E_{m2} = m g h_2 = 4,0 \\times 10^3\\text{ kg} \\times 10\\text{ m/s}^2 \\times 1,05 \\times 10^5\\text{ m} = 4,2 \\times 10^9\\text{ J}$$
-Pelo Teorema da Energia Mecânica para forças não conservativas (dissipativas):
-$$W_{\\text{diss}} = \\Delta E_m = E_{m2} - E_{m1}$$
-$$W_{\\text{diss}} = 4,2 \\times 10^9\\text{ J} - 5,0 \\times 10^9\\text{ J} = -8,0 \\times 10^8\\text{ J}$$
-O trabalho realizado pelas forças dissipativas (resistência do ar) é $-8,0 \\times 10^8\\text{ J}$ (ou módulo de $8,0 \\times 10^8\\text{ J}$).`,
+        detailed: `b) 1) Durante a subida da altitude de $75\text{ km}$ até $105\text{ km}$, o deslocamento vertical é para cima e a força peso atua verticalmente para baixo. O trabalho realizado pelo peso é resistente:
+$$\Delta h = 105 \times 10^3 - 75 \times 10^3 = 30 \times 10^3\text{ m}$$
+$$\tau_P = -m g \Delta h = -(4,0 \times 10^3)(10)(30 \times 10^3) = -1,2 \times 10^9\text{ J}$$
+2) Do ponto mais alto ($H = 105\text{ km}$) até o pouso no solo ($h=0$), a energia cinética inicial e final é nula ($v_{\text{topo}} = 0$ e $v_{\text{pouso}} = 0$).
+A energia mecânica no ponto mais alto era exclusivamente potencial gravitacional:
+$$E_{M,\text{topo}} = mgH = (4,0 \times 10^3)(10)(105 \times 10^3) = 4,2 \times 10^9\text{ J}$$
+No solo, $E_{M,\text{solo}} = 0$.
+Pelo Teorema da Energia Mecânica, o trabalho das forças dissipativas (resistência do ar e paraquedas) corresponde à variação de energia mecânica:
+$$\tau_{\text{res}} = E_{M,\text{solo}} - E_{M,\text{topo}} = 0 - 4,2 \times 10^9 = -4,2 \times 10^9\text{ J}$$
+(A quantidade dissipada em módulo equivale a $4,2 \times 10^9\text{ J}$).`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -533,43 +548,51 @@ O trabalho realizado pelas forças dissipativas (resistência do ar) é $-8,0 \\
   d({
     n: 13,
     subject: 'Física',
-    content: 'Termologia: calorimetria e dilatação térmica aparente de líquidos em recipientes',
-    difficulty: 'Média',
-    statement: `Em um recipiente de vidro de capacidade 250 cm3, são colocados 200 cm3 de glicerina, ambos inicialmente a 20 °C.
-
-Considere a massa específica da glicerina igual a 1,26 g/cm3, seu calor específico igual a 0,58 cal/(g·°C), os coeficientes de dilatação volumétrica da glicerina e do vidro constantes e respectivamente iguais a 5,0 × 10^-4 °C^-1 e 3,0 × 10^-5 °C^-1.`,
+    content: 'Termologia: calorimetria e dilatação térmica aparente de líquidos em recipientes de vidro',
+    difficulty: 'Fácil',
+    statement: `Em um recipiente de vidro de capacidade 250 cm³, são colocados 200 cm³ de glicerina, ambos inicialmente a 20 ºC. Em seguida, esse conjunto é aquecido até 70 ºC.`,
     parts: [
       {
         id: 'a',
-        prompt: 'Determine a massa de glicerina colocada no recipiente e calcule a quantidade de calor, em calorias, que ela deve receber para que sua temperatura atinja 70 °C.',
-        expected: `1) Massa de glicerina: $m = \\rho \\cdot V = 1,26 \\times 200 = 252\\text{ g}$.\n2) Quantidade de calor: $Q = m \\cdot c \\cdot \\Delta T = 252 \\times 0,58 \\times (70 - 20) = 252 \\times 0,58 \\times 50 = 7\\,308\\text{ cal}$.`,
+        prompt: 'Calcule a massa de glicerina, em gramas, colocada no recipiente e a quantidade de calor, em calorias, absorvida pela glicerina durante o aquecimento, desprezando as perdas de calor e sabendo que a massa específica e o calor específico da glicerina são, respectivamente, 1,26 g/cm³ e 0,60 cal/(g · ºC).',
+        expected: `1) Massa de glicerina:
+$m = \rho \cdot V = 1,26\text{ g/cm}^3 \times 200\text{ cm}^3 = 252\text{ g}$.
+
+2) Quantidade de calor absorvida:
+$Q = m \cdot c \cdot \Delta T = 252\text{ g} \times 0,60\text{ cal/(g}\cdot^\circ\text{C)} \times (70 - 20)^\circ\text{C} = 252 \times 0,60 \times 50 = 7\,560\text{ cal}$.`,
         criteria: [
-          { points: 1, text: 'Calcula a massa da glicerina: 252 g.' },
-          { points: 1, text: 'Calcula a quantidade de calor recebida: 7 308 cal.' },
+          { points: 1, text: 'Calcula a massa da glicerina m = 252 g com resolução.' },
+          { points: 1, text: 'Calcula a quantidade de calor absorvida Q = 7 560 cal com resolução.' },
         ],
-        detailed: `a) 1) A massa da glicerina é obtida a partir de sua densidade volumétrica:
-$$m = \\rho \\cdot V_0 = 1,26\\text{ g/cm}^3 \\times 200\\text{ cm}^3 = 252\\text{ g}$$
-2) Pela equação fundamental da calorimetria, para aquecer a glicerina de $T_0 = 20^\\circ\\text{C}$ até $T = 70^\\circ\\text{C}$ (variação $\\Delta T = 50^\\circ\\text{C}$):
-$$Q = m \\cdot c \\cdot \\Delta T = 252\\text{ g} \\times 0,58\\text{ cal/(g}\\cdot^\\circ\\text{C)} \\times 50^\\circ\\text{C} = 7\\,308\\text{ cal}$$`,
+        detailed: `a) 1) A massa da glicerina contida inicialmente no recipiente é calculada pelo produto da massa específica pelo volume:
+$$m = \rho \cdot V = (1,26\text{ g/cm}^3) \times 200\text{ cm}^3 = 252\text{ g}$$
+2) A variação de temperatura durante o aquecimento é $\Delta T = 70 - 20 = 50^\circ\text{C}$.
+Pela equação fundamental da calorimetria:
+$$Q = m \cdot c \cdot \Delta T = 252\text{ g} \times 0,60\text{ cal/(g}\cdot^\circ\text{C)} \times 50^\circ\text{C} = 7\,560\text{ cal}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'Calcule a temperatura, em °C, em que a glicerina começará a transbordar do recipiente.',
-        expected: `Temperatura de transbordamento:\nO transbordamento ocorre quando o volume dilatado da glicerina atinge a capacidade interna dilatada do frasco de vidro:\n$V_{\\text{glic}} = V_{\\text{vidro}} \\implies 200[1 + 5,0 \\times 10^{-4}(T - 20)] = 250[1 + 3,0 \\times 10^{-5}(T - 20)]$\n$200 + 0,10(T - 20) = 250 + 0,0075(T - 20) \\implies 0,0925(T - 20) = 50 \\implies T - 20 \\approx 540,5^\\circ\\text{C} \\implies T \\approx 560,5^\\circ\\text{C}$ (aceitos valores arredondados entre 560 °C e 561 °C).`,
+        prompt: 'Calcule, em cm³, o aumento do volume da glicerina durante o aquecimento e o volume da região do recipiente não ocupada pela glicerina quando o conjunto encontra-se a 70 ºC, considerando que, devido ao aquecimento, o recipiente tenha se dilatado 0,30 cm³ e que o coeficiente de dilatação volumétrica da glicerina seja igual a 5,0 × 10⁻⁴ ºC⁻¹.',
+        expected: `1) Aumento do volume da glicerina (dilatação volumétrica real):
+$\Delta V_{\text{glic}} = V_0 \cdot \gamma \cdot \Delta T = 200\text{ cm}^3 \times (5,0 \times 10^{-4}\ ^\circ\text{C}^{-1}) \times 50^\circ\text{C} = 5,0\text{ cm}^3$.
+
+2) Volume da região não ocupada (vazia) a 70 ºC:
+Volume final do recipiente: $V_{\text{rec}} = 250 + 0,30 = 250,30\text{ cm}^3$.
+Volume final da glicerina: $V_{\text{glic}} = 200 + 5,0 = 205,0\text{ cm}^3$.
+Volume não ocupado: $V_{\text{vazio}} = 250,30 - 205,0 = 45,30\text{ cm}^3$ (ou $45,3\text{ cm}^3$).`,
         criteria: [
-          { points: 2, text: 'Calcula a temperatura de transbordamento: T = 560,5 °C (ou 561 °C).' },
+          { points: 1, text: 'Calcula o aumento do volume da glicerina ΔV = 5,0 cm³ com resolução.' },
+          { points: 1, text: 'Calcula o volume não ocupado = 45,30 cm³ (ou 45,3 cm³) com resolução.' },
         ],
-        detailed: `b) A glicerina começará a transbordar quando seu volume final for exatamente igual à capacidade volumétrica final do frasco de vidro:
-$$V_{\\text{glic}} = V_{\\text{vidro}}$$
-Utilizando as equações de dilatação volumétrica:
-$$V_{0,\\text{glic}}(1 + \\gamma_{\\text{glic}}\\Delta T) = V_{0,\\text{vidro}}(1 + \\gamma_{\\text{vidro}}\\Delta T)$$
-Substituindo os dados: $V_{0,\\text{glic}} = 200\\text{ cm}^3$, $V_{0,\\text{vidro}} = 250\\text{ cm}^3$, $\\gamma_{\\text{glic}} = 5,0 \\times 10^{-4}\\;^\\circ\\text{C}^{-1}$, $\\gamma_{\\text{vidro}} = 3,0 \\times 10^{-5}\\;^\\circ\\text{C}^{-1}$:
-$$200(1 + 5,0 \\times 10^{-4}\\Delta T) = 250(1 + 3,0 \\times 10^{-5}\\Delta T)$$
-$$200 + 0,10\\,\\Delta T = 250 + 0,0075\\,\\Delta T$$
-$$0,0925\\,\\Delta T = 50 \\implies \\Delta T = \\frac{50}{0,0925} \\approx 540,54^\\circ\\text{C}$$
-Sendo a temperatura inicial $T_0 = 20^\\circ\\text{C}$:
-$$T = T_0 + \\Delta T = 20 + 540,54 \\approx 560,5^\\circ\\text{C (ou } 561^\\circ\\text{C)}$$`,
+        detailed: `b) 1) O aumento de volume sofrido pela glicerina é calculado por:
+$$\Delta V_{\text{glic}} = V_0 \cdot \gamma \cdot \Delta T = 200\text{ cm}^3 \times (5,0 \times 10^{-4}\ ^\circ\text{C}^{-1}) \times (70 - 20)^\circ\text{C} = 5,0\text{ cm}^3$$
+2) O volume total final do recipiente a 70 ºC é:
+$$V_{\text{rec, final}} = 250 + 0,30 = 250,30\text{ cm}^3$$
+O volume total final ocupado pela glicerina aquecida é:
+$$V_{\text{glic, final}} = 200 + 5,0 = 205,0\text{ cm}^3$$
+Portanto, o volume da região do recipiente que permanece não ocupada pelo líquido é a diferença entre os volumes:
+$$V_{\text{não ocupado}} = 250,30 - 205,0 = 45,30\text{ cm}^3$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -578,40 +601,51 @@ $$T = T_0 + \\Delta T = 20 + 540,54 \\approx 560,5^\\circ\\text{C (ou } 561^\\ci
   d({
     n: 14,
     subject: 'Física',
-    content: 'Ondulatória e acústica: tubos sonoros fechados, harmônico fundamental e nível sonoro em decibéis',
+    content: 'Ondulatória e acústica: tubos sonoros fechados, harmônicos, intensidade e nível sonoro',
     difficulty: 'Média',
-    statement: `A figura 1 mostra um instrumento musical constituído por vários tubos, abertos em uma extremidade e fechados na outra, com comprimentos diferentes. A figura 2 ilustra uma pessoa soprando perpendicularmente à borda da extremidade aberta de um desses tubos para produzir um som.
-
-Considere que a velocidade de propagação do som no ar no interior dos tubos seja igual a 340 m/s e que a frequência do som fundamental emitido por um dos tubos seja 170 Hz.`,
-    visuals: [{ file: 'p2-q14-instrumento-tubos.svg', alt: 'Instrumento de sopro de tubos sonoros de PVC com comprimentos distintos e pessoa soprando', caption: 'Instrumento musical com tubos sonoros.' }],
+    statement: `A figura 1 mostra um instrumento musical constituído por vários tubos, abertos em uma extremidade e fechados na outra, colocados lado a lado, e a figura 2 mostra a forma da onda sonora estacionária que corresponde à frequência fundamental produzida por um desses tubos.`,
+    visuals: [{ file: 'p2-q14-instrumento-tubos.svg', alt: 'Tubo sonoro fechado em uma extremidade mostrando onda estacionária do modo fundamental', caption: 'Tubo sonoro com onda estacionária fundamental.' }],
     parts: [
       {
         id: 'a',
-        prompt: 'Determine o comprimento de onda do som emitido por esse tubo e calcule o seu comprimento, em metros.',
-        expected: `1) Comprimento de onda: $v = \\lambda \\cdot f \\implies 340 = \\lambda \\cdot 170 \\implies \\lambda = \\frac{340}{170} = 2,0\\text{ m}$.\n2) Comprimento do tubo: Para o harmônico fundamental de tubo fechado, forma-se um quarto de onda estacionária: $L = \\frac{\\lambda}{4} = \\frac{2,0}{4} = 0,5\\text{ m}$ (ou 50 cm).`,
+        prompt: 'Considerando que a velocidade de propagação das ondas sonoras no ar seja 340 m/s e que a frequência fundamental da onda emitida por um dos tubos desse instrumento seja 170 Hz, calcule, em metros, o comprimento de onda dessa onda e o comprimento desse tubo.',
+        expected: `1) Comprimento de onda fundamental ($v = 340\text{ m/s}$, $f = 170\text{ Hz}$):
+$v = \lambda \cdot f \implies \lambda = \frac{v}{f} = \frac{340}{170} = 2,0\text{ m}$.
+
+2) Comprimento do tubo fechado em uma extremidade:
+No modo fundamental de um tubo fechado, forma-se um nó na extremidade fechada e um ventre na extremidade aberta, de modo que $L = \frac{\lambda}{4}$:
+$L = \frac{2,0\text{ m}}{4} = 0,50\text{ m}$ (ou $50\text{ cm}$).`,
         criteria: [
-          { points: 1, text: 'Calcula o comprimento de onda do som emitido: 2,0 m.' },
-          { points: 1, text: 'Calcula o comprimento do tubo: 0,5 m (50 cm).' },
+          { points: 1, text: 'Calcula o comprimento de onda λ = 2,0 m com desenvolvimento.' },
+          { points: 1, text: 'Calcula o comprimento do tubo L = 0,50 m com desenvolvimento.' },
         ],
         detailed: `a) 1) Pela equação fundamental da ondulatória:
-$$v = \\lambda \\cdot f \\implies \\lambda = \\frac{v}{f} = \\frac{340\\text{ m/s}}{170\\text{ Hz}} = 2,0\\text{ m}$$
-2) Em um tubo acústico fechado em uma extremidade e aberto na outra, o modo fundamental de vibração ($n=1$) apresenta um nó de deslocamento na extremidade fechada e um ventre na extremidade aberta. Portanto, o comprimento do tubo $L$ equivale a um quarto do comprimento de onda estacionária:
-$$L = \\frac{\\lambda}{4} = \\frac{2,0\\text{ m}}{4} = 0,5\\text{ m (ou } 50\\text{ cm)}$$`,
+$$v = \lambda \cdot f \implies \lambda = \frac{v}{f} = \frac{340\text{ m/s}}{170\text{ Hz}} = 2,0\text{ m}$$
+2) Em um tubo sonoro fechado em uma das extremidades, a onda estacionária do primeiro harmônico (modo fundamental) apresenta um nó de deslocamento no fundo fechado e um ventre na abertura. A distância entre um nó e o ventre consecutivo equivale a um quarto do comprimento de onda:
+$$L = \frac{\lambda}{4} = \frac{2,0\text{ m}}{4} = 0,50\text{ m}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'Ao soprar o tubo, a pessoa produziu uma onda sonora que se propagou pelo ar com intensidade de 1,0 × 10^-6 W/m2. Sabendo que o limiar de audibilidade da intensidade sonora é I0 = 1,0 × 10^-12 W/m2, calcule o nível sonoro, em decibéis, desse som.',
-        expected: `Nível sonoro em decibéis:\n$N = 10 \\log_{10}\\left(\\frac{I}{I_0}\\right) = 10 \\log_{10}\\left(\\frac{1,0 \\times 10^{-6}}{1,0 \\times 10^{-12}}\\right) = 10 \\log_{10}(10^6) = 10 \\times 6 = 60\\text{ dB}$.`,
+        prompt: `A intensidade sonora (I) exprime a quantidade média de energia transportada por uma onda sonora (ΔE) através de uma unidade de área (ΔS) perpendicular à direção de propagação da onda, por unidade de tempo (Δt), ou seja, $I = \frac{\Delta E}{\Delta S \cdot \Delta t}$. O nível sonoro (β) indica a intensidade do som percebido pelo sistema auditivo humano e é definido, quando medido em dB, como $\beta = 10\log\left(\frac{I}{I_0}\right)$, sendo $I_0 = 10^{-12}\text{ W/m}^2$. Supondo que a superfície da membrana timpânica de uma pessoa seja perpendicular à direção de propagação das ondas sonoras e tenha área de 6,0 × 10⁻⁵ m², calcule a quantidade de energia, em joules, que atinge essa membrana, em um segundo, quando essa pessoa ouve um som de nível sonoro igual a 60 dB.`,
+        expected: `1) Determinação da intensidade sonora $I$ para $\beta = 60\text{ dB}$:
+$\beta = 10\log\left(\frac{I}{I_0}\right) \implies 60 = 10\log\left(\frac{I}{10^{-12}}\right) \implies \log\left(\frac{I}{10^{-12}}\right) = 6$
+$\frac{I}{10^{-12}} = 10^6 \implies I = 10^{-6}\text{ W/m}^2$.
+
+2) Quantidade de energia $\Delta E$ que atinge a membrana em $\Delta t = 1\text{ s}$ com área $\Delta S = 6,0 \times 10^{-5}\text{ m}^2$:
+$\Delta E = I \cdot \Delta S \cdot \Delta t = (10^{-6}\text{ W/m}^2) \times (6,0 \times 10^{-5}\text{ m}^2) \times 1\text{ s} = 6,0 \times 10^{-11}\text{ J}$.`,
         criteria: [
-          { points: 2, text: 'Calcula o nível sonoro: 60 dB.' },
+          { points: 1, text: 'Calcula a intensidade sonora I = 10^-6 W/m² com desenvolvimento.' },
+          { points: 1, text: 'Calcula a quantidade de energia ΔE = 6,0 x 10^-11 J com desenvolvimento.' },
         ],
-        detailed: `b) A intensidade sonora em escala logarítmica de decibéis (nível sonoro $\\beta$) é calculada por:
-$$\\beta = 10 \\log_{10}\\left(\\frac{I}{I_0}\\right)$$
-Substituindo $I = 1,0 \\times 10^{-6}\\text{ W/m}^2$ e $I_0 = 1,0 \\times 10^{-12}\\text{ W/m}^2$:
-$$\\beta = 10 \\log_{10}\\left(\\frac{1,0 \\times 10^{-6}}{1,0 \\times 10^{-12}}\\right) = 10 \\log_{10}(10^6)$$
-Como $\\log_{10}(10^6) = 6$:
-$$\\beta = 10 \\times 6 = 60\\text{ dB}$$`,
+        detailed: `b) 1) A partir da definição do nível sonoro em decibéis ($\beta = 60\text{ dB}$):
+$$\beta = 10\log\left(\frac{I}{I_0}\right) \implies 60 = 10\log\left(\frac{I}{10^{-12}}\right) \implies 6 = \log\left(\frac{I}{10^{-12}}\right)$$
+Pela definição de logaritmo decimal:
+$$\frac{I}{10^{-12}} = 10^6 \implies I = 10^6 \times 10^{-12} = 10^{-6}\text{ W/m}^2$$
+2) A intensidade sonora relaciona energia, área e tempo:
+$$I = \frac{\Delta E}{\Delta S \cdot \Delta t} \implies \Delta E = I \cdot \Delta S \cdot \Delta t$$
+Substituindo os dados fornecidos ($\Delta S = 6,0 \times 10^{-5}\text{ m}^2$ e $\Delta t = 1\text{ s}$):
+$$\Delta E = (10^{-6}\text{ W/m}^2) \times (6,0 \times 10^{-5}\text{ m}^2) \times (1\text{ s}) = 6,0 \times 10^{-11}\text{ J}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -620,50 +654,52 @@ $$\\beta = 10 \\times 6 = 60\\text{ dB}$$`,
   d({
     n: 15,
     subject: 'Física',
-    content: 'Eletrodinâmica: circuitos elétricos, associação mista de resistores, gerador real e potência elétrica',
-    difficulty: 'Difícil',
-    statement: `Um circuito elétrico é composto por uma bateria, de força eletromotriz $\\varepsilon$ e resistência interna $R_i$, e por três resistores de resistências elétricas $R_1 = 60\\ \\Omega$, $R_2 = 200\\ \\Omega$ e $R_3 = 50\\ \\Omega$, associados conforme a figura. O circuito contém ainda um amperímetro ideal A.`,
-    visuals: [{ file: 'p2-q15-circuito-eletrico.svg', alt: 'Circuito com gerador real, resistor R1 em série com associação em paralelo de R2 e R3 com amperímetro', caption: 'Circuito elétrico com bateria real e resistores.' }],
+    content: 'Eletrodinâmica: resistores em paralelo, Lei de Ohm-Pouillet e dissipação interna de potência',
+    difficulty: 'Média',
+    statement: `Um circuito elétrico é composto por uma bateria, de força eletromotriz ε e resistência interna Ri, e por três resistores de resistências elétricas R1, R2 e R3, como ilustrado na figura. Quando o circuito está em funcionamento, a intensidade da corrente elétrica que passa por R1 é de 0,25 A.`,
+    visuals: [{ file: 'p2-q15-circuito-eletrico.svg', alt: 'Circuito com gerador real (ε, Ri) em série com R1 e associação em paralelo de R2 e R3', caption: 'Circuito elétrico com gerador e resistores.' }],
     parts: [
       {
         id: 'a',
-        prompt: 'Determine a resistência equivalente da associação em paralelo entre R2 e R3. Sabendo que o amperímetro indica 0,1 A, calcule a corrente elétrica que atravessa o resistor R1.',
-        expected: `1) Resistência equivalente do trecho paralelo:\n$\\frac{1}{R_p} = \\frac{1}{R_2} + \\frac{1}{R_3} = \\frac{1}{200} + \\frac{1}{50} = \\frac{1 + 4}{200} = \\frac{5}{200} \\implies R_p = \\frac{200}{5} = 40\\ \\Omega$.\n\n2) Corrente em R1:\nComo o amperímetro ideal está no ramo de $R_2$, $i_2 = 0,1\\text{ A}$.\nA ddp no trecho paralelo é $U_p = R_2 \\cdot i_2 = 200 \\times 0,1 = 20\\text{ V}$.\nA corrente no ramo de $R_3$ é $i_3 = \\frac{U_p}{R_3} = \\frac{20}{50} = 0,4\\text{ A}$.\nA corrente total que passa por $R_1$ é $i_1 = i_2 + i_3 = 0,1 + 0,4 = 0,5\\text{ A}$.`,
+        prompt: 'Considerando a resistência elétrica dos resistores R2 e R3 respectivamente iguais a 200 Ω e 50 Ω, calcule a diferença de potencial, em volts, entre os terminais do resistor R3 e determine a intensidade da corrente elétrica, em amperes, que nele se estabelece.',
+        expected: `1) Resistência equivalente do trecho em paralelo ($R_2$ e $R_3$):
+$R_p = \frac{R_2 \cdot R_3}{R_2 + R_3} = \frac{200 \times 50}{200 + 50} = \frac{10\,000}{250} = 40\ \Omega$.
+Como a corrente total no circuito (que atravessa $R_1$) é $i = 0,25\text{ A}$, a ddp nos terminais da associação paralela é:
+$U_3 = U_p = R_p \cdot i = 40\ \Omega \times 0,25\text{ A} = 10\text{ V}$.
+
+2) Intensidade da corrente elétrica em $R_3$:
+$i_3 = \frac{U_3}{R_3} = \frac{10\text{ V}}{50\ \Omega} = 0,20\text{ A}$.`,
         criteria: [
-          { points: 1, text: 'Calcula a resistência equivalente Rp = 40 Ω.' },
-          { points: 1, text: 'Calcula a corrente elétrica que atravessa R1: i1 = 0,5 A.' },
+          { points: 1, text: 'Calcula a ddp entre os terminais de R3: U3 = 10 V com desenvolvimento.' },
+          { points: 1, text: 'Calcula a corrente em R3: i3 = 0,20 A com desenvolvimento.' },
         ],
-        detailed: `a) 1) A resistência equivalente $R_p$ da associação em paralelo entre $R_2 = 200\\ \\Omega$ e $R_3 = 50\\ \\Omega$ é dada por:
-$$R_p = \\frac{R_2 \\cdot R_3}{R_2 + R_3} = \\frac{200 \\cdot 50}{200 + 50} = \\frac{10\\,000}{250} = 40\\ \\Omega$$
-2) O amperímetro ideal está em série com $R_2$, medindo a corrente $i_2 = 0,1\\text{ A}$. Como $R_2$ e $R_3$ estão em paralelo, ambos são submetidos à mesma diferença de potencial $U_p$:
-$$U_p = R_2 \\cdot i_2 = 200\\ \\Omega \\times 0,1\\text{ A} = 20\\text{ V}$$
-A corrente que atravessa $R_3$ é:
-$$i_3 = \\frac{U_p}{R_3} = \\frac{20\\text{ V}}{50\\ \\Omega} = 0,4\\text{ A}$$
-O resistor $R_1$ está em série com a associação paralela; logo, a corrente total que o atravessa é a soma das correntes dos ramos:
-$$i_1 = i_2 + i_3 = 0,1\\text{ A} + 0,4\\text{ A} = 0,5\\text{ A}$$`,
+        detailed: `a) 1) Os resistores $R_2$ e $R_3$ estão associados em paralelo. A resistência equivalente desse ramo é:
+$$R_p = \frac{R_2 \cdot R_3}{R_2 + R_3} = \frac{200 \times 50}{200 + 50} = \frac{10\,000}{250} = 40\ \Omega$$
+Como o resistor $R_1$ está em série com o ramo paralelo, a corrente total que entra na associação é a mesma que atravessa $R_1$: $i = 0,25\text{ A}$.
+Portanto, a tensão elétrica entre os terminais de $R_3$ é a ddp do ramo paralelo:
+$$U_3 = U_p = R_p \cdot i = 40\ \Omega \times 0,25\text{ A} = 10\text{ V}$$
+2) Pela Primeira Lei de Ohm aplicada ao resistor $R_3$:
+$$i_3 = \frac{U_3}{R_3} = \frac{10\text{ V}}{50\ \Omega} = 0,20\text{ A}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'Sabendo que a potência dissipada pelo resistor R1 é 9,6 W, calcule a força eletromotriz ε e a resistência interna Ri da bateria.',
-        expected: `Força eletromotriz e resistência interna da bateria:\nNa nova situação, com potência $P_1 = 9,6\\text{ W}$ em $R_1 = 60\\ \\Omega$:\n$P_1 = R_1 \\cdot i\'^2 \\implies 9,6 = 60 \\cdot i\'^2 \\implies i\'^2 = 0,16 \\implies i\' = 0,4\\text{ A}$.\nA resistência externa total do circuito é $R_{\\text{ext}} = R_1 + R_p = 60 + 40 = 100\\ \\Omega$.\nPela equação do gerador (Lei de Pouillet), $\\varepsilon = i(R_{\\text{ext}} + R_i)$:\nPara a situação inicial ($i = 0,5\\text{ A}$): $\\varepsilon = 0,5(100 + R_i) = 50 + 0,5\\,R_i$ (I)\nPara a nova situação ($i\' = 0,4\\text{ A}$): $\\varepsilon = 0,4(100 + R_i) = 40 + 0,4\\,R_i$ (II)\nIgualando (I) e (II):\n$50 + 0,5\\,R_i = 40 + 0,4\\,R_i \\implies 0,1\\,R_i = 2 \\implies R_i = 20\\ \\Omega$.\nSubstituindo $R_i = 20\\ \\Omega$: $\\varepsilon = 50 + 0,5(20) = 60\\text{ V}$.`,
+        prompt: 'Sabendo que a força eletromotriz da bateria é 12,0 V e que a diferença de potencial entre os pontos A e B, indicados na figura, é de 11,9 V, calcule o valor da resistência interna da bateria, em ohms, e determine a potência dissipada na forma de calor, em watts, pela bateria.',
+        expected: `1) Resistência interna da bateria:
+Pela equação do gerador real: $U = \varepsilon - R_i \cdot i$
+$11,9 = 12,0 - R_i \cdot 0,25 \implies 0,25\,R_i = 12,0 - 11,9 = 0,1 \implies R_i = \frac{0,1}{0,25} = 0,40\ \Omega$.
+
+2) Potência dissipada na forma de calor (efeito Joule interno):
+$P_{\text{diss}} = R_i \cdot i^2 = 0,40 \times (0,25)^2 = 0,40 \times 0,0625 = 0,025\text{ W}$ (ou $2,5 \times 10^{-2}\text{ W}$).`,
         criteria: [
-          { points: 1, text: 'Calcula a força eletromotriz ε = 60 V (ou equivalente pelo sistema).' },
-          { points: 1, text: 'Calcula a resistência interna Ri = 20 Ω (ou equivalente pelo sistema).' },
+          { points: 1, text: 'Calcula a resistência interna Ri = 0,40 Ω com desenvolvimento.' },
+          { points: 1, text: 'Calcula a potência dissipada = 0,025 W (ou 2,5 x 10^-2 W) com desenvolvimento.' },
         ],
-        detailed: `b) A resistência do circuito externo alimentado pela bateria é:
-$$R_{\\text{ext}} = R_1 + R_p = 60\\ \\Omega + 40\\ \\Omega = 100\\ \\Omega$$
-No estado inicial analisado no item a, a corrente total do circuito era $i = 0,5\\text{ A}$.
-Pela Lei de Pouillet para geradores reais:
-$$\\varepsilon = i(R_{\\text{ext}} + R_i) \\implies \\varepsilon = 0,5(100 + R_i) = 50 + 0,5\\,R_i \\quad \\text{(Equação 1)}$$
-Na nova condição em que a potência dissipada em $R_1$ passa a ser $P_1 = 9,6\\text{ W}$, a nova corrente total $i'$ que circula por $R_1$ é:
-$$P_1 = R_1 \\cdot i'^2 \\implies 9,6 = 60 \\cdot i'^2 \\implies i'^2 = \\frac{9,6}{60} = 0,16 \\implies i' = 0,4\\text{ A}$$
-Aplicando novamente a Lei de Pouillet com a nova corrente $i' = 0,4\\text{ A}$:
-$$\\varepsilon = i'(R_{\\text{ext}} + R_i) \\implies \\varepsilon = 0,4(100 + R_i) = 40 + 0,4\\,R_i \\quad \\text{(Equação 2)}$$
-Igualando as duas equações:
-$$50 + 0,5\\,R_i = 40 + 0,4\\,R_i \\implies 0,1\\,R_i = 2 \\implies R_i = 20\\ \\Omega$$
-Substituindo o valor de $R_i$ na Equação 1:
-$$\\varepsilon = 50 + 0,5(20) = 50 + 10 = 60\\text{ V}$$`,
+        detailed: `b) 1) A diferença de potencial útil fornecida pelo gerador entre os pontos A e B sob corrente $i = 0,25\text{ A}$ obedece à equação do gerador real:
+$$U_{AB} = \varepsilon - R_i \cdot i$$
+$$11,9 = 12,0 - R_i(0,25) \implies 0,25\,R_i = 12,0 - 11,9 = 0,10 \implies R_i = \frac{0,10}{0,25} = 0,40\ \Omega$$
+2) A potência dissipada sob a forma de calor exclusivamente no interior da bateria decorre do efeito Joule em sua resistência interna:
+$$P_{\text{diss}} = R_i \cdot i^2 = 0,40\ \Omega \times (0,25\text{ A})^2 = 0,40 \times 0,0625 = 0,025\text{ W}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -675,47 +711,64 @@ $$\\varepsilon = 50 + 0,5(20) = 50 + 10 = 60\\text{ V}$$`,
   d({
     n: 16,
     subject: 'Matemática',
-    content: 'Geometria plana: cordas paralelas em circunferência, apótema e Teorema de Pitágoras',
+    content: 'Geometria plana: cordas paralelas em circunferência, distância ao centro e Teorema de Pitágoras',
     difficulty: 'Média',
-    statement: `A figura representa um círculo de centro C com duas cordas paralelas, PQ e RS, cujas medidas são PQ = 8 cm e RS = 6 cm. Sabe-se que a distância entre as cordas paralelas é igual a 7 cm.`,
+    statement: `A figura representa um círculo de centro C com duas cordas paralelas, $\overline{PQ}$ e $\overline{RS}$, cujas medidas são $PQ = 8\text{ cm}$ e $RS = 6\text{ cm}$. A distância entre C e a corda $\overline{PQ}$ é igual a $d\text{ cm}$.`,
     visuals: [{ file: 'p2-q16-circulo-cordas.svg', alt: 'Círculo de centro C com cordas paralelas horizontais PQ e RS', caption: 'Circunferência com cordas paralelas PQ e RS.' }],
     parts: [
       {
         id: 'a',
-        prompt: 'Em seu caderno de respostas, reproduza a figura dada, trace o segmento de reta que contém o centro C e é perpendicular às cordas, indicando os pontos M e N, pontos médios de PQ e RS, respectivamente. Sabendo que o centro C está situado entre as duas cordas paralelas, determine a distância entre os pontos M e C em função da distância entre os pontos N e C.',
-        expected: `1) Traçado do segmento perpendicular: segmento que passa pelo centro C e intercepta as cordas PQ e RS em seus pontos médios M e N.\n2) Relação algébrica: como C está situado entre as duas cordas paralelas e a distância total entre elas é $MN = 7\\text{ cm}$, temos:\n$MC = 7 - NC$ (ou $d(M, C) = 7 - d(N, C)$).`,
-        expectedImages: [{ file: 'p2-q16-solucao-geometria-a.svg', alt: 'Gabarito Oficial VUNESP: Esboço do círculo com segmento perpendicular passando por C e pontos médios M e N', caption: 'Esquema oficial do item a com C entre as cordas.' }],
+        prompt: 'Calcule a área do círculo para o caso em que d = 3 cm.',
+        expected: `1) Determinação do raio $R$:
+Como o segmento perpendicular que une o centro C à corda $PQ$ passa pelo seu ponto médio $M$, temos $MQ = \frac{8}{2} = 4\text{ cm}$.
+No triângulo retângulo $\Delta CMQ$, com catetos $d = 3\text{ cm}$ e $MQ = 4\text{ cm}$:
+$R^2 = d^2 + MQ^2 = 3^2 + 4^2 = 9 + 16 = 25 \implies R = 5\text{ cm}$.
+
+2) Área do círculo:
+$S = \pi R^2 = \pi \times 25 = 25\pi\text{ cm}^2$.`,
+        expectedImages: [{ file: 'p2-q16-solucao-geometria-a.svg', alt: 'Gabarito Oficial VUNESP: Triângulo retângulo com catetos 3 e 4 e determinação de R = 5 cm', caption: 'Esquema oficial do item a: raio e área do círculo.' }],
         criteria: [
-          { points: 1, text: 'Reproduz a figura indicando o segmento perpendicular às cordas passando pelo centro C com os pontos médios M e N.' },
-          { points: 1, text: 'Determina a distância MC em função de NC: MC = 7 - NC.' },
+          { points: 1, text: 'Determina o raio do círculo R = 5 cm (ou R² = 25) com resolução.' },
+          { points: 1, text: 'Calcula a área do círculo S = 25π cm² com resolução.' },
         ],
-        detailed: `a) O segmento de reta perpendicular às cordas paralelas $PQ$ e $RS$ que passa pelo centro $C$ da circunferência intercepta essas cordas exatamente em seus pontos médios, $M$ e $N$.
-Como o centro $C$ está situado entre as cordas paralelas, o ponto $C$ pertence ao segmento $MN$, de modo que o comprimento total é a soma das distâncias de $C$ aos pontos médios:
-$$MN = MC + NC = 7\\text{ cm}$$
-Isolando $MC$ em função de $NC$:
-$$MC = 7 - NC$$`,
+        detailed: `a) Seja $M$ o ponto médio da corda $PQ$. Pela propriedade geométrica das cordas, a reta que passa pelo centro $C$ e é perpendicular à corda a divide em dois segmentos iguais:
+$$MQ = \frac{PQ}{2} = \frac{8}{2} = 4\text{ cm}$$
+O triângulo formado pelo centro $C$, pelo ponto médio $M$ e pelo ponto $Q$ sobre a circunferência é retângulo em $M$. A hipotenusa é o raio $R = CQ$ e a distância dada é $CM = d = 3\text{ cm}$.
+Aplicando o Teorema de Pitágoras no $\Delta CMQ$:
+$$R^2 = CM^2 + MQ^2 = 3^2 + 4^2 = 9 + 16 = 25 \implies R = 5\text{ cm}$$
+A área do círculo delimitado pela circunferência é dada por:
+$$S = \pi R^2 = \pi \times 5^2 = 25\pi\text{ cm}^2$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'Calcule o raio desse círculo.',
-        expected: `Cálculo do raio R:\nNos triângulos retângulos $\\Delta PMC$ e $\\Delta RNC$:\n$PM = \\frac{8}{2} = 4\\text{ cm}$, $RN = \\frac{6}{2} = 3\\text{ cm}$.\n$R^2 = PM^2 + MC^2 = 4^2 + (7 - NC)^2$\n$R^2 = RN^2 + NC^2 = 3^2 + NC^2$\nIgualando as duas expressões:\n$16 + (49 - 14\\,NC + NC^2) = 9 + NC^2 \\implies 65 - 14\\,NC = 9 \\implies 14\\,NC = 56 \\implies NC = 4\\text{ cm}$.\nSubstituindo $NC = 4\\text{ cm}$:\n$R^2 = 3^2 + 4^2 = 9 + 16 = 25 \\implies R = 5\\text{ cm}$.`,
-        expectedImages: [{ file: 'p2-q16-solucao-geometria-b.svg', alt: 'Gabarito Oficial VUNESP: Triângulos retângulos na circunferência e determinação do raio R = 5 cm', caption: 'Determinação do raio R = 5 cm nos triângulos retângulos.' }],
+        prompt: 'Calcule a medida do raio da circunferência para o caso em que a distância entre $\overline{PQ}$ e $\overline{RS}$ seja de 4 cm.',
+        expected: `Sejam $M$ o ponto médio de $PQ$ ($MQ = 4\text{ cm}$) e $N$ o ponto médio de $RS$ ($NS = \frac{6}{2} = 3\text{ cm}$).
+A distância entre as retas das cordas é de $4\text{ cm}$.
+No caso em que o centro C está do mesmo lado em relação às cordas (ou com C entre as cordas), a distância de C à corda $RS$ é $|4 - d|$.
+Aplicando o Teorema de Pitágoras nos dois triângulos retângulos com hipotenusa comum $R$:
+$$\begin{cases} R^2 = d^2 + 4^2 \\ R^2 = (4 - d)^2 + 3^2 \end{cases}$$
+Igualando as duas equações:
+$$d^2 + 16 = 16 - 8d + d^2 + 9 \implies 8d = 9 \implies d = \frac{9}{8}\text{ cm}$$
+Substituindo $d = \frac{9}{8}\text{ cm}$ na primeira equação:
+$$R^2 = \left(\frac{9}{8}\right)^2 + 16 = \frac{81}{64} + 16 = \frac{81 + 1\,024}{64} = \frac{1\,105}{64}$$
+$$R = \frac{\sqrt{1\,105}}{8}\text{ cm} \approx 4,15\text{ cm}$$`,
+        expectedImages: [{ file: 'p2-q16-solucao-geometria-b.svg', alt: 'Gabarito Oficial VUNESP: Determinação do raio R = √1105 / 8 cm via sistema de equações de Pitágoras', caption: 'Determinação do raio R no item b.' }],
         criteria: [
-          { points: 2, text: 'Calcula o raio do círculo R = 5 cm através do sistema de equações de Pitágoras.' },
+          { points: 2, text: 'Calcula corretamente a medida do raio R = √1105 / 8 cm (1 ponto para a formulação do sistema de equações e cálculo de d).' },
         ],
-        detailed: `b) Seja $NC = x$; portanto, $MC = 7 - x$.
-Os pontos $P$ e $R$ pertencem à circunferência, logo $CP = CR = R$ (raio do círculo).
-Como $M$ é ponto médio de $PQ = 8\\text{ cm}$, temos $PM = 4\\text{ cm}$.
-Como $N$ é ponto médio de $RS = 6\\text{ cm}$, temos $RN = 3\\text{ cm}$.
-Aplicando o Teorema de Pitágoras no triângulo retângulo $\\Delta PMC$:
-$$R^2 = PM^2 + MC^2 = 4^2 + (7 - x)^2 = 16 + 49 - 14x + x^2 = 65 - 14x + x^2 \\quad \\text{(I)}$$
-Aplicando o Teorema de Pitágoras no triângulo retângulo $\\Delta RNC$:
-$$R^2 = RN^2 + NC^2 = 3^2 + x^2 = 9 + x^2 \\quad \\text{(II)}$$
-Igualando (I) e (II):
-$$65 - 14x + x^2 = 9 + x^2 \\implies 14x = 65 - 9 \\implies 14x = 56 \\implies x = 4\\text{ cm}$$
-Substituindo $x = 4\\text{ cm}$ na Equação II:
-$$R^2 = 9 + 4^2 = 9 + 16 = 25 \\implies R = 5\\text{ cm}$$`,
+        detailed: `b) Sejam $M$ e $N$ os respectivos pontos médios das cordas paralelas $PQ$ e $RS$. Os triângulos $\Delta CMQ$ e $\Delta CNS$ são retângulos em $M$ e $N$:
+- $MQ = \frac{PQ}{2} = \frac{8}{2} = 4\text{ cm}$
+- $NS = \frac{RS}{2} = \frac{6}{2} = 3\text{ cm}$
+A distância do centro $C$ à corda $PQ$ é $CM = d$. Como a distância entre as cordas paralelas é de $4\text{ cm}$, a distância de $C$ à corda $RS$ é expressa por $CN = |4 - d|$.
+Como $CQ = CS = R$ (raios da circunferência), aplicamos o Teorema de Pitágoras em ambos os triângulos:
+$$\begin{cases} R^2 = d^2 + 4^2 \\ R^2 = (4 - d)^2 + 3^2 \end{cases}$$
+Igualando as expressões de $R^2$:
+$$d^2 + 16 = 16 - 8d + d^2 + 9$$
+$$8d = 9 \implies d = \frac{9}{8}\text{ cm}$$
+Substituindo o valor de $d$ para encontrar o raio $R$:
+$$R^2 = \left(\frac{9}{8}\right)^2 + 16 = \frac{81}{64} + \frac{1\,024}{64} = \frac{1\,105}{64}$$
+$$R = \frac{\sqrt{1\,105}}{8}\text{ cm} \approx 4,155\text{ cm}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -724,50 +777,51 @@ $$R^2 = 9 + 4^2 = 9 + 16 = 25 \\implies R = 5\\text{ cm}$$`,
   d({
     n: 17,
     subject: 'Matemática',
-    content: 'Geometria analítica: equações da reta, perpendicularismo, inclinação e área de triângulo',
+    content: 'Geometria analítica: equações da reta, perpendicularismo, coeficiente angular e valor numérico de ordenada',
     difficulty: 'Média',
-    statement: `No plano cartesiano de eixos ortogonais, as retas r e s se intersectam no ponto de coordenadas (2, 4). A reta s intersecta o eixo das abscissas no ponto de coordenadas (–10, 0) e a reta r é perpendicular à reta s.`,
-    visuals: [{ file: 'p2-q17-retas-cartesianas.svg', alt: 'Retas perpendiculares r e s concorrentes em (2, 4) no plano cartesiano', caption: 'Retas perpendiculares r e s no plano cartesiano.' }],
+    statement: `No plano cartesiano de eixos ortogonais, as retas r e s se intersectam no ponto de coordenadas (2, 4). A reta s intersecta o eixo x no ponto de coordenadas (–10, 0) e a reta r é perpendicular à reta s. Os ângulos agudos que as retas r e s determinam com o eixo x medem, respectivamente, 60º e 30º, ou seja, essas retas determinam um ângulo de 30º entre si, como indica a figura. Sabe-se, ainda, que a reta r intersecta o eixo y no ponto de coordenadas (0, n).`,
+    visuals: [{ file: 'p2-q17-retas-cartesianas.svg', alt: 'Retas perpendiculares r e s concorrentes em (2, 4) com reta r interceptando eixo y em (0, n)', caption: 'Retas r e s no plano cartesiano.' }],
     parts: [
       {
         id: 'a',
-        prompt: 'Determine a equação da reta s e calcule a tangente do ângulo agudo que a reta r forma com o eixo das ordenadas.',
-        expected: `1) Equação da reta s:\nCoeficiente angular: $m_s = \\frac{4 - 0}{2 - (-10)} = \\frac{4}{12} = \\frac{1}{3}$.\nEquação: $y - 0 = \\frac{1}{3}(x + 10) \\implies x - 3y + 10 = 0$ (ou $y = \\frac{1}{3}x + \\frac{10}{3}$).\n\n2) Tangente do ângulo agudo que r forma com o eixo das ordenadas:\nComo $r \\perp s$, $m_r = -\\frac{1}{m_s} = -3$.\nO ângulo agudo $\\theta$ com o eixo $y$ satisfaz $\\tan\\theta = \\frac{1}{|m_r|} = \\frac{1}{3}$.`,
-        criteria: [
-          { points: 1, text: 'Determina a equação da reta s: y = (1/3)x + 10/3 (ou x - 3y + 10 = 0).' },
-          { points: 1, text: 'Calcula a tangente do ângulo agudo com o eixo das ordenadas: 1/3.' },
-        ],
-        detailed: `a) 1) A reta $s$ passa pelos pontos $A(-10, 0)$ e $P(2, 4)$. Seu coeficiente angular $m_s$ é:
-$$m_s = \\frac{y_P - y_A}{x_P - x_A} = \\frac{4 - 0}{2 - (-10)} = \\frac{4}{12} = \\frac{1}{3}$$
-Pela equação fundamental da reta:
-$$y - y_A = m_s(x - x_A) \\implies y - 0 = \\frac{1}{3}(x + 10) \\implies x - 3y + 10 = 0 \\iff y = \\frac{1}{3}x + \\frac{10}{3}$$
+        prompt: 'Determine a equação da reta s.',
+        expected: `A reta $s$ passa pelos pontos $(-10, 0)$ e $(2, 4)$.
+Coeficiente angular de $s$:
+$m_s = \frac{4 - 0}{2 - (-10)} = \frac{4}{12} = \frac{1}{3}$.
 
-2) A reta $r$ é perpendicular a $s$, logo seu coeficiente angular é:
-$$m_r = -\\frac{1}{m_s} = -\\frac{1}{1/3} = -3$$
-Seja $\\alpha$ a inclinação da reta $r$ em relação ao eixo das abscissas ($x$), de modo que $\\tan\\alpha = |-3| = 3$. Como o eixo das ordenadas ($y$) é perpendicular ao eixo $x$, o ângulo agudo $\\theta$ formado entre a reta $r$ e o eixo $y$ é o ângulo complementar de $\\alpha$ (isto é, $\\theta + \\alpha = 90^\\circ$).
-Portanto:
-$$\\tan\\theta = \\cot\\alpha = \\frac{1}{\\tan\\alpha} = \\frac{1}{3}$$`,
+Equação da reta $s$:
+$y - y_0 = m_s(x - x_0) \implies y - 0 = \frac{1}{3}(x + 10) \implies x - 3y + 10 = 0$
+(ou na forma reduzida: $y = \frac{1}{3}x + \frac{10}{3}$).`,
+        criteria: [
+          { points: 2, text: 'Encontra corretamente a equação da reta s: x - 3y + 10 = 0 (1 ponto para cálculo do coeficiente angular ms = 1/3).' },
+        ],
+        detailed: `a) A reta $s$ contém os pontos $A(-10, 0)$ e $P(2, 4)$.
+O coeficiente angular $m_s$ é dado pela razão entre as variações das ordenadas e das abscissas:
+$$m_s = \frac{y_P - y_A}{x_P - x_A} = \frac{4 - 0}{2 - (-10)} = \frac{4}{12} = \frac{1}{3}$$
+Utilizando a equação fundamental da reta que passa por $A(-10, 0)$:
+$$y - 0 = \frac{1}{3}(x - (-10)) \implies y = \frac{1}{3}x + \frac{10}{3} \iff x - 3y + 10 = 0$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'Calcule a área do triângulo delimitado pelas retas r e s e pelo eixo das abscissas.',
-        expected: `Área do triângulo:\nInterseção de s com o eixo x: ponto $A(-10, 0)$.\nA reta r passa por $(2, 4)$ com inclinação $m_r = -3$:\n$y - 4 = -3(x - 2) \\implies y = -3x + 10$.\nInterseção de r com o eixo x ($y=0$): $-3x + 10 = 0 \\implies x_B = \\frac{10}{3}$, ponto $B\\left(\\frac{10}{3}, 0\\right)$.\nComprimento da base no eixo x:\n$b = x_B - x_A = \\frac{10}{3} - (-10) = \\frac{40}{3}$.\nAltura relativa ao eixo x: ordenada do vértice de interseção $P(2, 4)$, $h = 4$.\nÁrea: $A = \\frac{b \\cdot h}{2} = \\frac{\\frac{40}{3} \\cdot 4}{2} = \\frac{80}{3}$.`,
-        expectedImages: [{ file: 'p2-q17-solucao-grafico.svg', alt: 'Gabarito Oficial VUNESP: Gráfico cartesiano do triângulo delimitado por r, s e o eixo x', caption: 'Região triangular de área 80/3 no plano cartesiano.' }],
+        prompt: 'Determine o valor numérico de n.',
+        expected: `A reta $r$ passa pelo ponto $(2, 4)$ e intercepta o eixo $y$ no ponto $(0, n)$.
+Pela figura do enunciado, a reta $r$ tem inclinação descendente em relação ao sentido positivo do eixo $x$, formando ângulo de $60^\circ$ no triângulo, o que corresponde ao coeficiente angular:
+$m_r = -\tan 60^\circ = -\sqrt{3}$.
+Como $m_r = \frac{n - 4}{0 - 2} = \frac{n - 4}{-2}$:
+$\frac{n - 4}{-2} = -\sqrt{3} \implies n - 4 = 2\sqrt{3} \implies n = 4 + 2\sqrt{3}$ (ou $2\sqrt{3} + 4$).
+(Também aceito $n = 4 - 2\sqrt{3}$, caso adotada reta ascendente com $\tan 60^\circ = \sqrt{3}$).`,
+        expectedImages: [{ file: 'p2-q17-solucao-grafico.svg', alt: 'Gabarito Oficial VUNESP: Determinação de n = 4 + 2√3 no gráfico cartesiano', caption: 'Determinação do valor de n.' }],
         criteria: [
-          { points: 2, text: 'Calcula a área do triângulo: 80/3.' },
+          { points: 2, text: 'Determina corretamente o valor numérico n = 4 + 2√3 (ou 4 - 2√3).' },
         ],
-        detailed: `b) O triângulo é formado pelo ponto de interseção das retas $P(2, 4)$ e pelas interseções das retas $s$ e $r$ com o eixo das abscissas ($y = 0$).
-- Interseção da reta $s$ com o eixo $x$: ponto $A(-10, 0)$.
-- Equação da reta $r$: passa por $P(2, 4)$ com coeficiente angular $m_r = -3$:
-$$y - 4 = -3(x - 2) \\implies y = -3x + 10$$
-Fazendo $y = 0$ para encontrar o ponto de corte $B$ com o eixo $x$:
-$$0 = -3x_B + 10 \\implies 3x_B = 10 \\implies x_B = \\frac{10}{3} \\implies B\\left(\\frac{10}{3}, 0\\right)$$
-O comprimento da base do triângulo situada sobre o eixo $x$ é:
-$$\\text{base} = x_B - x_A = \\frac{10}{3} - (-10) = \\frac{10 + 30}{3} = \\frac{40}{3}$$
-A altura do triângulo em relação a essa base é a ordenada do vértice $P(2, 4)$, ou seja, $h = 4$.
-A área do triângulo é:
-$$\\text{Área} = \\frac{\\text{base} \\cdot h}{2} = \\frac{\\frac{40}{3} \\cdot 4}{2} = \\frac{160}{6} = \\frac{80}{3}$$`,
+        detailed: `b) A reta $r$ passa pelo ponto de interseção $P(2, 4)$ e pelo ponto $(0, n)$ no eixo das ordenadas.
+Pela figura, a reta $r$ determina um ângulo agudo de $60^\circ$ com o eixo das abscissas, possuindo declividade negativa (reta decrescente). Portanto, seu coeficiente angular é:
+$$m_r = -\tan 60^\circ = -\sqrt{3}$$
+Pela definição de coeficiente angular entre os pontos $(2, 4)$ e $(0, n)$:
+$$m_r = \frac{n - 4}{0 - 2} = \frac{n - 4}{-2}$$
+Igualando a $-\sqrt{3}$:
+$$\frac{n - 4}{-2} = -\sqrt{3} \implies n - 4 = 2\sqrt{3} \implies n = 4 + 2\sqrt{3}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -776,42 +830,64 @@ $$\\text{Área} = \\frac{\\text{base} \\cdot h}{2} = \\frac{\\frac{40}{3} \\cdot
   d({
     n: 18,
     subject: 'Matemática',
-    content: 'Matemática comercial e análise combinatória: composição do preço da gasolina e contagem de subconjuntos de moedas',
-    difficulty: 'Difícil',
-    statement: `Considere que, na primeira semana de setembro de 2021, o preço médio do litro da gasolina para o consumidor era de R$ 6,00. O infográfico mostra a composição desse preço médio, segundo informações oficiais da Petrobrás. Foram omitidos dois números, representados no infográfico por X e Y.
-
-(www.nexojornal.com.br. Adaptado.)`,
-    visuals: [{ file: 'p2-q18-infografico-gasolina.svg', alt: 'Infográfico oficial da composição média do preço da gasolina com incógnitas X e Y', caption: 'Composição média do preço da gasolina ao consumidor (R$ 6,00).' }],
+    content: 'Aritmética e análise combinatória: porcentagem, infográfico do preço da gasolina e combinações de moedas',
+    difficulty: 'Média',
+    statement: `O infográfico ilustra os itens que compõem o preço de 1 litro de gasolina comercializada nos postos de combustíveis no Brasil em determinado momento. Considere que o preço final de 1 litro de gasolina ao consumidor seja R$ 6,00.`,
+    visuals: [{ file: 'p2-q18-infografico-gasolina.svg', alt: 'Infográfico do preço da gasolina: realização da Petrobras, tributos federais e estaduais, custo etanol anidro e distribuição', caption: 'Composição do preço de 1 litro de gasolina.' }],
     parts: [
       {
         id: 'a',
         prompt: 'Calcule o valor de X com três casas decimais e o valor de Y com uma casa decimal.',
-        expected: `1) Valor de X: Pela porcentagem de 17,2% do etanol anidro na composição do litro:\n$X = 0,172 \\times 6,00 = \\text{R\\$} 1,032$\n(ou subtraindo as demais parcelas: $X = 6,00 - (2,028 + 0,588 + 1,668 + 0,684) = 6,00 - 4,968 = \\text{R\\$} 1,032$).\n\n2) Valor de Y: Porcentagem referente à distribuição e revenda (R$ 0,684):\n$Y = \\frac{0,684}{6,00} \\times 100 = 11,4\\%$\n(ou subtraindo as outras porcentagens: $Y = 100 - (17,2 + 33,8 + 9,8 + 27,8) = 11,4\\%$).`,
-        criteria: [
-          { points: 1, text: 'Calcula X = R$ 1,032 com três casas decimais e resolução.' },
-          { points: 1, text: 'Calcula Y = 11,4% com uma casa decimal e resolução.' },
-        ],
-        detailed: `a) O preço final de 1 litro de gasolina ao consumidor é R$ 6,00 (100%).
-1) Cálculo de X (parcela referente ao custo do etanol anidro):
-Pelo infográfico, o etanol corresponde a $17,2\\%$ do preço total:
-$$X = 17,2\\% \\times 6,00 = 0,172 \\times 6 = \\text{R\\$} 1,032$$
-Alternativamente, subtraindo do total as quatro parcelas conhecidas:
-$$X = 6,00 - (2,028 + 0,588 + 1,668 + 0,684) = 6,00 - 4,968 = \\text{R\\$} 1,032$$
+        expected: `1) Cálculo de X (custo do etanol anidro na composição da gasolina):
+Pelo infográfico, o etanol corresponde a $17,2\%$ do preço final de R$ 6,00:
+$X = 0,172 \times 6,00 = \text{R\$} 1,032$.
 
-2) Cálculo de Y (porcentagem da parcela de distribuição e revenda, cujo valor é R$ 0,684):
-$$Y = \\frac{0,684}{6,00} \\times 100\\% = 0,114 \\times 100\\% = 11,4\\%$$`,
+2) Cálculo de Y (porcentagem da margem de distribuição e revenda):
+O valor correspondente é R$ 0,684 em um total de R$ 6,00:
+$Y = \frac{0,684}{6,00} \times 100\% = 11,4\%$.`,
+        criteria: [
+          { points: 1, text: 'Calcula X = R$ 1,032 (com três casas decimais) com resolução.' },
+          { points: 1, text: 'Calcula Y = 11,4% (com uma casa decimal) com resolução.' },
+        ],
+        detailed: `a) O preço final de 1 litro de gasolina comum ao consumidor é R$ 6,00 (100%).
+1) Cálculo de X:
+Pelo infográfico, a parcela referente ao custo do etanol anidro é de $17,2\%$:
+$$X = 17,2\% \times 6,00 = 0,172 \times 6,00 = \text{R\$} 1,032$$
+2) Cálculo de Y:
+A parcela de distribuição e revenda tem valor absoluto de R$ 0,684. Sua porcentagem em relação a R$ 6,00 é:
+$$Y = \frac{0,684}{6,00} \times 100\% = 0,114 \times 100\% = 11,4\%$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
         prompt: 'Adotando R$ 1,03 como custo do etanol utilizado na composição de 1 litro de gasolina, determine o valor, em R$, do litro de etanol, também com duas casas decimais. De quantas formas diferentes é possível formar um subconjunto do conjunto das 27 moedas com valor monetário total igual ao preço de 1 litro de etanol? Considere que a troca de moedas de mesmo valor não constitui novos subconjuntos.',
-        expected: `1) Valor do litro de etanol:\nComo a gasolina contém 27% de etanol anidro (fração volumétrica 0,27), o preço de 1 litro de etanol é:\n$P_{\\text{etanol}} = \\frac{1,03}{0,27} = \\frac{103}{27} \\approx \\text{R\\$} 3,81$.\n\n2) Formas de obter R$ 3,81 a partir das 27 moedas:\nO conjunto contém: 4 moedas de R$ 1,00; 3 moedas de R$ 0,50; 2 moedas de R$ 0,10; 3 moedas de R$ 0,05; e 15 moedas de R$ 0,01.\nPara totalizar R$ 3,81, é possível obter exatamente 10 subconjuntos distintos.`,
+        expected: `1) Valor de 1 litro de etanol:
+A gasolina contém 27% de etanol anidro em volume (fração volumétrica 0,27 L). Como essa parcela custa R$ 1,03:
+$P = \frac{1,03}{0,27} = \frac{103}{27} \approx \text{R\$} 3,81$.
+
+2) Subconjuntos possíveis com as 27 moedas disponíveis (4 de R$ 1,00; 3 de R$ 0,50; 2 de R$ 0,10; 3 de R$ 0,05; 15 de R$ 0,01):
+Tabela oficial de estratégias (Gabarito VUNESP):
+
+| Moedas R$ 1,00 | Moedas R$ 0,50 | Moedas R$ 0,10 | Moedas R$ 0,05 | Moedas R$ 0,01 |
+| :---: | :---: | :---: | :---: | :---: |
+| 3 | 1 | 2 | 2 | 1 |
+| 3 | 1 | 2 | 1 | 6 |
+| 3 | 1 | 2 | 0 | 11 |
+| 3 | 1 | 1 | 3 | 6 |
+| 3 | 1 | 1 | 2 | 11 |
+| 2 | 3 | 2 | 2 | 1 |
+| 2 | 3 | 2 | 1 | 6 |
+| 2 | 3 | 2 | 0 | 11 |
+| 2 | 3 | 1 | 3 | 6 |
+| 2 | 3 | 1 | 2 | 11 |
+
+Total: exatamente 10 subconjuntos distintos.`,
         criteria: [
           { points: 1, text: 'Determina o preço de 1 litro de etanol: R$ 3,81 (com duas casas decimais).' },
-          { points: 1, text: 'Determina o total de 10 subconjuntos possíveis evidenciando a estratégia de contagem utilizada.' },
+          { points: 1, text: 'Determina o total de 10 subconjuntos possíveis com apresentação da estratégia/resolução.' },
         ],
-        detailed: `b) 1) A gasolina comum comercializada no Brasil possui $27\\%$ de etanol anidro em volume. Como o custo dessa fração de 0,27 L na composição de 1 L de gasolina é R$ 1,03, o preço $P$ de 1 litro de etanol é:
-$$P = \\frac{1,03}{0,27} = \\frac{103}{27} \\approx 3,8148 \\implies P = \\text{R\\$} 3,81$$
+        detailed: `b) 1) A gasolina comum contém $27\%$ de etanol anidro em volume. Sendo R$ 1,03 o custo referente a 0,27 litro na mistura, o preço $P$ de 1 litro de etanol puro é:
+$$P = \frac{1,03}{0,27} = \frac{103}{27} \approx 3,8148 \implies P = \text{R\$} 3,81$$
 
 2) O conjunto disponível é composto por 27 moedas:
 - 4 moedas de R$ 1,00
@@ -819,27 +895,24 @@ $$P = \\frac{1,03}{0,27} = \\frac{103}{27} \\approx 3,8148 \\implies P = \\text{
 - 2 moedas de R$ 0,10
 - 3 moedas de R$ 0,05
 - 15 moedas de R$ 0,01
-A soma das moedas inferiores a R$ 1,00 é:
-$$3(0,50) + 2(0,10) + 3(0,05) + 15(0,01) = 1,50 + 0,20 + 0,15 + 0,15 = \\text{R\\$} 2,00$$
-Portanto, para atingir R$ 3,81, precisamos obrigatoriamente de no mínimo duas e no máximo três moedas de R$ 1,00.
+A soma de todas as moedas menores que R$ 1,00 totaliza: $3(0,50) + 2(0,10) + 3(0,05) + 15(0,01) = 1,50 + 0,20 + 0,15 + 0,15 = \text{R\$} 2,00$.
+Portanto, para atingir R$ 3,81, precisamos obrigatoriamente de 2 ou 3 moedas de R$ 1,00.
 
-Caso 1: Utilizando 3 moedas de R$ 1,00 (total R$ 3,00):
-Devemos formar os R$ 0,81 restantes. Obrigatoriamente precisamos de uma moeda de R$ 0,50, restando R$ 0,31 em moedas de 10, 5 e 1 centavo:
-- Com duas moedas de R$ 0,10 (R$ 0,20), restam R$ 0,11:
-  (2 de 0,05 + 1 de 0,01), (1 de 0,05 + 6 de 0,01), (0 de 0,05 + 11 de 0,01) $\\to$ 3 possibilidades.
-- Com uma moeda de R$ 0,10 (R$ 0,10), restam R$ 0,21:
-  (3 de 0,05 + 6 de 0,01), (2 de 0,05 + 11 de 0,01) $\\to$ 2 possibilidades.
+Caso 1: Com 3 moedas de R$ 1,00 (total R$ 3,00):
+Devemos compor os R$ 0,81 restantes. É obrigatório utilizar 1 moeda de R$ 0,50, restando R$ 0,31 em moedas de 10, 5 e 1 centavo:
+- Com 2 moedas de R$ 0,10 (R$ 0,20), restam R$ 0,11:
+  (2 de 0,05 + 1 de 0,01), (1 de 0,05 + 6 de 0,01), (0 de 0,05 + 11 de 0,01) $\to$ 3 possibilidades.
+- Com 1 moeda de R$ 0,10 (R$ 0,10), restam R$ 0,21:
+  (3 de 0,05 + 6 de 0,01), (2 de 0,05 + 11 de 0,01) $\to$ 2 possibilidades.
 Total do Caso 1: $3 + 2 = 5$ possibilidades.
 
-Caso 2: Utilizando 2 moedas de R$ 1,00 (total R$ 2,00):
-Devemos formar os R$ 1,81 restantes. Para isso precisamos utilizar as 3 moedas de R$ 0,50 (R$ 1,50), restando R$ 0,31 em moedas de 10, 5 e 1 centavo:
-Analogamente ao Caso 1:
-- Com duas moedas de R$ 0,10 $\\to$ 3 possibilidades.
-- Com uma moeda de R$ 0,10 $\\to$ 2 possibilidades.
-Total do Caso 2: $3 + 2 = 5$ possibilidades.
+Caso 2: Com 2 moedas de R$ 1,00 (total R$ 2,00):
+Devemos compor os R$ 1,81 restantes. É obrigatório utilizar as 3 moedas de R$ 0,50 (R$ 1,50), restando R$ 0,31 em moedas de 10, 5 e 1 centavo:
+- De modo idêntico ao Caso 1, há exatamente 5 possibilidades de formar R$ 0,31.
+Total do Caso 2: 5 possibilidades.
 
 Total geral de subconjuntos distintos:
-$$5 + 5 = 10\\text{ subconjuntos}$$`,
+$$5 + 5 = 10\text{ subconjuntos}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -848,47 +921,58 @@ $$5 + 5 = 10\\text{ subconjuntos}$$`,
   d({
     n: 19,
     subject: 'Matemática',
-    content: 'Função exponencial e logaritmos: decaimento percentual de fios de cabelo e tempo de meia-vida',
+    content: 'Matemática financeira e funções exponenciais: decrescimento percentual e resolução de equações logarítmicas',
     difficulty: 'Média',
-    statement: `Um estudo de caso acompanhou um homem que tinha 30 anos de vida e possuía inicialmente 100 mil fios de cabelo. Ao longo desse estudo, foi possível observar que, para esse homem, a taxa média de queda de cabelo foi de 4% ao ano.`,
+    statement: `Um homem começou a perder cabelo aos 30 anos de idade, quando tinha cerca de 100 000 fios de cabelo na cabeça. A partir de então, constatou-se que a taxa média de queda de cabelo desse homem foi de 4% ao ano.`,
     parts: [
       {
         id: 'a',
         prompt: 'Sendo N o número médio de fios de cabelo desse homem e t o tempo, em anos, decorrido desde os seus 30 anos de idade, determine a função N(t) e utilize-a para calcular o número de fios de cabelo observados nesse homem quando ele completou 31 anos de vida.',
-        expected: `1) Função exponencial N(t):\nComo a perda média é de 4% ao ano, restam a cada ano 96% dos fios anteriores (fator 0,96):\n$N(t) = 100\\,000 \\cdot (0,96)^t$, para $t \\ge 0$\n(ou $N(t) = 100\\,000 \\cdot (0,96)^{t-30}$ com $t \\ge 30$).\n\n2) Fios de cabelo aos 31 anos ($t = 1$ ano decorrido):\n$N(1) = 100\\,000 \\cdot (0,96)^1 = 96\\,000\\text{ fios}$ de cabelo.`,
+        expected: `1) Fórmula da quantidade de fios de cabelo $N(t)$:
+Como há perda de 4% ao ano, restam a cada ano $100\% - 4\% = 96\% = 0,96$ dos fios do ano anterior:
+$N(t) = 100\,000 \cdot (0,96)^{t-30}$ para $t \ge 30$ (ou $N(t) = 100\,000 \cdot (0,96)^t$ para $t \ge 0$).
+
+2) Quantidade de fios ao completar 31 anos:
+$N(31) = 100\,000 \cdot (0,96)^{31-30} = 100\,000 \cdot 0,96 = 96\,000\text{ fios}$.`,
         criteria: [
-          { points: 1, text: 'Determina a lei da função N(t) = 100 000 · (0,96)^t.' },
-          { points: 1, text: 'Calcula o número de fios aos 31 anos: 96 000 fios.' },
+          { points: 1, text: 'Apresenta a função exponencial N(t) = 100 000 · (0,96)^(t-30) com t ≥ 30 (ou equivalente).' },
+          { points: 1, text: 'Calcula a quantidade de 96 000 fios aos 31 anos.' },
         ],
-        detailed: `a) Como o homem perde $4\\%$ de seus fios a cada ano, a cada ano subsequente restam $100\\% - 4\\% = 96\\% = 0,96$ da quantidade de fios do ano anterior.
-Sendo $t$ o tempo em anos decorrido a partir dos 30 anos e a quantidade inicial de $100\\,000$ fios ($100 \\times 10^3$), a lei da função exponencial é:
-$$N(t) = 100\\,000 \\cdot (0,96)^t$$
-Quando o homem completa 31 anos, decorreu exatamente $t = 31 - 30 = 1\\text{ ano}$:
-$$N(1) = 100\\,000 \\cdot (0,96)^1 = 96\\,000\\text{ fios de cabelo}$$`,
+        detailed: `a) 1) A cada ano que se passa, o número de fios diminui 4%, restando $96\%$ do total do ano anterior (fator multiplicativo anual igual a $0,96$).
+Sendo $t$ a idade do homem em anos ($t \ge 30$), o tempo decorrido após os 30 anos é $(t - 30)$. A função exponencial que descreve o número de fios $N(t)$ é:
+$$N(t) = 100\,000 \cdot (0,96)^{t-30}, \quad t \ge 30$$
+2) Para $t = 31$ anos:
+$$N(31) = 100\,000 \cdot (0,96)^{31-30} = 100\,000 \cdot 0,96 = 96\,000\text{ fios de cabelo}$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
-        prompt: 'Decorrido certo número de anos após os 30 anos de idade desse homem, ele terá a metade dos fios de cabelo que tinha aos 30 anos. Utilizando log10 2 = 0,30 e log10 3 = 0,48, determine qual será sua idade nessa ocasião.',
-        expected: `Cálculo da idade para atingir metade dos fios (50 000):\n$100\\,000 \\cdot (0,96)^t = 50\\,000 \\implies (0,96)^t = \\frac{1}{2} = 2^{-1}$\nTomando logaritmo decimal em ambos os membros:\n$t \\cdot \\log_{10}(0,96) = -\\log_{10} 2$\nComo $0,96 = \\frac{96}{100} = \\frac{2^5 \\cdot 3}{10^2}$:\n$\\log_{10}(0,96) = 5\\log_{10} 2 + \\log_{10} 3 - \\log_{10}(10^2) = 5(0,30) + 0,48 - 2 = 1,50 + 0,48 - 2 = -0,02$\n$t \\cdot (-0,02) = -0,30 \\implies t = \\frac{-0,30}{-0,02} = 15\\text{ anos}$.\nIdade do homem na ocasião: $30 + 15 = 45\\text{ anos}$.`,
+        prompt: 'Decorrido certo número de anos após os 30 anos de idade desse homem, ele terá a metade dos fios de cabelo que tinha aos 30 anos. Utilizando log₁₀ 2 = 0,30 e log₁₀ 3 = 0,48, determine qual será sua idade nessa ocasião.',
+        expected: `Metade dos fios aos 30 anos: $\frac{1}{2} \times 100\,000 = 50\,000\text{ fios}$.
+$100\,000 \cdot (0,96)^{t-30} = 50\,000 \implies (0,96)^{t-30} = \frac{1}{2} = 2^{-1}$.
+Aplicando logaritmo decimal em ambos os membros:
+$(t - 30) \cdot \log_{10}(0,96) = -\log_{10} 2 = -0,30$.
+Como $0,96 = \frac{96}{100} = \frac{2^5 \cdot 3}{10^2}$:
+$\log_{10}(0,96) = 5\log_{10} 2 + \log_{10} 3 - \log_{10} 10^2 = 5(0,30) + 0,48 - 2 = 1,50 + 0,48 - 2 = -0,02$.
+Substituindo na equação:
+$(t - 30) \cdot (-0,02) = -0,30 \implies t - 30 = \frac{0,30}{0,02} = 15 \implies t = 45\text{ anos}$.
+Portanto, o homem terá a metade dos fios aos 45 anos.`,
         criteria: [
-          { points: 1, text: 'Resolve a equação logarítmica encontrando t = 15 anos decorridos.' },
-          { points: 1, text: 'Determina a idade final do homem na ocasião: 45 anos (30 + 15).' },
+          { points: 1, text: 'Monta corretamente a equação exponencial com logaritmos e propriedades.' },
+          { points: 1, text: 'Determina a idade final de 45 anos com desenvolvimento.' },
         ],
-        detailed: `b) Para ter a metade dos fios iniciais ($50\\,000$ fios):
-$$N(t) = \\frac{100\\,000}{2} = 50\\,000$$
-$$100\\,000 \\cdot (0,96)^t = 50\\,000 \\implies (0,96)^t = \\frac{1}{2}$$
-Aplicando o logaritmo de base 10 em ambos os membros:
-$$\\log_{10}\\left[(0,96)^t\\right] = \\log_{10}\\left(\\frac{1}{2}\\right)$$
-$$t \\cdot \\log_{10}(0,96) = \\log_{10}(2^{-1}) = -\\log_{10} 2$$
-Fatorando a fração decimal $0,96 = \\frac{96}{100} = \\frac{2^5 \\cdot 3}{100}$:
-$$\\log_{10}(0,96) = \\log_{10}(2^5 \\cdot 3) - \\log_{10}(100) = 5\\log_{10} 2 + \\log_{10} 3 - 2$$
-Substituindo os valores dados no enunciado ($\\log_{10} 2 = 0,30$ e $\\log_{10} 3 = 0,48$):
-$$\\log_{10}(0,96) = 5(0,30) + 0,48 - 2 = 1,50 + 0,48 - 2 = -0,02$$
-Retornando à equação principal com $-\\log_{10} 2 = -0,30$:
-$$t \\cdot (-0,02) = -0,30 \\implies t = \\frac{-0,30}{-0,02} = 15\\text{ anos}$$
-Como o tempo $t$ é contado a partir dos 30 anos de idade, a idade desse homem nessa ocasião será:
-$$\\text{Idade} = 30 + 15 = 45\\text{ anos}$$`,
+        detailed: `b) A quantidade de fios aos 30 anos era $100\,000$, logo a metade equivale a $50\,000$ fios:
+$$100\,000 \cdot (0,96)^{t-30} = 50\,000 \implies (0,96)^{t-30} = \frac{1}{2}$$
+Aplicando o logaritmo decimal em ambos os membros:
+$$\log_{10}\left[(0,96)^{t-30}\right] = \log_{10}\left(\frac{1}{2}\right)$$
+$$(t - 30) \cdot \log_{10}(0,96) = -\log_{10} 2 = -0,30$$
+Fatorando a base decimal:
+$$0,96 = \frac{96}{100} = \frac{2^5 \cdot 3}{10^2}$$
+$$\log_{10}(0,96) = 5\log_{10} 2 + \log_{10} 3 - 2 = 5(0,30) + 0,48 - 2 = 1,98 - 2 = -0,02$$
+Substituindo na equação:
+$$(t - 30)(-0,02) = -0,30 \implies t - 30 = \frac{-0,30}{-0,02} = 15$$
+$$t = 30 + 15 = 45\text{ anos}$$
+Portanto, a idade do homem nessa ocasião será de 45 anos.`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
@@ -897,45 +981,57 @@ $$\\text{Idade} = 30 + 15 = 45\\text{ anos}$$`,
   d({
     n: 20,
     subject: 'Matemática',
-    content: 'Geometria espacial: prisma reto regular de base triangular, apótema e cálculo de área lateral',
+    content: 'Geometria espacial: prisma triangular regular reto, apótema e cálculo de área lateral',
     difficulty: 'Média',
-    statement: `A figura mostra um prisma reto regular ABCTQP, de bases triangulares. Sabe-se que AC = 12 cm, que M é ponto médio de TQ e que a medida de BM é igual a 20 cm.`,
-    visuals: [{ file: 'p2-q20-prisma-regular.svg', alt: 'Prisma reto regular triangular ABCTQP com aresta da base 12 cm e segmento BM = 20 cm', caption: 'Prisma reto regular de bases triangulares.' }],
+    statement: `A figura mostra um prisma reto regular ABCTQP, de bases triangulares. Sabe-se que $AC = 12\text{ cm}$, que M é ponto médio de $\overline{TQ}$ e que a medida de $\overline{BM}$ é igual a 20 cm.`,
+    visuals: [{ file: 'p2-q20-prisma-regular.svg', alt: 'Prisma reto regular triangular ABCTQP com aresta da base AC = 12 cm e segmento espacial BM = 20 cm', caption: 'Prisma reto regular de bases triangulares.' }],
     parts: [
       {
         id: 'a',
         prompt: 'Calcule a soma das áreas das bases do prisma, indicadas em azul na figura.',
-        expected: `Soma das áreas das bases do prisma:\nAs bases são dois triângulos equiláteros congruentes de lado $L = 12\\text{ cm}$.\nÁrea de uma base: $S_{\\text{base}} = \\frac{L^2\\sqrt{3}}{4} = \\frac{12^2\\sqrt{3}}{4} = \\frac{144\\sqrt{3}}{4} = 36\\sqrt{3}\\text{ cm}^2$.\nSoma das áreas das duas bases:\n$2 \\cdot S_{\\text{base}} = 2 \\times 36\\sqrt{3} = 72\\sqrt{3}\\text{ cm}^2$ (ou $12\\sqrt{108}\\text{ cm}^2$).`,
+        expected: `As bases são dois triângulos equiláteros congruentes de lado $L = 12\text{ cm}$.
+Área de uma base: $S = \frac{L^2\sqrt{3}}{4} = \frac{12^2\sqrt{3}}{4} = \frac{144\sqrt{3}}{4} = 36\sqrt{3}\text{ cm}^2$.
+Soma das áreas das duas bases:
+$2 \times 36\sqrt{3} = 72\sqrt{3}\text{ cm}^2$ (ou $12\sqrt{108}\text{ cm}^2$).`,
         expectedImages: [{ file: 'p2-q20-solucao-triangulo.svg', alt: 'Gabarito Oficial VUNESP: Triângulo equilátero da base e cálculo da área', caption: 'Área da base do prisma triangular regular.' }],
         criteria: [
           { points: 2, text: 'Calcula a soma das áreas das duas bases: 72√3 cm² (1 ponto se calculou uma base ou errou no cálculo final).' },
         ],
-        detailed: `a) Por ser um prisma regular reto de bases triangulares, suas bases inferior ($ABC$) e superior ($TQP$) são triângulos equiláteros congruentes de lado $L = AC = 12\\text{ cm}$.
+        detailed: `a) Por ser um prisma regular reto de bases triangulares, suas bases inferior ($ABC$) e superior ($TQP$) são triângulos equiláteros congruentes de lado $L = AC = 12\text{ cm}$.
 A área de um triângulo equilátero de lado $L$ é dada por:
-$$S_{\\text{base}} = \\frac{L^2\\sqrt{3}}{4} = \\frac{12^2\\sqrt{3}}{4} = \\frac{144\\sqrt{3}}{4} = 36\\sqrt{3}\\text{ cm}^2$$
+$$S_{\text{base}} = \frac{L^2\sqrt{3}}{4} = \frac{12^2\sqrt{3}}{4} = \frac{144\sqrt{3}}{4} = 36\sqrt{3}\text{ cm}^2$$
 A soma das áreas das duas bases (inferior e superior) é:
-$$S_{\\text{total das bases}} = 2 \\cdot S_{\\text{base}} = 2 \\times 36\\sqrt{3} = 72\\sqrt{3}\\text{ cm}^2$$`,
+$$S_{\text{total bases}} = 2 \cdot S_{\text{base}} = 2 \times 36\sqrt{3} = 72\sqrt{3}\text{ cm}^2$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
       {
         id: 'b',
         prompt: 'Calcule a área lateral do prisma.',
-        expected: `Área lateral do prisma:\nSeja N o ponto médio de AB na base inferior, que é a projeção ortogonal de M sobre o plano da base. Como o prisma é reto, o segmento MN é perpendicular à base e corresponde à altura do prisma: $MN = h$.\nNo triângulo equilátero da base inferior, o segmento BN une o vértice B ao ponto médio de AB, medindo $BN = \\frac{12}{2} = 6\\text{ cm}$ ou, considerando a altura da base relativa a outro vértice, a projeção forma um triângulo retângulo onde:\n$h^2 + (6\\sqrt{3})^2 = 20^2 \\implies h^2 + 108 = 400 \\implies h^2 = 292 \\implies h = \\sqrt{292} = 2\\sqrt{73}\\text{ cm}$.\nO perímetro da base é $2p = 3 \\times 12 = 36\\text{ cm}$.\nÁrea lateral: $A_L = 36 \\times 2\\sqrt{73} = 72\\sqrt{73}\\text{ cm}^2$ (ou $36\\sqrt{292}\\text{ cm}^2$).`,
+        expected: `Seja $N$ a projeção ortogonal de $M$ sobre a base inferior $ABC$. Como $M$ é ponto médio de $TQ$, $N$ é o ponto médio de $AB$.
+O segmento $MN$ é perpendicular ao plano da base e mede a altura $h$ do prisma: $MN = h$.
+No triângulo equilátero da base inferior ($ABC$), a mediana/altura $BN$ relativa ao vértice $B$ mede:
+$BN = \frac{L\sqrt{3}}{2} = \frac{12\sqrt{3}}{2} = 6\sqrt{3}\text{ cm}$.
+O triângulo $\Delta BNM$ é retângulo em $N$, com hipotenusa $BM = 20\text{ cm}$.
+Pelo Teorema de Pitágoras:
+$h^2 + BN^2 = BM^2 \implies h^2 + (6\sqrt{3})^2 = 20^2 \implies h^2 + 108 = 400 \implies h^2 = 292 \implies h = \sqrt{292} = 2\sqrt{73}\text{ cm}$.
+O perímetro da base é $2p = 3 \times 12 = 36\text{ cm}$.
+Área lateral do prisma:
+$A_{\text{lateral}} = 2p \cdot h = 36 \times 2\sqrt{73} = 72\sqrt{73}\text{ cm}^2$ (ou $36\sqrt{292}\text{ cm}^2$).`,
         criteria: [
-          { points: 1, text: 'Calcula a altura do prisma: h = 2√73 cm (ou √292 cm).' },
-          { points: 1, text: 'Calcula a área lateral do prisma: 72√73 cm² (ou 36√292 cm²).' },
+          { points: 1, text: 'Calcula a altura do prisma h = 2√73 cm (ou √292 cm) com desenvolvimento.' },
+          { points: 1, text: 'Calcula a área lateral do prisma: 72√73 cm² (ou 36√292 cm²) com desenvolvimento.' },
         ],
-        detailed: `b) As faces laterais de um prisma reto regular triangular são três retângulos congruentes de base $L = 12\\text{ cm}$ e altura $h$.
-Seja $N$ o ponto médio de $AB$ na base inferior, que é a projeção ortogonal de $M$ (ponto médio de $TQ$) sobre a base $ABC$. O segmento $MN$ é paralelo às arestas laterais, com $MN = h$.
-No triângulo equilátero $ABC$, a mediana/altura relativa ao lado oposto que conecta o vértice à projeção ortogonal possui comprimento:
-$$h_{\\text{base}} = \\frac{12\\sqrt{3}}{2} = 6\\sqrt{3}\\text{ cm}$$
-O triângulo formado pela altura $h$, pela distância na base e pelo segmento espacial $BM = 20\\text{ cm}$ é retângulo. Aplicando o Teorema de Pitágoras:
-$$h^2 + (6\\sqrt{3})^2 = 20^2$$
-$$h^2 + 36 \\times 3 = 400 \\implies h^2 + 108 = 400 \\implies h^2 = 292$$
-$$h = \\sqrt{292} = \\sqrt{4 \\times 73} = 2\\sqrt{73}\\text{ cm}$$
-O perímetro da base triangular é $2p = 3 \\times 12 = 36\\text{ cm}$.
-A área lateral do prisma é dada pelo perímetro da base multiplicado pela altura:
-$$A_{\\text{lateral}} = 2p \\cdot h = 36 \\times 2\\sqrt{73} = 72\\sqrt{73}\\text{ cm}^2 \\approx 615,2\\text{ cm}^2$$`,
+        detailed: `b) As faces laterais de um prisma triangular regular reto são três retângulos congruentes de base $L = 12\text{ cm}$ e altura $h$.
+Seja $N$ a projeção ortogonal de $M$ (ponto médio de $TQ$) sobre a base inferior $ABC$, de modo que $N$ é o ponto médio do lado $AB$. O segmento $MN$ é paralelo às arestas laterais verticais, com comprimento $MN = h$.
+No triângulo equilátero da base inferior ($ABC$), o segmento $BN$ que une o vértice $B$ ao ponto médio do lado oposto $AC$ (ou $AB$ dependendo da orientação dos vértices) é a altura do triângulo equilátero:
+$$BN = \frac{12\sqrt{3}}{2} = 6\sqrt{3}\text{ cm}$$
+O triângulo espacial $\Delta BNM$ é retângulo em $N$. Aplicando o Teorema de Pitágoras:
+$$h^2 + BN^2 = BM^2 \implies h^2 + (6\sqrt{3})^2 = 20^2$$
+$$h^2 + 108 = 400 \implies h^2 = 292 \implies h = \sqrt{292} = 2\sqrt{73}\text{ cm}$$
+O perímetro da base triangular é:
+$$2p = 3 \times 12 = 36\text{ cm}$$
+A área lateral do prisma é o produto do perímetro da base pela altura:
+$$A_{\text{lateral}} = 2p \cdot h = 36 \times 2\sqrt{73} = 72\sqrt{73}\text{ cm}^2 \approx 615,2\text{ cm}^2$$`,
         detailedSource: 'Resolução comentada Elite Campinas',
       },
     ],
