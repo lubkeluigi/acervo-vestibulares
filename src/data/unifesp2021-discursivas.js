@@ -290,7 +290,7 @@ $$[\text{Na}^+] = \frac{n}{V} = \frac{1{,}174 \times 10^{-3}\text{ mol}}{0{,}350
         id: 'b',
         prompt: 'Sabendo que o calor específico da água é 4,18 kJ ⋅ kg–1 ⋅ ºC–1, estime a massa de água que pode ser aquecida de 20 ºC a 50 ºC com a energia térmica correspondente ao valor energético de 350 mL desse refrigerante. Considerando que o único açúcar presente no refrigerante seja o açúcar comum (sacarose, C12H22O11) e que o valor energético desse refrigerante seja devido apenas a esse carboidrato, estime, a partir dos dados da tabela, qual é a entalpia de combustão completa desse açúcar em kJ/mol.',
         expected: tex`1) Massa de água aquecida:
-Dados: $\Delta E = 613\text{ kJ}$, $c = 4{,}18\text{ kJ}\cdot\text{kg}^{-1}\cdot\text{ºC}^{-1}$, $\Delta T = 50 - 20 = 30\text{ ºC}$.
+Dados: $\Delta E = 613\text{ kJ}$, $c = 4{,}18\text{ kJ}\cdot\text{kg}^{-1}\cdot{^\circ}\text{C}^{-1}$, $\Delta T = 50 - 20 = 30{^\circ}\text{C}$.
 $$Q = m \cdot c \cdot \Delta T \implies m = \frac{Q}{c \cdot \Delta T} = \frac{613}{4{,}18 \times 30} = \frac{613}{125{,}4} \approx \mathbf{4{,}9\text{ kg de água}}$$
 2) Entalpia de combustão da sacarose ($\text{C}_{12}\text{H}_{22}\text{O}_{11}$):
 - Massa molar da sacarose:
@@ -328,7 +328,7 @@ $$\mathbf{K_{ps} = [\text{Ca}^{2+}][\text{C}_2\text{O}_4^{2-}]}$$
         id: 'b',
         prompt: 'Reescreva a equação da etapa 4 completando o balanceamento. Sabendo que o volume molar de gás nas CATP é igual a 25 L/mol, calcule o volume de CO2, medido nessas condições, que é obtido pela reação completa de 0,01 mol de permanganato de potássio.',
         expected: tex`1) Equação redox balanceada da etapa 4:
-$$2\,\text{KMnO}_4\text{ (aq)} + 3\,\text{H}_2\\text{SO}_4\text{ (aq)} + 5\,\text{H}_2\\text{C}_2\\text{O}_4\text{ (aq)} \\longrightarrow 1\,\text{K}_2\\text{SO}_4\text{ (aq)} + 2\,\text{MnSO}_4\text{ (aq)} + 10\,\text{CO}_2\text{ (g)} + 8\,\text{H}_2\\text{O}\text{ (l)}$$
+$$2\,\text{KMnO}_4\text{ (aq)} + 3\,\text{H}_2\text{SO}_4\text{ (aq)} + 5\,\text{H}_2\text{C}_2\text{O}_4\text{ (aq)} \longrightarrow 1\,\text{K}_2\text{SO}_4\text{ (aq)} + 2\,\text{MnSO}_4\text{ (aq)} + 10\,\text{CO}_2\text{ (g)} + 8\,\text{H}_2\text{O}\text{ (l)}$$
 2) Cálculo do volume de $\text{CO}_2$ nas CATP ($V_m = 25\text{ L/mol}$):
 Pela proporção estequiométrica:
 $$2\text{ mol de KMnO}_4 \quad \text{---} \quad 10\text{ mol de CO}_2 \times 25\text{ L/mol} = 250\text{ L de CO}_2$$
@@ -482,7 +482,7 @@ Pressões nos pontos: $P_A = 8 \times 10^5\text{ Pa}$ e $P_C = 2 \times 10^5\tex
 Pela lei dos gases ideais a volume constante:
 $$\frac{P_A}{T_A} = \frac{P_C}{T_C} \implies \frac{8 \times 10^5}{T_A} = \frac{2 \times 10^5}{800} \implies T_A = \frac{8 \times 800}{2} = 3\,200\text{ K}$$
 Convertendo para graus Celsius:
-$$t_A = T_A - 273 = 3\,200 - 273 = \mathbf{2\,927\text{ ºC}}$$`,
+$$t_A = T_A - 273 = 3\,200 - 273 = \mathbf{2\,927{^\circ}\text{C}}$$`,
         criteria: [
           { points: 1, text: 'Calcula a temperatura absoluta no ponto A: TA = 3 200 K.' },
           { points: 1, text: 'Converte corretamente para graus Celsius: tA = 2 927 ºC (unidade obrigatória).' },
