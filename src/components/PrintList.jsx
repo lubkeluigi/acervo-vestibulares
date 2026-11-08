@@ -56,10 +56,49 @@ function PrintQuestion({ question, number, scale = 1, template, wide = false, id
         <>
           <QuestionContent question={question} eager />
           {isOpenQuestion(question) ? <div className="pdf-open-response-space">
-            {(question.parts || []).map((part) => <div className="pdf-open-response-item" key={`${idScope}-${questionKey(question)}-${part.id}`}>
-              <strong>{question.kind === 'essay' ? 'Resolução e resposta' : `Item ${part.id}) · resolução e resposta`}</strong>
-              <div className="pdf-writing-lines" aria-hidden="true">{Array.from({ length: question.kind === 'essay' ? 18 : 4 }, (_, line) => <i key={line} />)}</div>
-            </div>)}
+            {(question.parts || []).map((part) => {
+              const hasTemplate = Boolean(part.responseTemplate);
+              return (
+                <div
+                  className={`pdf-open-response-item${hasTemplate ? ' pdf-has-template' : ''}`}
+                  key={`${idScope}-${questionKey(question)}-${part.id}`}
+                >
+                  <strong className="pdf-open-item-title">
+                    {question.kind === 'essay' ? 'Resolução e resposta' : `Item ${part.id}) · resolução e resposta`}
+                  </strong>
+                  {hasTemplate ? (
+                    <div className="pdf-response-template-container">
+                      <div className="pdf-response-template-box">
+                        <div className="pdf-response-template-header">
+                          <span className="pdf-response-template-badge">CAMPO OFICIAL DE RESOLUÇÃO E RESPOSTA</span>
+                        </div>
+                        <div className="pdf-response-template-stage">
+                          <img
+                            src={part.responseTemplate.src}
+                            alt={part.responseTemplate.alt || 'Esquema de resposta'}
+                            className="pdf-response-template-img"
+                          />
+                        </div>
+                        {part.responseTemplate.caption && (
+                          <div className="pdf-response-template-caption">
+                            {part.responseTemplate.caption}
+                          </div>
+                        )}
+                      </div>
+                      <div className="pdf-response-template-lines">
+                        <div className="pdf-writing-lines" aria-hidden="true">
+                          {Array.from({ length: 6 }, (_, line) => <i key={line} />)}
+                        </div>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="pdf-writing-lines" aria-hidden="true">
+                      {Array.from({ length: question.kind === 'essay' ? 18 : 4 }, (_, line) => <i key={line} />)}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div> : <div className="pdf-alternatives">
             {(question.alternatives || []).map((alternative, index) => (
               <div className="pdf-alternative" key={`${idScope}-${questionKey(question)}-${index}`}>

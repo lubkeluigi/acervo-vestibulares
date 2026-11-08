@@ -227,6 +227,11 @@ A presença de elétrons livres (mar de elétrons / nuvem de elétrons deslocali
       {
         id: 'b',
         prompt: 'Escreva a equação que representa o decaimento do irídio-192. Construa, utilizando os eixos gráficos disponíveis no campo de Resolução e Resposta, a curva que representa o decaimento radioativo do Ir-192.',
+        responseTemplate: {
+          file: 'p2-q07-eixos-resposta.svg',
+          alt: 'Eixos cartesianos para construção da curva de decaimento do Ir-192',
+          caption: 'Campo oficial de Resolução e Resposta: utilize os eixos para traçar a curva de decaimento do Ir-192.',
+        },
         expected: tex`1) Equação de decaimento com emissão de partícula beta ($\beta^-$):
 $$_{77}^{192}\text{Ir} \longrightarrow\ _{78}^{192}\text{Pt} + \,_{-1}^{\phantom{-}0}\beta \quad (\text{ou }_{-1}^{\phantom{-}0}e)$$
 2) Construção da curva de decaimento:
@@ -364,6 +369,11 @@ $$V(\text{CO}_2) = \frac{0{,}01 \times 250}{2} = \mathbf{1{,}25\text{ L de CO}_2
       {
         id: 'b',
         prompt: 'Dê o nome do composto que sofre redução na sequência de reações. Indique, na fórmula do ácido L-ascórbico presente no campo de Resolução e Resposta, os dois átomos de carbono assimétrico.',
+        responseTemplate: {
+          file: 'p2-q10-estrutura-resposta.svg',
+          alt: 'Fórmula estrutural do ácido L-ascórbico no campo de resposta',
+          caption: 'Campo oficial de Resolução e Resposta: indique na fórmula os dois átomos de carbono assimétrico.',
+        },
         expected: '1) Composto que sofre redução: D-glicose. Na primeira etapa, a carbonila aldeídica da D-glicose é reduzida a um grupo álcool primário, formando o D-sorbitol (adição de H2).\n2) Carbonos assimétricos no ácido L-ascórbico: são os carbonos 4 e 5 (numerando a partir da carbonila C1 do éster). O carbono C4 está ligado ao anel com oxigênio, uma hidroxila enólica, um hidrogênio e a cadeia lateral; o carbono C5 está ligado a um H, uma hidroxila -OH, ao grupo -CH2OH e ao anel. Ambos possuem 4 ligantes diferentes entre si.',
         expectedImages: [
           {
@@ -445,6 +455,11 @@ $$T = m_{\text{reboque}} \cdot a = 500 \times 2 = \mathbf{1\,000\text{ N}}$$`,
       {
         id: 'b',
         prompt: 'Preparando-se para levar a lancha à água, o motorista estaciona o conjunto jipe-reboque-lancha em posição de marcha à ré sobre uma rampa plana e inclinada de um ângulo θ em relação à horizontal, conforme figura 2.\nDesenhe, na figura presente no campo de Resolução e Resposta, os vetores que representam as forças que atuam sobre o conjunto jipe-reboque-lancha estacionado na rampa, nomeando cada uma dessas forças e considerando o conjunto como um corpo único. Em seguida, determine a intensidade da força de atrito que mantém o conjunto em repouso. Utilize g = 10 m/s2, sen θ = 0,6 ou cos θ = 0,8.',
+        responseTemplate: {
+          file: 'p2-q12-rampa-resposta.svg',
+          alt: 'Conjunto jipe-reboque-lancha sobre rampa inclinada no campo de resposta',
+          caption: 'Campo oficial de Resolução e Resposta: desenhe na figura os vetores das forças que atuam no conjunto.',
+        },
         expected: tex`1) Diagrama de forças sobre o conjunto como corpo único:
 - Força Peso ($\vec{P}$): vertical, apontando para baixo.
 - Força Normal ($\vec{N}$): perpendicular à superfície da rampa, apontando para cima e para a direita.
@@ -576,6 +591,11 @@ $$i' = \frac{U}{R_{\text{eq}}} = \frac{360}{20} = \mathbf{18\text{ A}}$$`,
       {
         id: 'b',
         prompt: 'A espira tem diâmetro de 4 × 10– 2 m e a permeabilidade magnética do meio que a envolve vale 1,2 × 10– 6 T ⋅ m/A. Para a circunstância em que a chave está aberta, indique, na figura presente no campo de Resolução e Resposta, a direção e o sentido do vetor campo magnético no centro da espira AB e calcule a intensidade desse campo magnético no centro dessa espira.',
+        responseTemplate: {
+          file: 'p2-q15-espira-resposta.svg',
+          alt: 'Espira circular com terminais A e B no campo de resposta',
+          caption: 'Campo oficial de Resolução e Resposta: indique na figura a direção e o sentido do vetor campo magnético.',
+        },
         expected: tex`1) Direção e sentido do vetor campo magnético:
 Com a corrente circulando no sentido anti-horário pela espira, pela regra da mão direita, o vetor campo magnético $\vec{B}$ no centro da espira é perpendicular ao plano da espira (plano da página) com sentido **saindo da página** (indicado por $\odot$).
 2) Intensidade do campo magnético ($D = 4 \times 10^{-2}\text{ m} \implies R = 2 \times 10^{-2}\text{ m}$, $\mu = 1{,}2 \times 10^{-6}\text{ T}\cdot\text{m/A}$, $i = 6\text{ A}$):

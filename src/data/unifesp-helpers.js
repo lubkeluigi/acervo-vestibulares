@@ -74,11 +74,15 @@ export function createUnifesp(year) {
       blockTypes: config.blockTypes || statement.split('\n\n').map(() => 'prose'),
       parts: parts.map((part, index) => {
         const expectedImages = part.expectedImages?.map((item) => (item.file ? visual(item) : item));
+        const responseTemplate = part.responseTemplate
+          ? (part.responseTemplate.file ? visual(part.responseTemplate) : part.responseTemplate)
+          : undefined;
         return {
           id: part.id || String.fromCharCode(97 + index), maxScore: 1,
           criteria: part.criteria || [{ points: 1, text: 'Apresenta a resposta esperada conforme critérios oficiais da VUNESP.' }],
           ...part,
           ...(expectedImages?.length ? { expectedImages } : {}),
+          ...(responseTemplate ? { responseTemplate } : {}),
         };
       }),
       preview: config.preview || parts.map((part) => part.prompt).join(' '),

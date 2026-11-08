@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, ExternalLink, FileText, PenLine } from 'lucide-react';
+import { Check, ExternalLink, FileText, Maximize2, PenLine, PenTool } from 'lucide-react';
 import MathText from './MathText.jsx';
 
 export const isOpenQuestion = (question) => question?.kind === 'discursive' || question?.kind === 'essay';
@@ -30,22 +30,90 @@ export function OpenResponseEditor({ question, value = {}, onChange, disabled = 
       <div><PenLine size={18} /><strong>{essay ? 'Escreva sua redação' : 'Escreva suas respostas'}</strong></div>
       <span>{disabled ? 'Respostas bloqueadas após a correção' : 'Seu texto é salvo automaticamente'}</span>
     </div>
-    {(question.parts || []).map((part) => <label className="open-response-item" key={part.id}>
-      <span className="open-response-item-label">
-        <strong>{essay ? 'Texto definitivo' : `Item ${part.id})`}</strong>
-        {Number.isFinite(part.maxScore) && <small>{editorial ? `até ${part.maxScore} ${part.maxScore === 1 ? 'ponto' : 'pontos'} de estudo` : `vale até ${part.maxScore} ${part.maxScore === 1 ? 'ponto' : 'pontos'}`}</small>}
-      </span>
-      <textarea
-        value={value[part.id] || ''}
-        onChange={(event) => onChange(part.id, event.target.value)}
-        disabled={disabled}
-        rows={essay ? 18 : 5}
-        maxLength={essay ? 12000 : 4000}
-        placeholder={essay ? 'Escreva aqui sua redação…' : `Apresente a resolução e a resposta do item ${part.id})…`}
-        aria-label={essay ? 'Sua redação' : `Sua resposta do item ${part.id}`}
-      />
-      <small className="open-response-count">{String(value[part.id] || '').length} caracteres</small>
-    </label>)}
+    {(question.parts || []).map((part) => {
+      const hasTemplate = Boolean(part.responseTemplate);
+      const inputId = `open-response-input-${part.id}`;
+      return (
+        <div className={`open-response-item${hasTemplate ? ' has-template' : ''}`} key={part.id}>
+          <div className="open-response-item-label">
+            <strong>{essay ? 'Texto definitivo' : `Item ${part.id})`}</strong>
+            {Number.isFinite(part.maxScore) && (
+              <small>
+                {editorial
+                  ? `até ${part.maxScore} ${part.maxScore === 1 ? 'ponto' : 'pontos'} de estudo`
+                  : `vale até ${part.maxScore} ${part.maxScore === 1 ? 'ponto' : 'pontos'}`}
+              </small>
+            )}
+          </div>
+
+          {hasTemplate ? (
+            <div className="open-response-template-layout">
+              <div className="open-response-template-card">
+                <div className="open-response-template-header">
+                  <div className="open-response-template-badge">
+                    <PenTool size={13} />
+                    <span>Campo de Resolução e Resposta</span>
+                  </div>
+                  <a
+                    href={part.responseTemplate.src}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="open-response-template-zoom-btn"
+                    title="Abrir imagem vetorial em tamanho real"
+                  >
+                    <Maximize2 size={13} />
+                    <span>Ampliar</span>
+                  </a>
+                </div>
+                <div className="open-response-template-stage">
+                  <img
+                    src={part.responseTemplate.src}
+                    alt={part.responseTemplate.alt || 'Esquema do campo de resolução e resposta'}
+                    className="open-response-template-img"
+                    loading="lazy"
+                  />
+                </div>
+                {part.responseTemplate.caption && (
+                  <p className="open-response-template-caption">{part.responseTemplate.caption}</p>
+                )}
+              </div>
+
+              <div className="open-response-template-editor-col">
+                <label htmlFor={inputId} className="open-response-sublabel">
+                  <strong>Resolução escrita / anotações:</strong>
+                  <small>Apresente seus cálculos, equações e resposta final</small>
+                </label>
+                <textarea
+                  id={inputId}
+                  value={value[part.id] || ''}
+                  onChange={(event) => onChange(part.id, event.target.value)}
+                  disabled={disabled}
+                  rows={7}
+                  maxLength={4000}
+                  placeholder={`Apresente a resolução e a resposta do item ${part.id})…`}
+                  aria-label={`Sua resposta do item ${part.id}`}
+                />
+                <small className="open-response-count">{String(value[part.id] || '').length} caracteres</small>
+              </div>
+            </div>
+          ) : (
+            <div className="open-response-plain-wrapper">
+              <textarea
+                id={inputId}
+                value={value[part.id] || ''}
+                onChange={(event) => onChange(part.id, event.target.value)}
+                disabled={disabled}
+                rows={essay ? 18 : 5}
+                maxLength={essay ? 12000 : 4000}
+                placeholder={essay ? 'Escreva aqui sua redação…' : `Apresente a resolução e a resposta do item ${part.id})…`}
+                aria-label={essay ? 'Sua redação' : `Sua resposta do item ${part.id}`}
+              />
+              <small className="open-response-count">{String(value[part.id] || '').length} caracteres</small>
+            </div>
+          )}
+        </div>
+      );
+    })}
   </div>;
 }
 
@@ -64,7 +132,18 @@ export function OpenResponseReview({ question, responses = {}, scores = {}, onSc
         const selectedScore = scores[part.id];
         return <article className="open-review-part" key={part.id}>
           <div className="open-review-part-heading"><strong>Item {part.id})</strong>{Number.isFinite(part.maxScore) && <span>até {part.maxScore} pontos{editorial ? ' de estudo' : ''}</span>}</div>
-          <div className="open-student-response"><span>Sua resposta</span><p>{String(responses[part.id] || '').trim() || 'Você não respondeu a este item.'}</p></div>
+          <div className="open-student-response">
+            <span>Sua resposta</span>
+            <p>{String(responses[part.id] || '').trim() || 'Você não respondeu a este item.'}</p>
+            {part.responseTemplate && (
+              <div className="open-review-template-ref">
+                <small>Esquema do campo oficial de resposta:</small>
+                <a href={part.responseTemplate.src} target="_blank" rel="noreferrer">
+                  Ver modelo em branco <ExternalLink size={12} />
+                </a>
+              </div>
+            )}
+          </div>
           <div className="open-expected-response"><span>{editorial ? 'Resposta direta proposta pelo acervo' : 'Resposta esperada'}</span><p><MathText text={part.expected || (editorial ? 'Consulte a proposta de correção e os critérios de estudo.' : 'Consulte a proposta e os critérios oficiais.')} /></p>{part.expectedImages?.map((image) => <figure className="open-expected-image" key={image.src}><img src={image.src} alt={image.alt} loading="lazy" />{image.caption && <figcaption>{image.caption}</figcaption>}</figure>)}</div>
           {part.accepted && <div className="open-accepted-response"><strong>{editorial ? 'Formulações equivalentes' : 'Respostas também aceitas'}</strong><p><MathText text={part.accepted} /></p></div>}
           {part.rejected && <div className="open-accepted-response open-rejected-response"><strong>{editorial ? 'Não atende ao critério de estudo' : 'Não atende ao critério oficial'}</strong><p><MathText text={part.rejected} /></p></div>}
