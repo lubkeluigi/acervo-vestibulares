@@ -2,13 +2,13 @@ export const tex = String.raw;
 const VERSION = '20261108-unifesp2021-1';
 
 export function createUnifesp(year) {
-  if (year !== 2021) throw new Error(`Edição UNIFESP inválida: ${year}`);
+  if (year < 2021 || year > 2026) throw new Error(`Edição UNIFESP inválida: ${year}`);
   const prefix = `unifesp${year}`;
-  const originalUrl = `/documentos/${prefix}/prova1-linguagens-redacao-2021.pdf`;
-  const originalUrl2 = `/documentos/${prefix}/prova2-conhecimentos-especificos-2021.pdf`;
-  const officialAnswerUrl1 = `/documentos/${prefix}/prova1-gabarito-2021.pdf`;
-  const officialAnswerUrl2 = `/documentos/${prefix}/prova2-criterios-correcao-2021.pdf`;
-  const officialEssayUrl = `/documentos/${prefix}/prova1-criterios-redacao-2021.pdf`;
+  const originalUrl = `/documentos/${prefix}/prova1-linguagens-redacao-${year}.pdf`;
+  const originalUrl2 = `/documentos/${prefix}/prova2-conhecimentos-especificos-${year}.pdf`;
+  const officialAnswerUrl1 = `/documentos/${prefix}/prova1-gabarito-${year}.pdf`;
+  const officialAnswerUrl2 = `/documentos/${prefix}/prova2-criterios-correcao-${year}.pdf`;
+  const officialEssayUrl = `/documentos/${prefix}/prova1-criterios-redacao-${year}.pdf`;
 
   const shared = {
     exam: 'UNIFESP', year, accessYear: year,
@@ -77,9 +77,12 @@ export function createUnifesp(year) {
         const responseTemplate = part.responseTemplate
           ? (part.responseTemplate.file ? visual(part.responseTemplate) : part.responseTemplate)
           : undefined;
+        const criteria = part.criteria || [{ points: 2, text: 'Apresenta a resposta esperada conforme critérios oficiais da VUNESP.' }];
+        const maxScore = part.maxScore ?? criteria.reduce((sum, c) => sum + (c.points || 0), 0);
         return {
-          id: part.id || String.fromCharCode(97 + index), maxScore: 1,
-          criteria: part.criteria || [{ points: 1, text: 'Apresenta a resposta esperada conforme critérios oficiais da VUNESP.' }],
+          id: part.id || String.fromCharCode(97 + index),
+          maxScore,
+          criteria,
           ...part,
           ...(expectedImages?.length ? { expectedImages } : {}),
           ...(responseTemplate ? { responseTemplate } : {}),

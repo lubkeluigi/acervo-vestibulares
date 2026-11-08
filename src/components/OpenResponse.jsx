@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, ExternalLink, FileText, Maximize2, PenLine, PenTool } from 'lucide-react';
+import { BookOpen, Check, ExternalLink, FileText, Maximize2, PenLine, PenTool } from 'lucide-react';
 import MathText from './MathText.jsx';
 
 export const isOpenQuestion = (question) => question?.kind === 'discursive' || question?.kind === 'essay';
@@ -145,6 +145,18 @@ export function OpenResponseReview({ question, responses = {}, scores = {}, onSc
             )}
           </div>
           <div className="open-expected-response"><span>{editorial ? 'Resposta direta proposta pelo acervo' : 'Resposta esperada'}</span><p><MathText text={part.expected || (editorial ? 'Consulte a proposta de correção e os critérios de estudo.' : 'Consulte a proposta e os critérios oficiais.')} /></p>{part.expectedImages?.map((image) => <figure className="open-expected-image" key={image.src}><img src={image.src} alt={image.alt} loading="lazy" />{image.caption && <figcaption>{image.caption}</figcaption>}</figure>)}</div>
+          {part.detailed && (
+            <div className="open-detailed-response">
+              <div className="open-detailed-heading">
+                <BookOpen size={14} />
+                <strong>Resolução comentada & aprofundamento</strong>
+                {part.detailedSource && <span className="open-detailed-source">Fonte: {part.detailedSource}</span>}
+              </div>
+              <div className="open-detailed-content">
+                <MathText text={part.detailed} />
+              </div>
+            </div>
+          )}
           {part.accepted && <div className="open-accepted-response"><strong>{editorial ? 'Formulações equivalentes' : 'Respostas também aceitas'}</strong><p><MathText text={part.accepted} /></p></div>}
           {part.rejected && <div className="open-accepted-response open-rejected-response"><strong>{editorial ? 'Não atende ao critério de estudo' : 'Não atende ao critério oficial'}</strong><p><MathText text={part.rejected} /></p></div>}
           {part.criteria?.length > 0 && <div className="open-criteria"><strong>{editorial ? 'Critérios de pontuação de estudo' : 'Critérios de pontuação'}</strong><ul>{part.criteria.map((criterion, index) => <li key={index}><span>{criterion.points} {criterion.points === 1 ? 'ponto' : 'pontos'}</span><p><MathText text={criterion.text} /></p></li>)}</ul></div>}
