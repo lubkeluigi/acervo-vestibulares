@@ -125,7 +125,7 @@ export const unifesp2021Discursivas = [
     content: 'Genética: sistemas ABO e Rh, heredograma, aglutinação e eritroblastose fetal',
     difficulty: 'Média',
     statement: `Analise o heredograma no qual estão indicados os tipos sanguíneos do casal Gustavo e Talita e de sua filha Aline, de acordo com os sistemas ABO e Rh.`,
-    visuals: [{ file: 'p2-q05-heredograma.svg', alt: 'Heredograma de Gustavo, Talita, Aline e seus familiares com tipos ABO e Rh' }],
+    visuals: [{ file: 'p2-q05-heredograma.svg', alt: 'Heredograma dos sistemas ABO e Rh das famílias de Gustavo e Talita' }],
     parts: [
       {
         id: 'a',
@@ -161,20 +161,10 @@ export const unifesp2021Discursivas = [
       {
         ariaLabel: 'Teores equivalentes de K, KCl e K2O na silvita',
         headerRows: [
-          [
-            { content: 'Elemento/composto' },
-            { content: 'K' },
-            { content: 'KCl' },
-            { content: 'K₂O' },
-          ],
+          ['Elemento/composto', 'K', 'KCl', 'K₂O'],
         ],
         rows: [
-          [
-            { content: 'Teor equivalente (% em massa)' },
-            { content: '52' },
-            { content: '100' },
-            { content: '63' },
-          ],
+          ['Teor equivalente (% em massa)', '52', '100', '63'],
         ],
       },
     ],
@@ -218,8 +208,7 @@ $$\text{ou}:\quad 2 \times 74{,}5\text{ g KCl} \text{ (149 g)} \quad \text{---} 
     subject: 'Química',
     content: 'Radioatividade: isótopos do irídio, decaimento beta e curva de meia-vida',
     difficulty: 'Média',
-    statement: `O irídio é um metal muito denso, que possui diversas aplicações, como em contatos elétricos, em agulhas de injeção e em próteses odontológicas.\nEsse elemento apresenta dois isótopos naturais, Ir-191 e Ir-193, cujas abundâncias na natureza são, respectivamente, 37,3% e 62,7%. O irídio também apresenta diversos radioisótopos artificiais, sendo um deles o Ir-192, emissor de partículas β– e radiação gama, que é empregado no tratamento de pacientes com câncer. A meia-vida desse radioisótopo é de 74 dias, aproximadamente.`,
-    visuals: [{ file: 'p2-q07-grafico-decaimento.svg', alt: 'Gráfico dos eixos de decaimento radioativo com meia-vida de 74 dias' }],
+    statement: `O irídio é um metal muito denso, que possui diversas aplicações, como em contatos elétricos, em agulhas de injeção e em próteses odontológicas.\n\nEsse elemento apresenta dois isótopos naturais, Ir-191 e Ir-193, cujas abundâncias na natureza são, respectivamente, 37,3% e 62,7%. O irídio também apresenta diversos radioisótopos artificiais, sendo um deles o Ir-192, emissor de partículas β– e radiação gama, que é empregado no tratamento de pacientes com câncer. A meia-vida desse radioisótopo é de 74 dias, aproximadamente.`,
     parts: [
       {
         id: 'a',
@@ -247,6 +236,13 @@ Com meia-vida $t_{1/2} = 74\text{ dias}$:
 - Em $t = 148\text{ dias}$ (2ª meia-vida): teor reduz-se a $25\%$;
 - Em $t = 222\text{ dias}$ (3ª meia-vida): teor reduz-se a $12{,}5\%$;
 - Traça-se a curva exponencial assintótica passando rigorosamente pelos pontos $(0; 100\%)$, $(74; 50\%)$, $(148; 25\%)$ e $(222; 12{,}5\%)$.`,
+        expectedImages: [
+          {
+            file: 'p2-q07-grafico-decaimento.svg',
+            alt: 'Gabarito Oficial: Curva de decaimento radioativo do Ir-192',
+            caption: 'Critério oficial VUNESP: curva de decaimento radioativo passando pelos pontos de meia-vida (74 dias / 50%, 148 dias / 25%).',
+          },
+        ],
         criteria: [
           { points: 1, text: 'Escreve a equação nuclear: 77Ir192 -> 78Pt192 + -1β0.' },
           { points: 1, text: 'Desenha a curva de decaimento passando pelos pontos de meia-vida (t=74d com 50%, t=148d com 25%).' },
@@ -260,29 +256,17 @@ Com meia-vida $t_{1/2} = 74\text{ dias}$:
     subject: 'Química',
     content: 'Termoquímica e soluções: concentração em mol/L, calorimetria e entalpia de combustão da sacarose',
     difficulty: 'Média',
-    statement: `Analise as seguintes informações nutricionais contidas no rótulo de um refrigerante.\n\nValores nutricionais em 350 mL (1 lata)`,
+    statement: `Analise as seguintes informações nutricionais contidas no rótulo de um refrigerante.`,
     tables: [
       {
         ariaLabel: 'Valores nutricionais em 350 mL de refrigerante (1 lata)',
         headerRows: [
-          [
-            { content: 'Valores nutricionais em 350 mL (1 lata)' },
-            { content: 'Quantidade' },
-          ],
+          [{ text: 'Valores nutricionais em 350 mL (1 lata)', colSpan: 2 }],
         ],
         rows: [
-          [
-            { content: 'Valor energético' },
-            { content: '613 kJ' },
-          ],
-          [
-            { content: 'Açúcares' },
-            { content: '36 g' },
-          ],
-          [
-            { content: 'Sódio' },
-            { content: '27 mg' },
-          ],
+          ['Valor energético', '613 kJ'],
+          ['Açúcares', '36 g'],
+          ['Sódio', '27 mg'],
         ],
       },
     ],
@@ -326,7 +310,7 @@ $$\Delta H_{\text{comb}} = \frac{342\text{ g}}{1\text{ mol}} \times \left(-\frac
     subject: 'Química',
     content: 'Equilíbrio químico e estequiometria: Kps do oxalato de cálcio e volumetria redox',
     difficulty: 'Difícil',
-    statement: `Um dos métodos para análise quantitativa de íons cálcio em uma solução aquosa envolve as seguintes etapas:\n1. Precipitação de íons cálcio por reação com íons oxalato em excesso, de acordo com a equação:\n$$\\text{Ca}^{2+}\\text{ (aq)} + \\text{C}_2\\text{O}_4^{2-}\\text{ (aq)} \\longrightarrow \\text{CaC}_2\\text{O}_4\\text{ (s)}$$\n2. Filtração do precipitado formado seguida de lavagem.\n3. Reação do precipitado formado com ácido sulfúrico, produzindo ácido oxálico:\n$$\\text{CaC}_2\\text{O}_4\\text{ (s)} + \\text{H}_2\\text{SO}_4\\text{ (aq)} \\longrightarrow \\text{composto X} + \\text{H}_2\\text{C}_2\\text{O}_4\\text{ (aq)}$$\n4. Titulação do ácido oxálico com $\\text{KMnO}_4$ em meio ácido, de acordo com a equação parcialmente balanceada:\n$$2\\,\\text{KMnO}_4\\text{ (aq)} + 3\\,\\text{H}_2\\text{SO}_4\\text{ (aq)} + \\underline{\\quad}\\;\\text{H}_2\\text{C}_2\\text{O}_4\\text{ (aq)} \\longrightarrow \\underline{\\quad}\\;\\text{K}_2\\text{SO}_4\\text{ (aq)} + \\underline{\\quad}\\;\\text{MnSO}_4\\text{ (aq)} + \\underline{\\quad}\\;\\text{CO}_2\\text{ (g)} + \\underline{\\quad}\\;\\text{H}_2\\text{O}\\text{ (l)}$$`,
+    statement: `Um dos métodos para análise quantitativa de íons cálcio em uma solução aquosa envolve as seguintes etapas:\n\n1. Precipitação de íons cálcio por reação com íons oxalato em excesso, de acordo com a equação:\n$$\\text{Ca}^{2+}\\text{ (aq)} + \\text{C}_2\\text{O}_4^{2-}\\text{ (aq)} \\longrightarrow \\text{CaC}_2\\text{O}_4\\text{ (s)}$$\n\n2. Filtração do precipitado formado seguida de lavagem.\n\n3. Reação do precipitado formado com ácido sulfúrico, produzindo ácido oxálico:\n$$\\text{CaC}_2\\text{O}_4\\text{ (s)} + \\text{H}_2\\text{SO}_4\\text{ (aq)} \\longrightarrow \\text{composto X} + \\text{H}_2\\text{C}_2\\text{O}_4\\text{ (aq)}$$\n\n4. Titulação do ácido oxálico com $\\text{KMnO}_4$ em meio ácido, de acordo com a equação parcialmente balanceada:\n$$2\\,\\text{KMnO}_4\\text{ (aq)} + 3\\,\\text{H}_2\\text{SO}_4\\text{ (aq)} + \\underline{\\quad}\\;\\text{H}_2\\text{C}_2\\text{O}_4\\text{ (aq)} \\longrightarrow \\underline{\\quad}\\;\\text{K}_2\\text{SO}_4\\text{ (aq)} + \\underline{\\quad}\\;\\text{MnSO}_4\\text{ (aq)} + \\underline{\\quad}\\;\\text{CO}_2\\text{ (g)} + \\underline{\\quad}\\;\\text{H}_2\\text{O}\\text{ (l)}$$`,
     parts: [
       {
         id: 'a',
@@ -344,7 +328,7 @@ $$\mathbf{K_{ps} = [\text{Ca}^{2+}][\text{C}_2\text{O}_4^{2-}]}$$
         id: 'b',
         prompt: 'Reescreva a equação da etapa 4 completando o balanceamento. Sabendo que o volume molar de gás nas CATP é igual a 25 L/mol, calcule o volume de CO2, medido nessas condições, que é obtido pela reação completa de 0,01 mol de permanganato de potássio.',
         expected: tex`1) Equação redox balanceada da etapa 4:
-$$2\,\text{KMnO}_4\text{ (aq)} + 3\,\text{H}_2\text{SO}_4\text{ (aq)} + 5\,\text{H}_2\text{C}_2\text{O}_4\text{ (aq)} \longrightarrow 1\,\text{K}_2\text{SO}_4\text{ (aq)} + 2\,\text{MnSO}_4\text{ (aq)} + 10\,\text{CO}_2\text{ (g)} + 8\,\text{H}_2\text{O}\text{ (l)}$$
+$$2\,\text{KMnO}_4\text{ (aq)} + 3\,\text{H}_2\\text{SO}_4\text{ (aq)} + 5\,\text{H}_2\\text{C}_2\\text{O}_4\text{ (aq)} \\longrightarrow 1\,\text{K}_2\\text{SO}_4\text{ (aq)} + 2\,\text{MnSO}_4\text{ (aq)} + 10\,\text{CO}_2\text{ (g)} + 8\,\text{H}_2\\text{O}\text{ (l)}$$
 2) Cálculo do volume de $\text{CO}_2$ nas CATP ($V_m = 25\text{ L/mol}$):
 Pela proporção estequiométrica:
 $$2\text{ mol de KMnO}_4 \quad \text{---} \quad 10\text{ mol de CO}_2 \times 25\text{ L/mol} = 250\text{ L de CO}_2$$
@@ -366,7 +350,6 @@ $$V(\text{CO}_2) = \frac{0{,}01 \times 250}{2} = \mathbf{1{,}25\text{ L de CO}_2
     statement: `A sequência de reações representada no esquema resume etapas de um dos processos de obtenção de ácido L-ascórbico (vitamina C) a partir da glicose.\n\n(Fernanda A. D. Ito e Iara L. R. Gonçalves. Método para a produção de ácido 2-ceto-L-gulônico. Adaptado.)`,
     visuals: [
       { file: 'p2-q10-vitamina-c.svg', alt: 'Esquema de reações de síntese da vitamina C a partir da D-glicose' },
-      { file: 'p2-q10-solucao-carbonos.svg', alt: 'Indicação dos dois carbonos assimétricos (C4 e C5) na molécula do ácido L-ascórbico' },
     ],
     parts: [
       {
@@ -382,6 +365,13 @@ $$V(\text{CO}_2) = \frac{0{,}01 \times 250}{2} = \mathbf{1{,}25\text{ L de CO}_2
         id: 'b',
         prompt: 'Dê o nome do composto que sofre redução na sequência de reações. Indique, na fórmula do ácido L-ascórbico presente no campo de Resolução e Resposta, os dois átomos de carbono assimétrico.',
         expected: '1) Composto que sofre redução: D-glicose. Na primeira etapa, a carbonila aldeídica da D-glicose é reduzida a um grupo álcool primário, formando o D-sorbitol (adição de H2).\n2) Carbonos assimétricos no ácido L-ascórbico: são os carbonos 4 e 5 (numerando a partir da carbonila C1 do éster). O carbono C4 está ligado ao anel com oxigênio, uma hidroxila enólica, um hidrogênio e a cadeia lateral; o carbono C5 está ligado a um H, uma hidroxila -OH, ao grupo -CH2OH e ao anel. Ambos possuem 4 ligantes diferentes entre si.',
+        expectedImages: [
+          {
+            file: 'p2-q10-solucao-carbonos.svg',
+            alt: 'Gabarito Oficial: Carbonos assimétricos assinalados no ácido L-ascórbico',
+            caption: 'Critério oficial VUNESP: indicação dos dois carbonos quirais/assimétricos (C4 e C5) assinalados com asteriscos na estrutura.',
+          },
+        ],
         criteria: [
           { points: 1, text: 'Identifica o composto que sofre redução: D-glicose.' },
           { points: 1, text: 'Indica os dois carbonos quirais/assimétricos (C4 e C5) na estrutura do ácido L-ascórbico.' },
@@ -436,8 +426,8 @@ $$t_{\text{total}} = 2 \times t_{\text{sub}} = 2 \times 0{,}4 = \mathbf{0{,}8\te
     difficulty: 'Média',
     statement: `Um jipe de massa $2\\,000\\text{ kg}$ é utilizado para rebocar uma lancha sobre uma carreta de massa total igual a $500\\text{ kg}$. O conjunto jipe-reboque-lancha move-se sobre um piso plano e horizontal, puxado pelo engate, com aceleração constante de $2\\text{ m/s}^2$.\n\nEm seguida, o motorista posiciona o conjunto sobre uma rampa inclinada de um ângulo $\\theta$ em relação à horizontal, conforme a Figura 2.`,
     visuals: [
-      { file: 'p2-q12-1-jipe-plano.svg', alt: 'Figura 1: Jipe rebocando carreta e lancha em pista horizontal' },
-      { file: 'p2-q12-2-jipe-rampa.svg', alt: 'Figura 2: Conjunto jipe-reboque-lancha em repouso sobre rampa inclinada' },
+      { file: 'p2-q12-1-jipe-plano.svg', alt: 'Figura 1: Jipe e reboque de lancha em terreno plano e horizontal' },
+      { file: 'p2-q12-2-jipe-rampa.svg', alt: 'Figura 2: Jipe e reboque de lancha estacionados em rampa inclinada' },
     ],
     parts: [
       {
@@ -461,6 +451,13 @@ $$T = m_{\text{reboque}} \cdot a = 500 \times 2 = \mathbf{1\,000\text{ N}}$$`,
 - Força de Atrito Estático ($\vec{F}_{\text{at}}$): paralela ao plano da rampa, apontando rampa acima para equilibrar a componente tangencial do peso.
 2) Intensidade da força de atrito estático em repouso ($m_{\text{total}} = 2\,500\text{ kg}$):
 $$F_{\text{at}} = P \cdot \operatorname{sen}\theta = m \cdot g \cdot \operatorname{sen}\theta = 2\,500 \times 10 \times 0{,}6 = \mathbf{15\,000\text{ N}}$$`,
+        expectedImages: [
+          {
+            file: 'p2-q12-solucao-forcas.svg',
+            alt: 'Gabarito Oficial: Diagrama de forças atuando sobre o conjunto na rampa',
+            caption: 'Critério oficial VUNESP: representação dos vetores Atrito (rampa acima), Normal (perpendicular) e Peso (vertical para baixo).',
+          },
+        ],
         criteria: [
           { points: 1, text: 'Desenha os vetores de forças atuantes: Peso (vertical para baixo), Normal (perpendicular à rampa) e Atrito (paralelo rampa acima).' },
           { points: 1, text: 'Calcula a intensidade da força de atrito: Fat = P · sen θ = 15 000 N.' },
@@ -555,10 +552,9 @@ $$n_2 \cdot \operatorname{sen}\theta_2 = n_3 \cdot \operatorname{sen} 90^\circ \
     subject: 'Física',
     content: 'Eletromagnetismo: circuitos elétricos, leis de Ohm e campo magnético no centro de espira circular',
     difficulty: 'Média',
-    statement: `Os terminais A e B de uma espira circular estão conectados a um circuito elétrico capaz de fornecer dois valores distintos de corrente elétrica. Os resistores do circuito são ôhmicos, e o gerador, os fios de ligação, o amperímetro e a chave são ideais. A figura mostra a montagem desse circuito, com a chave aberta.\nQuando a chave é mantida aberta, o amperímetro indica a passagem de uma corrente elétrica de 6 A.`,
+    statement: `Os terminais A e B de uma espira circular estão conectados a um circuito elétrico capaz de fornecer dois valores distintos de corrente elétrica. Os resistores do circuito são ôhmicos, e o gerador, os fios de ligação, o amperímetro e a chave são ideais. A figura mostra a montagem desse circuito, com a chave aberta.\n\nQuando a chave é mantida aberta, o amperímetro indica a passagem de uma corrente elétrica de 6 A.`,
     visuals: [
       { file: 'p2-q15-circuito-espira.svg', alt: 'Circuito elétrico com chave Ch, resistores de 30 e 60 ohms e espira circular' },
-      { file: 'p2-q15-solucao-campo.svg', alt: 'Orientação do vetor campo magnético saindo do plano da página' },
     ],
     parts: [
       {
@@ -584,6 +580,13 @@ $$i' = \frac{U}{R_{\text{eq}}} = \frac{360}{20} = \mathbf{18\text{ A}}$$`,
 Com a corrente circulando no sentido anti-horário pela espira, pela regra da mão direita, o vetor campo magnético $\vec{B}$ no centro da espira é perpendicular ao plano da espira (plano da página) com sentido **saindo da página** (indicado por $\odot$).
 2) Intensidade do campo magnético ($D = 4 \times 10^{-2}\text{ m} \implies R = 2 \times 10^{-2}\text{ m}$, $\mu = 1{,}2 \times 10^{-6}\text{ T}\cdot\text{m/A}$, $i = 6\text{ A}$):
 $$B = \frac{\mu \cdot i}{2 \cdot R} = \frac{\mu \cdot i}{D} = \frac{1{,}2 \times 10^{-6} \times 6}{4 \times 10^{-2}} = \frac{7{,}2 \times 10^{-6}}{4 \times 10^{-2}} = \mathbf{1{,}8 \times 10^{-4}\text{ T}}$$`,
+        expectedImages: [
+          {
+            file: 'p2-q15-solucao-campo.svg',
+            alt: 'Gabarito Oficial: Vetor campo magnético no centro da espira circular',
+            caption: 'Critério oficial VUNESP: vetor perpendicular apontando para fora da página (saindo do plano da espira, representado pelo ponto no centro).',
+          },
+        ],
         criteria: [
           { points: 1, text: 'Indica a direção perpendicular e sentido saindo do plano da página (vetor saindo / ponto).' },
           { points: 1, text: 'Calcula a intensidade do campo magnético no centro da espira: B = 1,8 × 10^-4 T.' },
@@ -600,39 +603,20 @@ $$B = \frac{\mu \cdot i}{2 \cdot R} = \frac{\mu \cdot i}{D} = \frac{1{,}2 \times
     subject: 'Matemática',
     content: 'Estatística e matemática financeira: média ponderada e economia de custos hospitalares',
     difficulty: 'Média',
-    statement: `Aprovado pela Anvisa, capacete reduz internações em UTI por covid-19 em 60%\n\nCriado no início de abril como alternativa de tratamento de pacientes com covid-19, um capacete especial pode diminuir as mortes em decorrência da doença no Brasil. De acordo com os testes clínicos, o Elmo, criado no Ceará, reduz em 60% a necessidade de internação na UTI de pacientes com covid-19. O projeto já foi aprovado pela Agência Nacional de Vigilância Sanitária (Anvisa), o que permite a comercialização e produção do Elmo em escala industrial.\n\n(Daniel Rocha. https://noticias.uol.com.br, 07.11.2020. Adaptado.)\n\nEstimativa de custos operacionais dos leitos de UTI adulto em consequência da covid-19\nUma pergunta que tem preocupado os gestores da rede hospitalar brasileira é quanto custará o tratamento da covid-19, em especial dos leitos de UTI adulto. Um estudo com 106 hospitais estimou os seguintes valores:\n\n(www.drgbrasil.com.br, 13.05.2020. Adaptado.)`,
+    statement: `Aprovado pela Anvisa, capacete reduz internações em UTI por covid-19 em 60%\n\nCriado no início de abril como alternativa de tratamento de pacientes com covid-19, um capacete especial pode diminuir as mortes em decorrência da doença no Brasil. De acordo com os testes clínicos, o Elmo, criado no Ceará, reduz em 60% a necessidade de internação na UTI de pacientes com covid-19. O projeto já foi aprovado pela Agência Nacional de Vigilância Sanitária (Anvisa), o que permite a comercialização e produção do Elmo em escala industrial.\n\n(Daniel Rocha. https://noticias.uol.com.br, 07.11.2020. Adaptado.)\n\nEstimativa de custos operacionais dos leitos de UTI adulto em consequência da covid-19\nUma pergunta que tem preocupado os gestores da rede hospitalar brasileira é quanto custará o tratamento da covid-19, em especial dos leitos de UTI adulto. Um estudo com 106 hospitais estimou os seguintes valores:`,
     tables: [
       {
         ariaLabel: 'Estimativa de custos operacionais dos leitos de UTI adulto por perfil hospitalar em consequência da covid-19',
         headerRows: [
-          [
-            { content: 'Perfil do hospital' },
-            { content: 'Quantidade de hospitais' },
-            { content: 'Custo médio de diária em uma UTI adulto' },
-          ],
+          ['Perfil do hospital', 'Quantidade de hospitais', 'Custo médio de diária em uma UTI adulto'],
         ],
         rows: [
-          [
-            { content: 'Filantrópico' },
-            { content: '42' },
-            { content: 'R$ 1.500,00' },
-          ],
-          [
-            { content: 'Organização social de saúde' },
-            { content: '50' },
-            { content: 'R$ 1.934,00' },
-          ],
-          [
-            { content: 'Público de administração direta' },
-            { content: '6' },
-            { content: 'R$ 3.442,00' },
-          ],
-          [
-            { content: 'Privado' },
-            { content: '8' },
-            { content: 'R$ 2.840,00' },
-          ],
+          ['Filantrópico', '35', 'R$ 1.500,00'],
+          ['Organização social de saúde', '57', 'R$ 1.934,00'],
+          ['Público de administração direta', '6', 'R$ 3.442,00'],
+          ['Privado', '8', 'R$ 2.840,00'],
         ],
+        footnotes: ['(www.drgbrasil.com.br, 13.05.2020. Adaptado.)'],
       },
     ],
     parts: [
@@ -737,52 +721,12 @@ $$R = \sqrt{30{,}26} = \mathbf{\frac{\sqrt{3026}}{10}} \approx \mathbf{5{,}50}$$
       {
         ariaLabel: 'Tabela de valores trigonométricos para ângulos de 3,5º a 3,85º',
         headerRows: [
-          [
-            { content: 'α' },
-            { content: '3,5º' },
-            { content: '3,55º' },
-            { content: '3,6º' },
-            { content: '3,65º' },
-            { content: '3,7º' },
-            { content: '3,75º' },
-            { content: '3,8º' },
-            { content: '3,85º' },
-          ],
+          ['α', '3,5º', '3,55º', '3,6º', '3,65º', '3,7º', '3,75º', '3,8º', '3,85º'],
         ],
         rows: [
-          [
-            { content: 'sen α' },
-            { content: 'a' },
-            { content: 'b' },
-            { content: 'c' },
-            { content: 'd' },
-            { content: 'e' },
-            { content: 'f' },
-            { content: 'g' },
-            { content: 'h' },
-          ],
-          [
-            { content: 'cos α' },
-            { content: 'i' },
-            { content: 'j' },
-            { content: 'l' },
-            { content: 'm' },
-            { content: 'n' },
-            { content: 'o' },
-            { content: 'p' },
-            { content: 'q' },
-          ],
-          [
-            { content: 'tg α' },
-            { content: 'r' },
-            { content: 's' },
-            { content: 't' },
-            { content: 'u' },
-            { content: 'v' },
-            { content: 'x' },
-            { content: 'y' },
-            { content: 'z' },
-          ],
+          ['sen α', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'],
+          ['cos α', 'i', 'j', 'l', 'm', 'n', 'o', 'p', 'q'],
+          ['tg α', 'r', 's', 't', 'u', 'v', 'x', 'y', 'z'],
         ],
       },
     ],
@@ -833,36 +777,14 @@ $$d(t_{23}, t_{24}) = \mathbf{\frac{2}{t} - \frac{2}{x}} = \mathbf{\frac{2(x - t
     content: 'Funções exponenciais e potenciação: lei de Kleiber e razões metabólicas',
     difficulty: 'Média',
     statement: tex`Um gato tem cerca de 100 vezes a massa de um rato, porém, sua taxa metabólica é, aproximadamente, 31 vezes a de um rato. Observações experimentais permitiram que, em 1932, Max Kleiber formulasse empiricamente uma lei relacionando a taxa metabólica basal $B$ de um animal, em quilocalorias por dia (kcal por dia), e sua massa $M$, em quilogramas (kg). Tal lei é dada pela fórmula $B = k \cdot M^{3/4}$, sendo $k$ uma constante real.`,
-    tables: [
+    afterTables: [
       {
         ariaLabel: 'Tabela de valores de x e suas raízes quadradas',
         headerRows: [
-          [
-            { content: 'x' },
-            { content: '0,5' },
-            { content: '0,5625' },
-            { content: '0,75' },
-            { content: '4,5' },
-            { content: '5' },
-            { content: '10' },
-            { content: '10,25' },
-            { content: '10,75' },
-            { content: '31,623' },
-          ],
+          ['x', '0,5', '0,5625', '0,75', '4,5', '5', '10', '10,25', '10,75', '31,623'],
         ],
         rows: [
-          [
-            { content: '√x' },
-            { content: '0,7071' },
-            { content: '0,75' },
-            { content: '0,8660' },
-            { content: '2,1213' },
-            { content: '2,2361' },
-            { content: '3,1623' },
-            { content: '3,2016' },
-            { content: '3,2787' },
-            { content: '5,6234' },
-          ],
+          ['√x', '0,7071', '0,75', '0,8660', '2,1213', '2,2361', '3,1623', '3,2016', '3,2787', '5,6234'],
         ],
       },
     ],

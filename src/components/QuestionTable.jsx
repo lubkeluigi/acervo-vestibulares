@@ -3,7 +3,7 @@ import VectorTable from './VectorTable.jsx';
 import MathText from './MathText.jsx';
 
 export function QuestionTable({ table }) {
-  const cellData = (cell) => typeof cell === 'object' ? cell : { text: cell };
+  const cellData = (cell) => (typeof cell === 'object' && cell !== null) ? { ...cell, text: cell.text ?? cell.content } : { text: cell };
   const semanticTable = (
     <table aria-label={table.ariaLabel}>
       <thead>{table.headerRows.map((row, rowIndex) => <tr key={rowIndex}>{row.map((rawCell, cellIndex) => { const cell = cellData(rawCell); return <th key={cellIndex} colSpan={cell.colSpan} rowSpan={cell.rowSpan} className={cell.className}><MathText text={cell.text} /></th>; })}</tr>)}</thead>
