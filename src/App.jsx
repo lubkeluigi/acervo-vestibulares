@@ -607,6 +607,7 @@ export default function App() {
     let selectedSheetId = getStudySheet(stored.selectedSheetId)?.id || null;
     if (view === 'sheet' && !selectedSheetId) view = 'sheets';
     if (initialSheetId) { view = 'sheet'; selectedSheetId = initialSheetId; }
+    if (window.location.hash.startsWith('#lista=')) { view = 'lists'; }
     return {
       view,
       solverOrigin: typeof stored.solverOrigin === 'string' ? stored.solverOrigin : 'bank',

@@ -1,8 +1,29 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import listsHandler from './api/lists.js';
+
+function customListsApiPlugin() {
+  const middleware = (req, res, next) => {
+    const urlPath = (req.url || '').split('?')[0];
+    if (urlPath === '/api/lists' || urlPath === '/api/lists/') {
+      listsHandler(req, res);
+      return;
+    }
+    next();
+  };
+  return {
+    name: 'custom-lists-api',
+    configureServer(server) {
+      server.middlewares.use(middleware);
+    },
+    configurePreviewServer(server) {
+      server.middlewares.use(middleware);
+    },
+  };
+}
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), customListsApiPlugin()],
   base: './',
   build: {
     rollupOptions: {

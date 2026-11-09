@@ -43,7 +43,91 @@
 .text-button { padding: 3px; display: inline-flex; align-items: center; gap: 5px; border: 0; background: transparent; color: #73877c; font-size: 12px; }
 .text-button:hover { color: var(--forest); }
 .danger-text { color: #a76565; }
-.list-filters { padding: 16px 18px; display: grid; grid-template-columns: .8fr 1.35fr .7fr; gap: 12px; background: #fbfcfa; }
+.list-filters { padding: 16px 18px; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; background: #fbfcfa; }
+
+/* Barra destacada de Selecionar Todas (cumulativa entre filtros) */
+.list-select-all-bar {
+  margin: 0 16px 12px;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  border: 1.5px solid #c9ded2;
+  border-radius: 11px;
+  background: linear-gradient(135deg, #f2f8f4 0%, #ffffff 100%);
+  box-shadow: 0 2px 10px rgba(24, 76, 55, 0.04);
+}
+
+.select-all-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.select-all-title-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.select-all-title-row strong {
+  color: #1a4435;
+  font-size: 14px;
+  font-weight: 750;
+}
+
+.select-all-filter-pills {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.select-all-filter-pills em {
+  font-style: normal;
+  font-size: 11px;
+  font-weight: 650;
+  padding: 1.5px 7px;
+  border-radius: 6px;
+  background: #deeee3;
+  color: #1e523e;
+  border: 1px solid #c4dfcd;
+}
+
+.select-all-info small {
+  color: #587365;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.select-all-info small strong {
+  color: #1a4435;
+}
+
+.select-all-buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.select-all-main-btn {
+  white-space: nowrap;
+  font-weight: 650;
+  height: 38px;
+  padding: 0 14px;
+}
+
+.select-all-remove-btn {
+  white-space: nowrap;
+  font-size: 12.5px;
+  height: 38px;
+  padding: 0 10px;
+}
+
 .random-picker { padding: 13px 18px; display: grid; grid-template-columns: 145px auto auto; align-items: end; gap: 9px; border-top: 1px solid #edf0eb; border-bottom: 1px solid #edf0eb; }
 .random-picker small { grid-column: 2 / -1; color: #8a9890; font-size: 12px; }
 .random-picker .button { min-height: 39px; padding: 0 12px; font-size: 14px; }
@@ -86,8 +170,44 @@
 .selection-empty { padding: 45px 25px; display: flex; align-items: center; flex-direction: column; color: #91a097; text-align: center; }
 .selection-empty strong { margin-top: 12px; color: #64796d; font-size: 14px; }
 .selection-empty p { margin: 7px 0 0; font-size: 12px; line-height: 1.55; }
-.selection-panel-actions { padding: 13px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; border-top: 1px solid #edf0eb; }
+
+.selection-panel-footer {
+  padding: 12px 14px 14px;
+  border-top: 1px solid #edf0eb;
+  background: #fafcfb;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.selection-publish-btn {
+  width: 100%;
+  height: 38px;
+  font-weight: 650;
+  justify-content: center;
+  background: #eaf5ee;
+  border-color: #bce1ce;
+  color: #185c3f;
+}
+.selection-publish-btn:hover {
+  background: #dbefe2;
+  border-color: #a4d8bc;
+  color: #124b32;
+}
+
+.selection-panel-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .selection-panel-actions .button { padding: 0 10px; font-size: 14px; }
+
+.selection-share-link {
+  width: 100%;
+  justify-content: center;
+  font-size: 12px;
+  padding: 4px;
+  color: #557566;
+}
+.selection-share-link:hover {
+  color: #1a4233;
+}
 
 /* Área do estudante */
 .practice-page { max-width: 1390px; }
@@ -229,9 +349,79 @@ body > .pdf-print-root { position: fixed; top: 0; left: -10000px; z-index: 200; 
 .pdf-page-fuvest .pdf-page-header { justify-content: flex-end; border-bottom: 1px solid #353535; }
 .pdf-page-fuvest .pdf-page-header strong { margin-left: auto; }
 .pdf-page-vunesp .pdf-page-header { border-bottom: 1px solid transparent; color: #00677c; font-family: "Roboto Condensed", "Arial Narrow", Arial, sans-serif; letter-spacing: .25px; }
-.pdf-page-content { height: 1020px; padding: 0; overflow: hidden; box-sizing: border-box; column-count: 2; column-gap: 32px; column-rule: 1px solid #777; column-fill: auto; orphans: 1; widows: 1; }
-.pdf-page-vunesp .pdf-page-content { column-rule-color: #00718a; }
-.pdf-page-content-wide, .pdf-answer-content { column-count: 1; column-rule: 0; }
+.pdf-page-content {
+  height: 1020px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout de 2 colunas explícitas para o PDF A4:
+   Esquerda (333px) + Linha divisória central (32px) + Direita (333px) = 698px
+   Garante separação exata e idêntica em Chrome, Safari (macOS/iOS), Firefox e Mobile. */
+.pdf-page-two-columns {
+  display: grid !important;
+  grid-template-columns: 333px 32px 333px !important;
+  width: 698px !important;
+  height: 1020px !important;
+  align-items: start;
+  column-count: 1 !important;
+  column-gap: 0 !important;
+  column-rule: none !important;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.pdf-column {
+  width: 333px !important;
+  max-width: 333px !important;
+  height: 1020px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.pdf-column > .pdf-question {
+  margin: 0 !important;
+  width: 100% !important;
+  max-width: 333px !important;
+  box-sizing: border-box;
+}
+
+.pdf-column-divider {
+  width: 32px;
+  height: 1020px;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  pointer-events: none;
+  box-sizing: border-box;
+}
+
+.pdf-column-rule-line {
+  width: 0;
+  border-left: 1px solid #777;
+  height: 100%;
+  display: block;
+}
+
+.pdf-page-vunesp .pdf-column-rule-line {
+  border-left-color: #00718a;
+}
+
+.pdf-page-content-wide,
+.pdf-answer-content {
+  width: 698px !important;
+  height: 1020px !important;
+  display: block !important;
+  column-count: 1 !important;
+  column-rule: 0 !important;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
 .pdf-page-footer { height: 25px; padding-top: 8px; box-sizing: border-box; display: grid; grid-template-columns: 1fr auto 1fr; align-items: start; gap: 12px; color: #555; font-size: 9px; line-height: 1.2; }
 .pdf-page-footer > span:last-child { text-align: right; }
 .pdf-page-footer strong { color: #222; font-size: 9px; font-weight: 700; text-align: center; }
@@ -240,6 +430,19 @@ body > .pdf-print-root { position: fixed; top: 0; left: -10000px; z-index: 200; 
 .pdf-page-fuvest .pdf-page-footer > span:last-child { grid-column: 3; }
 .pdf-page-vunesp .pdf-page-footer { color: #00677c; font-family: "Roboto Condensed", "Arial Narrow", Arial, sans-serif; letter-spacing: .25px; }
 .pdf-page-vunesp .pdf-page-footer strong { color: #00677c; font-size: 12px; line-height: .7; }
+
+/* Proteções contra vazamento de CSS de tela/mobile para dentro do PDF editorial */
+.pdf-print-root .question-images figure.table-vector-image img,
+.pdf-measure-bank .question-images figure.table-vector-image img {
+  min-width: 0 !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.pdf-print-root .question-svg,
+.pdf-measure-bank .question-svg {
+  min-height: 0 !important;
+}
 
 /* A questão pode atravessar as colunas da MESMA página, como nos cadernos reais. */
 .pdf-question { position: relative; width: 100%; margin: 0 0 18px; color: #111; font-family: "Roboto Condensed", "Arial Narrow", Arial, sans-serif; font-size: 12px; font-weight: 400; line-height: 1.34; text-align: justify; hyphens: auto; -webkit-hyphens: auto; break-inside: auto; page-break-inside: auto; }
@@ -349,26 +552,136 @@ body > .pdf-print-root { position: fixed; top: 0; left: -10000px; z-index: 200; 
 .print-tip svg { margin-top: 1px; flex: 0 0 auto; }
 .print-preview-viewport { padding: 27px 20px 45px; overflow: auto; border: 1px solid #d7ded8; border-radius: 13px; background: #dfe4e1; }
 .print-preview-scaler { margin: 0 auto; }
-.print-preview-zoom { min-height: 1123px; }
+.print-preview-zoom {
+  transform: scale(var(--preview-scale, 1));
+  transform-origin: top left;
+  min-height: calc(1123px * var(--preview-scale, 1));
+}
 .print-preview-zoom .pdf-print-root { position: static; overflow: visible; background: transparent; }
 .print-preview-zoom .pdf-pages { padding: 0; }
 .print-preview-zoom .pdf-page { box-shadow: 0 4px 18px rgba(25,45,37,.17); }
 .spin { animation: spin 1s linear infinite; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
-@page { size: A4; margin: 0; }
-@media print {
-  html, body { width: 210mm; margin: 0 !important; padding: 0 !important; background: #fff !important; }
-  body > *:not(#pdf-print-root) { display: none !important; }
-  body > #pdf-print-root { position: static !important; inset: auto !important; z-index: auto !important; overflow: visible !important; background: #fff !important; }
-  .pdf-measure-bank { display: none !important; }
-  .pdf-pages { padding: 0 !important; display: block !important; }
-  .pdf-page { margin: 0 !important; box-shadow: none !important; break-after: page; page-break-after: always; }
-  .pdf-page:last-child { break-after: auto; page-break-after: auto; }
-  .pdf-page-header, .pdf-page-footer, .pdf-question-header, .pdf-alternative, .diagram-figure, .data-table-figure { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+@page {
+  size: A4 portrait;
+  margin: 0;
 }
 
-@media (width <= 1240px) {
+@media print {
+  html, body {
+    width: 210mm !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: #fff !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Oculta interface e navegação da aplicação */
+  .sidebar,
+  .topbar,
+  .toast,
+  .ai-assistant-root,
+  .ai-fab,
+  .print-toolbar,
+  .print-status,
+  .print-warning,
+  .print-tip,
+  .list-builder-heading,
+  .list-config-card,
+  .list-builder-grid,
+  .lists-hub-header,
+  .lists-hub-tabs,
+  .featured-list-hero,
+  .curated-section-divider,
+  .curated-lists-grid,
+  .pdf-measure-bank {
+    display: none !important;
+  }
+
+  .app-shell,
+  .app-content,
+  .page,
+  .lists-hub-page,
+  .list-builder,
+  .print-list {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  .print-preview-viewport {
+    display: block !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    background: transparent !important;
+    overflow: visible !important;
+    width: auto !important;
+  }
+
+  .print-preview-scaler {
+    width: 794px !important;
+    margin: 0 auto !important;
+    transform: none !important;
+  }
+
+  .print-preview-zoom {
+    width: 794px !important;
+    min-height: 0 !important;
+    transform: none !important;
+  }
+
+  .pdf-print-root {
+    position: static !important;
+    inset: auto !important;
+    width: 794px !important;
+    margin: 0 auto !important;
+    background: transparent !important;
+    overflow: visible !important;
+  }
+
+  .pdf-pages {
+    padding: 0 !important;
+    margin: 0 !important;
+    display: block !important;
+    background: #fff !important;
+  }
+
+  .pdf-page {
+    width: 794px !important;
+    height: 1123px !important;
+    margin: 0 !important;
+    padding: 26px 48px 21px !important;
+    box-shadow: none !important;
+    break-after: page;
+    page-break-after: always;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .pdf-page:last-child {
+    break-after: auto;
+    page-break-after: auto;
+  }
+
+  .pdf-page-header,
+  .pdf-page-footer,
+  .pdf-question-header,
+  .pdf-alternative,
+  .diagram-figure,
+  .data-table-figure {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
+
+@media (max-width: 1240px) {
   .list-config-card { grid-template-columns: minmax(200px, 1.5fr) minmax(160px, 1fr) minmax(170px, 1fr) auto; }
   .list-builder-grid { grid-template-columns: minmax(0, 1fr) 290px; }
   .random-picker { grid-template-columns: 125px 1fr; }
@@ -377,7 +690,7 @@ body > .pdf-print-root { position: fixed; top: 0; left: -10000px; z-index: 200; 
   .print-toolbar { grid-template-columns: auto minmax(0, 1fr); }
   .print-actions { grid-column: 1 / -1; justify-content: flex-end; }
 }
-@media (width <= 1100px) {
+@media (max-width: 1100px) {
   .list-builder-grid { grid-template-columns: 1fr; }
   .list-selection-panel { position: static; }
   .selected-question-list { max-height: 340px; }
@@ -386,16 +699,32 @@ body > .pdf-print-root { position: fixed; top: 0; left: -10000px; z-index: 200; 
   .practice-correct-button { align-self: end; }
   .practice-save-note { align-self: center; }
 }
-@media (width <= 860px) {
+@media (max-width: 860px) {
   .list-config-card { grid-template-columns: 1fr 1fr; }
   .practice-topbar { grid-template-columns: 1fr auto; }
   .practice-topbar > .back-button { grid-column: 1 / -1; }
   .practice-stats-columns { grid-template-columns: 1fr; }
   .stats-answer-map > div:last-child { grid-template-columns: repeat(3, 1fr); }
 }
-@media (width <= 700px) {
+@media (max-width: 700px) {
   .list-builder-heading { flex-direction: column; align-items: flex-start; gap: 16px; }
   .list-builder-heading h1 { font-size: 28px; }
+  .list-select-all-bar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    margin: 0 12px 10px;
+    padding: 11px 12px;
+  }
+  .select-all-buttons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 7px;
+  }
+  .select-all-buttons .button {
+    width: 100%;
+    justify-content: center;
+  }
   .list-heading-actions { width: 100%; }
   .list-heading-actions .button { flex: 1; padding: 0 10px; }
   .list-config-card { grid-template-columns: 1fr; padding: 15px; }
@@ -1117,3 +1446,62 @@ body > .pdf-print-root { position: fixed; top: 0; left: -10000px; z-index: 200; 
     justify-content: center;
   }
 }
+
+/* Custom Lists Saved Cards & Empty Banner */
+.custom-saved-list-card {
+  border-color: #cde0d5;
+  background: linear-gradient(180deg, #fbfdfc 0%, #ffffff 100%);
+  position: relative;
+}
+
+.custom-saved-list-card:hover {
+  border-color: #9ec5b0;
+  box-shadow: 0 8px 24px rgba(22, 78, 54, 0.08);
+}
+
+.card-badge-custom {
+  background: #e2f2e9;
+  color: #156c47;
+  font-weight: 700;
+  border: 1px solid #bfe0ce;
+}
+
+.custom-lists-empty-banner {
+  padding: 28px 24px;
+  border-radius: 14px;
+  border: 1.5px dashed #cddad2;
+  background: #f7faf8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.custom-lists-empty-banner strong {
+  display: block;
+  font-size: 15px;
+  color: #244638;
+  margin-bottom: 4px;
+}
+
+.custom-lists-empty-banner p {
+  margin: 0;
+  font-size: 13.5px;
+  color: #5d7568;
+  max-width: 680px;
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 700px) {
+  .custom-lists-empty-banner {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    padding: 22px 18px;
+  }
+  .custom-lists-empty-banner .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
