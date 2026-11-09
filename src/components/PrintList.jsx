@@ -1,4 +1,5 @@
 import { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { ArrowLeft, Check, FileDown, Loader2, Monitor, Printer } from 'lucide-react';
 import QuestionContent, { AlternativeBody } from './QuestionContent.jsx';
 import { isEditorialCorrection, isOpenQuestion } from './OpenResponse.jsx';
@@ -674,12 +675,7 @@ export default function PrintList({
   }, [layout, totalPages, showPreview]);
 
   const printPdf = () => {
-    if (!showPreview) {
-      setShowPreview(true);
-      window.setTimeout(() => window.print(), 80);
-    } else {
-      window.print();
-    }
+    window.print();
   };
 
   const questionPages = layout?.pages || [];
@@ -691,43 +687,37 @@ export default function PrintList({
     } · 2 colunas separadas e alinhadas`;
   }, [layout, stable, adjustment, questionPages.length]);
 
-  const pagesMarkup = layout && (
-    <div id={PRINT_ROOT_ID} className={`pdf-print-root pdf-theme-${template}`}>
-      <div ref={pagesRef} className="pdf-pages" data-print-ready={stable ? 'true' : 'false'}>
-        {questionPages.map((page, pageIndex) => (
-          <section
-            className={`pdf-page pdf-page-${template}${
-              page.kind === 'wide' ? ' pdf-page-wide' : ''
-            }`}
-            data-page-kind="questions"
-            data-page-index={pageIndex}
-            key={`page-${pageIndex}-${
-              page.kind === 'wide'
-                ? page.items.map((item) => item.key).join('-')
-                : [...page.leftItems, ...page.rightItems].map((item) => item.key).join('-')
-            }`}
-            style={{ width: PAGE_WIDTH, height: PAGE_HEIGHT }}
-          >
-            <PageHeader title={title} template={template} />
-            {page.kind === 'wide' ? (
-              <div className="pdf-page-content pdf-page-content-wide">
-                {page.items.map((item) => (
-                  <PrintQuestion
-                    key={item.key}
-                    question={item.question}
-                    number={item.number}
-                    scale={item.scale}
-                    innerScale={item.innerScale || 1}
-                    scaledHeight={item.scaledHeight}
-                    template={template}
-                    wide
-                  />
-                ))}
-              </div>
-            ) : (
-              <div className="pdf-page-content pdf-page-two-columns">
-                <div className="pdf-column pdf-column-left" data-column-side="left">
-                  {page.leftItems.map((item) => (
+  const renderPagesMarkup = (isPrint = false) => {
+    if (!layout) return null;
+    return (
+      <div
+        id={isPrint ? PRINT_ROOT_ID : undefined}
+        className={`pdf-print-root ${isPrint ? 'pdf-print-portal' : 'pdf-print-preview'} pdf-theme-${template}`}
+        aria-hidden={isPrint ? true : undefined}
+      >
+        <div
+          ref={isPrint ? undefined : pagesRef}
+          className="pdf-pages"
+          data-print-ready={stable ? 'true' : 'false'}
+        >
+          {questionPages.map((page, pageIndex) => (
+            <section
+              className={`pdf-page pdf-page-${template}${
+                page.kind === 'wide' ? ' pdf-page-wide' : ''
+              }`}
+              data-page-kind="questions"
+              data-page-index={pageIndex}
+              key={`page-${pageIndex}-${
+                page.kind === 'wide'
+                  ? page.items.map((item) => item.key).join('-')
+                  : [...page.leftItems, ...page.rightItems].map((item) => item.key).join('-')
+              }`}
+              style={{ width: PAGE_WIDTH, height: PAGE_HEIGHT }}
+            >
+              <PageHeader title={title} template={template} />
+              {page.kind === 'wide' ? (
+                <div className="pdf-page-content pdf-page-content-wide">
+                  {page.items.map((item) => (
                     <PrintQuestion
                       key={item.key}
                       question={item.question}
@@ -736,44 +726,61 @@ export default function PrintList({
                       innerScale={item.innerScale || 1}
                       scaledHeight={item.scaledHeight}
                       template={template}
-                      wide={false}
+                      wide
                     />
                   ))}
                 </div>
-                <div className="pdf-column-divider" aria-hidden="true">
-                  <span className="pdf-column-rule-line" />
+              ) : (
+                <div className="pdf-page-content pdf-page-two-columns">
+                  <div className="pdf-column pdf-column-left" data-column-side="left">
+                    {page.leftItems.map((item) => (
+                      <PrintQuestion
+                        key={item.key}
+                        question={item.question}
+                        number={item.number}
+                        scale={item.scale}
+                        innerScale={item.innerScale || 1}
+                        scaledHeight={item.scaledHeight}
+                        template={template}
+                        wide={false}
+                      />
+                    ))}
+                  </div>
+                  <div className="pdf-column-divider" aria-hidden="true">
+                    <span className="pdf-column-rule-line" />
+                  </div>
+                  <div className="pdf-column-right pdf-column" data-column-side="right">
+                    {page.rightItems.map((item) => (
+                      <PrintQuestion
+                        key={item.key}
+                        question={item.question}
+                        number={item.number}
+                        scale={item.scale}
+                        innerScale={item.innerScale || 1}
+                        scaledHeight={item.scaledHeight}
+                        template={template}
+                        wide={false}
+                      />
+                    ))}
+                  </div>
                 </div>
-                <div className="pdf-column pdf-column-right" data-column-side="right">
-                  {page.rightItems.map((item) => (
-                    <PrintQuestion
-                      key={item.key}
-                      question={item.question}
-                      number={item.number}
-                      scale={item.scale}
-                      innerScale={item.innerScale || 1}
-                      scaledHeight={item.scaledHeight}
-                      template={template}
-                      wide={false}
-                    />
-                  ))}
-                </div>
-              </div>
-            )}
-            <PageFooter page={pageIndex + 1} total={totalPages} template={template} />
-          </section>
-        ))}
-        {showKey && (
-          <AnswerKey
-            questions={questions}
-            page={questionPages.length + 1}
-            total={totalPages}
-            title={title}
-            template={template}
-          />
-        )}
+              )}
+              <PageFooter page={pageIndex + 1} total={totalPages} template={template} />
+            </section>
+          ))}
+          {showKey && (
+            <AnswerKey
+              questions={questions}
+              page={questionPages.length + 1}
+              total={totalPages}
+              title={title}
+              template={template}
+            />
+          )}
+        </div>
       </div>
-    </div>
-  );
+    );
+  };
 
   return (
     <div className={`print-list print-list-${template}`}>
@@ -881,10 +888,11 @@ export default function PrintList({
       >
         <div className="print-preview-scaler" style={{ width: PAGE_WIDTH * previewScale }}>
           <div className="print-preview-zoom" style={{ width: PAGE_WIDTH }}>
-            {pagesMarkup}
+            {renderPagesMarkup(false)}
           </div>
         </div>
       </div>
+      {layout && typeof document !== 'undefined' && createPortal(renderPagesMarkup(true), document.body)}
     </div>
   );
 }

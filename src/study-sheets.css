@@ -328,29 +328,35 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@page {
+@page relief-board {
   size: 16in 9in;
   margin: 0;
 }
 
 @media print {
-  body, #root, .relief-page {
+  .relief-page {
+    page: relief-board;
     background: #fff !important;
     margin: 0 !important;
     padding: 0 !important;
     min-height: 0 !important;
   }
-  nav, .relief-screen-controls, .relief-page > button, .no-print, header, footer {
+  .relief-page nav,
+  .relief-page .relief-screen-controls,
+  .relief-page > button,
+  .relief-page .no-print,
+  .relief-page header,
+  .relief-page footer {
     display: none !important;
   }
-  .relief-sheet-viewport {
+  .relief-page .relief-sheet-viewport {
     max-width: none !important;
     width: 100% !important;
     padding: 0 !important;
     margin: 0 !important;
     box-shadow: none !important;
   }
-  .relief-sheet-viewport > div {
+  .relief-page .relief-sheet-viewport > div {
     box-shadow: none !important;
     border: none !important;
   }

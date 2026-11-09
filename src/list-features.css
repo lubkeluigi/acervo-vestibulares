@@ -337,7 +337,10 @@
 
 /* Prévia e documento A4 */
 .pdf-print-root { color: #111; font-family: Arial, Helvetica, sans-serif; }
-body > .pdf-print-root { position: fixed; top: 0; left: -10000px; z-index: 200; width: 794px; overflow: visible; background: #dfe4e1; }
+body > #pdf-print-root,
+body > .pdf-print-portal {
+  display: none;
+}
 .pdf-measure-bank { position: absolute; top: 0; left: -20000px; visibility: hidden; pointer-events: none; }
 .pdf-measure-lane { color: #111; font-family: Arial, Helvetica, sans-serif; }
 .pdf-pages { padding: 30px 20px 60px; display: flex; align-items: center; flex-direction: column; }
@@ -579,71 +582,25 @@ body > .pdf-print-root { position: fixed; top: 0; left: -10000px; z-index: 200; 
     print-color-adjust: exact !important;
   }
 
-  /* Oculta interface e navegação da aplicação */
-  .sidebar,
-  .topbar,
-  .toast,
-  .ai-assistant-root,
-  .ai-fab,
-  .print-toolbar,
-  .print-status,
-  .print-warning,
-  .print-tip,
-  .list-builder-heading,
-  .list-config-card,
-  .list-builder-grid,
-  .lists-hub-header,
-  .lists-hub-tabs,
-  .featured-list-hero,
-  .curated-section-divider,
-  .curated-lists-grid,
-  .pdf-measure-bank {
+  /* Oculta tudo que estiver no body exceto o container isolado de impressão A4 */
+  body > *:not(#pdf-print-root) {
     display: none !important;
   }
 
-  .app-shell,
-  .app-content,
-  .page,
-  .lists-hub-page,
-  .list-builder,
-  .print-list {
-    margin: 0 !important;
-    padding: 0 !important;
-    border: none !important;
-    background: transparent !important;
-    width: 100% !important;
-    max-width: none !important;
-  }
-
-  .print-preview-viewport {
+  body > #pdf-print-root {
     display: block !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    border: none !important;
-    background: transparent !important;
-    overflow: visible !important;
-    width: auto !important;
-  }
-
-  .print-preview-scaler {
-    width: 794px !important;
-    margin: 0 auto !important;
-    transform: none !important;
-  }
-
-  .print-preview-zoom {
-    width: 794px !important;
-    min-height: 0 !important;
-    transform: none !important;
-  }
-
-  .pdf-print-root {
     position: static !important;
     inset: auto !important;
+    z-index: auto !important;
     width: 794px !important;
     margin: 0 auto !important;
-    background: transparent !important;
+    padding: 0 !important;
+    background: #fff !important;
     overflow: visible !important;
+  }
+
+  .pdf-measure-bank {
+    display: none !important;
   }
 
   .pdf-pages {
@@ -658,16 +615,18 @@ body > .pdf-print-root { position: fixed; top: 0; left: -10000px; z-index: 200; 
     height: 1123px !important;
     margin: 0 !important;
     padding: 26px 48px 21px !important;
+    box-sizing: border-box !important;
     box-shadow: none !important;
-    break-after: page;
-    page-break-after: always;
-    break-inside: avoid;
-    page-break-inside: avoid;
+    break-after: page !important;
+    page-break-after: always !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    overflow: hidden !important;
   }
 
   .pdf-page:last-child {
-    break-after: auto;
-    page-break-after: auto;
+    break-after: auto !important;
+    page-break-after: auto !important;
   }
 
   .pdf-page-header,
