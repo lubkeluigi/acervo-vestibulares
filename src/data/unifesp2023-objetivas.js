@@ -170,19 +170,19 @@ Na primeira estrofe, o eu lírico explora, sobretudo, a seguinte oposição:`,
 
 Os sujeitos dos verbos “procura” e “sente” (ambos na 1ª estrofe) são, respectivamente,`,
     alternatives: [
-      '“Retratar a tristeza” e “um só pesar”.',
-      '“Quem” e “a vida”.',
-      '“Quem na vida um só pesar não sente” e “um só pesar”.',
       '“Retratar a tristeza” e “Quem”.',
+      '“Retratar a tristeza” e “um só pesar”.',
+      '“em vão” e “um só pesar”.',
+      '“Quem na vida um só pesar não sente” e “um só pesar”.',
       '“Quem na vida um só pesar não sente” e “Quem”.',
     ],
     answer: 'E',
-    why: 'Colocando os dois primeiros versos na ordem direta, temos: "Quem na vida um só pesar não sente procura em vão retratar a tristeza". Portanto, o sujeito da oração principal cujo verbo é "procura" é a oração subordinada substantiva/adjetiva substantivada "Quem na vida um só pesar não sente". Já na oração adjetiva introduzida pelo pronome relativo "Quem", o pronome "Quem" atua como sujeito do verbo "sente" (com "um só pesar" como objeto direto). Logo, os sujeitos são, respectivamente, “Quem na vida um só pesar não sente” e “Quem”.',
+    why: 'Colocando os dois primeiros versos na ordem direta, temos: "Quem na vida um só pesar não sente procura em vão retratar a tristeza". Portanto, o sujeito da oração principal cujo verbo é "procura" é a oração subordinada substantiva subjetiva "Quem na vida um só pesar não sente". Já no interior dessa oração subordinada, o pronome "Quem" atua como sujeito do verbo "sente" (tendo "um só pesar" como objeto direto). Logo, os sujeitos são, respectivamente, “Quem na vida um só pesar não sente” e “Quem”.',
     wrong: {
-      0: '“Retratar a tristeza” é a oração subordinada objetiva direta do verbo "procura" (procura retratar a tristeza), e não seu sujeito; “um só pesar” é objeto direto de "sente".',
-      1: 'O sujeito de "procura" é toda a oração que qualifica o agente ("Quem na vida um só pesar não sente"), e "a vida" está regida por preposição em adjunto adverbial ("na vida").',
-      2: '“um só pesar” é o objeto direto da forma transitiva direta "não sente" (não sente o quê? um só pesar), e não seu sujeito.',
-      3: '“Retratar a tristeza” funciona como complemento verbal (objeto direto) de "procura", e não como sujeito.',
+      0: '“Retratar a tristeza” funciona como complemento verbal (oração subordinada objetiva direta reduzida de infinitivo) do verbo "procura", e não como seu sujeito.',
+      1: '“Retratar a tristeza” é objeto direto de "procura", e “um só pesar” é objeto direto de "sente".',
+      2: '“em vão” é locução adverbial de modo ligada a "procura", e “um só pesar” é objeto direto de "sente".',
+      3: 'Embora o primeiro sujeito esteja correto, “um só pesar” é o objeto direto da forma verbal transitiva direta "não sente" (não sente o quê? um só pesar), e não seu sujeito.',
     },
   }),
 
@@ -293,7 +293,7 @@ De acordo com o autor,`,
     difficulty: 'Média',
     statement: `${TEXTO_ERRO_DESCARTES}
 
-“Hoje em dia essa ideia já não causa espécie, mas na época em que a apresentei muita gente estranhou, e mesmo a recebeu com certo ceticismo.” (1º parágrafo)
+“Hoje em dia essa ideia já não causa espécie, mas na época em que a apresentei muita gente estranhou, e <u>mesmo</u> a recebeu com certo ceticismo.” (1º parágrafo)
 
 No contexto em que se insere, o termo sublinhado indica`,
     alternatives: [
@@ -320,21 +320,21 @@ No contexto em que se insere, o termo sublinhado indica`,
     difficulty: 'Média',
     statement: `${TEXTO_ERRO_DESCARTES}
 
-O termo sublinhado em “nunca afirmei que a emoção era um substituto para a razão” (1º parágrafo) pertence à mesma classe gramatical do termo sublinhado em:`,
+O termo sublinhado em “nunca afirmei que a emoção era um substituto <u>para</u> a razão” (1º parágrafo) pertence à mesma classe gramatical do termo sublinhado em:`,
     alternatives: [
-      '“na época em que a apresentei muita gente estranhou” (1º parágrafo).',
-      '“O raciocínio nos dá a opção de pensar com inteligência” (2º parágrafo).',
-      '“a hipótese de que a emoção era parte integrante do processo de raciocínio” (1º parágrafo).',
-      '“com a emoção desempenhando vários papéis no processo de raciocínio” (3º parágrafo).',
-      '“Um esquilo ou um pássaro não pensa para reagir a uma ameaça” (2º parágrafo).',
+      '“na época em que <u>a</u> apresentei muita gente estranhou” (1º parágrafo).',
+      '“O raciocínio nos dá <u>a</u> opção de pensar com inteligência” (2º parágrafo).',
+      '“a hipótese de que <u>a</u> emoção era parte integrante do processo de raciocínio” (1º parágrafo).',
+      '“com <u>a</u> emoção desempenhando vários papéis no processo de raciocínio” (3º parágrafo).',
+      '“Um esquilo ou um pássaro não pensa para reagir <u>a</u> uma ameaça” (2º parágrafo).',
     ],
     answer: 'E',
-    why: 'Na frase do enunciado, "para" é uma preposição essencial que introduz o complemento nominal exigido pelo substantivo "substituto" ("substituto para a razão"). Na alternativa E, o vocábulo "para" em "não pensa para reagir a uma ameaça" é igualmente uma preposição essencial, introduzindo uma oração reduzida de infinitivo com valor de finalidade.',
+    why: 'Na frase do enunciado, "para" é uma preposição essencial que introduz o complemento nominal exigido pelo substantivo "substituto" ("substituto para a razão"). Na alternativa E, o vocábulo sublinhado "a" em "não pensa para reagir <u>a</u> uma ameaça" é igualmente uma preposição essencial, exigida pela regência do verbo transitivo indireto "reagir" (quem reage, reage a alguma coisa) e seguida do artigo indefinido "uma".',
     wrong: {
-      0: 'Em "na época em que a apresentei", a palavra "a" é um pronome pessoal oblíquo átono (objeto direto de "apresentei"), e não preposição.',
-      1: 'Em "nos dá a opção", a palavra "a" é um artigo definido feminino singular que determina o substantivo "opção".',
-      2: 'Em "a hipótese de que a emoção...", a palavra "que" é uma conjunção integrante que introduz oração subordinada substantiva completiva nominal.',
-      3: 'Em "com a emoção desempenhando vários papéis", a palavra "a" é um artigo definido feminino singular que acompanha o substantivo "emoção".',
+      0: 'Em "na época em que <u>a</u> apresentei", a palavra sublinhada "a" é um pronome pessoal oblíquo átono (objeto direto de "apresentei", retomando "essa ideia"), e não preposição.',
+      1: 'Em "nos dá <u>a</u> opção", a palavra sublinhada "a" é um artigo definido feminino singular que determina o substantivo "opção".',
+      2: 'Em "a hipótese de que <u>a</u> emoção...", a palavra sublinhada "a" é um artigo definido feminino singular que determina o substantivo "emoção".',
+      3: 'Em "com <u>a</u> emoção desempenhando vários papéis", a palavra sublinhada "a" é um artigo definido feminino singular que acompanha o substantivo "emoção".',
     },
   }),
 
@@ -347,11 +347,11 @@ O termo sublinhado em “nunca afirmei que a emoção era um substituto para a r
 
 O verbo sublinhado, na conjugação em que se apresenta, indica um fato pontual no passado no seguinte trecho:`,
     alternatives: [
-      '“se você seguisse o coração em vez da razão tudo daria certo” (1º parágrafo).',
-      '“a emoção era um substituto para a razão” (1º parágrafo).',
-      '“construí a hipótese de que a emoção era parte integrante do processo de raciocínio” (1º parágrafo).',
-      '“Baseado em meu estudo de pacientes neurológicos que apresentavam deficiências na tomada de decisão” (1º parágrafo).',
-      '“O raciocínio nos dá a opção de pensar com inteligência antes de agir de maneira inteligente” (2º parágrafo).',
+      '“se você seguisse o coração em vez da razão tudo <u>daria</u> certo” (1º parágrafo).',
+      '“a emoção <u>era</u> um substituto para a razão” (1º parágrafo).',
+      '“<u>construí</u> a hipótese de que a emoção era parte integrante do processo de raciocínio” (1º parágrafo).',
+      '“Baseado em meu estudo de pacientes neurológicos que <u>apresentavam</u> deficiências na tomada de decisão” (1º parágrafo).',
+      '“O raciocínio nos <u>dá</u> a opção de pensar com inteligência antes de agir de maneira inteligente” (2º parágrafo).',
     ],
     answer: 'C',
     why: 'A forma verbal "construí" está conjugada no pretérito perfeito do modo indicativo, tempo verbal que expressa uma ação pontual, perfeitamente delimitada e concluída no passado (o momento específico em que o neurocientista formulou sua hipótese científica).',
@@ -523,7 +523,7 @@ Na opinião de Evie Kalo, é um aspecto positivo da experiência relatada no pri
     difficulty: 'Média',
     statement: `${TEXTO_HOME_SWAPPERS}
 
-In the fragment from the second paragraph “they’re able to stay in other people’s comfortable accommodations around the world”, the underlined word refers most specifically to`,
+In the fragment from the second paragraph “<u>they</u>’re able to stay in other people’s comfortable accommodations around the world”, the underlined word refers most specifically to`,
     alternatives: [
       'home swappers.',
       'couples with busy work schedules.',
@@ -548,7 +548,7 @@ In the fragment from the second paragraph “they’re able to stay in other peo
     difficulty: 'Fácil',
     statement: `${TEXTO_HOME_SWAPPERS}
 
-No trecho do terceiro parágrafo “Yet, the most popular method is the search on online marketplaces”, a palavra sublinhada equivale, em português, a`,
+No trecho do terceiro parágrafo “<u>Yet</u>, the most popular method is the search on online marketplaces”, a palavra sublinhada equivale, em português, a`,
     alternatives: [
       'dessa forma.',
       'no entanto.',
@@ -648,7 +648,7 @@ The main purpose of the text is to`,
     difficulty: 'Fácil',
     statement: `${TEXTO_BIODIVERSITY_LOSS}
 
-In the fragment from the first paragraph “an unprecedented loss of vital ecosystems such as forests and wetlands”, the underlined term refers to a loss which`,
+In the fragment from the first paragraph “an <u>unprecedented</u> loss of vital ecosystems such as forests and wetlands”, the underlined term refers to a loss which`,
     alternatives: [
       'cannot be questioned.',
       'could not be predicted.',
