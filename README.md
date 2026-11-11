@@ -35,3 +35,12 @@ npm run build
 # Pré-visualizar build
 npm run preview
 ```
+
+## 🤖 Handoff para IA & Manual Operacional de Subida de Provas
+
+Se você for um agente de IA (Claude Code, Cursor, Windsurf, Codex, Copilot, Antigravity, etc.) assumindo a manutenção deste repositório, **leia imediatamente**:
+
+- **[`MANUAL_OPERACIONAL_IA.md`](./MANUAL_OPERACIONAL_IA.md)**: Blueprint técnico completo com todas as regras de transcrição *verbatim*, extração vetorial de SVGs (`scripts/svg_clip.py`), detecção automática de sublinhados `<u>...</u>` (`scripts/inspecionar_pdf.py`), duplo gabarito nas discursivas (Critérios Oficiais VUNESP + Resolução Comentada Elite Campinas via `scripts/baixar_elite_campinas.py`), esquemas de dados e checklist de auditoria.
+- **[`AGENTS.md`](./AGENTS.md)** / **[`CLAUDE.md`](./CLAUDE.md)** / **[`.cursorrules`](./.cursorrules)**: Arquivos de instruções automáticas na raiz do projeto.
+- **[`scripts/catalogo-fontes-drive.json`](./scripts/catalogo-fontes-drive.json)**: Catálogo completo com os IDs do Google Drive de todas as pastas e provas do acervo.
+

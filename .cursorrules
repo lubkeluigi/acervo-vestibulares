@@ -1,0 +1,9 @@
+Leia obrigatoriamente `MANUAL_OPERACIONAL_IA.md` e `AGENTS.md` na raiz do projeto antes de criar ou editar qualquer arquivo.
+
+Regras essenciais:
+1. Idioma: sempre responda em Português.
+2. Enunciados e alternativas 100% verbatim conforme o PDF oficial em `public/documentos/<exame><ano>/`.
+3. Sublinhados: rode `python3 scripts/inspecionar_pdf.py <pdf>` e envolva todos os termos sublinhados em `<u>...</u>` (tanto nos enunciados quanto nas alternativas).
+4. Imagens: extraia exclusivamente em SVG vetorial via `scripts/svg_clip.py` (`pdf_clip_svg`) para `public/images/<exame><ano>/`, com margem adequada para não cortar títulos de gráficos, eixos ou legendas. Separe em `visuals` (enunciado), `responseTemplate` (molde em branco para resposta) e `expectedImages` (figuras oficiais do gabarito da banca). Atualize `VERSION` no helper após editar SVGs.
+5. Discursivas com Duplo Gabarito: `expected` + `criteria` (Critérios de Correção oficiais concisos da banca VUNESP) e `detailed` + `detailedSource: 'Resolução comentada Elite Campinas'` (passo a passo didático do Elite Campinas).
+6. Sempre execute um script de auditoria (`verificar_<exame><ano>.py`) e `npm run build` antes de fazer commit e push.
