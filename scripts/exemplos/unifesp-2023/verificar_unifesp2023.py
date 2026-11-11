@@ -6,11 +6,13 @@ Segue integralmente o protocolo de verificação VUNESP (MANUAL_OPERACIONAL_IA.m
 - 25 Questões Objetivas (1º Dia) + verificação de sublinhados (<u>...</u>)
 - 1 Proposta de Redação (1º Dia)
 - 20 Questões Discursivas com Duplo Gabarito (2º Dia: Biologia, Química, Física, Matemática)
-- 26 Recursos visuais vetorizados (SVGs de enunciados e de gabaritos oficiais)
+- 27 Recursos visuais vetorizados (SVGs de enunciados e de gabaritos oficiais)
 - Documentos originais em public/documentos/unifesp2023/
 """
 from pathlib import Path
 import re
+import subprocess
+import pymupdf
 
 ROOT = Path(__file__).resolve().parent.parent.parent.parent
 
@@ -48,6 +50,7 @@ svgs = [
     'p2-q18-grafico-onda-seno.svg',
     'p2-q06-solucao-lewis.svg',
     'p2-q06-solucao-estados.svg',
+    'p2-q06-solucao-solido.svg',
     'p2-q07-solucao-formula-meg.svg',
     'p2-q13-solucao-forcas.svg',
     'p2-q13-solucao-espelho.svg',
@@ -73,6 +76,11 @@ gabarito_oficial_p1 = {
     11: 'C', 12: 'D', 13: 'A', 14: 'B', 15: 'E', 16: 'C', 17: 'D', 18: 'A', 19: 'B', 20: 'A',
     21: 'C', 22: 'E', 23: 'E', 24: 'C', 25: 'D',
 }
+
+with pymupdf.open(ROOT / docs[1]) as pdf_gabarito:
+    texto_gabarito = ''.join(page.get_text() for page in pdf_gabarito)
+gabarito_pdf = {int(n): answer for n, answer in re.findall(r'(?m)^\s*(\d{1,2})\s*-\s*([A-E])\s*$', texto_gabarito)}
+assert gabarito_pdf == gabarito_oficial_p1, 'Gabarito de referência diverge do PDF oficial'
 
 for qnum, expected_ans in gabarito_oficial_p1.items():
     m = re.search(rf'n:\s*{qnum},.*?answer:\s*[\'\"]([A-E])[\'\"]', code_obj, re.DOTALL)
@@ -141,7 +149,35 @@ for qnum in range(1, 21):
     for kw in verbatim_checks.get(qnum, []):
         assert kw in chunk, f'Q{qnum}: termo obrigatório ausente: {kw}'
 
-print('4. Questões Discursivas (01 a 20): ENUNCIADOS VERBATIM + DUPLO GABARITO (VUNESP + ELITE CAMPINAS) 100% CONFERIDOS')
+# Importa os objetos reais: cada um dos 40 itens deve ter os dois gabaritos.
+subprocess.run(['node', '--input-type=module', '-e', r'''
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { unifesp2023Questions as questions } from './src/data/unifesp2023.js';
+assert.equal(questions.length, 46);
+let parts = 0;
+const files = new Set();
+for (const q of questions) {
+  for (const image of [...(q.images || []), ...(q.afterImages || [])]) files.add(image.src);
+  if (q.kind !== 'discursive') continue;
+  assert.deepEqual(q.parts.map(p => p.id), ['a', 'b']);
+  for (const part of q.parts) {
+    parts++;
+    assert(part.expected?.trim(), q.id + part.id + ': expected');
+    assert(part.detailed?.trim(), q.id + part.id + ': detailed');
+    assert.equal(part.detailedSource, 'Resolução comentada Elite Campinas');
+    assert(part.criteria?.length);
+    assert.equal(part.criteria.reduce((n, c) => n + c.points, 0), 2);
+    assert.equal(part.maxScore, 2);
+    for (const image of part.expectedImages || []) files.add(image.src);
+    if (part.responseTemplate) files.add(part.responseTemplate.src);
+  }
+}
+assert.equal(parts, 40);
+assert.equal(files.size, 27);
+for (const url of files) assert(fs.existsSync('public' + url.split('?')[0]), url);
+'''], cwd=ROOT, check=True)
+print('4. Questões Discursivas (01 a 20): CAMPOS DE DUPLO GABARITO E TRECHOS TEXTUAIS ESPERADOS PRESENTES')
 
 # 5. Redação
 code_red = (ROOT / 'src/data/unifesp2023-redacao.js').read_text(encoding='utf-8')
@@ -149,6 +185,8 @@ assert 'É possível conciliar mérito e bem comum?' in code_red
 assert 'Critério A (Tema)' in code_red
 assert 'Critério B (Gênero e Coerência)' in code_red
 assert 'Critério C (Modalidade e Coesão)' in code_red
-print('5. Proposta de Redação e Grade de Critérios Oficiais: 100% CONFERIDO')
+print('5. Redação: tema e campos esperados da grade oficial presentes')
 
-print('\n>>> AUDITORIA UNIFESP 2023 CONCLUÍDA COM SUCESSO TOTAL! <<<')
+from verificar_recortes_unifesp2023 import verificar
+verificar()
+print('\n>>> VERIFICAÇÕES AUTOMATIZADAS UNIFESP 2023 CONCLUÍDAS. <<<')

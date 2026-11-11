@@ -98,7 +98,7 @@ Como o ambiente de manguezal apresenta elevada salinidade na água do solo, para
     statement: `Um estudo liderado por pesquisadores dos Institutos Nacionais de Saúde dos Estados Unidos aponta para a criação de um gel anticoncepcional masculino. O produto é chamado de NES/T e, caso chegue ao mercado, deve ser aplicado na pele das costas e dos ombros do homem. Esse gel contém o composto progestina, derivado do hormônio progesterona, e testosterona. O papel da progestina é suprimir a produção de espermatozoides e o da testosterona é repor o hormônio produzido pelo corpo do homem, evitando a baixa de libido e a perda muscular causada pelo composto feminino.
 
 (Natalia Cuminale. “Agora é a vez dele”. Veja, 19.12.2018. Adaptado.)`,
-    visuals: [{ file: 'p2-q03-graficos-fsh-lh.svg', alt: 'Gráficos 1, 2, 3 e 4 comparando os níveis de FSH e LH em relação ao valor de referência basal X', caption: 'Gráficos quantitativos de FSH e LH obtidos após 6 semanas de aplicação do gel.' }],
+    visuals: [{ file: 'p2-q03-graficos-fsh-lh.svg', alt: 'Gráficos 1, 2 e 3 comparando os níveis de FSH e LH em relação ao valor de referência basal X', caption: 'Gráficos quantitativos de FSH e LH obtidos após 6 semanas de aplicação do gel.' }],
     parts: [
       {
         id: 'a',
@@ -271,7 +271,10 @@ Geometria molecular: Como o átomo central (C) apresenta duas nuvens eletrônica
 2) Estado sólido (inverno): Representar cada molécula de CO2 por ●, utilizando 9 moléculas próximas e bem organizadas (arranjo cristalino regular).  (1 ponto)
 
 Não foram aceitas: representações sem indicação de qual estado físico (gasoso ou sólido) ou qual estação (verão ou inverno) se referem.`,
-        expectedImages: [{ file: 'p2-q06-solucao-estados.svg', alt: 'Gabarito Oficial: Representação das 9 moléculas de CO2 no estado gasoso (verão) e no estado sólido (inverno)' }],
+        expectedImages: [
+          { file: 'p2-q06-solucao-estados.svg', alt: 'Gabarito Oficial: Nove moléculas dispersas no estado gasoso', caption: 'Estado gasoso (verão).' },
+          { file: 'p2-q06-solucao-solido.svg', alt: 'Gabarito Oficial: Nove moléculas próximas e organizadas no estado sólido', caption: 'Estado sólido (inverno).' },
+        ],
         criteria: [
           { points: 1, text: 'Desenha 9 partículas ● dispersas identificando o estado gasoso (verão).' },
           { points: 1, text: 'Desenha 9 partículas ● próximas e ordenadas identificando o estado sólido (inverno).' },

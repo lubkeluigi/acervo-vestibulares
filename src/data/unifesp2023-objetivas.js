@@ -92,7 +92,7 @@ export const unifesp2023Objetivas = [
     statement: `${TEXTO_CARTUM_WILL_SANTINO}
 
 Mostra-se decisivo para o efeito de humor do cartum o recurso`,
-    visuals: [{ file: 'p1-q01-cartum-lobo.svg', alt: 'Cartum de Will Santino mostrando o lobo em uma plantação de palha esperando os porquinhos construírem as casas', caption: 'Cartum de Will Santino (Instagram, 13.04.2022).' }],
+    visuals: [{ file: 'p1-q01-cartum-lobo.svg', alt: 'Cartum de Will Santino: o lobo oferece uma casa de palha aos três porquinhos, afirmando que a palha está na moda', caption: 'Cartum de Will Santino (Instagram, 13.04.2022).' }],
     alternatives: [
       'ao eufemismo.',
       'à metalinguagem.',
@@ -101,7 +101,7 @@ Mostra-se decisivo para o efeito de humor do cartum o recurso`,
       'à hipérbole.',
     ],
     answer: 'C',
-    why: 'O efeito de humor do cartum depende fundamentalmente da intertextualidade com o clássico conto infantil "Os Três Porquinhos". No conto, o lobo sopra para derrubar a casa de palha do primeiro porquinho; no cartum, o lobo resolve plantar e regar a própria palha ("straw") para garantir que o porquinho tenha material para construir a casa frágil que ele poderá assoprar depois. A compreensão desse diálogo entre textos é indispensável para gerar o humor.',
+    why: 'O efeito de humor do cartum depende fundamentalmente da intertextualidade com o clássico conto infantil "Os Três Porquinhos". No conto, o lobo sopra para derrubar a casa de palha do primeiro porquinho; no cartum, o lobo apresenta aos três porquinhos uma casa de palha e afirma que esse material está na moda, procurando convencê-los a escolher uma moradia que ele poderá derrubar com um sopro. A compreensão desse diálogo entre textos é indispensável para gerar o humor.',
     wrong: {
       0: 'Eufemismo é a suavização de uma ideia desagradável ou chocante, recurso que não fundamenta o humor da imagem.',
       1: 'Metalinguagem ocorre quando o código explica o próprio código (por exemplo, um texto que fala sobre o ato de escrever ou um desenho sobre desenhar), o que não ocorre na tirinha.',
@@ -127,10 +127,10 @@ A análise contextualizada do cartum permite caracterizar o lobo como`,
       'vaidoso.',
     ],
     answer: 'A',
-    why: 'O lobo é caracterizado como calculista porque ele planeja fria e pacientemente suas ações a longo prazo: ao invés de sair caçando sem rumo ou se frustrar com casas resistentes, ele planta e rega a palha para induzir o porquinho a construir uma casa frágil, antecipando cada etapa para alcançar seu objetivo predatório.',
+    why: 'O lobo é caracterizado como calculista porque procura convencer os três porquinhos a escolher uma casa de palha, alegando que esse material está na moda. Conhecendo a fragilidade da construção, ele age de modo interessado: essa escolha facilitaria derrubar a casa e capturar os porquinhos.',
     wrong: {
       1: 'Subserviente significa obediente de forma cega, servil ou humilhante, atitude oposta à autonomia estratégica e calculada do lobo.',
-      2: 'Impaciente contradiz diretamente a cena, pois o lobo demonstra paciência extrema ao se dedicar à agricultura e esperar a palha crescer.',
+      2: 'A cena enfatiza a estratégia de persuasão do lobo, que apresenta a palha como uma escolha da moda, sem indicar pressa ou irritação.',
       3: 'Ingênuo significaria tolo ou inocente, o que não condiz com a astúcia premeditada de criar as condições para a sua futura caçada.',
       4: 'Vaidoso refere-se a quem ostenta orgulho excessivo de sua aparência ou qualidades, traço não explorado na cena.',
     },
