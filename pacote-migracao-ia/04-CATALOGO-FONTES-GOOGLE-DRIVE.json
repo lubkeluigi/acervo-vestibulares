@@ -1,0 +1,174 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Catálogo de Fontes Oficiais - Google Drive & Elite Campinas",
+  "description": "Mapeamento completo dos IDs de pastas e arquivos no Google Drive e links do Elite Campinas para a IA continuar o projeto.",
+  "bancoQuestoesRoot": {
+    "id": "17nB4e28GsFaIlnLEF1w6ueZ8_9uOZmOQ",
+    "name": "Banco de questões/",
+    "url": "https://drive.google.com/drive/folders/17nB4e28GsFaIlnLEF1w6ueZ8_9uOZmOQ"
+  },
+  "pastasPrincipais": {
+    "publicas": {
+      "id": "1Y0jaxNWaFxh_9VDc-Qg1sWfVN9vExlqp",
+      "name": "Públicas"
+    },
+    "privadas": {
+      "id": "1GOI0OLQ3e-JRsWK7FSMyzEc0Nyb-Hjmf",
+      "name": "Privadas"
+    },
+    "coletaneaRedacoesVunesp": {
+      "id": "1kTom2nfTdsvCIugxU5RYw7JEvVBE9sIL",
+      "name": "Coletânea Redações VUNESP"
+    }
+  },
+  "instituicoes": {
+    "unifesp": {
+      "folderId": "10EvanvzCoxYsDbsrCMZVPQSq6UXV5CFu",
+      "banca": "VUNESP",
+      "estrutura": {
+        "dia1": "25 Questões Objetivas (Língua Portuguesa e Inglês) + Redação Dissertativa-Argumentativa",
+        "dia2": "20 Questões Discursivas (5 Biologia, 5 Química, 5 Física, 5 Matemática) com Duplo Gabarito"
+      },
+      "edicoes": {
+        "2021": {
+          "folderId": "1Qbxk-absDhQ2B9_QxC7W3tOdrmihrZf2",
+          "subpastas": {
+            "dia1": "1LHj_s6S9v-RBPmuCoqtzCi70BM2NfMBp",
+            "dia2": "1tPH8tMHJ9Ad4byHz1qaXTakAcZE8lr-d",
+            "redacao": "1JKa69T6QcDkU1Opl_EzMbXePFjnanPQX"
+          },
+          "arquivos": {
+            "prova1-linguagens-redacao-2021.pdf": "1SHpRU-DsFa4iTeBYbtSSvbm8zo52gUUR",
+            "prova1-gabarito-2021.pdf": "1KhzuECZFIsLnZLr-E86Fh13togP5F0XL",
+            "prova1-criterios-redacao-2021.pdf": "1I8gG76pPwMpspeDlM4xleF-b9zegrL_w",
+            "prova2-conhecimentos-especificos-2021.pdf": "190t-pZNOD-wOII4okp6yGKFqThlpoJU2",
+            "prova2-criterios-correcao-2021.pdf": "13b7afRFZbis43tBc9zlI0m-JfGAIvARf"
+          },
+          "localDocumentos": "public/documentos/unifesp2021/",
+          "status": "Completa no site"
+        },
+        "2022": {
+          "folderId": "1ecwOWiMJ-5LNSmQygyIhUG5QXliKainF",
+          "subpastas": {
+            "dia1": "17l2jHpVJCFh5ygxAzJTzJIS8ms12N3E5",
+            "dia2": "1VpCONOUSd2LLr1FqeWp_ljlJGU8zLrUm",
+            "redacao": "1hvjxthxpWb4G6c3CgAZiYLnq8x_p4lhJ"
+          },
+          "arquivos": {
+            "prova1-linguagens-redacao-2022.pdf": "1S66gZoohhSmoBp_lFFry1V8reIHIAW0v",
+            "prova1-gabarito-2022.pdf": "1vKg-cdf-7ArNI31z9L1-O7h997vX1rNx",
+            "prova1-criterios-redacao-2022.pdf": "12JjsbKUGR2A_XCIAjVAbk3VIdZH_6Zon",
+            "prova2-conhecimentos-especificos-2022.pdf": "1uGO8J1V0CpAMA0TVmf156vfKG2H3x4SI",
+            "prova2-criterios-correcao-2022.pdf": "1mdbALlsP-1DmDLILbazpxs21KLhN7IvU"
+          },
+          "localDocumentos": "public/documentos/unifesp2022/",
+          "status": "Completa no site"
+        },
+        "2023": {
+          "folderId": "1qKo-WXBnwJR2fXv0VmeV-cONJyJlkBWS",
+          "subpastas": {
+            "dia1": "1uruB_0KmetlXYMQ810ZtuEPQXdeP22Ct",
+            "dia2": "1SI1tDp2JIMde_EwKwZQwWizWQJIKMw-T",
+            "redacao": "1vm1f1FRTO4VrrvDZA3fczQ2Klfp46wvM"
+          },
+          "arquivos": {
+            "prova1-linguagens-redacao-2023.pdf": "1tu7RIpBEvS7TeWQHxPzT60s2Q46K7YEY",
+            "prova1-gabarito-2023.pdf": "1vOgIenqne4h1cxW7emyrSTAubhUEP0SL",
+            "prova1-criterios-redacao-2023.pdf": "1z1UBYxMwJG9wzK_hPkT9ml5yKWwx9Bjz",
+            "prova2-conhecimentos-especificos-2023.pdf": "1TnZRwIF9G4g09rFs4nzXnNxXF74kxQOc",
+            "prova2-criterios-correcao-2023.pdf": "11huzUsRGXvsH9vaBjfl4RlVipXY85nB4"
+          },
+          "localDocumentos": "public/documentos/unifesp2023/",
+          "status": "Completa no site (auditada e verificada)"
+        },
+        "2024": {
+          "folderId": "1klRGq2fl97EDfO7msbQIqA-f6vVrPyPW",
+          "subpastas": {
+            "dia1": "1rHadcosMR5oje5Am5r5o9KX5puU8VQ_n",
+            "dia2": "1jQvRKsvK5_ogiW8CG637TeKDPyFd5M7O",
+            "redacao": "1cJmYE92QsLGeyQZm1RmGRY-aNQm01Yj-"
+          },
+          "arquivos": {
+            "prova1-linguagens-redacao-2024.pdf": "1ozauBfgRfLyre0T10Bfos5KaVqvytsdY",
+            "prova1-gabarito-2024.pdf": "1ZLrBFbe6tIK3lSOTCouCBOBB_t6jlS2f",
+            "prova1-criterios-redacao-2024.pdf": "1w83RquKS8EzRocdw1Fj8uLbCxgMolKhy",
+            "prova2-conhecimentos-especificos-2024.pdf": "1aU-byMO6DyFfGc8337m51p-H1Re_x6y4",
+            "prova2-criterios-correcao-2024.pdf": "1nS1pf1AOvlCnKg_i4IyHB_lQ1KPqekSm"
+          },
+          "localDocumentos": "public/documentos/unifesp2024/",
+          "eliteCampinasUrl": "https://www.elitecampinas.com.br/gabaritos/unifesp_2024/",
+          "status": "Pronta para processamento (PDFs baixados em public/documentos/unifesp2024/)"
+        },
+        "2025": {
+          "folderId": "1hO9_39lKzUO_hajEpw46rlKYeaOmu__N",
+          "arquivos": {
+            "prova1-linguagens-redacao-2025.pdf": "1phf17UcPQYctMNgbHLH-yy5jLsenNq2S",
+            "prova1-gabarito-2025.pdf": "1MpjXF_t60LtY-0MyUJHbvXcUgBewJfPr",
+            "prova1-criterios-redacao-2025.pdf": "1X1Iw4XeV4eJE0HOgtHBiNx05SUxroGLR",
+            "prova2-conhecimentos-especificos-2025.pdf": "1sguo7nYuzotAAh9v4q0ah1wHWmI3o44k",
+            "prova2-criterios-correcao-2025.pdf": "1X4A6cpIhD7F2P0JZJrD_MO8LseGcWpkZ"
+          },
+          "localDocumentos": "public/documentos/unifesp2025/",
+          "eliteCampinasUrl": "https://www.elitecampinas.com.br/gabaritos/unifesp_2025/",
+          "status": "Pronta para processamento (PDFs salvos em public/documentos/unifesp2025/)"
+        },
+        "2026": {
+          "folderId": "1DcQ1EYsOUwkIE4Upr0-FXxIq_Pklxb5y",
+          "arquivos": {
+            "prova1-linguagens-redacao-2026.pdf": "1BOCLik1kLEJlZxWVK4T-KWGzDDApkuhD",
+            "prova1-gabarito-2026.pdf": "1pmXQpIMpCAjMnID-VFSRqMbLCvx60MXt",
+            "prova2-conhecimentos-especificos-2026.pdf": "16jJBtFElo27LFmC-v2hUe6jXXk1rbulu",
+            "prova2-criterios-correcao-2026.pdf": "1vwpbEnCnMK520_d8mBO0Zd1ISAUhD4bt"
+          },
+          "localDocumentos": "public/documentos/unifesp2026/",
+          "status": "Pronta para processamento (PDFs salvos em public/documentos/unifesp2026/)"
+        }
+      }
+    },
+    "famema": {
+      "folderId": "1vis5Pfvd0eWvLsm75aJKZzvR0gQAHBlC",
+      "banca": "VUNESP"
+    },
+    "famerp": {
+      "folderId": "1tSpEMsYQ12xIYr3qSGSQNzrPNiWZXpZN",
+      "banca": "VUNESP"
+    },
+    "fuvest": {
+      "folderId": "1i_vX3uAOCnjEyXYq3BQajlAGLyETKE9Y",
+      "banca": "FUVEST"
+    },
+    "unicamp": {
+      "folderId": "1DkItlHMyKyxzn4zTFmFsupnTy-o9SbVt",
+      "banca": "COMVEST"
+    },
+    "unesp": {
+      "folderId": "1CBlxU26R4b-APqN9vnECBzbm5ICljCZH",
+      "banca": "VUNESP"
+    },
+    "uea": {
+      "folderId": "1LuC7e2M51bM5LfXkHVrVxeGqvhvnXevY",
+      "banca": "VUNESP"
+    },
+    "uerj": {
+      "folderId": "1I-6--uFxNtK8IdP2b3lDJZ1wg82vPvml",
+      "banca": "UERJ"
+    },
+    "santaCasa": {
+      "folderId": "1oLFPy8fcgTRI3vIXv0E4WPTVB9qBE7vi",
+      "banca": "VUNESP"
+    },
+    "einstein": {
+      "folderId": "11Ugx5yGcmWP0gB7GaVFd9BMsc6ac5hSL",
+      "banca": "Einstein"
+    },
+    "saoCamilo": {
+      "folderId": "1ou1fvtV_XeX0ywD7tNLfk2llCx-p7omu",
+      "banca": "VUNESP"
+    }
+  },
+  "eliteCampinas": {
+    "urlBase": "https://www.elitecampinas.com.br/gabaritos/",
+    "urlListagem": "https://sisq.elitecampinas.com.br/GabaritoVestibulares/ListarVestibulares?sem_layout=false",
+    "scriptDownload": "scripts/baixar_elite_campinas.py"
+  }
+}
