@@ -63,7 +63,7 @@ export const famerp2015Questions = [
   "content": "Porcentagem e proporcionalidade",
   "detail": "Porcentagem e proporcionalidade",
   "difficulty": "Média",
-  "statement": "O gráfico indica a proporção de óbitos por malária no Brasil de 2000 até 2011, devido a duas espécies do parasita *Plasmodium*.",
+  "statement": "O gráfico indica a proporção de óbitos por malária no Brasil de 2000 até 2011, devido a duas espécies do parasita Plasmodium.",
   "blockTypes": [
     "prose",
     "prose",
@@ -127,7 +127,10 @@ export const famerp2015Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
-  "statementAfter": "De acordo com o gráfico, no período de 2000 a 2011 houve aumento da proporção de óbitos devidos ao Pv em x pontos percentuais, e redução da proporção de óbitos devidos ao Pf em y pontos percentuais. Os valores aproximados de x e y são, respectivamente,"
+  "statementAfter": "De acordo com o gráfico, no período de 2000 a 2011 houve aumento da proporção de óbitos devidos ao Pv em x pontos percentuais, e redução da proporção de óbitos devidos ao Pf em y pontos percentuais. Os valores aproximados de x e y são, respectivamente,",
+  "works": [
+    "Plasmodium"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q03",
@@ -833,7 +836,7 @@ export const famerp2015Questions = [
   "content": "Fotossíntese e metabolismo vegetal",
   "detail": "Fotossíntese e metabolismo vegetal",
   "difficulty": "Média",
-  "statement": "Analise os gráficos relativos ao cultivo de mudas da palmeira carnaúba hospedeira, *Copernicia hospita*, em dois ambientes diferentes, no estado do Ceará. Considere que as plantas estão submetidas às mesmas condições de luminosidade e irrigação ideais.",
+  "statement": "Analise os gráficos relativos ao cultivo de mudas da palmeira carnaúba hospedeira, Copernicia hospita, em dois ambientes diferentes, no estado do Ceará. Considere que as plantas estão submetidas às mesmas condições de luminosidade e irrigação ideais.",
   "blockTypes": [
     "prose",
     "prose",
@@ -913,7 +916,10 @@ export const famerp2015Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
-  "statementAfter": "A análise dos dados permite concluir que as mudas cultivadas"
+  "statementAfter": "A análise dos dados permite concluir que as mudas cultivadas",
+  "works": [
+    "Copernicia hospita"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q15",
@@ -1515,7 +1521,10 @@ export const famerp2015Questions = [
     "Correta (E). Conforme a resolução: Com o advento da globalização, a intensificação do comércio mundial exigiu uma integração cada vez maior, o que requereu pesado investimento nos sistemas de transportes. Ao mesmo tempo, a produção industrial, em busca de maiores benefícios quanto à isenção de impostos e menor custo de mão de obra, privilegiou a fragmentação do processo produtivo, separando gerenciamento, produção e estocagem de peças."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Boletim Campineiro de Geografia"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q25",
@@ -2129,9 +2138,8 @@ export const famerp2015Questions = [
   "content": "Física integrada",
   "detail": "Física integrada",
   "difficulty": "Média",
-  "statement": "O conceito de energia é de fundamental importância na física do corpo humano. Todas as suas atividades, incluindo o pensamento, envolvem trocas de energia. Mesmo em repouso, o corpo humano continua gastando energia, com uma potência da ordem de 102 W, na manutenção do funcionamento de seus órgãos, tecidos e células. Cerca de 25% dessa energia é usada pelo esqueleto e pelo coração, 20% pelo cérebro, 10% pelos rins e 27% pelo fígado e pelo baço.\n\n(Emico Okuno et al. Física para ciências biológicas e\n\nbiomédicas. Adaptado.)\n\nDe acordo com os dados do texto, durante o repouso, a quantidade de energia, em joules, utilizada pelo cérebro em um período de 8,0 horas é, aproximadamente,",
+  "statement": "O conceito de energia é de fundamental importância na física do corpo humano. Todas as suas atividades, incluindo o pensamento, envolvem trocas de energia. Mesmo em repouso, o corpo humano continua gastando energia, com uma potência da ordem de 102 W, na manutenção do funcionamento de seus órgãos, tecidos e células. Cerca de 25% dessa energia é usada pelo esqueleto e pelo coração, 20% pelo cérebro, 10% pelos rins e 27% pelo fígado e pelo baço.\n\n(Emico Okuno et al. Física para ciências biológicas e biomédicas. Adaptado.)\n\nDe acordo com os dados do texto, durante o repouso, a quantidade de energia, em joules, utilizada pelo cérebro em um período de 8,0 horas é, aproximadamente,",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "command"
@@ -2177,7 +2185,10 @@ export const famerp2015Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Física para ciências biológicas e biomédicas"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q36",
@@ -2646,7 +2657,10 @@ export const famerp2015Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Em busca da Idade Média"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q43",
@@ -2758,7 +2772,10 @@ export const famerp2015Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Formação do Brasil contemporâneo"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q45",
@@ -2816,7 +2833,10 @@ export const famerp2015Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Formação do Brasil contemporâneo"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q46",
@@ -2872,7 +2892,10 @@ export const famerp2015Questions = [
     "Correta (E). Conforme a resolução: O anarquismo, ideologia cuja criação é atribuída a Mikhail Bakunin, constituiu uma variante mais ra di - cal do socialismo marxista. Propunha, como objetivo final, o mesmo preconizado por Marx: uma sociedade universal igualitária, com a supressão do Estado e de qualquer forma de autoridade. Diferenciava-se do marxismo ortodoxo por substituir a ideia de revolução proletária por uma “revolução das massas”, e também por considerar desnecessária a fase de “construção do socialismo”, a ser realizada por meio da “ditadura do proletariado”."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Textos escolhidos"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q47",
@@ -3043,7 +3066,7 @@ export const famerp2015Questions = [
   "content": "Brasil República",
   "detail": "Brasil República",
   "difficulty": "Média",
-  "statement": "Discursos.\n\n(Biganti (*O Estado de S.Paulo*, 08.03.1964) apud Rodrigo Patto Sá Motta. *Jango e o golpe de 1964 na caricatura*, 2006.)",
+  "statement": "Discursos.\n\n(Biganti (O Estado de S.Paulo, 08.03.1964) apud Rodrigo Patto Sá Motta. Jango e o golpe de 1964 na caricatura, 2006.)",
   "blockTypes": [
     "prose",
     "prose",
@@ -3102,7 +3125,11 @@ export const famerp2015Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
-  "statementAfter": "A caricatura apresenta o presidente João Goulart,"
+  "statementAfter": "A caricatura apresenta o presidente João Goulart,",
+  "works": [
+    "O Estado de S.Paulo",
+    "Jango e o golpe de 1964 na caricatura"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q51",
@@ -3834,7 +3861,10 @@ export const famerp2015Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Obra poética"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q62",
@@ -3894,7 +3924,10 @@ export const famerp2015Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Obra poética"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q63",
@@ -3954,7 +3987,10 @@ export const famerp2015Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Obra poética"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q64",
@@ -4013,7 +4049,10 @@ export const famerp2015Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Dom Casmurro"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q65",
@@ -4073,7 +4112,10 @@ export const famerp2015Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Dom Casmurro"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q66",
@@ -4134,7 +4176,10 @@ export const famerp2015Questions = [
     "Correta (E). Conforme a resolução: O paralelismo semântico é quebrado ao aproximarem-se duas expressões aparentemente desvinculadas, uma vez que não haveria relação lógica na associação entre “de vista e de chapéu” e “quinze meses e onze contos de réis”."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Dom Casmurro"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q67",
@@ -4193,7 +4238,10 @@ export const famerp2015Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Rumo ao ceticismo"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q68",
@@ -4252,7 +4300,10 @@ export const famerp2015Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Rumo ao ceticismo"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q69",
@@ -4312,7 +4363,10 @@ export const famerp2015Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2015.aspx",
+  "works": [
+    "Rumo ao ceticismo"
+  ]
 }),
   q({
   "id": "famerp2015-p1-q70",

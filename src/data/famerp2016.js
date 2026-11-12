@@ -854,7 +854,10 @@ export const famerp2016Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
-  "statementAfter": "De acordo com os resultados obtidos, é correto afirmar que a eutrofização tem maior chance de ocorrer nos locais"
+  "statementAfter": "De acordo com os resultados obtidos, é correto afirmar que a eutrofização tem maior chance de ocorrer nos locais",
+  "works": [
+    "Biologia de Campbell"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q15",
@@ -1489,7 +1492,10 @@ export const famerp2016Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
-  "statementAfter": "Considerando as áreas de incidência dos fenômenos em questão, é correto afirmar que os riscos 1 e 2 são, respectivamente,"
+  "statementAfter": "Considerando as áreas de incidência dos fenômenos em questão, é correto afirmar que os riscos 1 e 2 são, respectivamente,",
+  "works": [
+    "Atlas geográfico"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q26",
@@ -1782,7 +1788,10 @@ export const famerp2016Questions = [
     "Correta (E). Conforme a resolução: O PERÍMETRO é medida da extensão da parte limítrofe de uma figura geométrica de duas dimensões, ou a medida de seu contorno bidimensional. No caso de um CÍRCULO o perímetro é uma CIRCUNFERÊNCIA. Trata-se de dois conceitos distintos, enquanto esta é uma linha curva fechada que limita o CÍRCULO, o primeiro é uma superfície plana limitada por uma linha curva. Já a ESFERA é um objeto tridimensional formado por uma superfície curva contínua cujos pontos estão equidistantes de um outro fixo e interior chamado centro. A medida de Eratóstenes, independentemente do local onde foi aferida, no caso, entre o Trópico de Câncer e o Círculo Polar Ártico, define o valor correspondente ao do Equador – Círculo Máximo perpendicular ao Eixo terrestre."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "Roteiro de cartografia"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q31",
@@ -2462,7 +2471,10 @@ export const famerp2016Questions = [
     "Correta (E). Conforme a resolução: A democracia grega, da qual Atenas foi o paradigma, pode ser considerada modelo para a democracia con - tem porânea porque criou o conceito de partici pação dos cidadãos nas decisões relacionadas com o corpo político social. Todavia, o original grego diferencia-se da democracia praticada hoje em dia por ser menos abrangente, visto que excluía as mulheres e admitia a existência da escravidão. A referência à não-par tici - pação dos estrangeiros é, porém, desnecessária, pois ela existe igualmente nos dias atuais, embora possa ser remediada pelo recurso à naturalização."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "Gregos, bárbaros, estrangeiros"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q42",
@@ -2518,7 +2530,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "Por amor às cidades"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q43",
@@ -2527,9 +2542,8 @@ export const famerp2016Questions = [
   "content": "História e sociedade",
   "detail": "História e sociedade",
   "difficulty": "Média",
-  "statement": "O Capitão-mor perguntou a todos se nos parecia ser bem mandar a nova do achamento desta terra a Vossa Alteza pelo navio dos mantimentos, para a melhor mandar descobrir e saber dela mais do que agora nós podíamos saber, por irmos de nossa viagem. E foi por todos ou a maior parte dito que seria muito bem. Perguntou mais se seria bom tomar aqui por força um par destes homens para os mandar a Vossa Alteza e deixar aqui por eles outros dous destes degradados. A isto acordaram que não era necessário tomar por força homens por ser gente que ninguém entende.\n\n(Pero Vaz de Caminha. Carta a el-rei dom Manuel\n\nsobre o achamento do Brasil, 1974. Adaptado.)\n\nA carta de Pero Vaz de Caminha para o rei de Portugal, datada de 1 de maio de 1500, revela",
+  "statement": "O Capitão-mor perguntou a todos se nos parecia ser bem mandar a nova do achamento desta terra a Vossa Alteza pelo navio dos mantimentos, para a melhor mandar descobrir e saber dela mais do que agora nós podíamos saber, por irmos de nossa viagem. E foi por todos ou a maior parte dito que seria muito bem. Perguntou mais se seria bom tomar aqui por força um par destes homens para os mandar a Vossa Alteza e deixar aqui por eles outros dous destes degradados. A isto acordaram que não era necessário tomar por força homens por ser gente que ninguém entende.\n\n(Pero Vaz de Caminha. Carta a el-rei dom Manuel sobre o achamento do Brasil, 1974. Adaptado.)\n\nA carta de Pero Vaz de Caminha para o rei de Portugal, datada de 1 de maio de 1500, revela",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "command"
@@ -2575,7 +2589,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "Carta a el-rei dom Manuel sobre o achamento do Brasil"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q44",
@@ -2631,7 +2648,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "Formação do Brasil contemporâneo"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q45",
@@ -2687,7 +2707,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "O século das revoluções, 1603-1714"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q46",
@@ -2743,7 +2766,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "Da Monarquia à República"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q47",
@@ -2800,7 +2826,10 @@ export const famerp2016Questions = [
     "Correta (E). Conforme a resolução: Embora a formulação da questão permita entender que a revolução de 1924 e tenentismo são sinônimos, a pri meira é apenas uma das manifestações (e nem mesmo a mais conhecida, pois tal posição é ocupada pela Co lu na Prestes) do segundo – movimento de jovens oficiais do Exército contra a República das Oligarquias. Os tenentes, caracterizados pelo espírito reformista, pelo nacionalismo e pelo ideal de salvação nacional, desejavam – entre outros aspectos – regenerar as práticas republicanas, eliminando vícios eleitorais (“voto de cabresto”, fraudes nas apurações”) que permitiam a eternização dos “coroneis” no controle da vida política."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "São Paulo em guerra – 1924"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q48",
@@ -2856,7 +2885,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "História social da Inglaterra"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q49",
@@ -2966,7 +2998,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "Folha de S.Paulo"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q51",
@@ -3617,7 +3652,10 @@ export const famerp2016Questions = [
     "Correta (E). Conforme a resolução: Os surrealistas criticaram Anatole France por causa de seu “estilo límpido” e seu ceticismo, o que contrariava os postulados dessa corrente de vanguarda que, influen ciada pela psicanálise, queria captar artisticamente o subconsciente e o ilógico, rejeitando, assim, a rigidez da tradição estética e da moral burguesa."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "Surrealismo"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q62",
@@ -3675,7 +3713,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "Surrealismo"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q63",
@@ -3733,7 +3774,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "O espírito das Luzes"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q64",
@@ -3792,7 +3836,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "O espírito das Luzes"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q65",
@@ -3852,7 +3899,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "A descoberta do mundo"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q66",
@@ -3912,7 +3962,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "A descoberta do mundo"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q67",
@@ -3972,7 +4025,10 @@ export const famerp2016Questions = [
     "Correta (E). Conforme a resolução: A preposição “por” estabelece entre as palavras relação de causa: por causa do pudor, não olhava para os lados. A mesma relação se estabelece em “por medo”: por causa do medo, as pessoas vão mais cedo para casa."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "A descoberta do mundo"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q68",
@@ -4032,7 +4088,10 @@ export const famerp2016Questions = [
     "Correta (E). Conforme a resolução: No enunciado, a oração na voz ativa tem como objeto direto “um pedido”, que passa a sujeito na voz passiva. O forma verbal “percebi” está no pretérito perfeito na voz ativa; na passiva, pessoa, tempo e modo são mantidos, porém com o acréscimo do verbo ser como auxiliar e o verbo principal (perceber) no particípio : foi ... percebido."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "A descoberta do mundo"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q69",
@@ -4105,7 +4164,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "Lira dos vinte anos"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q70",
@@ -4178,7 +4240,10 @@ export const famerp2016Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
+  "works": [
+    "Lira dos vinte anos"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q71",
@@ -4187,10 +4252,10 @@ export const famerp2016Questions = [
   "content": "Vocabulário em contexto",
   "detail": "Vocabulário em contexto",
   "difficulty": "Média",
-  "statement": "Leia o texto para responder às questões de 71 a 77.\n\n**Social life in youth may impact health decades later**\n\nRobert Preidt  \nAugust 6, 2015",
+  "statement": "Leia o texto para responder às questões de 71 a 77.\n\nSocial life in youth may impact health decades later\n\nRobert Preidt  \nAugust 6, 2015",
   "blockTypes": [
     "prose",
-    "prose",
+    "headline",
     "prose",
     "prose",
     "prose",
@@ -4248,7 +4313,10 @@ export const famerp2016Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
-  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal *Psychology and Aging*.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nO estudo mencionado no texto"
+  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal Psychology and Aging.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nO estudo mencionado no texto",
+  "works": [
+    "Psychology and Aging"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q72",
@@ -4257,10 +4325,10 @@ export const famerp2016Questions = [
   "content": "Vocabulário em contexto",
   "detail": "Vocabulário em contexto",
   "difficulty": "Média",
-  "statement": "Leia o texto para responder às questões de 71 a 77.\n\n**Social life in youth may impact health decades later**\n\nRobert Preidt  \nAugust 6, 2015",
+  "statement": "Leia o texto para responder às questões de 71 a 77.\n\nSocial life in youth may impact health decades later\n\nRobert Preidt  \nAugust 6, 2015",
   "blockTypes": [
     "prose",
-    "prose",
+    "headline",
     "prose",
     "prose",
     "prose",
@@ -4318,7 +4386,10 @@ export const famerp2016Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
-  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal *Psychology and Aging*.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nAccording to the first paragraph, people with poor social links"
+  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal Psychology and Aging.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nAccording to the first paragraph, people with poor social links",
+  "works": [
+    "Psychology and Aging"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q73",
@@ -4327,10 +4398,10 @@ export const famerp2016Questions = [
   "content": "Vocabulário em contexto",
   "detail": "Vocabulário em contexto",
   "difficulty": "Média",
-  "statement": "Leia o texto para responder às questões de 71 a 77.\n\n**Social life in youth may impact health decades later**\n\nRobert Preidt  \nAugust 6, 2015",
+  "statement": "Leia o texto para responder às questões de 71 a 77.\n\nSocial life in youth may impact health decades later\n\nRobert Preidt  \nAugust 6, 2015",
   "blockTypes": [
     "prose",
-    "prose",
+    "headline",
     "prose",
     "prose",
     "prose",
@@ -4388,7 +4459,10 @@ export const famerp2016Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
-  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal *Psychology and Aging*.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nNo trecho do primeiro parágrafo “who conducted the study while a doctoral candidate”, o termo em destaque tem o sentido de"
+  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal Psychology and Aging.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nNo trecho do primeiro parágrafo “who conducted the study while a doctoral candidate”, o termo em destaque tem o sentido de",
+  "works": [
+    "Psychology and Aging"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q74",
@@ -4397,10 +4471,10 @@ export const famerp2016Questions = [
   "content": "Vocabulário em contexto",
   "detail": "Vocabulário em contexto",
   "difficulty": "Média",
-  "statement": "Leia o texto para responder às questões de 71 a 77.\n\n**Social life in youth may impact health decades later**\n\nRobert Preidt  \nAugust 6, 2015",
+  "statement": "Leia o texto para responder às questões de 71 a 77.\n\nSocial life in youth may impact health decades later\n\nRobert Preidt  \nAugust 6, 2015",
   "blockTypes": [
     "prose",
-    "prose",
+    "headline",
     "prose",
     "prose",
     "prose",
@@ -4458,7 +4532,10 @@ export const famerp2016Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
-  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal *Psychology and Aging*.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nThe data for the study"
+  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal Psychology and Aging.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nThe data for the study",
+  "works": [
+    "Psychology and Aging"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q75",
@@ -4467,10 +4544,10 @@ export const famerp2016Questions = [
   "content": "Vocabulário em contexto",
   "detail": "Vocabulário em contexto",
   "difficulty": "Média",
-  "statement": "Leia o texto para responder às questões de 71 a 77.\n\n**Social life in youth may impact health decades later**\n\nRobert Preidt  \nAugust 6, 2015",
+  "statement": "Leia o texto para responder às questões de 71 a 77.\n\nSocial life in youth may impact health decades later\n\nRobert Preidt  \nAugust 6, 2015",
   "blockTypes": [
     "prose",
-    "prose",
+    "headline",
     "prose",
     "prose",
     "prose",
@@ -4528,7 +4605,10 @@ export const famerp2016Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
-  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal *Psychology and Aging*.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nThe study results indicate that 50 year-old people who displayed a higher degree of welfare"
+  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal Psychology and Aging.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nThe study results indicate that 50 year-old people who displayed a higher degree of welfare",
+  "works": [
+    "Psychology and Aging"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q76",
@@ -4537,10 +4617,10 @@ export const famerp2016Questions = [
   "content": "Vocabulário em contexto",
   "detail": "Vocabulário em contexto",
   "difficulty": "Média",
-  "statement": "Leia o texto para responder às questões de 71 a 77.\n\n**Social life in youth may impact health decades later**\n\nRobert Preidt  \nAugust 6, 2015",
+  "statement": "Leia o texto para responder às questões de 71 a 77.\n\nSocial life in youth may impact health decades later\n\nRobert Preidt  \nAugust 6, 2015",
   "blockTypes": [
     "prose",
-    "prose",
+    "headline",
     "prose",
     "prose",
     "prose",
@@ -4598,7 +4678,10 @@ export const famerp2016Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
-  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal *Psychology and Aging*.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nNo trecho do quarto parágrafo “they help young adults”, o termo em destaque refere-se a"
+  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal Psychology and Aging.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nNo trecho do quarto parágrafo “they help young adults”, o termo em destaque refere-se a",
+  "works": [
+    "Psychology and Aging"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q77",
@@ -4607,10 +4690,10 @@ export const famerp2016Questions = [
   "content": "Vocabulário em contexto",
   "detail": "Vocabulário em contexto",
   "difficulty": "Média",
-  "statement": "Leia o texto para responder às questões de 71 a 77.\n\n**Social life in youth may impact health decades later**\n\nRobert Preidt  \nAugust 6, 2015",
+  "statement": "Leia o texto para responder às questões de 71 a 77.\n\nSocial life in youth may impact health decades later\n\nRobert Preidt  \nAugust 6, 2015",
   "blockTypes": [
     "prose",
-    "prose",
+    "headline",
     "prose",
     "prose",
     "prose",
@@ -4668,7 +4751,10 @@ export const famerp2016Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2016.aspx",
-  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal *Psychology and Aging*.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nNo trecho do quarto parágrafo “because they help young adults”, o termo em destaque pode ser corretamente substituído, sem alteração de sentido, por"
+  "statementAfter": "Having good social connections at age 20 can lead to improved well-being later in life, a new study suggests. Previous research has shown that people with poor social links are at increased risk for early death. “In fact, having few social connections is equivalent to tobacco use, and [the risk is] higher than for those who drink excessive amounts of alcohol, or who suffer from obesity,” study author Cheryl Carmichael, who conducted the study while a doctoral candidate at the University of Rochester in New York, said in a university news release.\n\nThe study included 133 people who enrolled when they were 20-year-old college students in the 1970s. The participants kept track of their daily social interactions at ages 20 and 30. At age 50, they completed an online survey about the quality of their social lives and emotional well-being, including questions about loneliness and depression, and their relationships with close friends.\n\nThe findings showed that frequent social interactions at age 20 and good-quality relationships – defined as intimate and satisfying – at age 30 were associated with higher levels of well-being at age 50. The study findings were published in a recent issue of the journal Psychology and Aging.\n\nA high number of social interactions at age 20 are beneficial later in life because they help young adults determine who they are, the researchers said. “It’s often around this age that we meet people from diverse backgrounds, with opinions and values that are different from our own, and we learn how to best manage those differences,” said Carmichael, now an assistant professor of psychology at Brooklyn College. “Considering everything else that goes on in life over those 30 years – marriage, raising a family and building a career – it is extraordinary that there appears to be a relationship between the kinds of interactions college students and young adults have and their emotional health later in life,” she concluded.\n\n(www.nlm.nih.gov)\n\nNo trecho do quarto parágrafo “because they help young adults”, o termo em destaque pode ser corretamente substituído, sem alteração de sentido, por",
+  "works": [
+    "Psychology and Aging"
+  ]
 }),
   q({
   "id": "famerp2016-p1-q78",
@@ -5012,6 +5098,9 @@ export const famerp2016Questions = [
       "alt": "Recurso da questão 3 da FAMERP 2016, recortado da página 5 do caderno oficial.",
       "caption": "Recorte vetorial do caderno oficial, página 5."
     }
+  ],
+  "works": [
+    "Folha de S.Paulo"
   ]
 }),
   d({
@@ -5231,7 +5320,10 @@ export const famerp2016Questions = [
     "A VUNESP não disponibilizou os critérios desta edição; resolução comentada da Objetivo usada como referência editorial, sem valor de gabarito oficial.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Folha de S.Paulo"
+  ]
 }),
   d({
   "id": "famerp2016-p2-q08",
@@ -5612,6 +5704,9 @@ export const famerp2016Questions = [
       "alt": "Recurso da questão 14 da FAMERP 2016, recortado da página 16 do caderno oficial.",
       "caption": "Recorte vetorial do caderno oficial, página 16."
     }
+  ],
+  "works": [
+    "Unidades modulares de química"
   ]
 }),
   d({

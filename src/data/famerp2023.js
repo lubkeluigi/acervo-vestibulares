@@ -123,7 +123,10 @@ export const famerp2023Questions = [
     "Correta (E). Conforme a resolução: Nesse soneto da Marquesa de Alorna ( 1750-1839), o eu lírico critica a ganância, como exemplificam os versos: “Feliz esse mortal que se contenta / (...) Só do pão que semeia se alimenta/ (...) O que vive na Corte mais contente / Provou nunca um prazer tão agradável / Como o deste Pastor pobre, inocente?”. Notam-se também nesse poema os temas do fugere urbem (fugir da cidade) e do inutilia truncat (corta o inútil), recorrentes na poética neoclássica ou árcade do século XVIII, a qual valoriza a simplicidade do campo e critica o luxo e o artificialismo da cidade."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "Sonetos"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q03",
@@ -184,7 +187,10 @@ export const famerp2023Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "Sonetos"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q04",
@@ -245,7 +251,10 @@ export const famerp2023Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "Sonetos"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q05",
@@ -306,7 +315,10 @@ export const famerp2023Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "Sonetos"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q06",
@@ -372,7 +384,10 @@ export const famerp2023Questions = [
     "Correta (E). Conforme a resolução: José Pedro dos Santos tornou-se um eremita, preferiu afastar-se da vida urbana porque “tem medo. Os homens, as cidades, os códigos, até os prazeres intervalares dos civilizados lhe dão medo”. O pânico, decorrente da existência em meio à humanidade, levou-o a isolar-se no mato."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "Caminhos de João Brandão"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q07",
@@ -439,7 +454,10 @@ export const famerp2023Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "Caminhos de João Brandão"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q08",
@@ -505,7 +523,10 @@ export const famerp2023Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "Caminhos de João Brandão"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q09",
@@ -571,7 +592,10 @@ export const famerp2023Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "Caminhos de João Brandão"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q10",
@@ -637,7 +661,10 @@ export const famerp2023Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "Caminhos de João Brandão"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q11",
@@ -1317,7 +1344,10 @@ export const famerp2023Questions = [
     "Correta (E). Conforme a resolução: Com o processo de expansão, uma grande romanização foi imposta aos povos vizinhos. Um intrincado sistema de alianças, entre romanos e os povos considerados bárbaros, contribuiu para a disseminação de valores culturais que englobariam uma cosmovisão mais complexa, sobretudo no quesito religioso politeísta e sincrético, como já era observado na banda oriental pela difusão do helenismo. Em 212, o edito de Caracala estendeu a cidadania a todos os súditos do Império."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "Grécia e Roma"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q22",
@@ -1608,7 +1638,10 @@ export const famerp2023Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "A África explicada aos meus filhos"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q27",
@@ -1671,7 +1704,10 @@ export const famerp2023Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
-  "statementAfter": "A imagem mostra dois aspectos importantes do processo de reurbanização da Capital brasileira, desenvolvido na primeira década do século XX:"
+  "statementAfter": "A imagem mostra dois aspectos importantes do processo de reurbanização da Capital brasileira, desenvolvido na primeira década do século XX:",
+  "works": [
+    "Brasil: uma biografia"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q28",
@@ -1680,9 +1716,8 @@ export const famerp2023Questions = [
   "content": "Revoluções e guerras mundiais",
   "detail": "Revoluções e guerras mundiais",
   "difficulty": "Média",
-  "statement": "Muito rapidamente, o processo de uma tensa bipolarização passou a dominar as relações internacionais, e de uma forma tão drástica que, nas décadas seguintes, seria difícil recuperar a atmosfera da aliança que derrotara o nazismo.\n\n(Daniel Aarão Reis Filho. Uma revolução por dia:\n\na história do socialismo soviético, 1997.)\n\nO excerto destaca o surgimento",
+  "statement": "Muito rapidamente, o processo de uma tensa bipolarização passou a dominar as relações internacionais, e de uma forma tão drástica que, nas décadas seguintes, seria difícil recuperar a atmosfera da aliança que derrotara o nazismo.\n\n(Daniel Aarão Reis Filho. Uma revolução por dia: a história do socialismo soviético, 1997.)\n\nO excerto destaca o surgimento",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "command"
@@ -1728,7 +1763,10 @@ export const famerp2023Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "Uma revolução por dia: a história do socialismo soviético"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q29",
@@ -1791,7 +1829,10 @@ export const famerp2023Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
-  "statementAfter": "A charge representa, durante o governo de João Goulart,"
+  "statementAfter": "A charge representa, durante o governo de João Goulart,",
+  "works": [
+    "Jango e o golpe de 1964 na caricatura"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q30",
@@ -1847,7 +1888,10 @@ export const famerp2023Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "A questão da Palestina"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q31",
@@ -2032,7 +2076,10 @@ export const famerp2023Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
-  "statementAfter": "(IBGE. Pesquisa nacional de saneamento básico 2017: abastecimento de água e esgotamento sanitário, 2020. Adaptado.)\n\nNa tabela, os dados sobre volumes diários de esgoto evidenciam que"
+  "statementAfter": "(IBGE. Pesquisa nacional de saneamento básico 2017: abastecimento de água e esgotamento sanitário, 2020. Adaptado.)\n\nNa tabela, os dados sobre volumes diários de esgoto evidenciam que",
+  "works": [
+    "Pesquisa nacional de saneamento básico 2017: abastecimento de água e esgotamento sanitário"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q34",
@@ -2041,9 +2088,8 @@ export const famerp2023Questions = [
   "content": "Economia, indústria e globalização",
   "detail": "Economia, indústria e globalização",
   "difficulty": "Média",
-  "statement": "Até o início do século XX, o transporte dessa mercadoria era realizado principalmente por tropeiros que cruzavam o Caminho Novo. Esse transporte se apresentava como um forte ponto de inflexão em relação aos interesses das elites agrárias em expandir as suas fronteiras para regiões cada vez mais distantes das zonas portuárias. A viabilidade de expandir a oferta dessa mercadoria para o mercado internacional demandava a ocupação de novas terras e um processo produtivo maior e mais eficiente. Neste sentido, o advento da linha férrea possibilitava que a produção dessa mercadoria mantivesse seu rumo em direção ao Sertão, afastando-se do litoral por meio dos trilhos.\n\n(Rafael F. dos Reis. “O papel das ferrovias no processo de expansão das fronteiras”. Anais do 2o Encontro Internacional\n\nHistória e Parcerias, 2019. Adaptado.)\n\nConsiderando o excerto, a expansão das ferrovias estava atrelada",
+  "statement": "Até o início do século XX, o transporte dessa mercadoria era realizado principalmente por tropeiros que cruzavam o Caminho Novo. Esse transporte se apresentava como um forte ponto de inflexão em relação aos interesses das elites agrárias em expandir as suas fronteiras para regiões cada vez mais distantes das zonas portuárias. A viabilidade de expandir a oferta dessa mercadoria para o mercado internacional demandava a ocupação de novas terras e um processo produtivo maior e mais eficiente. Neste sentido, o advento da linha férrea possibilitava que a produção dessa mercadoria mantivesse seu rumo em direção ao Sertão, afastando-se do litoral por meio dos trilhos.\n\n(Rafael F. dos Reis. “O papel das ferrovias no processo de expansão das fronteiras”. Anais do 2o Encontro Internacional História e Parcerias, 2019. Adaptado.)\n\nConsiderando o excerto, a expansão das ferrovias estava atrelada",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "command"
@@ -2089,7 +2135,10 @@ export const famerp2023Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2023.aspx",
+  "works": [
+    "Anais do 2o Encontro Internacional História e Parcerias"
+  ]
 }),
   q({
   "id": "famerp2023-p1-q35",
@@ -4933,7 +4982,10 @@ export const famerp2023Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Folha de S.Paulo"
+  ]
 }),
   d({
   "id": "famerp2023-p2-q02",
@@ -5134,7 +5186,10 @@ export const famerp2023Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Folha de S.Paulo"
+  ]
 }),
   d({
   "id": "famerp2023-p2-q06",

@@ -63,7 +63,10 @@ export const famerp2021Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
-  "statementAfter": "Para obter seu efeito de humor, a tira explora a ambiguidade do termo:"
+  "statementAfter": "Para obter seu efeito de humor, a tira explora a ambiguidade do termo:",
+  "works": [
+    "Malvados"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q02",
@@ -129,7 +132,10 @@ export const famerp2021Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
+  "works": [
+    "70 historinhas"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q03",
@@ -195,7 +201,10 @@ export const famerp2021Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
+  "works": [
+    "70 historinhas"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q04",
@@ -267,7 +276,10 @@ export const famerp2021Questions = [
     "Correta (E). Conforme a resolução: O coletivo “cardume”, que se refere a peixes, foi empregado em sentido figurado para referir-se ao grande número de “problemas” que surgem para pessoas sensíveis e proativas. “Reclamação” foi empregada em sentido literal, cujo significado é “queixa, objeção”. Em “iluminou-se”, o sentido é conotativo, ou figurado, porque refere-se ao estado de júbilo da personagem porque a situação criada favoreceu-a."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
+  "works": [
+    "70 historinhas"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q05",
@@ -333,7 +345,10 @@ export const famerp2021Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
+  "works": [
+    "70 historinhas"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q06",
@@ -400,7 +415,10 @@ export const famerp2021Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
+  "works": [
+    "70 historinhas"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q07",
@@ -456,7 +474,10 @@ export const famerp2021Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
+  "works": [
+    "História da literatura brasileira"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q08",
@@ -514,7 +535,10 @@ export const famerp2021Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
+  "works": [
+    "O mundo assombrado pelos demônios"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q09",
@@ -572,7 +596,10 @@ export const famerp2021Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
+  "works": [
+    "O mundo assombrado pelos demônios"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q10",
@@ -1477,7 +1504,10 @@ export const famerp2021Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
+  "works": [
+    "A África explicada aos meus filhos"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q22",
@@ -1533,7 +1563,10 @@ export const famerp2021Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
+  "works": [
+    "A Idade Média explicada aos meus filhos"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q23",
@@ -1834,7 +1867,11 @@ export const famerp2021Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
+  "works": [
+    "Sobrados e mucambos",
+    "Brasil: uma biografia"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q28",
@@ -1952,7 +1989,10 @@ export const famerp2021Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
-  "statementAfter": "Entre outros significados, a foto representa"
+  "statementAfter": "Entre outros significados, a foto representa",
+  "works": [
+    "Brasil: uma biografia"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q30",
@@ -2008,7 +2048,10 @@ export const famerp2021Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
+  "works": [
+    "Imobilismo em movimento: da abertura democrática ao governo Dilma"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q31",
@@ -2536,7 +2579,10 @@ export const famerp2021Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
-  "statementAfter": "Considerando a matriz elétrica brasileira, os tipos de energias designados pelos contornos roxo e verde indicados na legenda são, respectivamente,"
+  "statementAfter": "Considerando a matriz elétrica brasileira, os tipos de energias designados pelos contornos roxo e verde indicados na legenda são, respectivamente,",
+  "works": [
+    "Atlas geográfico"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q40",
@@ -2772,9 +2818,8 @@ export const famerp2021Questions = [
   "content": "DNA, RNA e expressão gênica",
   "detail": "DNA, RNA e expressão gênica",
   "difficulty": "Média",
-  "statement": "A chamada Árvore da Vida, uma das ideias mais poderosas da biologia moderna, remonta a rabiscos feitos por Charles Darwin. Cada espécie moderna seria o produto de infindas bifurcações na árvore evolutiva da vida, a qual dá uma ideia de como foram surgindo os seres vivos. A figura ilustra um dos rabiscos feitos por Darwin.\n\n(Reinaldo José Lopes. “Livro conta como foram achados os ‘galhos’ da\n\nfamosa árvore da vida”. www.folha.uol.com.br, 03.11.2018. Adaptado.)\n\nUm dos “rabiscos” feitos por Darwin\n\n(https://evolutionliteracy.com)",
+  "statement": "A chamada Árvore da Vida, uma das ideias mais poderosas da biologia moderna, remonta a rabiscos feitos por Charles Darwin. Cada espécie moderna seria o produto de infindas bifurcações na árvore evolutiva da vida, a qual dá uma ideia de como foram surgindo os seres vivos. A figura ilustra um dos rabiscos feitos por Darwin.\n\n(Reinaldo José Lopes. “Livro conta como foram achados os ‘galhos’ da famosa árvore da vida”. www.folha.uol.com.br, 03.11.2018. Adaptado.)\n\nUm dos “rabiscos” feitos por Darwin\n\n(https://evolutionliteracy.com)",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "prose",
@@ -4227,7 +4272,10 @@ export const famerp2021Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2021.aspx",
-  "statementAfter": "Com o aumento da idade, os seres humanos que não têm outras disfunções visuais perdem a capacidade de enxergar com nitidez objetos"
+  "statementAfter": "Com o aumento da idade, os seres humanos que não têm outras disfunções visuais perdem a capacidade de enxergar com nitidez objetos",
+  "works": [
+    "Biofísica"
+  ]
 }),
   q({
   "id": "famerp2021-p1-q68",
@@ -5095,7 +5143,10 @@ export const famerp2021Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Veja"
+  ]
 }),
   d({
   "id": "famerp2021-p2-q03",
@@ -5193,7 +5244,10 @@ export const famerp2021Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Microbiologia"
+  ]
 }),
   d({
   "id": "famerp2021-p2-q05",

@@ -134,7 +134,10 @@ export const famerp2026Questions = [
     "Incorreta. O tom do soneto é sério, dramático e sofrido (“Tortura”), sem distanciamento irônico ou sarcástico."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "Sonetos"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q03",
@@ -204,7 +207,10 @@ export const famerp2026Questions = [
     "Incorreta. O ideal não é a originalidade formal, mas a capacidade expressiva de traduzir o afeto interior."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "Sonetos"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q04",
@@ -274,7 +280,10 @@ export const famerp2026Questions = [
     "Correta. A estrutura rígida do soneto, a métrica decassílaba rigorosa e o esquema rímico apurado aproximam formalmente o texto de Florbela Espanca da estética parnasiana."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "Sonetos"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q05",
@@ -344,7 +353,10 @@ export const famerp2026Questions = [
     "Incorreta. O sujeito de “dissesse” é o pronome relativo “Que”, que retoma “o verso puro”, precedendo o verbo."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "Sonetos"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q06",
@@ -406,7 +418,10 @@ export const famerp2026Questions = [
     "Incorreta. Compara a percepção subjetiva do tempo em diferentes fases etárias sem constituir figura antitética."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "Gratidão"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q07",
@@ -468,7 +483,10 @@ export const famerp2026Questions = [
     "Incorreta. Não há paralisia ou confusão mental; a reação relatada é de naturalidade e desprendimento."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "Gratidão"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q08",
@@ -530,7 +548,10 @@ export const famerp2026Questions = [
     "Incorreta. “Profundas” é uma metáfora usual de intensidade aplicada a ambiguidades."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "Gratidão"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q09",
@@ -593,7 +614,10 @@ export const famerp2026Questions = [
     "Incorreta. Não expressa a consequência ou desfecho decorrente da proposição principal."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "Gratidão"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q10",
@@ -656,7 +680,10 @@ export const famerp2026Questions = [
     "Correta. O verbo transitivo indireto “crer” rege a preposição “em” (crer em algo: “crer em uma existência após a morte”). A preposição rege os termos subsequentes, justificando a abertura dos parênteses após ela."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "Gratidão"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q11",
@@ -1376,7 +1403,10 @@ export const famerp2026Questions = [
     "Incorreta. As cidades-Estado gregas mantinham intensa rede comercial e diplomática no Mediterrâneo, sem autarquia fechada."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "História Antiga"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q22",
@@ -1432,7 +1462,10 @@ export const famerp2026Questions = [
     "Incorreta. O pontífice não proibiu os pregadores mendicantes; ao contrário, concedeu-lhes reconhecimento oficial e bula papal."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "A Europa na Idade Média"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q23",
@@ -1490,7 +1523,10 @@ export const famerp2026Questions = [
     "Correta. O Caminho Novo permitiu a ligação direta, mais rápida e controlada entre as jazidas auríferas de Minas Gerais e o porto do Rio de Janeiro, dinamizando a economia colonial no século XVIII."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "Brasil: uma biografia"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q24",
@@ -1603,7 +1639,10 @@ export const famerp2026Questions = [
     "Incorreta. Incidia unicamente sobre condenações à pena capital por crimes graves contra a República."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "Revolução Francesa em 50 palavras-chaves"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q26",
@@ -1659,7 +1698,10 @@ export const famerp2026Questions = [
     "Incorreta. Não buscava fomentar lutas emancipatórias soberanas no continente africano."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "A África na sala de aula: visita à história contemporânea"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q27",
@@ -1903,6 +1945,9 @@ export const famerp2026Questions = [
   "statementAfter": "Com base no gráfico, o comportamento da inflação",
   "afterBlockTypes": [
     "command"
+  ],
+  "works": [
+    "Imobilismo em movimento: da abertura democrática ao governo Dilma"
   ]
 }),
   q({
@@ -3100,7 +3145,10 @@ export const famerp2026Questions = [
     "Incorreta. A deriva genética altera aleatoriamente a frequência de alelos em pequenas populações sem finalidade adaptativa intencional."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2026.aspx",
+  "works": [
+    "A sabedoria secreta da natureza"
+  ]
 }),
   q({
   "id": "famerp2026-p1-q51",
@@ -5049,7 +5097,10 @@ export const famerp2026Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "A canção da célula: as descobertas da medicina e o novo humano"
+  ]
 }),
   d({
   "id": "famerp2026-p2-q03",
@@ -5158,6 +5209,9 @@ export const famerp2026Questions = [
       "alt": "Recurso da questão 4 da FAMERP 2026, recortado da página 6 do caderno oficial.",
       "caption": "Recorte vetorial do caderno oficial, página 6."
     }
+  ],
+  "works": [
+    "Biologia 2"
   ]
 }),
   d({
@@ -5369,7 +5423,10 @@ export const famerp2026Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Sob um céu branco: a natureza no futuro"
+  ]
 }),
   d({
   "id": "famerp2026-p2-q09",
@@ -5609,6 +5666,9 @@ export const famerp2026Questions = [
     "prose",
     "prose",
     "prose"
+  ],
+  "works": [
+    "Advanced Energy Materials"
   ]
 }),
   d({

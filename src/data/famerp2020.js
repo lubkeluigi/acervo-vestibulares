@@ -121,7 +121,10 @@ export const famerp2020Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Poesia completa"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q03",
@@ -180,7 +183,10 @@ export const famerp2020Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Contos fluminenses"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q04",
@@ -239,7 +245,10 @@ export const famerp2020Questions = [
     "Correta (E). Conforme a resolução: A expressão “ateu” poderia ter o sentido de afastamento, aversão, indicando alguém que se mantivesse avesso aos princípios da política e da poesia, como também aos da religião."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Contos fluminenses"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q05",
@@ -298,7 +307,10 @@ export const famerp2020Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Contos fluminenses"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q06",
@@ -357,7 +369,10 @@ export const famerp2020Questions = [
     "Correta (E). Conforme a resolução: Emprega-se o verbo de elocução “dizer” que está, no início do excerto, na passagem para o discurso indireto. Os verbos que, no discurso direto, estão no presente, passam no discurso indireto para o pretérito imperfeito: “queria” e “impunha”. O pronome de primeira pessoa “me” vai para a terceira pessoa “lhe”, pois o verbo impor é transitivo indireto, nesse caso."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Contos fluminenses"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q07",
@@ -414,7 +429,10 @@ export const famerp2020Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Formação da literatura brasileira"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q08",
@@ -471,7 +489,10 @@ export const famerp2020Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Cabeça de porco"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q09",
@@ -528,7 +549,10 @@ export const famerp2020Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Cabeça de porco"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q10",
@@ -585,7 +609,10 @@ export const famerp2020Questions = [
     "Correta (E). Conforme a resolução: O pretérito mais-que-perfeito, como está indicado no enunciado aparece em tratara com respeito a comunidade. Esse tempo verbal refere-se a uma ação no passado anterior a outra ação no passado."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Cabeça de porco"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q11",
@@ -1254,7 +1281,10 @@ export const famerp2020Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
-  "statementAfter": "As três colunas correspondem, respectivamente, aos estilos:"
+  "statementAfter": "As três colunas correspondem, respectivamente, aos estilos:",
+  "works": [
+    "Grécia e Roma"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q22",
@@ -1311,7 +1341,11 @@ export const famerp2020Questions = [
     "Correta (E). Conforme a resolução: O texto trata das relações de suserania e vassalagem, nas quais um nobre se subordinava a outro hierarqui - camente superior, ou ao próprio rei. Eventualmente poderia ocorrer a subenfeudação, isto é, a relação de apoio recíproco entre um senhor e outro que lhe fosse inferior. Os critérios para o estabelecimento da relação feudo-vassálica baseavam-se não só na hierarquia dos títulos de nobreza, mas também no poder representado pela posse de terras e pelo número de vassalos que prestassem homenagem ao titular do feudo."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Sobre o feudalismo",
+    "O feudalismo: economia e sociedade"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q23",
@@ -1367,7 +1401,10 @@ export const famerp2020Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "O Renascimento"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q24",
@@ -1423,7 +1460,10 @@ export const famerp2020Questions = [
     "Correta (E). Conforme a resolução: Considerando que a sociedade da mineração no século XVIII era essencialmente urbana, poderiam ser encontrados em seu interior elementos pertencentes às mais diversas atividades, tais como os citados na alternativa."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Opulência e miséria das Minas Gerais"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q25",
@@ -1480,7 +1520,10 @@ export const famerp2020Questions = [
     "Correta (E). Conforme a resolução: O autor considera que, na Revolução Industrial Inglesa, o proletariado atuou como mero instrumento da burguesia empresarial, sem a consciência de estar participando de um esforço voltado para a prosperidade nacional (o que, aliás, não ocorreu com qualquer dos agentes envolvidos, inclusive a burguesia capitalista). Essa interpretação explica, ao menos parcialmente, por que a grande prosperidade inglesa do período não foi compartilhada pelo conjunto da população."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "A formação da classe operária inglesa"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q26",
@@ -1537,7 +1580,10 @@ export const famerp2020Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "A formação da classe operária inglesa"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q27",
@@ -1593,7 +1639,10 @@ export const famerp2020Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "História do Brasil Império"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q28",
@@ -1602,9 +1651,8 @@ export const famerp2020Questions = [
   "content": "Brasil República",
   "detail": "Brasil República",
   "difficulty": "Média",
-  "statement": "Observe a charge de Storni, publicada na revista Careta em 19.02.1927.\n\n(Apud Renato Lemos (org.). Uma história do Brasil\n\natravés da caricatura: 1840-2006, 2006.)",
+  "statement": "Observe a charge de Storni, publicada na revista Careta em 19.02.1927.\n\n(Apud Renato Lemos (org.). Uma história do Brasil através da caricatura: 1840-2006, 2006.)",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "command"
@@ -1657,7 +1705,10 @@ export const famerp2020Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
-  "statementAfter": "Divulgada durante a Primeira República brasileira, a charge faz referência a uma"
+  "statementAfter": "Divulgada durante a Primeira República brasileira, a charge faz referência a uma",
+  "works": [
+    "Uma história do Brasil através da caricatura: 1840-2006"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q29",
@@ -1713,7 +1764,10 @@ export const famerp2020Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Nazismo, o triunfo da vontade"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q30",
@@ -1777,7 +1831,10 @@ export const famerp2020Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
-  "statementAfter": "A charge representa o então presidente João Goulart,"
+  "statementAfter": "A charge representa o então presidente João Goulart,",
+  "works": [
+    "Jango e o golpe de 1964 na caricatura"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q31",
@@ -2028,9 +2085,8 @@ export const famerp2020Questions = [
   "content": "Cartografia e escalas",
   "detail": "Cartografia e escalas",
   "difficulty": "Média",
-  "statement": "Este grupo tende a crescer no Brasil nas próximas décadas, como aponta a Projeção da População, do IBGE, atualizada em 2018. A consultora em demografia e políticas de saúde, Cristina Guimarães Rodrigues, considera necessário ter políticas públicas voltadas para tratamentos de saúde, alimentação mais saudável e exercícios físicos, além de construções e transportes mais acessíveis. “Há o aumento de doenças crônicas”, cita, “que são doenças mais caras e requerem tratamentos um pouco mais custosos”.\n\n(Camille Perissé e Mônica Marli. Retratos: a revista\n\ndo IBGE, no 16, fevereiro de 2019. Adaptado.)\n\nO excerto apresenta características relacionadas",
+  "statement": "Este grupo tende a crescer no Brasil nas próximas décadas, como aponta a Projeção da População, do IBGE, atualizada em 2018. A consultora em demografia e políticas de saúde, Cristina Guimarães Rodrigues, considera necessário ter políticas públicas voltadas para tratamentos de saúde, alimentação mais saudável e exercícios físicos, além de construções e transportes mais acessíveis. “Há o aumento de doenças crônicas”, cita, “que são doenças mais caras e requerem tratamentos um pouco mais custosos”.\n\n(Camille Perissé e Mônica Marli. Retratos: a revista do IBGE, no 16, fevereiro de 2019. Adaptado.)\n\nO excerto apresenta características relacionadas",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "command"
@@ -2076,7 +2132,10 @@ export const famerp2020Questions = [
     "Correta (E). Conforme a resolução: A população brasileira tem ampliado a sua expectativa de vida devido as melhoras socioeconômicas nas últimas décadas. Com isso, notase o aumento do número de idosos como resultado do envelhecimento da população e a necessidade de investimentos geriátricos e infraestrutura para essa parcela da população."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
+  "works": [
+    "Retratos: a revista do IBGE"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q36",
@@ -2239,7 +2298,10 @@ export const famerp2020Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
-  "statementAfter": "Assinale a alternativa que apresenta a vegetação correspondente ao climograma."
+  "statementAfter": "Assinale a alternativa que apresenta a vegetação correspondente ao climograma.",
+  "works": [
+    "Geografia"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q38",
@@ -2360,7 +2422,10 @@ export const famerp2020Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
-  "statementAfter": "Considerando o mapa e conhecimentos sobre a produção de energia hidráulica brasileira, pode-se afirmar que"
+  "statementAfter": "Considerando o mapa e conhecimentos sobre a produção de energia hidráulica brasileira, pode-se afirmar que",
+  "works": [
+    "Atlas de energia elétrica do Brasil"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q40",
@@ -2423,7 +2488,10 @@ export const famerp2020Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
-  "statementAfter": "O esquema corresponde"
+  "statementAfter": "O esquema corresponde",
+  "works": [
+    "Fundamentos de cartografia"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q41",
@@ -2874,7 +2942,10 @@ export const famerp2020Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2020.aspx",
-  "statementAfter": "Os eventos biológicos que ocorrem nas etapas indicadas por 1, 2, 3, 4 e 5 são, respectivamente,"
+  "statementAfter": "Os eventos biológicos que ocorrem nas etapas indicadas por 1, 2, 3, 4 e 5 são, respectivamente,",
+  "works": [
+    "Introdução à Botânica"
+  ]
 }),
   q({
   "id": "famerp2020-p1-q49",
@@ -5210,6 +5281,9 @@ export const famerp2020Questions = [
       "alt": "Recurso da questão 8 da FAMERP 2020, recortado da página 10 do caderno oficial.",
       "caption": "Recorte vetorial do caderno oficial, página 10."
     }
+  ],
+  "works": [
+    "Biologia celular e molecular"
   ]
 }),
   d({

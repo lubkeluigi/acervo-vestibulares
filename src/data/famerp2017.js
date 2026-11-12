@@ -701,7 +701,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "Microbiologia médica"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q12",
@@ -1190,7 +1193,10 @@ export const famerp2017Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
-  "statementAfter": "Considere que os números 1, 2 e 3 indicados no fluxograma representem uma ação do tipo estimulante (+) ou uma ação do tipo inibidora (–) e que o aumento da reabsorção de sódio nos túbulos renais promova um deslocamento hídrico nos túbulos renais. De acordo com essas informações, assinale a alternativa que indica, correta e respectivamente, o tipo da ação representada pelos números 1, 2 e 3 e o resultado do deslocamento hídrico."
+  "statementAfter": "Considere que os números 1, 2 e 3 indicados no fluxograma representem uma ação do tipo estimulante (+) ou uma ação do tipo inibidora (–) e que o aumento da reabsorção de sódio nos túbulos renais promova um deslocamento hídrico nos túbulos renais. De acordo com essas informações, assinale a alternativa que indica, correta e respectivamente, o tipo da ação representada pelos números 1, 2 e 3 e o resultado do deslocamento hídrico.",
+  "works": [
+    "Biologia para o ensino médio"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q20",
@@ -1398,7 +1404,10 @@ export const famerp2017Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
-  "statementAfter": "O mapa apresenta as áreas de reservas e os principais fluxos de"
+  "statementAfter": "O mapa apresenta as áreas de reservas e os principais fluxos de",
+  "works": [
+    "Geoatlas"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q23",
@@ -1625,7 +1634,10 @@ export const famerp2017Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
-  "statementAfter": "O gradiente térmico ilustrado na imagem é explicado pela"
+  "statementAfter": "O gradiente térmico ilustrado na imagem é explicado pela",
+  "works": [
+    "Território e sociedade no mundo globalizado"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q27",
@@ -1736,7 +1748,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "Confins"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q29",
@@ -2573,7 +2588,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "Roma e seu império"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q42",
@@ -2629,7 +2647,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "Para uma outra Idade Média"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q43",
@@ -2684,7 +2705,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "1480-1520: a passagem do século"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q44",
@@ -2794,7 +2818,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "A Revolução Francesa explicada à minha neta"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q46",
@@ -2850,7 +2877,10 @@ export const famerp2017Questions = [
     "Correta (E). Conforme a resolução: O movimento abolicionista ocorrido no Segundo Reinado apresentou duas vertentes. Uma, minoritária mas muito atuante, formada por ativistas que estimulavam e organizavam revoltas e fugas de escravos (exemplo: a ação dos caifazes de Antonio Bento, em São Paulo), assim como por escravos que tomavam por si próprios iniciativas nesse sentido. A outra, majoritária e prevalente, recorria à via institucional (a Maçonaria atuou nas duas formas), tendo no senador Joaquim Nabuco seu maior expoente. Esta segunda vertente, liderada por políticos e intelectuais, direcionava sua propaganda para os setores médios e dominantes da sociedade brasileira, mostrando em sua atuação e argumentação um paternalismo condescendente que pode ser entendido como uma forma de preconceito."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "Retrato em branco e negro"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q47",
@@ -2906,7 +2936,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "A África explicada aos meus filhos"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q48",
@@ -2962,7 +2995,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "A legislação trabalhista no Brasil"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q49",
@@ -3018,7 +3054,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "Imperialismo e geopolítica global"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q50",
@@ -3690,7 +3729,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "O guardador de rebanhos e outros poemas"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q62",
@@ -3751,7 +3793,10 @@ export const famerp2017Questions = [
     "Correta (E). Conforme a resolução: As alusões que retomam, como herança, o mundo clássico são perceptíveis na referência a Apolo, a Adônis e no tema do carpe diem."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "O guardador de rebanhos e outros poemas"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q63",
@@ -3810,7 +3855,10 @@ export const famerp2017Questions = [
     "Correta (E). Conforme a resolução: A obra O Cortiço pertence ao Naturalismo, movimento literário em que as personagens são degradadas pelo ambiente em que vivem. Há o Determinismo, de Taine. Nessa obra e nesse excerto, notam-se o zoomorfismo e a influência das teorias científicas da época, como a das Ciências Naturais, de onde provém o nome Naturalismo."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "O cortiço"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q64",
@@ -3869,7 +3917,10 @@ export const famerp2017Questions = [
     "Correta (E). Conforme a resolução: O cientificismo também é uma característica do movimento Naturalista. A descrição minuciosa dos aspectos físicos comportamentais das personagens refletem essa “análise científica”, aquilo que foi denominado por Émile Zola como romance de tese ou experimental."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "O cortiço"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q65",
@@ -3932,7 +3983,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "A música do tempo infinito"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q66",
@@ -3994,7 +4048,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "A música do tempo infinito"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q67",
@@ -4057,7 +4114,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "A música do tempo infinito"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q68",
@@ -4116,7 +4176,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "Corrupção"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q69",
@@ -4176,7 +4239,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "Corrupção"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q70",
@@ -4236,7 +4302,10 @@ export const famerp2017Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2017.aspx",
+  "works": [
+    "Corrupção"
+  ]
 }),
   q({
   "id": "famerp2017-p1-q71",
@@ -5190,6 +5259,9 @@ export const famerp2017Questions = [
       "alt": "Recurso da questão 4 da FAMERP 2017, recortado da página 5 do caderno oficial.",
       "caption": "Recorte vetorial do caderno oficial, página 5."
     }
+  ],
+  "works": [
+    "Biology: concepts and connections"
   ]
 }),
   d({
@@ -5309,6 +5381,9 @@ export const famerp2017Questions = [
       "alt": "Recurso da questão 6 da FAMERP 2017, recortado da página 7 do caderno oficial.",
       "caption": "Recorte vetorial do caderno oficial, página 7."
     }
+  ],
+  "works": [
+    "Princípios integrados de zoologia"
   ]
 }),
   d({
@@ -5422,6 +5497,9 @@ export const famerp2017Questions = [
       "alt": "Recurso da questão 8 da FAMERP 2017, recortado da página 9 do caderno oficial.",
       "caption": "Recorte vetorial do caderno oficial, página 9."
     }
+  ],
+  "works": [
+    "Biologia"
   ]
 }),
   d({
@@ -5643,6 +5721,9 @@ export const famerp2017Questions = [
       "alt": "Recurso da questão 12 da FAMERP 2017, recortado da página 13 do caderno oficial.",
       "caption": "Recorte vetorial do caderno oficial, página 13."
     }
+  ],
+  "works": [
+    "Neoquímica: a química moderna e suas aplicações"
   ]
 }),
   d({

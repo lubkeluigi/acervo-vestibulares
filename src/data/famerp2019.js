@@ -236,7 +236,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "A descoberta do mundo"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q05",
@@ -296,7 +299,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "A descoberta do mundo"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q06",
@@ -356,7 +362,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "Triste fim de Policarpo Quaresma"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q07",
@@ -416,7 +425,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "Triste fim de Policarpo Quaresma"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q08",
@@ -476,7 +488,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "Triste fim de Policarpo Quaresma"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q09",
@@ -537,7 +552,10 @@ export const famerp2019Questions = [
     "Correta (E). Conforme a resolução: O eu lírico, ao longo do poema, vai revelando o desejo que a amada lhe desperta, culminando na aspiração de possuir o que vai além do corpo de Rosa: “o pensamento a alma o desgosto”."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "De Pauliceia desvairada a Lira paulistana"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q10",
@@ -598,7 +616,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "De Pauliceia desvairada a Lira paulistana"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q11",
@@ -1265,7 +1286,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "Roma e seu império"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q22",
@@ -1322,7 +1346,10 @@ export const famerp2019Questions = [
     "Correta (E). Conforme a resolução: Nos séculos V e VI, a Europa Ocidental foi assolada pelas invasões germânicas e pelo processo de formação dos reinos bárbaros em terras que haviam sido romanas. Durante a agitação e insegurança que caracterizaram o período, cresceu o poder dos bispos (não apenas como autoridades religiosas, mas também civis) e dos grandes proprietários de terras, cujo poderio militar oferecia alguma proteção para as populações ameaçadas. Essas duas forças - clero e nobreza – iriam compartilhar o poder na Europa feudal."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "Roma e seu império"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q23",
@@ -1378,7 +1405,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "Mercantilismo e transição"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q24",
@@ -1489,7 +1519,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "O “nascimento político” do Brasil"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q26",
@@ -1546,7 +1579,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "Estados Unidos: a formação da nação"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q27",
@@ -1603,7 +1639,10 @@ export const famerp2019Questions = [
     "Correta (E). Conforme a resolução: A abolição da escravidão pelo Congresso Norte Americano suscitou a reação dos brancos sulistas, seja sob a forma de entidades terroristas como a Ku klux Klan (fundada em 1865, proibida em 1871 e refundada em 1915), seja por meio de leis segregacionistas, viabilizadas pelo sistema federativo que assegurava a autonomia dos estados. Essa situação de desigualdade e discriminação levou à luta dos afro-americanos pela igualdade, o que resultou na aprovação da Lei dos Direitos Civis, em 1964. Não obstante, ainda hoje manifestam-se sequelas desse longo período de racismo."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "Estados Unidos: a formação da nação"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q28",
@@ -1661,7 +1700,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "Indústria e trabalho no Brasil"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q29",
@@ -1719,7 +1761,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "Indústria e trabalho no Brasil"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q30",
@@ -2187,7 +2232,10 @@ export const famerp2019Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
-  "statementAfter": "O domínio morfoclimático descrito no excerto corresponde, no mapa, ao número"
+  "statementAfter": "O domínio morfoclimático descrito no excerto corresponde, no mapa, ao número",
+  "works": [
+    "Introdução à Geomorfologia"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q38",
@@ -2250,7 +2298,10 @@ export const famerp2019Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
-  "statementAfter": "A partir da análise do gráfico, pode-se afirmar que, no cenário brasileiro,"
+  "statementAfter": "A partir da análise do gráfico, pode-se afirmar que, no cenário brasileiro,",
+  "works": [
+    "Le monde diplomatique Brasil"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q39",
@@ -2369,7 +2420,10 @@ export const famerp2019Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
-  "statementAfter": "O mapa refere-se a um protocolo internacional, ratificado por 170 países no ano de 2000, denominado"
+  "statementAfter": "O mapa refere-se a um protocolo internacional, ratificado por 170 países no ano de 2000, denominado",
+  "works": [
+    "Geoatlas"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q41",
@@ -2469,9 +2523,8 @@ export const famerp2019Questions = [
   "content": "Citologia e transporte celular",
   "detail": "Citologia e transporte celular",
   "difficulty": "Média",
-  "statement": "Em 1997, pesquisadores criaram Polly, uma ovelha contendo o gene humano F9, responsável pela produção do fator IX de coagulação e vital para indivíduos com hemofilia. Polly, assim como a famosa ovelha Dolly, foi gerada a partir da fusão de um óvulo anucleado com um fibroblasto fetal cultivado em laboratório, no qual o gene F9 foi previamente introduzido em seu genoma.\n\n(Lygia da Veiga Pereira. Clonagem: da ovelha Dolly\n\nàs células-tronco, 2005. Adaptado.)\n\nDe acordo com o texto, a ovelha Polly foi gerada pela fusão de um óvulo anucleado com uma célula submetida à técnica de .\n\nAs lacunas do texto devem ser preenchidas por",
+  "statement": "Em 1997, pesquisadores criaram Polly, uma ovelha contendo o gene humano F9, responsável pela produção do fator IX de coagulação e vital para indivíduos com hemofilia. Polly, assim como a famosa ovelha Dolly, foi gerada a partir da fusão de um óvulo anucleado com um fibroblasto fetal cultivado em laboratório, no qual o gene F9 foi previamente introduzido em seu genoma.\n\n(Lygia da Veiga Pereira. Clonagem: da ovelha Dolly às células-tronco, 2005. Adaptado.)\n\nDe acordo com o texto, a ovelha Polly foi gerada pela fusão de um óvulo anucleado com uma célula submetida à técnica de .\n\nAs lacunas do texto devem ser preenchidas por",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "prose",
@@ -2518,7 +2571,10 @@ export const famerp2019Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
+  "works": [
+    "Clonagem: da ovelha Dolly às células-tronco"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q43",
@@ -2581,7 +2637,10 @@ export const famerp2019Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
-  "statementAfter": "A sístole indicada pelas setas 1 e 2 está ocorrendo nos"
+  "statementAfter": "A sístole indicada pelas setas 1 e 2 está ocorrendo nos",
+  "works": [
+    "Princípios integrados de zoologia"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q44",
@@ -2644,7 +2703,10 @@ export const famerp2019Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
-  "statementAfter": "A estrutura embrionária X se diferenciará, durante o seu desenvolvimento, em órgãos do sistema"
+  "statementAfter": "A estrutura embrionária X se diferenciará, durante o seu desenvolvimento, em órgãos do sistema",
+  "works": [
+    "Princípios integrados de zoologia"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q45",
@@ -2707,7 +2769,10 @@ export const famerp2019Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2019.aspx",
-  "statementAfter": "Um pesquisador procurava células com mutações gênicas nessa flor que poderiam ser transmitidas às futuras gerações dessa planta. Para que haja êxito nessa procura, ele deve analisar as células presentes"
+  "statementAfter": "Um pesquisador procurava células com mutações gênicas nessa flor que poderiam ser transmitidas às futuras gerações dessa planta. Para que haja êxito nessa procura, ele deve analisar as células presentes",
+  "works": [
+    "360º biologia"
+  ]
 }),
   q({
   "id": "famerp2019-p1-q46",
@@ -4939,7 +5004,10 @@ export const famerp2019Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Guia visual: Canadá"
+  ]
 }),
   d({
   "id": "famerp2019-p2-q02",
@@ -5042,6 +5110,9 @@ export const famerp2019Questions = [
       "alt": "Recurso da questão 3 da FAMERP 2019, recortado da página 5 do caderno oficial.",
       "caption": "Recorte vetorial do caderno oficial, página 5."
     }
+  ],
+  "works": [
+    "360º biologia"
   ]
 }),
   d({
@@ -5193,7 +5264,10 @@ export const famerp2019Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Grandes debates da ciência"
+  ]
 }),
   d({
   "id": "famerp2019-p2-q07",
@@ -5307,6 +5381,9 @@ export const famerp2019Questions = [
       "alt": "Recurso da questão 8 da FAMERP 2019, recortado da página 10 do caderno oficial.",
       "caption": "Recorte vetorial do caderno oficial, página 10."
     }
+  ],
+  "works": [
+    "Biology: how life works"
   ]
 }),
   d({
@@ -6046,6 +6123,9 @@ export const famerp2019Questions = [
       "criteria": []
     }
   ],
-  "preview": "Com base em seus conhecimentos e nos textos apresentados, escreva uma dissertação, empregando a norma-padrão da língua portuguesa, sobre o tema:\n\nObrigatoriedade da vacinação: entre a prevenção a doenças e o respeito às escolhas individuais"
+  "preview": "Com base em seus conhecimentos e nos textos apresentados, escreva uma dissertação, empregando a norma-padrão da língua portuguesa, sobre o tema:\n\nObrigatoriedade da vacinação: entre a prevenção a doenças e o respeito às escolhas individuais",
+  "works": [
+    "1904 – Revolta da Vacina. A maior batalha do Rio"
+  ]
 }),
 ];

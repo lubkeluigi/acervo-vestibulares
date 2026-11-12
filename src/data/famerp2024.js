@@ -73,9 +73,8 @@ export const famerp2024Questions = [
   "content": "Poesia e subjetividade",
   "detail": "Primeira pessoa e subjetividade lírica",
   "difficulty": "Média",
-  "statement": "Leia o artigo “Sobre homens e ratos”, do médico Drauzio Varella, para responder às questões de 02 a 07.\n\nMulheres e homens têm apenas 30 mil genes! A divulgação desse dado pelo Projeto Genoma foi um balde de água fria no orgulho humano: imaginávamos que fossem pelo menos 100 mil. Se as moscas têm 13 mil genes, qualquer verme, 20 mil, um abacateiro, 25 mil, e os camundongos que caçamos nas ratoeiras têm 30 mil, 100 mil para nós parecia uma estimativa razoável. Afinal, não foi culpa nossa havermos sido criados à imagem e semelhança de Deus. A bem da verdade, já sabíamos que cerca de 98% de nossas sequências de DNA são idênticas às dos chimpanzés. Mas chimpanzés são animais políticos que formam comunidades com culturas próprias, utilizam instrumentos rudimentares e matam seus semelhantes premeditadamente. São, por assim dizer, seres mais humanos. Admitir, no entanto, que nosso genoma é formado pelo mesmo número de genes dos ratos, e que somente 300 genes são responsáveis pelas diferenças entre nós e eles, constitui humilhação inaceitável.\n\nA visão antropocêntrica, segundo a qual a vida na Terra teria evoluído dos seres unicelulares para indivíduos cada vez mais complexos até chegar ao homem, é um mau entendimento das leis da natureza. No “ranking” evolutivo, não existe primeira posição. A prova é que as bactérias foram os primeiros habitantes do planeta e não só ainda estão por aí como representam mais da metade da biomassa terrestre, isto é, se somarmos o peso de cada uma, obteremos mais da metade da massa de todos os demais seres vivos somados, incluindo árvores, elefantes e baleias. O Homo sapiens é simplesmente uma entre milhões de espécies. Nascemos há 5 milhões de anos, um segundo evolutivo comparado aos 4 bilhões de anos das bactérias. Não fizemos nenhuma falta à vida na Terra durante praticamente toda a existência dela e, se um dia formos extintos, nenhuma formiga, cigarra ou besouro chorará a nossa ausência. A evolução continuará seu caminho inexorável de competição e seleção natural, como ensinaram Charles Darwin e Alfred Wallace.\n\nNa verdade, os números do Projeto Genoma são lógicos. Os seres vivos mantêm a quase totalidade de seus genes ocupados na execução das tarefas do dia a dia: respiração, circulação, movimentação, digestão, excreção e produção de energia, entre outras. Muitos desses genes são tão essenciais ao trabalho doméstico que a evolução os preservou praticamente intactos de um ser vivo para outro. Entender a razão pela qual temos 30 mil genes como os ratos é fácil: eles são mamíferos como nós e apresentam fisiologia tão semelhante à nossa que podem ser utilizados em experiências para entender a fisiologia humana. O que intriga na evolução não é a proximidade genética entre as espécies, mas os genes responsáveis pelas diferenças.\n\n(Drauzio Varella. Borboletas da alma: escritos sobre\n\nciência e saúde, 2006. Adaptado.)\n\nPor se tratar de um artigo de divulgação científica (e não de um artigo científico propriamente), predomina no texto uma linguagem",
+  "statement": "Leia o artigo “Sobre homens e ratos”, do médico Drauzio Varella, para responder às questões de 02 a 07.\n\nMulheres e homens têm apenas 30 mil genes! A divulgação desse dado pelo Projeto Genoma foi um balde de água fria no orgulho humano: imaginávamos que fossem pelo menos 100 mil. Se as moscas têm 13 mil genes, qualquer verme, 20 mil, um abacateiro, 25 mil, e os camundongos que caçamos nas ratoeiras têm 30 mil, 100 mil para nós parecia uma estimativa razoável. Afinal, não foi culpa nossa havermos sido criados à imagem e semelhança de Deus. A bem da verdade, já sabíamos que cerca de 98% de nossas sequências de DNA são idênticas às dos chimpanzés. Mas chimpanzés são animais políticos que formam comunidades com culturas próprias, utilizam instrumentos rudimentares e matam seus semelhantes premeditadamente. São, por assim dizer, seres mais humanos. Admitir, no entanto, que nosso genoma é formado pelo mesmo número de genes dos ratos, e que somente 300 genes são responsáveis pelas diferenças entre nós e eles, constitui humilhação inaceitável.\n\nA visão antropocêntrica, segundo a qual a vida na Terra teria evoluído dos seres unicelulares para indivíduos cada vez mais complexos até chegar ao homem, é um mau entendimento das leis da natureza. No “ranking” evolutivo, não existe primeira posição. A prova é que as bactérias foram os primeiros habitantes do planeta e não só ainda estão por aí como representam mais da metade da biomassa terrestre, isto é, se somarmos o peso de cada uma, obteremos mais da metade da massa de todos os demais seres vivos somados, incluindo árvores, elefantes e baleias. O Homo sapiens é simplesmente uma entre milhões de espécies. Nascemos há 5 milhões de anos, um segundo evolutivo comparado aos 4 bilhões de anos das bactérias. Não fizemos nenhuma falta à vida na Terra durante praticamente toda a existência dela e, se um dia formos extintos, nenhuma formiga, cigarra ou besouro chorará a nossa ausência. A evolução continuará seu caminho inexorável de competição e seleção natural, como ensinaram Charles Darwin e Alfred Wallace.\n\nNa verdade, os números do Projeto Genoma são lógicos. Os seres vivos mantêm a quase totalidade de seus genes ocupados na execução das tarefas do dia a dia: respiração, circulação, movimentação, digestão, excreção e produção de energia, entre outras. Muitos desses genes são tão essenciais ao trabalho doméstico que a evolução os preservou praticamente intactos de um ser vivo para outro. Entender a razão pela qual temos 30 mil genes como os ratos é fácil: eles são mamíferos como nós e apresentam fisiologia tão semelhante à nossa que podem ser utilizados em experiências para entender a fisiologia humana. O que intriga na evolução não é a proximidade genética entre as espécies, mas os genes responsáveis pelas diferenças.\n\n(Drauzio Varella. Borboletas da alma: escritos sobre ciência e saúde, 2006. Adaptado.)\n\nPor se tratar de um artigo de divulgação científica (e não de um artigo científico propriamente), predomina no texto uma linguagem",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "prose",
@@ -124,7 +123,10 @@ export const famerp2024Questions = [
     "Incorreta. Não constitui relatório técnico ou resumo de tese de pós-graduação."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "Borboletas da alma: escritos sobre ciência e saúde"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q03",
@@ -133,9 +135,8 @@ export const famerp2024Questions = [
   "content": "Teoria e interpretação literária",
   "detail": "Função social da poesia",
   "difficulty": "Média",
-  "statement": "Leia o artigo “Sobre homens e ratos”, do médico Drauzio Varella, para responder às questões de 02 a 07.\n\nMulheres e homens têm apenas 30 mil genes! A divulgação desse dado pelo Projeto Genoma foi um balde de água fria no orgulho humano: imaginávamos que fossem pelo menos 100 mil. Se as moscas têm 13 mil genes, qualquer verme, 20 mil, um abacateiro, 25 mil, e os camundongos que caçamos nas ratoeiras têm 30 mil, 100 mil para nós parecia uma estimativa razoável. Afinal, não foi culpa nossa havermos sido criados à imagem e semelhança de Deus. A bem da verdade, já sabíamos que cerca de 98% de nossas sequências de DNA são idênticas às dos chimpanzés. Mas chimpanzés são animais políticos que formam comunidades com culturas próprias, utilizam instrumentos rudimentares e matam seus semelhantes premeditadamente. São, por assim dizer, seres mais humanos. Admitir, no entanto, que nosso genoma é formado pelo mesmo número de genes dos ratos, e que somente 300 genes são responsáveis pelas diferenças entre nós e eles, constitui humilhação inaceitável.\n\nA visão antropocêntrica, segundo a qual a vida na Terra teria evoluído dos seres unicelulares para indivíduos cada vez mais complexos até chegar ao homem, é um mau entendimento das leis da natureza. No “ranking” evolutivo, não existe primeira posição. A prova é que as bactérias foram os primeiros habitantes do planeta e não só ainda estão por aí como representam mais da metade da biomassa terrestre, isto é, se somarmos o peso de cada uma, obteremos mais da metade da massa de todos os demais seres vivos somados, incluindo árvores, elefantes e baleias. O Homo sapiens é simplesmente uma entre milhões de espécies. Nascemos há 5 milhões de anos, um segundo evolutivo comparado aos 4 bilhões de anos das bactérias. Não fizemos nenhuma falta à vida na Terra durante praticamente toda a existência dela e, se um dia formos extintos, nenhuma formiga, cigarra ou besouro chorará a nossa ausência. A evolução continuará seu caminho inexorável de competição e seleção natural, como ensinaram Charles Darwin e Alfred Wallace.\n\nNa verdade, os números do Projeto Genoma são lógicos. Os seres vivos mantêm a quase totalidade de seus genes ocupados na execução das tarefas do dia a dia: respiração, circulação, movimentação, digestão, excreção e produção de energia, entre outras. Muitos desses genes são tão essenciais ao trabalho doméstico que a evolução os preservou praticamente intactos de um ser vivo para outro. Entender a razão pela qual temos 30 mil genes como os ratos é fácil: eles são mamíferos como nós e apresentam fisiologia tão semelhante à nossa que podem ser utilizados em experiências para entender a fisiologia humana. O que intriga na evolução não é a proximidade genética entre as espécies, mas os genes responsáveis pelas diferenças.\n\n(Drauzio Varella. Borboletas da alma: escritos sobre\n\nciência e saúde, 2006. Adaptado.)\n\nNo primeiro parágrafo, o autor recorre a uma conhecida expressão própria da linguagem coloquial. Tal expressão designa",
+  "statement": "Leia o artigo “Sobre homens e ratos”, do médico Drauzio Varella, para responder às questões de 02 a 07.\n\nMulheres e homens têm apenas 30 mil genes! A divulgação desse dado pelo Projeto Genoma foi um balde de água fria no orgulho humano: imaginávamos que fossem pelo menos 100 mil. Se as moscas têm 13 mil genes, qualquer verme, 20 mil, um abacateiro, 25 mil, e os camundongos que caçamos nas ratoeiras têm 30 mil, 100 mil para nós parecia uma estimativa razoável. Afinal, não foi culpa nossa havermos sido criados à imagem e semelhança de Deus. A bem da verdade, já sabíamos que cerca de 98% de nossas sequências de DNA são idênticas às dos chimpanzés. Mas chimpanzés são animais políticos que formam comunidades com culturas próprias, utilizam instrumentos rudimentares e matam seus semelhantes premeditadamente. São, por assim dizer, seres mais humanos. Admitir, no entanto, que nosso genoma é formado pelo mesmo número de genes dos ratos, e que somente 300 genes são responsáveis pelas diferenças entre nós e eles, constitui humilhação inaceitável.\n\nA visão antropocêntrica, segundo a qual a vida na Terra teria evoluído dos seres unicelulares para indivíduos cada vez mais complexos até chegar ao homem, é um mau entendimento das leis da natureza. No “ranking” evolutivo, não existe primeira posição. A prova é que as bactérias foram os primeiros habitantes do planeta e não só ainda estão por aí como representam mais da metade da biomassa terrestre, isto é, se somarmos o peso de cada uma, obteremos mais da metade da massa de todos os demais seres vivos somados, incluindo árvores, elefantes e baleias. O Homo sapiens é simplesmente uma entre milhões de espécies. Nascemos há 5 milhões de anos, um segundo evolutivo comparado aos 4 bilhões de anos das bactérias. Não fizemos nenhuma falta à vida na Terra durante praticamente toda a existência dela e, se um dia formos extintos, nenhuma formiga, cigarra ou besouro chorará a nossa ausência. A evolução continuará seu caminho inexorável de competição e seleção natural, como ensinaram Charles Darwin e Alfred Wallace.\n\nNa verdade, os números do Projeto Genoma são lógicos. Os seres vivos mantêm a quase totalidade de seus genes ocupados na execução das tarefas do dia a dia: respiração, circulação, movimentação, digestão, excreção e produção de energia, entre outras. Muitos desses genes são tão essenciais ao trabalho doméstico que a evolução os preservou praticamente intactos de um ser vivo para outro. Entender a razão pela qual temos 30 mil genes como os ratos é fácil: eles são mamíferos como nós e apresentam fisiologia tão semelhante à nossa que podem ser utilizados em experiências para entender a fisiologia humana. O que intriga na evolução não é a proximidade genética entre as espécies, mas os genes responsáveis pelas diferenças.\n\n(Drauzio Varella. Borboletas da alma: escritos sobre ciência e saúde, 2006. Adaptado.)\n\nNo primeiro parágrafo, o autor recorre a uma conhecida expressão própria da linguagem coloquial. Tal expressão designa",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "prose",
@@ -184,7 +185,10 @@ export const famerp2024Questions = [
     "Incorreta. Não traduz choque térmico físico ou fenômeno fisiológico."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "Borboletas da alma: escritos sobre ciência e saúde"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q04",
@@ -193,9 +197,8 @@ export const famerp2024Questions = [
   "content": "Escolas e períodos literários",
   "detail": "Romantismo e indianismo",
   "difficulty": "Média",
-  "statement": "Leia o artigo “Sobre homens e ratos”, do médico Drauzio Varella, para responder às questões de 02 a 07.\n\nMulheres e homens têm apenas 30 mil genes! A divulgação desse dado pelo Projeto Genoma foi um balde de água fria no orgulho humano: imaginávamos que fossem pelo menos 100 mil. Se as moscas têm 13 mil genes, qualquer verme, 20 mil, um abacateiro, 25 mil, e os camundongos que caçamos nas ratoeiras têm 30 mil, 100 mil para nós parecia uma estimativa razoável. Afinal, não foi culpa nossa havermos sido criados à imagem e semelhança de Deus. A bem da verdade, já sabíamos que cerca de 98% de nossas sequências de DNA são idênticas às dos chimpanzés. Mas chimpanzés são animais políticos que formam comunidades com culturas próprias, utilizam instrumentos rudimentares e matam seus semelhantes premeditadamente. São, por assim dizer, seres mais humanos. Admitir, no entanto, que nosso genoma é formado pelo mesmo número de genes dos ratos, e que somente 300 genes são responsáveis pelas diferenças entre nós e eles, constitui humilhação inaceitável.\n\nA visão antropocêntrica, segundo a qual a vida na Terra teria evoluído dos seres unicelulares para indivíduos cada vez mais complexos até chegar ao homem, é um mau entendimento das leis da natureza. No “ranking” evolutivo, não existe primeira posição. A prova é que as bactérias foram os primeiros habitantes do planeta e não só ainda estão por aí como representam mais da metade da biomassa terrestre, isto é, se somarmos o peso de cada uma, obteremos mais da metade da massa de todos os demais seres vivos somados, incluindo árvores, elefantes e baleias. O Homo sapiens é simplesmente uma entre milhões de espécies. Nascemos há 5 milhões de anos, um segundo evolutivo comparado aos 4 bilhões de anos das bactérias. Não fizemos nenhuma falta à vida na Terra durante praticamente toda a existência dela e, se um dia formos extintos, nenhuma formiga, cigarra ou besouro chorará a nossa ausência. A evolução continuará seu caminho inexorável de competição e seleção natural, como ensinaram Charles Darwin e Alfred Wallace.\n\nNa verdade, os números do Projeto Genoma são lógicos. Os seres vivos mantêm a quase totalidade de seus genes ocupados na execução das tarefas do dia a dia: respiração, circulação, movimentação, digestão, excreção e produção de energia, entre outras. Muitos desses genes são tão essenciais ao trabalho doméstico que a evolução os preservou praticamente intactos de um ser vivo para outro. Entender a razão pela qual temos 30 mil genes como os ratos é fácil: eles são mamíferos como nós e apresentam fisiologia tão semelhante à nossa que podem ser utilizados em experiências para entender a fisiologia humana. O que intriga na evolução não é a proximidade genética entre as espécies, mas os genes responsáveis pelas diferenças.\n\n(Drauzio Varella. Borboletas da alma: escritos sobre\n\nciência e saúde, 2006. Adaptado.)\n\nReveste-se de uma tonalidade irônica o seguinte trecho do artigo:",
+  "statement": "Leia o artigo “Sobre homens e ratos”, do médico Drauzio Varella, para responder às questões de 02 a 07.\n\nMulheres e homens têm apenas 30 mil genes! A divulgação desse dado pelo Projeto Genoma foi um balde de água fria no orgulho humano: imaginávamos que fossem pelo menos 100 mil. Se as moscas têm 13 mil genes, qualquer verme, 20 mil, um abacateiro, 25 mil, e os camundongos que caçamos nas ratoeiras têm 30 mil, 100 mil para nós parecia uma estimativa razoável. Afinal, não foi culpa nossa havermos sido criados à imagem e semelhança de Deus. A bem da verdade, já sabíamos que cerca de 98% de nossas sequências de DNA são idênticas às dos chimpanzés. Mas chimpanzés são animais políticos que formam comunidades com culturas próprias, utilizam instrumentos rudimentares e matam seus semelhantes premeditadamente. São, por assim dizer, seres mais humanos. Admitir, no entanto, que nosso genoma é formado pelo mesmo número de genes dos ratos, e que somente 300 genes são responsáveis pelas diferenças entre nós e eles, constitui humilhação inaceitável.\n\nA visão antropocêntrica, segundo a qual a vida na Terra teria evoluído dos seres unicelulares para indivíduos cada vez mais complexos até chegar ao homem, é um mau entendimento das leis da natureza. No “ranking” evolutivo, não existe primeira posição. A prova é que as bactérias foram os primeiros habitantes do planeta e não só ainda estão por aí como representam mais da metade da biomassa terrestre, isto é, se somarmos o peso de cada uma, obteremos mais da metade da massa de todos os demais seres vivos somados, incluindo árvores, elefantes e baleias. O Homo sapiens é simplesmente uma entre milhões de espécies. Nascemos há 5 milhões de anos, um segundo evolutivo comparado aos 4 bilhões de anos das bactérias. Não fizemos nenhuma falta à vida na Terra durante praticamente toda a existência dela e, se um dia formos extintos, nenhuma formiga, cigarra ou besouro chorará a nossa ausência. A evolução continuará seu caminho inexorável de competição e seleção natural, como ensinaram Charles Darwin e Alfred Wallace.\n\nNa verdade, os números do Projeto Genoma são lógicos. Os seres vivos mantêm a quase totalidade de seus genes ocupados na execução das tarefas do dia a dia: respiração, circulação, movimentação, digestão, excreção e produção de energia, entre outras. Muitos desses genes são tão essenciais ao trabalho doméstico que a evolução os preservou praticamente intactos de um ser vivo para outro. Entender a razão pela qual temos 30 mil genes como os ratos é fácil: eles são mamíferos como nós e apresentam fisiologia tão semelhante à nossa que podem ser utilizados em experiências para entender a fisiologia humana. O que intriga na evolução não é a proximidade genética entre as espécies, mas os genes responsáveis pelas diferenças.\n\n(Drauzio Varella. Borboletas da alma: escritos sobre ciência e saúde, 2006. Adaptado.)\n\nReveste-se de uma tonalidade irônica o seguinte trecho do artigo:",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "prose",
@@ -244,7 +247,10 @@ export const famerp2024Questions = [
     "Correta. O tom irônico manifesta-se contra a presunção antropocêntrica histórica do ser humano, que se imaginava biologicamente singular e superior a todas as outras espécies animais."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "Borboletas da alma: escritos sobre ciência e saúde"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q05",
@@ -253,9 +259,8 @@ export const famerp2024Questions = [
   "content": "Sintaxe e relações entre termos",
   "detail": "Predicativo do objeto",
   "difficulty": "Média",
-  "statement": "Leia o artigo “Sobre homens e ratos”, do médico Drauzio Varella, para responder às questões de 02 a 07.\n\nMulheres e homens têm apenas 30 mil genes! A divulgação desse dado pelo Projeto Genoma foi um balde de água fria no orgulho humano: imaginávamos que fossem pelo menos 100 mil. Se as moscas têm 13 mil genes, qualquer verme, 20 mil, um abacateiro, 25 mil, e os camundongos que caçamos nas ratoeiras têm 30 mil, 100 mil para nós parecia uma estimativa razoável. Afinal, não foi culpa nossa havermos sido criados à imagem e semelhança de Deus. A bem da verdade, já sabíamos que cerca de 98% de nossas sequências de DNA são idênticas às dos chimpanzés. Mas chimpanzés são animais políticos que formam comunidades com culturas próprias, utilizam instrumentos rudimentares e matam seus semelhantes premeditadamente. São, por assim dizer, seres mais humanos. Admitir, no entanto, que nosso genoma é formado pelo mesmo número de genes dos ratos, e que somente 300 genes são responsáveis pelas diferenças entre nós e eles, constitui humilhação inaceitável.\n\nA visão antropocêntrica, segundo a qual a vida na Terra teria evoluído dos seres unicelulares para indivíduos cada vez mais complexos até chegar ao homem, é um mau entendimento das leis da natureza. No “ranking” evolutivo, não existe primeira posição. A prova é que as bactérias foram os primeiros habitantes do planeta e não só ainda estão por aí como representam mais da metade da biomassa terrestre, isto é, se somarmos o peso de cada uma, obteremos mais da metade da massa de todos os demais seres vivos somados, incluindo árvores, elefantes e baleias. O Homo sapiens é simplesmente uma entre milhões de espécies. Nascemos há 5 milhões de anos, um segundo evolutivo comparado aos 4 bilhões de anos das bactérias. Não fizemos nenhuma falta à vida na Terra durante praticamente toda a existência dela e, se um dia formos extintos, nenhuma formiga, cigarra ou besouro chorará a nossa ausência. A evolução continuará seu caminho inexorável de competição e seleção natural, como ensinaram Charles Darwin e Alfred Wallace.\n\nNa verdade, os números do Projeto Genoma são lógicos. Os seres vivos mantêm a quase totalidade de seus genes ocupados na execução das tarefas do dia a dia: respiração, circulação, movimentação, digestão, excreção e produção de energia, entre outras. Muitos desses genes são tão essenciais ao trabalho doméstico que a evolução os preservou praticamente intactos de um ser vivo para outro. Entender a razão pela qual temos 30 mil genes como os ratos é fácil: eles são mamíferos como nós e apresentam fisiologia tão semelhante à nossa que podem ser utilizados em experiências para entender a fisiologia humana. O que intriga na evolução não é a proximidade genética entre as espécies, mas os genes responsáveis pelas diferenças.\n\n(Drauzio Varella. Borboletas da alma: escritos sobre\n\nciência e saúde, 2006. Adaptado.)\n\nPara evitar a sua repetição, assegurando-se assim uma maior coesão textual, o autor omite no primeiro parágrafo a expressão:",
+  "statement": "Leia o artigo “Sobre homens e ratos”, do médico Drauzio Varella, para responder às questões de 02 a 07.\n\nMulheres e homens têm apenas 30 mil genes! A divulgação desse dado pelo Projeto Genoma foi um balde de água fria no orgulho humano: imaginávamos que fossem pelo menos 100 mil. Se as moscas têm 13 mil genes, qualquer verme, 20 mil, um abacateiro, 25 mil, e os camundongos que caçamos nas ratoeiras têm 30 mil, 100 mil para nós parecia uma estimativa razoável. Afinal, não foi culpa nossa havermos sido criados à imagem e semelhança de Deus. A bem da verdade, já sabíamos que cerca de 98% de nossas sequências de DNA são idênticas às dos chimpanzés. Mas chimpanzés são animais políticos que formam comunidades com culturas próprias, utilizam instrumentos rudimentares e matam seus semelhantes premeditadamente. São, por assim dizer, seres mais humanos. Admitir, no entanto, que nosso genoma é formado pelo mesmo número de genes dos ratos, e que somente 300 genes são responsáveis pelas diferenças entre nós e eles, constitui humilhação inaceitável.\n\nA visão antropocêntrica, segundo a qual a vida na Terra teria evoluído dos seres unicelulares para indivíduos cada vez mais complexos até chegar ao homem, é um mau entendimento das leis da natureza. No “ranking” evolutivo, não existe primeira posição. A prova é que as bactérias foram os primeiros habitantes do planeta e não só ainda estão por aí como representam mais da metade da biomassa terrestre, isto é, se somarmos o peso de cada uma, obteremos mais da metade da massa de todos os demais seres vivos somados, incluindo árvores, elefantes e baleias. O Homo sapiens é simplesmente uma entre milhões de espécies. Nascemos há 5 milhões de anos, um segundo evolutivo comparado aos 4 bilhões de anos das bactérias. Não fizemos nenhuma falta à vida na Terra durante praticamente toda a existência dela e, se um dia formos extintos, nenhuma formiga, cigarra ou besouro chorará a nossa ausência. A evolução continuará seu caminho inexorável de competição e seleção natural, como ensinaram Charles Darwin e Alfred Wallace.\n\nNa verdade, os números do Projeto Genoma são lógicos. Os seres vivos mantêm a quase totalidade de seus genes ocupados na execução das tarefas do dia a dia: respiração, circulação, movimentação, digestão, excreção e produção de energia, entre outras. Muitos desses genes são tão essenciais ao trabalho doméstico que a evolução os preservou praticamente intactos de um ser vivo para outro. Entender a razão pela qual temos 30 mil genes como os ratos é fácil: eles são mamíferos como nós e apresentam fisiologia tão semelhante à nossa que podem ser utilizados em experiências para entender a fisiologia humana. O que intriga na evolução não é a proximidade genética entre as espécies, mas os genes responsáveis pelas diferenças.\n\n(Drauzio Varella. Borboletas da alma: escritos sobre ciência e saúde, 2006. Adaptado.)\n\nPara evitar a sua repetição, assegurando-se assim uma maior coesão textual, o autor omite no primeiro parágrafo a expressão:",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "prose",
@@ -304,7 +309,10 @@ export const famerp2024Questions = [
     "Incorreta. O vocábulo omitido não é o advérbio modalizador de intensidade."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "Borboletas da alma: escritos sobre ciência e saúde"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q06",
@@ -313,9 +321,8 @@ export const famerp2024Questions = [
   "content": "Sintaxe e orações subordinadas",
   "detail": "Orações adjetivas restritivas e explicativas",
   "difficulty": "Média",
-  "statement": "Leia o artigo “Sobre homens e ratos”, do médico Drauzio Varella, para responder às questões de 02 a 07.\n\nMulheres e homens têm apenas 30 mil genes! A divulgação desse dado pelo Projeto Genoma foi um balde de água fria no orgulho humano: imaginávamos que fossem pelo menos 100 mil. Se as moscas têm 13 mil genes, qualquer verme, 20 mil, um abacateiro, 25 mil, e os camundongos que caçamos nas ratoeiras têm 30 mil, 100 mil para nós parecia uma estimativa razoável. Afinal, não foi culpa nossa havermos sido criados à imagem e semelhança de Deus. A bem da verdade, já sabíamos que cerca de 98% de nossas sequências de DNA são idênticas às dos chimpanzés. Mas chimpanzés são animais políticos que formam comunidades com culturas próprias, utilizam instrumentos rudimentares e matam seus semelhantes premeditadamente. São, por assim dizer, seres mais humanos. Admitir, no entanto, que nosso genoma é formado pelo mesmo número de genes dos ratos, e que somente 300 genes são responsáveis pelas diferenças entre nós e eles, constitui humilhação inaceitável.\n\nA visão antropocêntrica, segundo a qual a vida na Terra teria evoluído dos seres unicelulares para indivíduos cada vez mais complexos até chegar ao homem, é um mau entendimento das leis da natureza. No “ranking” evolutivo, não existe primeira posição. A prova é que as bactérias foram os primeiros habitantes do planeta e não só ainda estão por aí como representam mais da metade da biomassa terrestre, isto é, se somarmos o peso de cada uma, obteremos mais da metade da massa de todos os demais seres vivos somados, incluindo árvores, elefantes e baleias. O Homo sapiens é simplesmente uma entre milhões de espécies. Nascemos há 5 milhões de anos, um segundo evolutivo comparado aos 4 bilhões de anos das bactérias. Não fizemos nenhuma falta à vida na Terra durante praticamente toda a existência dela e, se um dia formos extintos, nenhuma formiga, cigarra ou besouro chorará a nossa ausência. A evolução continuará seu caminho inexorável de competição e seleção natural, como ensinaram Charles Darwin e Alfred Wallace.\n\nNa verdade, os números do Projeto Genoma são lógicos. Os seres vivos mantêm a quase totalidade de seus genes ocupados na execução das tarefas do dia a dia: respiração, circulação, movimentação, digestão, excreção e produção de energia, entre outras. Muitos desses genes são tão essenciais ao trabalho doméstico <u>que a evolução os preservou praticamente intactos de um ser vivo para outro</u>. Entender a razão pela qual temos 30 mil genes como os ratos é fácil: eles são mamíferos como nós e apresentam fisiologia tão semelhante à nossa que podem ser utilizados em experiências para entender a fisiologia humana. O que intriga na evolução não é a proximidade genética entre as espécies, mas os genes responsáveis pelas diferenças.\n\n(Drauzio Varella. Borboletas da alma: escritos sobre\n\nciência e saúde, 2006. Adaptado.)\n\n“Muitos desses genes são tão essenciais ao trabalho doméstico <u>que a evolução os preservou praticamente intactos de um ser vivo para outro</u>.” (3º parágrafo)\n\nEm relação à oração que a antecede, a oração sublinhada expressa ideia de",
+  "statement": "Leia o artigo “Sobre homens e ratos”, do médico Drauzio Varella, para responder às questões de 02 a 07.\n\nMulheres e homens têm apenas 30 mil genes! A divulgação desse dado pelo Projeto Genoma foi um balde de água fria no orgulho humano: imaginávamos que fossem pelo menos 100 mil. Se as moscas têm 13 mil genes, qualquer verme, 20 mil, um abacateiro, 25 mil, e os camundongos que caçamos nas ratoeiras têm 30 mil, 100 mil para nós parecia uma estimativa razoável. Afinal, não foi culpa nossa havermos sido criados à imagem e semelhança de Deus. A bem da verdade, já sabíamos que cerca de 98% de nossas sequências de DNA são idênticas às dos chimpanzés. Mas chimpanzés são animais políticos que formam comunidades com culturas próprias, utilizam instrumentos rudimentares e matam seus semelhantes premeditadamente. São, por assim dizer, seres mais humanos. Admitir, no entanto, que nosso genoma é formado pelo mesmo número de genes dos ratos, e que somente 300 genes são responsáveis pelas diferenças entre nós e eles, constitui humilhação inaceitável.\n\nA visão antropocêntrica, segundo a qual a vida na Terra teria evoluído dos seres unicelulares para indivíduos cada vez mais complexos até chegar ao homem, é um mau entendimento das leis da natureza. No “ranking” evolutivo, não existe primeira posição. A prova é que as bactérias foram os primeiros habitantes do planeta e não só ainda estão por aí como representam mais da metade da biomassa terrestre, isto é, se somarmos o peso de cada uma, obteremos mais da metade da massa de todos os demais seres vivos somados, incluindo árvores, elefantes e baleias. O Homo sapiens é simplesmente uma entre milhões de espécies. Nascemos há 5 milhões de anos, um segundo evolutivo comparado aos 4 bilhões de anos das bactérias. Não fizemos nenhuma falta à vida na Terra durante praticamente toda a existência dela e, se um dia formos extintos, nenhuma formiga, cigarra ou besouro chorará a nossa ausência. A evolução continuará seu caminho inexorável de competição e seleção natural, como ensinaram Charles Darwin e Alfred Wallace.\n\nNa verdade, os números do Projeto Genoma são lógicos. Os seres vivos mantêm a quase totalidade de seus genes ocupados na execução das tarefas do dia a dia: respiração, circulação, movimentação, digestão, excreção e produção de energia, entre outras. Muitos desses genes são tão essenciais ao trabalho doméstico <u>que a evolução os preservou praticamente intactos de um ser vivo para outro</u>. Entender a razão pela qual temos 30 mil genes como os ratos é fácil: eles são mamíferos como nós e apresentam fisiologia tão semelhante à nossa que podem ser utilizados em experiências para entender a fisiologia humana. O que intriga na evolução não é a proximidade genética entre as espécies, mas os genes responsáveis pelas diferenças.\n\n(Drauzio Varella. Borboletas da alma: escritos sobre ciência e saúde, 2006. Adaptado.)\n\n“Muitos desses genes são tão essenciais ao trabalho doméstico <u>que a evolução os preservou praticamente intactos de um ser vivo para outro</u>.” (3º parágrafo)\n\nEm relação à oração que a antecede, a oração sublinhada expressa ideia de",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "prose",
@@ -365,7 +372,10 @@ export const famerp2024Questions = [
     "Correta. A relação sintático-semântica entre as orações coordenadas é de causalidade e consequência: a constatação da conservação dos genes gera, como efeito lógico, a percepção da unidade biológica universal."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "Borboletas da alma: escritos sobre ciência e saúde"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q07",
@@ -374,9 +384,8 @@ export const famerp2024Questions = [
   "content": "Sintaxe e figuras de linguagem",
   "detail": "Elipse verbal e zeugma",
   "difficulty": "Média",
-  "statement": "Leia o artigo “Sobre homens e ratos”, do médico Drauzio Varella, para responder às questões de 02 a 07.\n\nMulheres e homens têm apenas 30 mil genes! A divulgação desse dado pelo Projeto Genoma foi um balde de água fria no orgulho humano: imaginávamos que fossem pelo menos 100 mil. Se as moscas têm 13 mil genes, qualquer verme, 20 mil, um abacateiro, 25 mil, e os camundongos que caçamos nas ratoeiras têm 30 mil, 100 mil para nós parecia uma estimativa razoável. Afinal, não foi culpa nossa havermos sido criados à imagem e semelhança de Deus. A bem da verdade, já sabíamos que cerca de 98% de nossas sequências de DNA são idênticas às dos chimpanzés. Mas chimpanzés são animais políticos que formam comunidades com culturas próprias, utilizam instrumentos rudimentares e matam seus semelhantes premeditadamente. São, por assim dizer, seres mais humanos. Admitir, no entanto, que nosso genoma é formado pelo mesmo número de genes dos ratos, e que somente 300 genes são responsáveis pelas diferenças entre nós e eles, constitui humilhação inaceitável.\n\nA visão antropocêntrica, segundo a qual a vida na Terra teria evoluído dos seres unicelulares para indivíduos cada vez mais complexos até chegar ao homem, é um mau entendimento das leis da natureza. No “ranking” evolutivo, não existe primeira posição. A prova é que as bactérias foram os primeiros habitantes do planeta e não só ainda estão por aí como representam mais da metade da biomassa terrestre, isto é, se somarmos o peso de cada uma, obteremos mais da metade da massa de todos os demais seres vivos somados, incluindo árvores, elefantes e baleias. O Homo sapiens é simplesmente uma entre milhões de espécies. Nascemos há 5 milhões de anos, um segundo evolutivo comparado aos 4 bilhões de anos das bactérias. Não fizemos nenhuma falta à vida na Terra durante praticamente toda a existência dela e, se um dia formos extintos, nenhuma formiga, cigarra ou besouro chorará a nossa ausência. A evolução continuará seu caminho inexorável de competição e seleção natural, como ensinaram Charles Darwin e Alfred Wallace.\n\nNa verdade, os números do Projeto Genoma são lógicos. Os seres vivos mantêm a quase totalidade de seus genes ocupados na execução das tarefas do dia a dia: respiração, circulação, movimentação, digestão, excreção e produção de energia, entre outras. Muitos desses genes são tão essenciais ao trabalho doméstico que a evolução os preservou praticamente intactos de um ser vivo para outro. Entender a razão pela qual temos 30 mil genes como os ratos é fácil: eles são mamíferos como nós e apresentam fisiologia tão semelhante à nossa que podem ser utilizados em experiências para entender a fisiologia humana. O que intriga na evolução não é a proximidade genética entre as espécies, mas os genes responsáveis pelas diferenças.\n\n(Drauzio Varella. Borboletas da alma: escritos sobre\n\nciência e saúde, 2006. Adaptado.)\n\nVerifica-se o emprego de vírgula para assinalar a elipse de um verbo em:",
+  "statement": "Leia o artigo “Sobre homens e ratos”, do médico Drauzio Varella, para responder às questões de 02 a 07.\n\nMulheres e homens têm apenas 30 mil genes! A divulgação desse dado pelo Projeto Genoma foi um balde de água fria no orgulho humano: imaginávamos que fossem pelo menos 100 mil. Se as moscas têm 13 mil genes, qualquer verme, 20 mil, um abacateiro, 25 mil, e os camundongos que caçamos nas ratoeiras têm 30 mil, 100 mil para nós parecia uma estimativa razoável. Afinal, não foi culpa nossa havermos sido criados à imagem e semelhança de Deus. A bem da verdade, já sabíamos que cerca de 98% de nossas sequências de DNA são idênticas às dos chimpanzés. Mas chimpanzés são animais políticos que formam comunidades com culturas próprias, utilizam instrumentos rudimentares e matam seus semelhantes premeditadamente. São, por assim dizer, seres mais humanos. Admitir, no entanto, que nosso genoma é formado pelo mesmo número de genes dos ratos, e que somente 300 genes são responsáveis pelas diferenças entre nós e eles, constitui humilhação inaceitável.\n\nA visão antropocêntrica, segundo a qual a vida na Terra teria evoluído dos seres unicelulares para indivíduos cada vez mais complexos até chegar ao homem, é um mau entendimento das leis da natureza. No “ranking” evolutivo, não existe primeira posição. A prova é que as bactérias foram os primeiros habitantes do planeta e não só ainda estão por aí como representam mais da metade da biomassa terrestre, isto é, se somarmos o peso de cada uma, obteremos mais da metade da massa de todos os demais seres vivos somados, incluindo árvores, elefantes e baleias. O Homo sapiens é simplesmente uma entre milhões de espécies. Nascemos há 5 milhões de anos, um segundo evolutivo comparado aos 4 bilhões de anos das bactérias. Não fizemos nenhuma falta à vida na Terra durante praticamente toda a existência dela e, se um dia formos extintos, nenhuma formiga, cigarra ou besouro chorará a nossa ausência. A evolução continuará seu caminho inexorável de competição e seleção natural, como ensinaram Charles Darwin e Alfred Wallace.\n\nNa verdade, os números do Projeto Genoma são lógicos. Os seres vivos mantêm a quase totalidade de seus genes ocupados na execução das tarefas do dia a dia: respiração, circulação, movimentação, digestão, excreção e produção de energia, entre outras. Muitos desses genes são tão essenciais ao trabalho doméstico que a evolução os preservou praticamente intactos de um ser vivo para outro. Entender a razão pela qual temos 30 mil genes como os ratos é fácil: eles são mamíferos como nós e apresentam fisiologia tão semelhante à nossa que podem ser utilizados em experiências para entender a fisiologia humana. O que intriga na evolução não é a proximidade genética entre as espécies, mas os genes responsáveis pelas diferenças.\n\n(Drauzio Varella. Borboletas da alma: escritos sobre ciência e saúde, 2006. Adaptado.)\n\nVerifica-se o emprego de vírgula para assinalar a elipse de um verbo em:",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "prose",
@@ -424,7 +433,10 @@ export const famerp2024Questions = [
     "Incorreta. Não servem para isolar adjunto adverbial de tempo deslocado.",
     "Incorreta. Não separam vocativos chamativos na interlocução."
   ],
-  "resolutionSource": "Gabarito oficial VUNESP; resolução comentada externa indisponível no acervo local"
+  "resolutionSource": "Gabarito oficial VUNESP; resolução comentada externa indisponível no acervo local",
+  "works": [
+    "Borboletas da alma: escritos sobre ciência e saúde"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q08",
@@ -482,7 +494,10 @@ export const famerp2024Questions = [
     "Incorreta. Não reflete atitude de submissão passiva conformada."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "Contos fabulosos"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q09",
@@ -541,7 +556,10 @@ export const famerp2024Questions = [
     "Incorreta. Desrespeita a transição do advérbio de tempo da fala original."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "Contos fabulosos"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q10",
@@ -597,7 +615,10 @@ export const famerp2024Questions = [
     "Incorreta. Não analisa a poesia experimental de vanguarda da Semana de Arte Moderna de 1922."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "Introdução à literatura no Brasil"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q11",
@@ -1293,7 +1314,10 @@ export const famerp2024Questions = [
     "Correta. O excerto evidencia que a ordem feudal medieval organizava-se sobre relações consuetudinárias de subordinação e exploração, em que os servos trabalhavam a terra senhorial e pagavam pesados tributos (corveia, talha, banalidades) em troca de proteção física do castelo."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "A Idade Média explicada aos meus filhos"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q22",
@@ -1366,9 +1390,8 @@ export const famerp2024Questions = [
   "content": "História Antiga",
   "detail": "Alexandre, Macedônia e Helenismo",
   "difficulty": "Média",
-  "statement": "No final do século XVII a lavoura canavieira do litoral passava por período de retração, e considere-se que, atraídas pelos relatos de riquezas fabulosas, levas de gente corriam para os sertões das Gerais. Das 10 mil pessoas que deixaram Portugal entre 1700 e 1706, a maioria rumava para Minas. Nos fins do século XVI, estimara-se haver no Brasil 14 mil escravizados africanos — número igual ao dos que, após onze anos de povoamento, trabalhavam nas lavras mineiras!\n\n(Laura de Mello e Souza. O Jardim das Hespérides: Minas e as visões\n\ndo mundo natural no século XVIII, 2022. Adaptado.)\n\nO excerto revela um importante processo ocorrido na colonização brasileira, na passagem do século XVI para o XVII, que foi",
+  "statement": "No final do século XVII a lavoura canavieira do litoral passava por período de retração, e considere-se que, atraídas pelos relatos de riquezas fabulosas, levas de gente corriam para os sertões das Gerais. Das 10 mil pessoas que deixaram Portugal entre 1700 e 1706, a maioria rumava para Minas. Nos fins do século XVI, estimara-se haver no Brasil 14 mil escravizados africanos — número igual ao dos que, após onze anos de povoamento, trabalhavam nas lavras mineiras!\n\n(Laura de Mello e Souza. O Jardim das Hespérides: Minas e as visões do mundo natural no século XVIII, 2022. Adaptado.)\n\nO excerto revela um importante processo ocorrido na colonização brasileira, na passagem do século XVI para o XVII, que foi",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "command"
@@ -1414,7 +1437,10 @@ export const famerp2024Questions = [
     "Incorreta. Não estabeleceu o fim precoce do pacto colonial mercantilista no século XVI."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "O Jardim das Hespérides: Minas e as visões do mundo natural no século XVIII"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q24",
@@ -1423,9 +1449,8 @@ export const famerp2024Questions = [
   "content": "História Contemporânea",
   "detail": "Revolução Russa e socialismo",
   "difficulty": "Média",
-  "statement": "Leia o excerto da crônica de Frei Buenaventura de Salinas y Córdova, do início do século XVII.\n\nNo tempo das “mitas”, é lastimável ver os índios [...] presos como malfeitores, com cordas e argolas de ferro; e as mulheres, os filhos e parentes se despedindo dos templos, deixando fechadas suas casas e os seguindo, dando alarido aos céus, desgrenhando os cabelos, cantando em sua língua tristes canções e lamentos lúgubres, despedindo-se deles, sem esperança de voltar a vê-los.\n\n(Apud: Kátia Gerab e Maria Angélica Campos Resende. A rebelião de\n\nTupac Amaru: luta e resistência no Peru do século XVIII, 1987.)\n\nO excerto trata da colonização espanhola do Peru e expõe a relação entre",
+  "statement": "Leia o excerto da crônica de Frei Buenaventura de Salinas y Córdova, do início do século XVII.\n\nNo tempo das “mitas”, é lastimável ver os índios [...] presos como malfeitores, com cordas e argolas de ferro; e as mulheres, os filhos e parentes se despedindo dos templos, deixando fechadas suas casas e os seguindo, dando alarido aos céus, desgrenhando os cabelos, cantando em sua língua tristes canções e lamentos lúgubres, despedindo-se deles, sem esperança de voltar a vê-los.\n\n(Apud: Kátia Gerab e Maria Angélica Campos Resende. A rebelião de Tupac Amaru: luta e resistência no Peru do século XVIII, 1987.)\n\nO excerto trata da colonização espanhola do Peru e expõe a relação entre",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "prose",
@@ -1472,7 +1497,10 @@ export const famerp2024Questions = [
     "Incorreta. Não demonstra o sucesso da regulamentação estatal humanizada na proteção integral da infância."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "A rebelião de Tupac Amaru: luta e resistência no Peru do século XVIII"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q25",
@@ -1529,7 +1557,10 @@ export const famerp2024Questions = [
     "Incorreta. Não eliminou o comércio internacional em favor de regimes autárquicos agrícolas fechados."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "A era das revoluções: 1789-1848"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q26",
@@ -1538,7 +1569,7 @@ export const famerp2024Questions = [
   "content": "Brasil Império",
   "detail": "Café, imigração e trabalho",
   "difficulty": "Média",
-  "statement": "Analise a imagem, publicada na Revista Illustrada, em 19.11.1887.\n\n(In: Ynaê Lopes dos Santos. História da África e do\n\nBrasil afrodescendente, 2017.)",
+  "statement": "Analise a imagem, publicada na Revista Illustrada, em 19.11.1887.\n\n(In: Ynaê Lopes dos Santos. História da África e do Brasil afrodescendente, 2017.)",
   "blockTypes": [
     "prose"
   ],
@@ -1593,6 +1624,9 @@ export const famerp2024Questions = [
   "statementAfter": "A imagem caracteriza o momento político pelo qual o Brasil passava como uma disputa entre",
   "afterBlockTypes": [
     "command"
+  ],
+  "works": [
+    "História da África e do Brasil afrodescendente"
   ]
 }),
   q({
@@ -1656,7 +1690,10 @@ export const famerp2024Questions = [
     "Correta. Realizada no Theatro Municipal de São Paulo, a Semana de Arte Moderna de 1922 representou um marco de ruptura cultural com o passadismo acadêmico, propondo renovação estética, liberdade formal nos versos e na pintura e a pesquisa autêntica da identidade nacional brasileira."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "Poesias completas"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q28",
@@ -1712,7 +1749,10 @@ export const famerp2024Questions = [
     "Incorreta. Não é uma proclamação das potências europeias celebrando a partilha imperialista de Berlim."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "África e Brasil africano"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q29",
@@ -1721,9 +1761,8 @@ export const famerp2024Questions = [
   "content": "Descolonização africana",
   "detail": "Independência da Argélia",
   "difficulty": "Média",
-  "statement": "Se o movimento de maio de 1968 não foi a origem de uma revolução, isso não ocorreu apenas porque era essencialmente um movimento de estudantes; foi, acima de tudo, porque a democracia é esse regime no qual o conflito, por mais intenso que seja, geralmente encontra lugar.\n\n(Claude Lefort. “Relecture”. In: Edgar Morin et al. Mai 68:\n\nla brèche, suivi de Vingt ans après, 1988. Adaptado.)\n\nAo avaliar o impacto do movimento estudantil francês de maio de 1968, o excerto",
+  "statement": "Se o movimento de maio de 1968 não foi a origem de uma revolução, isso não ocorreu apenas porque era essencialmente um movimento de estudantes; foi, acima de tudo, porque a democracia é esse regime no qual o conflito, por mais intenso que seja, geralmente encontra lugar.\n\n(Claude Lefort. “Relecture”. In: Edgar Morin et al. Mai 68: la brèche, suivi de Vingt ans après, 1988. Adaptado.)\n\nAo avaliar o impacto do movimento estudantil francês de maio de 1968, o excerto",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "command"
@@ -1769,7 +1808,10 @@ export const famerp2024Questions = [
     "Incorreta. Não se limitou a reivindicações de reajuste salarial pontual do setor ferroviário metropolitano."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "Mai 68: la brèche, suivi de Vingt ans après"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q30",
@@ -1825,7 +1867,10 @@ export const famerp2024Questions = [
     "Incorreta. Não tiveram como desfecho a dissolução judicial do Supremo Tribunal Federal pelas assembleias legislativas."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2024.aspx",
+  "works": [
+    "Limites da democracia"
+  ]
 }),
   q({
   "id": "famerp2024-p1-q31",
@@ -5383,6 +5428,9 @@ export const famerp2024Questions = [
       "alt": "Recurso da questão 10 da FAMERP 2024, recortado da página 12 do caderno oficial.",
       "caption": "Recorte vetorial do caderno oficial, página 12."
     }
+  ],
+  "works": [
+    "Revista Quím. Nova na Escola"
   ]
 }),
   d({

@@ -305,7 +305,10 @@ export const famerp2022Questions = [
     "Correta (E). Conforme a resolução: Quase todo o capítulo “A propósito das botas”, do romance Memórias Póstumas de Brás Cubas, é digressivo, uma vez que nele o narrador desvia a linha cronológica do que estava relatando para desenvolver uma reflexão em torno do sofrimento humano. A partir da metáfora da mortificação dos pés por meio do uso de botas apertadas, Brás Cubas conclui ironicamente que fazer os pés sofrerem e, depois, aliviar-lhes a dor, dá ao homem a oportunidade de ser mediocremente feliz: “Mortifica os pés, desgraçado, desmortifica-os depois, e aí tens a felicidade barata”."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "Memórias póstumas de Brás Cubas"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q06",
@@ -366,7 +369,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "Memórias póstumas de Brás Cubas"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q07",
@@ -428,7 +434,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "Memórias póstumas de Brás Cubas"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q08",
@@ -487,7 +496,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "Brasil: uma história: cinco séculos de um país em construção"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q09",
@@ -546,7 +558,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "Brasil: uma história: cinco séculos de um país em construção"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q10",
@@ -607,7 +622,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "Brasil: uma história: cinco séculos de um país em construção"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q11",
@@ -1350,7 +1368,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "Para um novo conceito de Idade Média"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q22",
@@ -1406,7 +1427,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "História da África e do Brasil afrodescendente"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q23",
@@ -1626,7 +1650,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "História do Brasil Império"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q27",
@@ -1682,7 +1709,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "1922: a semana que não terminou"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q28",
@@ -2127,7 +2157,10 @@ export const famerp2022Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
-  "statementAfter": "No espaço urbano de grandes cidades brasileiras, as intervenções observadas nos rios revelam a"
+  "statementAfter": "No espaço urbano de grandes cidades brasileiras, as intervenções observadas nos rios revelam a",
+  "works": [
+    "Revista Brasileira de Geografia"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q35",
@@ -2363,7 +2396,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "Educação ambiental"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q39",
@@ -2537,7 +2573,10 @@ export const famerp2022Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
-  "statementAfter": "As lacunas do texto são preenchidas, respectivamente, por:"
+  "statementAfter": "As lacunas do texto são preenchidas, respectivamente, por:",
+  "works": [
+    "Folha de S.Paulo"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q42",
@@ -2822,7 +2861,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "Veja"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q47",
@@ -3003,7 +3045,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "Bio"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q50",
@@ -3059,7 +3104,10 @@ export const famerp2022Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2022.aspx",
+  "works": [
+    "Parasitologia contemporânea"
+  ]
 }),
   q({
   "id": "famerp2022-p1-q51",
@@ -5141,7 +5189,10 @@ export const famerp2022Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Folha de S.Paulo"
+  ]
 }),
   d({
   "id": "famerp2022-p2-q04",
@@ -5192,7 +5243,10 @@ export const famerp2022Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Pesquisa Fapesp"
+  ]
 }),
   d({
   "id": "famerp2022-p2-q05",
@@ -5299,7 +5353,10 @@ export const famerp2022Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Veja"
+  ]
 }),
   d({
   "id": "famerp2022-p2-q07",

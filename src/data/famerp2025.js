@@ -73,7 +73,10 @@ export const famerp2025Questions = [
     "Incorreta. A deusa Vênus é despojada de sua cinta mágica, não tendo o controle da contenda entre os dois deuses."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Obras poéticas: poemas líricos"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q02",
@@ -146,7 +149,10 @@ export const famerp2025Questions = [
     "Incorreta. O eu lírico não busca o esquecimento, permanecendo cativo dos afetos provocados por Marília."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Obras poéticas: poemas líricos"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q03",
@@ -219,7 +225,10 @@ export const famerp2025Questions = [
     "Correta. O poema pertence ao Arcadismo (Neoclassicismo do século XVIII), perceptível pela referência constante à mitologia pagã grecolatina (Vênus, Cupido, Antero), simplicidade formal e atmosfera bucólica."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Obras poéticas: poemas líricos"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q04",
@@ -292,7 +301,10 @@ export const famerp2025Questions = [
     "Incorreta. A contração não expressa ideia adverbial de lugar, mas sim pronomes complementos direto e indireto."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Obras poéticas: poemas líricos"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q05",
@@ -365,7 +377,10 @@ export const famerp2025Questions = [
     "Incorreta. Não constitui parte integrante de verbo essencialmente pronominal."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Obras poéticas: poemas líricos"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q06",
@@ -428,6 +443,9 @@ export const famerp2025Questions = [
   "statementAfter": "Para obter seu efeito de humor, o cartum explora o seguinte recurso expressivo:",
   "afterBlockTypes": [
     "command"
+  ],
+  "works": [
+    "As lágrimas sinceras de Júlio Gilson"
   ]
 }),
   q({
@@ -491,7 +509,10 @@ export const famerp2025Questions = [
     "Incorreta. O texto não propõe a substituição dos festejos brasileiros por cerimônias importadas europeias."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Notas semanais"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q08",
@@ -554,7 +575,10 @@ export const famerp2025Questions = [
     "Incorreta. Não há gradação sequencial crescente de intensidades emotivas."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Notas semanais"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q09",
@@ -618,7 +642,10 @@ export const famerp2025Questions = [
     "Correta. A locução conjuntiva “não obstante” possui valor concessivo (ou adversativo no contexto), indicando uma ressalva ou quebra de expectativa em relação à proposição principal."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Notas semanais"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q10",
@@ -681,7 +708,10 @@ export const famerp2025Questions = [
     "Incorreta. Não é uma interjeição exclamativa de apelo."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Notas semanais"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q11",
@@ -1313,6 +1343,9 @@ export const famerp2025Questions = [
   "statementAfter": "According to the comic strip, phrases from 1 to 4 make the girl feel",
   "afterBlockTypes": [
     "command"
+  ],
+  "works": [
+    "Adulthood is a myth"
   ]
 }),
   q({
@@ -1370,7 +1403,10 @@ export const famerp2025Questions = [
     "Correta. A relação de Roma com o cristianismo transformou-se profundamente ao longo dos séculos: de religião marginal perseguida pelas autoridades imperiais até sua legalização pelo Edito de Milão (313) e conversão em religião oficial e compulsória do Império com Teodósio pelo Edito de Tessalônica (380)."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Grécia e Roma"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q22",
@@ -1428,7 +1464,11 @@ export const famerp2025Questions = [
     "Incorreta. Não eram explicadas por teorias evolucionistas geológicas de deriva de placas tectônicas."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Histoires",
+    "A Europa na Idade Média"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q23",
@@ -1598,7 +1638,10 @@ export const famerp2025Questions = [
     "Incorreta. O mercantilismo não se baseava no liberalismo econômico de Adam Smith, mas no intervencionismo e protecionismo estatal."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "A passagem do século: 1480-1520: as origens da globalização"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q26",
@@ -1655,7 +1698,10 @@ export const famerp2025Questions = [
     "Incorreta. A produção de café não sofreu estagnação; ao contrário, converteu-se no carro-chefe da balança comercial do Império."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "História do Brasil império"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q27",
@@ -1774,7 +1820,10 @@ export const famerp2025Questions = [
     "Correta. Editado em 13 de dezembro de 1968 durante o governo Costa e Silva, o Ato Institucional n.º 5 (AI-5) inaugurou o período mais repressivo da Ditadura Militar, conferindo ao Executivo poderes extraordinários para fechar o Congresso, cassar mandatos eletivos, censurar a imprensa e suspender o habeas corpus para crimes contra a segurança nacional."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Brasil: uma biografia"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q29",
@@ -1783,9 +1832,8 @@ export const famerp2025Questions = [
   "content": "Descolonização africana",
   "detail": "Industrialização por substituição de importações",
   "difficulty": "Média",
-  "statement": "À luz dos processos de independência do jugo colonial posteriores à Segunda Guerra Mundial, a maioria dos governos dos recém-nascidos Estados africanos incluiu em suas agendas a implementação da política de industrialização por substituição de importações.\n\n(Kauê Lopes dos Santos. Africano: uma introdução\n\nao continente, 2022. Adaptado.)\n\nPode-se entender a chamada política de substituição de importações como",
+  "statement": "À luz dos processos de independência do jugo colonial posteriores à Segunda Guerra Mundial, a maioria dos governos dos recém-nascidos Estados africanos incluiu em suas agendas a implementação da política de industrialização por substituição de importações.\n\n(Kauê Lopes dos Santos. Africano: uma introdução ao continente, 2022. Adaptado.)\n\nPode-se entender a chamada política de substituição de importações como",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "command"
@@ -1831,7 +1879,10 @@ export const famerp2025Questions = [
     "Incorreta. Não previa a nacionalização de bancos sem qualquer atividade manufatureira secundária."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Africano: uma introdução ao continente"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q30",
@@ -1887,7 +1938,10 @@ export const famerp2025Questions = [
     "Incorreta. Não eliminou as espionagens ou as disputas ideológicas nas áreas de influência periféricas."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2025.aspx",
+  "works": [
+    "Era dos extremos: o breve século XX: 1914-1991"
+  ]
 }),
   q({
   "id": "famerp2025-p1-q31",
@@ -2577,6 +2631,9 @@ export const famerp2025Questions = [
   "statementAfter": "Esse tipo de metabolismo energético é considerado",
   "afterBlockTypes": [
     "command"
+  ],
+  "works": [
+    "Bio 1: conecte live"
   ]
 }),
   q({
@@ -3674,6 +3731,9 @@ export const famerp2025Questions = [
   "statementAfter": "Na molécula da penicilina G há um heteroátomo que pertence ao grupo 16 da Classificação Periódica ligado a dois átomos de carbono que são classificados, respectivamente, como",
   "afterBlockTypes": [
     "command"
+  ],
+  "works": [
+    "The Scientific World Journal"
   ]
 }),
   q({
@@ -5047,7 +5107,10 @@ export const famerp2025Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Corpo: um guia para usuários"
+  ]
 }),
   d({
   "id": "famerp2025-p2-q05",
@@ -5154,7 +5217,10 @@ export const famerp2025Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Biologia dos organismos"
+  ]
 }),
   d({
   "id": "famerp2025-p2-q07",
@@ -5382,6 +5448,9 @@ export const famerp2025Questions = [
       "src": "/images/famerp2025/p2-q10-r6.svg",
       "alt": "Estrutura do composto orgânico empregado na radioterapia com ítrio-90."
     }
+  ],
+  "works": [
+    "Cancer Biotherapy and Radiopharmaceuticals"
   ]
 }),
   d({

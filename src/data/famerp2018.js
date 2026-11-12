@@ -58,7 +58,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Folha de S.Paulo"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q02",
@@ -116,7 +119,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Folha de S.Paulo"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q03",
@@ -174,7 +180,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Folha de S.Paulo"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q04",
@@ -229,7 +238,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Toda Mafalda"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q05",
@@ -287,7 +299,10 @@ export const famerp2018Questions = [
     "Correta (E). Conforme a resolução: “Vasqueira” significa “escassa, rasqueira, rara”. (Dicionário Houaiss)"
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Tese e antítese"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q06",
@@ -345,7 +360,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Tese e antítese"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q07",
@@ -526,7 +544,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Obra poética"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q10",
@@ -591,7 +612,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa D."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Obra poética"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q11",
@@ -1258,7 +1282,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "O Oriente e a Grécia Antiga"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q22",
@@ -1315,7 +1342,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Os intelectuais na Idade Média"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q23",
@@ -1372,7 +1402,10 @@ export const famerp2018Questions = [
     "Correta (E). Conforme a resolução: A questão se refere às transformações políticas produzidas na Europa Ocidental pelo Renascimento Comercial Urbano da Baixa Idade Média. Essa importante mudança socioeconômica apresentou, como um de seus resultados mais expressivos, o surgimento da burguesia – classe social emergente, enriquecida pelo comércio. A ação política dessa classe social manifestou-se na época de duas formas: apoiando a centralização monárquica contra a nobreza feudal ou criando sua própria autonomia, por meio do movimento comunal (emancipação das cidades). Outra classe surgida no período foi a dos artesãos, cuja atividade proporcionava à burguesia os produtos a serem comercializados."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Os intelectuais na Idade Média"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q24",
@@ -1428,7 +1461,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa B."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Tratados da terra e gente do Brasil"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q25",
@@ -1538,7 +1574,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Memorial de Aires"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q27",
@@ -1594,7 +1633,10 @@ export const famerp2018Questions = [
     "Correta (E). Conforme a resolução: As palavras de Hobsbawm permitem a seguinte interpretação: o pensamento de Marx sobre a revo lu - ção comunista era de que as condições objetivas para sua ocorrência dependiam do desenvolvimento indus - trial – matriz de um proletariado numeroso, cons cien - te e mobilizado. Ora, como a Rússia de 1917 ainda não alcançara esse estágio, seria necessário que o governo revolucionário dedicasse seus esforços prio ri ta ria men - te ao avanço econômico para depois passar à construção da sociedade socialista."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "O novo século"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q28",
@@ -1720,7 +1762,10 @@ export const famerp2018Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
-  "statementAfter": "A matéria de capa alude a um fato contemporâneo"
+  "statementAfter": "A matéria de capa alude a um fato contemporâneo",
+  "works": [
+    "Exame"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q30",
@@ -1899,7 +1944,10 @@ export const famerp2018Questions = [
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
   "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
-  "statementAfter": "Considerando o fenômeno da urbanização, os gráficos correspondem a um país"
+  "statementAfter": "Considerando o fenômeno da urbanização, os gráficos correspondem a um país",
+  "works": [
+    "Geografia"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q33",
@@ -2011,7 +2059,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Território e história do Brasil"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q35",
@@ -2191,9 +2242,8 @@ export const famerp2018Questions = [
   "content": "Clima e atmosfera",
   "detail": "Clima e atmosfera",
   "difficulty": "Média",
-  "statement": "Sistemas frontais e anticiclones conseguem deslocar-se meridionalmente e atingir latitudes muito baixas ultrapassando, inclusive, a linha do equador. Suas consequências são localmente conhecidas como “friagens”.\n\n(Marcelo E. Seluchi. “Geadas e friagens”. In: Iracema F. A. Cavalcanti\n\net al (org). Tempo e clima no Brasil, 2009. Adaptado.)\n\nAs friagens são caracterizadas pela ação da",
+  "statement": "Sistemas frontais e anticiclones conseguem deslocar-se meridionalmente e atingir latitudes muito baixas ultrapassando, inclusive, a linha do equador. Suas consequências são localmente conhecidas como “friagens”.\n\n(Marcelo E. Seluchi. “Geadas e friagens”. In: Iracema F. A. Cavalcanti et al (org). Tempo e clima no Brasil, 2009. Adaptado.)\n\nAs friagens são caracterizadas pela ação da",
   "blockTypes": [
-    "prose",
     "prose",
     "prose",
     "command"
@@ -2239,7 +2289,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa C."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Tempo e clima no Brasil"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q39",
@@ -2295,7 +2348,10 @@ export const famerp2018Questions = [
     "Incorreta (E). Esta opção não condiz com as exigências teóricas ou matemáticas da questão. A resposta correta e comprovada pelos fundamentos da matéria é a alternativa A."
   ],
   "resolutionSource": "Objetivo — resolução comentada, usada como referência editorial",
-  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx"
+  "resolutionSourceUrl": "https://www.curso-objetivo.br/vestibular/resolucao-comentada/famerp/FAMERP2018.aspx",
+  "works": [
+    "Climatologia"
+  ]
 }),
   q({
   "id": "famerp2018-p1-q40",
@@ -4875,7 +4931,10 @@ export const famerp2018Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP; a parte 14(a) é apresentada como imagem porque sua resposta é gráfica.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Folha de S.Paulo"
+  ]
 }),
   d({
   "id": "famerp2018-p2-q04",
@@ -4985,6 +5044,9 @@ export const famerp2018Questions = [
       "alt": "Recurso da questão 5 da FAMERP 2018, recortado da página 6 do caderno oficial.",
       "caption": "Recorte vetorial do caderno oficial, página 6."
     }
+  ],
+  "works": [
+    "Biologia"
   ]
 }),
   d({
@@ -5082,7 +5144,10 @@ export const famerp2018Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP; a parte 14(a) é apresentada como imagem porque sua resposta é gráfica.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Veja"
+  ]
 }),
   d({
   "id": "famerp2018-p2-q08",
@@ -5131,7 +5196,10 @@ export const famerp2018Questions = [
     "Respostas esperadas e critérios oficiais da VUNESP; a parte 14(a) é apresentada como imagem porque sua resposta é gráfica.",
     "Cada parte é exibida com até 2 pontos para organizar a autoavaliação; consulte o documento oficial para as condições completas de pontuação."
   ],
-  "images": []
+  "images": [],
+  "works": [
+    "Pesquisa Fapesp"
+  ]
 }),
   d({
   "id": "famerp2018-p2-q09",
