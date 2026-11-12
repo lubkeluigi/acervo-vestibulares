@@ -1,5 +1,5 @@
 export const tex = String.raw;
-const VERSION = '20261111-unifesp2023-recortes-3';
+const VERSION = '20261111-unifesp2024-recortes-1';
 
 export function createUnifesp(year) {
   if (year < 2021 || year > 2026) throw new Error(`Edição UNIFESP inválida: ${year}`);
