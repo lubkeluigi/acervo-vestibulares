@@ -1,16 +1,5 @@
-// Cloudflare Pages Function — equivalente a api/lists.js (usado na Vercel).
-//
-// Implementa o mesmo contrato de /api/lists (GET / POST / DELETE) para a
-// feature de "listas personalizadas" (salvar/compartilhar listas de questões),
-// mas usando Cloudflare KV como armazenamento persistente real, em vez de
-// arquivos locais (que em ambiente serverless não sobrevivem entre invocações).
-//
-// CONFIGURAÇÃO NECESSÁRIA NO PAINEL DA CLOUDFLARE (uma única vez):
-//   Workers & Pages > [seu projeto] > Settings > Functions > KV namespace bindings
-//   Variable name: LISTS_KV  →  escolha/crie um KV namespace (ex: "acervo-custom-lists")
-//
-// Convenção de rotas do Cloudflare Pages: este arquivo em functions/api/lists.js
-// responde automaticamente por requisições em /api/lists.
+// Lógica da API /api/lists, compartilhada pelo Worker (worker/index.js).
+// Equivalente a api/lists.js (Vercel), adaptado para Cloudflare Workers + KV.
 
 const KV_KEY = 'custom-lists';
 
@@ -110,9 +99,8 @@ function sanitizeListPayload(raw) {
   };
 }
 
-// Lê uma "semente" estática opcional (public/custom-lists.json, versionada no
-// repo) e combina com o que está salvo no KV. Isso permite publicar listas
-// curadas via commit, além das salvas dinamicamente pelos usuários.
+// Lê a semente estática opcional (public/custom-lists.json, versionada e
+// servida como asset) e combina com o que está salvo no KV.
 async function loadStaticSeedLists(env) {
   if (!env.ASSETS || typeof env.ASSETS.fetch !== 'function') return [];
   try {
@@ -144,7 +132,7 @@ async function loadAllStoredLists(env) {
 
 async function saveAllStoredLists(env, lists) {
   if (!env.LISTS_KV) {
-    throw new Error('KV namespace "LISTS_KV" não está configurado neste projeto Cloudflare Pages.');
+    throw new Error('KV namespace "LISTS_KV" não está configurado neste Worker.');
   }
   await env.LISTS_KV.put(KV_KEY, JSON.stringify({ lists }));
 }
@@ -163,47 +151,51 @@ function json(data, status = 200) {
   });
 }
 
-export async function onRequestOptions() {
-  return new Response(null, { status: 204, headers: CORS_HEADERS });
-}
+export async function handleLists(request, env) {
+  if (request.method === 'OPTIONS') {
+    return new Response(null, { status: 204, headers: CORS_HEADERS });
+  }
 
-export async function onRequestGet({ env }) {
-  const lists = await loadAllStoredLists(env);
-  return json({ lists });
-}
+  if (request.method === 'GET') {
+    const lists = await loadAllStoredLists(env);
+    return json({ lists });
+  }
 
-export async function onRequestPost({ request, env }) {
-  try {
-    const body = await request.json().catch(() => ({}));
+  if (request.method === 'POST') {
+    try {
+      const body = await request.json().catch(() => ({}));
 
-    const incomingItems = Array.isArray(body.lists)
-      ? body.lists.map(sanitizeListPayload).filter(Boolean)
-      : [sanitizeListPayload(body.list || body)].filter(Boolean);
+      const incomingItems = Array.isArray(body.lists)
+        ? body.lists.map(sanitizeListPayload).filter(Boolean)
+        : [sanitizeListPayload(body.list || body)].filter(Boolean);
 
-    if (!incomingItems.length) {
-      return json({ error: 'Lista inválida ou sem questões selecionadas.' }, 400);
+      if (!incomingItems.length) {
+        return json({ error: 'Lista inválida ou sem questões selecionadas.' }, 400);
+      }
+
+      const currentLists = await loadAllStoredLists(env);
+      const updatedLists = mergeLists(currentLists, incomingItems);
+      await saveAllStoredLists(env, updatedLists);
+
+      return json({ ok: true, lists: updatedLists, saved: incomingItems[0] });
+    } catch (err) {
+      return json({ error: err.message || 'Erro ao salvar lista.' }, 500);
     }
-
-    const currentLists = await loadAllStoredLists(env);
-    const updatedLists = mergeLists(currentLists, incomingItems);
-    await saveAllStoredLists(env, updatedLists);
-
-    return json({ ok: true, lists: updatedLists, saved: incomingItems[0] });
-  } catch (err) {
-    return json({ error: err.message || 'Erro ao salvar lista.' }, 500);
   }
-}
 
-export async function onRequestDelete({ request, env }) {
-  try {
-    const url = new URL(request.url);
-    const id = url.searchParams.get('id');
-    const currentLists = await loadAllStoredLists(env);
-    const updatedLists = id ? currentLists.filter((item) => item.id !== id) : currentLists;
-    await saveAllStoredLists(env, updatedLists);
+  if (request.method === 'DELETE') {
+    try {
+      const url = new URL(request.url);
+      const id = url.searchParams.get('id');
+      const currentLists = await loadAllStoredLists(env);
+      const updatedLists = id ? currentLists.filter((item) => item.id !== id) : currentLists;
+      await saveAllStoredLists(env, updatedLists);
 
-    return json({ ok: true, lists: updatedLists });
-  } catch (err) {
-    return json({ error: err.message || 'Erro ao remover lista.' }, 500);
+      return json({ ok: true, lists: updatedLists });
+    } catch (err) {
+      return json({ error: err.message || 'Erro ao remover lista.' }, 500);
+    }
   }
+
+  return json({ error: 'Method Not Allowed' }, 405);
 }
