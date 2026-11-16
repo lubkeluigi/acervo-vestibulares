@@ -37,6 +37,54 @@ export const CURATED_LISTS = [
     ]
   },
   {
+    id: 'revisao-famema-matematica-vunesp',
+    title: 'Revisão FAMEMA: Matemática VUNESP',
+    subtitle: 'Funções, Combinatória e Geometrias (Plana, Analítica e Espacial) — sem FAMEMA 2026',
+    badge: 'Revisão Direcionada',
+    subject: 'Matemática',
+    category: 'Funções, Combinatória e Geometrias',
+    difficulty: 'Média',
+    featured: false,
+    styleTemplate: 'vunesp',
+    description:
+      'Compilado enxuto de 20 questões objetivas no estilo exato da FAMEMA/VUNESP (4 por frente), cobrindo Funções (afim, quadrática, exponencial e logarítmica), Análise Combinatória (anagramas, restrições e combinações), Geometria Plana (semelhança, áreas e circunferência), Geometria Analítica (reta, intersecções e circunferência) e Geometria Espacial (prismas, pirâmide, cilindro e esfera). Questões da FAMEMA 2026 excluídas propositalmente.',
+    keyConcepts: [
+      'Funções afim, quadrática, exponencial e logarítmica',
+      'Anagramas, contagem com restrições e combinações',
+      'Semelhança de triângulos, áreas e trigonometria plana',
+      'Equação da reta, intersecções e circunferência analítica',
+      'Volumes de paralelepípedo, pirâmide, cilindro e esfera'
+    ],
+    examTags: ['FAMEMA', 'FAMERP', 'Santa Casa', 'São Camilo', 'USCS', 'Unifimes'],
+    questionIds: [
+      // 1. Funções (Q01-Q04)
+      'famema2025-p2-q20',
+      'santacasa2027-1dia-q77',
+      'famerp2022-p1-q79',
+      'famema2021-p2-q18',
+      // 2. Análise Combinatória (Q05-Q08)
+      'famema2024-p2-q12',
+      'famema2025-p2-q12',
+      'famerp2018-p1-q76',
+      'uscs2026-prova2-q12',
+      // 3. Geometria Plana (Q09-Q12)
+      'famema2024-p2-q13',
+      'famema2025-p2-q18',
+      'famema2025-p2-q15',
+      'famerp2025-p1-q74',
+      // 4. Geometria Analítica (Q13-Q16)
+      'famema2025-p2-q14',
+      'famerp2023-p1-q78',
+      'saocamilo2026-prova2-q39',
+      'famema2021-p2-q15',
+      // 5. Geometria Espacial (Q17-Q20)
+      'famema2025-p2-q16',
+      'famema2022-p2-q19',
+      'famerp2025-p1-q77',
+      'unifimesmineiros2027-prova2-q15'
+    ]
+  },
+  {
     id: 'citologia-e-fisiologia-celular',
     title: 'Citologia e Fisiologia Celular',
     subtitle: 'Membrana, transporte celular, organelas e bioenergética',
