@@ -164,6 +164,16 @@
     "saoCamilo": {
       "folderId": "1ou1fvtV_XeX0ywD7tNLfk2llCx-p7omu",
       "banca": "VUNESP"
+    },
+    "fmabc": {
+      "banca": "VUNESP",
+      "edicoes": {
+        "2027": {
+          "folderId": "1WNiupe1rSOrcL2DpB4idEhJSuGqQpNtZ",
+          "localDocumentos": "public/documentos/fmabc2027/",
+          "status": "Completa no site (80 objetivas + redacao)"
+        }
+      }
     }
   },
   "eliteCampinas": {

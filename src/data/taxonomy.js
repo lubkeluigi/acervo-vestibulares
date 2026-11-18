@@ -156,6 +156,15 @@ const EXPLICIT_OVERRIDES = new Map([
   ["famerp2023-p1-q79", ["Análise combinatória e probabilidade", "Combinações e arranjos", "Pacotinhos de figurinhas e combinações"]],
   ["famerp2023-p1-q80", ["Matemática financeira e proporcionalidade", "Juros simples e compostos", "Crescimento anual do PIB e juros compostos"]],
   ["uea2024vu-q43", ["Evolução", "Origem da vida e evolução química", "Método científico e investigação biológica"]],
+  ["fmabc2027-q35", ["Geopolítica e relações internacionais", "Blocos econômicos e comércio internacional", "Blocos econômicos e União Europeia"]],
+  ["fmabc2027-q37", ["Geografia física", "Climatologia e zonas climáticas", "Climatologia e biomas brasileiros"]],
+  ["fmabc2027-q44", ["Botânica e fisiologia vegetal", "Grupos vegetais e reprodução", "Botânica: gimnospermas e estrutura da semente"]],
+  ["fmabc2027-q49", ["Zoologia e fisiologia animal", "Fisiologia animal comparada", "Fisiologia comparada e taxa metabólica"]],
+  ["fmabc2027-q55", ["Termologia e termodinâmica", "Calorimetria e trocas de calor", "Termologia: condução térmica e lei de Fourier"]],
+  ["fmabc2027-q68", ["Química geral e inorgânica", "Funções inorgânicas (ácidos, bases, sais, óxidos)", "Funções inorgânicas e reação de neutralização"]],
+  ["fmabc2027-q70", ["Química geral e inorgânica", "Gases e transformações gasosas", "Estudo dos gases e equação geral dos gases ideais"]],
+  ["fmabc2027-q71", ["Matemática financeira e proporcionalidade", "Aritmética e matemática básica", "Aritmética: divisão euclidiana e múltiplos"]],
+  ["fmabc2027-q75", ["Álgebra", "Funções afins e quadráticas", "Função afim e leitura de tabela"]],
 ]);
 
 const DEFAULT_FALLBACKS = {
